@@ -9,9 +9,9 @@ hold: true
 >
 >The functionality described in this article is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Customer Journey Analytics release process, see [Customer Journey Analytics feature releases](https://experienceleague.adobe.com/en/docs/analytics-platform/using/releases/latest).
 
-Adobe CX Enterprise Coworker Chat can perform advanced data analysis that was previously possible only in Analysis Workspace. Coworker chat accesses data from your Customer Journey Analytics data views, allowing you to explore that data and get answers to natural-language prompts.
+Adobe CX Enterprise Coworker Chat can perform advanced data analysis that was previously possible only in Analysis Workspace. Coworker Chat accesses data from your Customer Journey Analytics data views, allowing you to explore that data and get answers to natural-language prompts.
 
-Before you begin your analysis, access Coworker chat by logging in to your CX Enterprise account, then make sure the Customer Journey Analytics MCP server is connected.
+Before you begin your analysis, access Coworker Chat by logging in to your CX Enterprise account, then make sure the Customer Journey Analytics MCP server is connected.
 
 ## Access Coworker Chat
 
@@ -21,7 +21,6 @@ Before you begin your analysis, access Coworker chat by logging in to your CX En
 
 1. Then what?
 
-## Connect the Customer Journey Analytics MCP server
 
 1. In Coworker, select the MCP icon in the left rail.
 
@@ -35,13 +34,13 @@ Before you begin your analysis, access Coworker chat by logging in to your CX En
 
 ## Connect to the right data view
 
-<!--I did this. Do users need to?-->
-
 A data view is a container in Customer Journey Analytics that determines how data is interpreted.
 
 You might have access to various data views in Customer Journey Analytics, each containing different dimensions and metrics that Coworker can use when analyzing data.
 
-Tell Coworker the types of questions you want answered, and ask it which data views you have access to that would be best to provide that information.
+### Decide which data views you want to use
+
+Tell Coworker the types of questions you want answered, and ask it which data views you have access to that would be best to provide that information. You can also [set your data view as a preference in memory](#add-a-data-view-preference-in-memory).
 
 **You:**
 
@@ -74,6 +73,16 @@ Great, let's use that data view.
 Okay, I'll use the `Customer lifecycle` data view to answer future questions in this chat session. 
 
 >[!ENDSHADEBOX]
+
+### Add a data view preference in Memory
+
+Coworker Chat contains a memory feature that allows you to provide it with access to information that spans across all chats. It's a good practice to add your prefered data views as preferences in Coworker's memory.
+
+1. In Coworker Chat, in the left nav, select the Memory icon.
+
+1. On the Memory page, in the Stored preferences section, specify one or more data views that you want Coworker Chat to use in your chats.
+
+   ![Memory section in the left rail](images/data-validation-aa-cja/coworker-memory.png)
 
 ## Use case: Find where customers drop off
 
