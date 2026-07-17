@@ -19,18 +19,15 @@ Before you begin your analysis, access Coworker Chat by logging in to your CX En
 
 1. Log in to [Adobe CX Enterprise](https://experience.adobe.com) using your Adobe ID credentials.
 
-1. Then what?
+1. Select [!UICONTROL **Coworker**] from the CX Enterprise product selector. <!--not sure what this step should say-->
 
+1. In Coworker, verify that Coworker is connected to Customer Journey Analytics:
 
-1. In Coworker, select the MCP icon in the left rail.
+   1. Select the MCP icon in the left rail, then make sure that [!UICONTROL **cja-mcp**] is available in your list of connected MCP servers.
 
-   ![The MCP icon highlighted in the Coworker left rail](images/data-validation-aa-cja/coworker-mcp.png)
+      ![The MCP icon highlighted in the Coworker left rail](images/data-validation-aa-cja/coworker-mcp-cja.png)
 
-1. Make sure that [!UICONTROL **cja-mcp**] is available in your list of connected MCP servers.
-
-   ![The MCP icon highlighted in the Coworker left rail](images/data-validation-aa-cja/coworker-mcp-cja.png)
-
-1. (Conditional) If [!UICONTROL **cja-mcp**] is not yet connected, select [!UICONTROL **Add MCP Server**], specify cja in the [!UICONTROL **Server Name**] field and select it when it appears, then select [!UICONTROL **Add Server**].
+   1. (Conditional) If [!UICONTROL **cja-mcp**] is not yet connected, select [!UICONTROL **Add MCP Server**], specify cja in the [!UICONTROL **Server Name**] field and select it when it appears, then select [!UICONTROL **Add Server**].
 
 ## Connect to the right data view
 
