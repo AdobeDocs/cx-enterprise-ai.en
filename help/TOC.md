@@ -1,13 +1,13 @@
 ---
 audience: user
-user-guide-title: AI Assistant in Adobe CX Enterprise
+user-guide-title: AI Assistant in Adobe Experience Cloud
 user-guide-description: Learn how to use AI Assistant to expedite your workflow with Adobe Experience Platform and Real-Time Customer Data Platform.
 description: Learn about AI Assistant in Experience Cloud. Improve your product knowledge and gain operational insights using AI in Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 ---
 
-# AI in CX Enterprise {#experience-cloud-ai}
+# AI in Experience Cloud {#experience-cloud-ai}
 
 - [AI in Experience Cloud applications](home.md)
 - AI Assistant {#ai-assistant}
@@ -25,11 +25,25 @@ role: Admin,User,Developer,Leader
   - [Product Support Agent](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Notifications Agent](./agents/notifications.md)
-  - [Agents Trial](./agents/trial.md)
+  - [CX Enterprise Coworker Trial](./agents/trial.md)
   - [Validate your data](./agents/data-validation.md)
   - Data Engineering {#data-engineering}
     - {hide-from-toc} [Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Real-Time CDP MCP](./mcp/rtcdp-mcp.md)
+  - [Adobe CX Coworker Gateway](./mcp/overview.md)
+  - {hide-from-toc} [Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
+  - Get started {#mcp-get-started}
+    - [Access CX Coworker Gateway tools](./mcp/access.md)
+    - [Install CX Coworker Gateway](./mcp/install.md)
+    - [Session context tools in CX Coworker Gateway](./mcp/context-tools.md)
+  - Product tools {#mcp-product-tools}
+    - [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+    - [Experience Platform tools](./mcp/aep-mcp.md)
+    - [Journey Optimizer tools](./mcp/ajo-mcp.md)
+    - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+    - [Adobe Analytics tools](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc} [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md)
+  - {hide-from-toc} [Analyze conversion drop-off](./coworker/analytics-use-cases.md)
