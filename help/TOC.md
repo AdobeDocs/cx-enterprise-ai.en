@@ -53,4 +53,4 @@ dummy: true
 - Coworker {#coworker}
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc} [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md)
-  - {hide-from-toc} [Analyze conversion drop-off](./coworker/analytics-use-cases.md)
+  - [Analyze CJA data](./coworker/analytics-chat.md)
