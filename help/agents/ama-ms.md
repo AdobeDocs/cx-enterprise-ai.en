@@ -44,7 +44,7 @@ Before you can use the Adobe Marketing Agent for [!DNL Microsoft 365 Copilot], y
 - [!DNL Microsoft 365] with [!DNL Microsoft Teams] or [!DNL Microsoft Copilot Chat].
 - Experience Platform and at least one of: Real-Time CDP, Adobe Journey Optimizer, and/or Customer Journey Analytics.
 - Entitlement to the Experience Platform Agent Orchestrator and agents.
-- Access to your organization's Adobe Experience Cloud account (sign-in and product entitlements) for the solutions and data you use. If you do not have Adobe access, contact your Adobe administrator.
+- Access to your organization's Adobe CX Enterprise account (sign-in and product entitlements) for the solutions and data you use. If you do not have Adobe access, contact your Adobe administrator.
 
 ## Enable the agent for your organization {#enable-the-agent-for-your-organization}
 
@@ -61,45 +61,45 @@ For administrator steps and policy options in the [!DNL Microsoft 365] admin cen
 
 After your organization has enabled the agent (see [Enable the agent for your organization](#enable-the-agent-for-your-organization)), navigate to [!DNL Microsoft 365 Copilot] in the application of your choice and use the left-navigation to select **[!DNL All Agents]**.
 
-![Microsoft 365 Copilot left navigation with All Agents selected.](../agents/images/ama/all-agents.png)
+![Microsoft 365 Copilot left navigation with All Agents selected.](../agents/assets/ama/all-agents.png)
 
 Locate the card for [!DNL Adobe Marketing Agent] or use the search bar to manually look for the agent. Once you have the agent, select the card.
 
-![Adobe Marketing Agent card or search result in the agents gallery.](../agents/images/ama/select-ama.png)
+![Adobe Marketing Agent card or search result in the agents gallery.](../agents/assets/ama/select-ama.png)
 
 Use the pop-up window to learn more about the agent. When you are ready, select **[!DNL Add]**.
 
-![Adobe Marketing Agent details pop-up with Add button highlighted.](../agents/images/ama/add-ama.png)
+![Adobe Marketing Agent details pop-up with Add button highlighted.](../agents/assets/ama/add-ama.png)
 
 The [!DNL Microsoft 365 Copilot] dashboard updates with the [!DNL Adobe Marketing Agent] branding now on the main page.
 
-![Microsoft 365 Copilot home page showing Adobe Marketing Agent on the main dashboard.](../agents/images/ama/home.png)
+![Microsoft 365 Copilot home page showing Adobe Marketing Agent on the main dashboard.](../agents/assets/ama/home.png)
 
 ### Sign in and set your context
 
 Next, prompt the agent to sign in and follow the ensuing steps required to authenticate your account. During this step, you will need to copy a numerical code that the agent returns and then sign in to your Adobe organization. If you cannot complete sign-in or you lack access to Adobe solutions for your organization, contact your **Adobe administrator**.
 
-![Adobe sign-in step showing a numerical code to copy and instructions to authenticate with your Adobe organization.](../agents/images/ama/sign-in.png)
+![Adobe sign-in step showing a numerical code to copy and instructions to authenticate with your Adobe organization.](../agents/assets/ama/sign-in.png)
 
 When successful, use the context setter to establish the documentation source, sandbox, and data view that you will use for your queries.
 
-![Context setter UI to choose documentation source, sandbox, and data view for queries.](../agents/images/ama/context.png)
+![Context setter UI to choose documentation source, sandbox, and data view for queries.](../agents/assets/ama/context.png)
 
 ### Use the agent to retrieve operational insights
 
 Once you are signed in, you can use the prompts provided in the main page to get started. You can also take advantage of a starter prompt that can branch out to analyzing marketing audiences, reviewing campaign performance, and monitoring campaign journeys. For example, select **[!DNL Review campaign performance]** and then select **[!DNL Analyze engagement - Show web visitors for top 10 products last week]**.
 
-![Starter prompts on the agent home page, including Review campaign performance and Analyze engagement options.](../agents/images/ama/starter-guide.png)
+![Starter prompts on the agent home page, including Review campaign performance and Analyze engagement options.](../agents/assets/ama/starter-guide.png)
 
 Allow for a few moments for the agent to calculate and then the agent responds with a visualized representation of your data. You can use the bar chart presented or you can select **[!DNL View data]** to view the data in tables.
 
-![Agent response with a bar chart visualizing web visitors for top products and View data option.](../agents/images/ama/response.png)
+![Agent response with a bar chart visualizing web visitors for top products and View data option.](../agents/assets/ama/response.png)
 
-![Same insights shown as a data table after selecting View data.](../agents/images/ama/tables.png)
+![Same insights shown as a data table after selecting View data.](../agents/assets/ama/tables.png)
 
 You can further investigate by selecting follow-up questions that the agent recommends. Alternatively, you can pivot and try different starter prompts, verify the information sources that the agent referenced, or provide feedback using the feedback mechanism.
 
-![Suggested follow-up questions below the agent's response for further investigation.](../agents/images/ama/follow-up.png)
+![Suggested follow-up questions below the agent's response for further investigation.](../agents/assets/ama/follow-up.png)
 
 For more information on the AI Assistant UI features, read the guide on [using the AI Assistant](../ai-assistant/ai-assistant-ui.md).
 
@@ -119,7 +119,7 @@ The initial release is available as an English‑language experience. Capabiliti
 
 >[!IMPORTANT]
 >
->The Adobe Marketing Agent invokes different Adobe agents and jobs depending on the submitted prompts. This underlying Adobe agent that gets invoked utilizes AI credits as indicated in the [Adobe Experience Platform agent jobs and AI credits consumption](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) page.
+>The Adobe Marketing Agent invokes different Adobe agents and jobs depending on the submitted prompts. This underlying Adobe agent that gets invoked utilizes AI credits as indicated in the [Adobe Experience Platform agent jobs and AI credits consumption](../overview/ai-credit-consumption.md) page.
 
 ## Appendix
 

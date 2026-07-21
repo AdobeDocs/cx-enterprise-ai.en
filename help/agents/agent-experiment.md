@@ -53,7 +53,7 @@ As part of Experimentation Accelerator feature, the Agent delivers:
 
 * **Opportunities**: guidance on the next actions to take
 
-![Sample for Experimentation Agent](./images/experiment/experiment-agent.png)
+![Sample for Experimentation Agent](./assets/experiment/experiment-agent.png)
 
 ## Use Cases    
 

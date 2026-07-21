@@ -32,7 +32,7 @@ Use **AI Assistant** in Adobe CX Enterprise to validate your data. AI Assistant 
 
 ### Start validation
 
-![AI Assistant home with the prompt field showing a dataset validation request, Experience Platform environment selector, and Send control.](./images/validation/home.png)
+![AI Assistant home with the prompt field showing a dataset validation request, Experience Platform environment selector, and Send control.](./assets/validation/home.png)
 
 In the left navigation, select **[!UICONTROL AI Assistant]**. Next, use the environment selector and  choose the Experience Platform organization or sandbox where your dataset lives (for example, **[!UICONTROL Experience Platform - Prod]**). In the prompt field, type a validation request (for example, ask to validate a dataset by name). Select **[!UICONTROL Send]** to submit the prompt.
 
@@ -42,7 +42,7 @@ In the left navigation, select **[!UICONTROL AI Assistant]**. Next, use the envi
 
 ### Read the dataset summary and field table
 
-![AI Assistant response with Reasoning complete, a validation summary, and a Field summaries table listing field paths, types, and valid values.](./images/validation/answer.png)
+![AI Assistant response with Reasoning complete, a validation summary, and a Field summaries table listing field paths, types, and valid values.](./assets/validation/answer.png)
 
 Allow a brief moment for Agent Orchestrator to complete the run (**Reasoning complete**). When the run is complete, read the summary for the dataset name, how many fields were validated, and the sample size (typically up to about 1,000 rows).
 
@@ -52,7 +52,7 @@ Select **[!UICONTROL Show all results]** when you need additional columns or row
 
 ### Work in split view
 
-![Split view with validation narrative and statistics on the left and an expanded chart visualization of valid values on the right.](./images/validation/split-screen.png)
+![Split view with validation narrative and statistics on the left and an expanded chart visualization of valid values on the right.](./assets/validation/split-screen.png)
 
 In expanded view, use the split layout: detailed statistics and narrative on one side and the chart on the other. 
 
@@ -63,19 +63,19 @@ Use **[!UICONTROL Related suggestions]** or the prompt field at the bottom to va
 
 ### Use a related suggestion for a follow-up
 
-![Related suggestions chips above the prompt field, with one suggestion selected to validate a specific field on the dataset.](./images/validation/related-suggestion.png)
+![Related suggestions chips above the prompt field, with one suggestion selected to validate a specific field on the dataset.](./assets/validation/related-suggestion.png)
 
 After a response, find **[!UICONTROL Related suggestions]** below the conversation. Select a suggestion (for example, validate a specific field on the same dataset) to load it into the prompt field. Adjust the text if needed, confirm the environment, then select **[!UICONTROL Send]** to run the follow-up.
 
 ### Validate at the field level
 
-![Validation results card for a single field in chart view, showing a validity donut chart and the Show in expanded view action.](./images/validation/single-field.png)
+![Validation results card for a single field in chart view, showing a validity donut chart and the Show in expanded view action.](./assets/validation/single-field.png)
 
 Open a field-level **[!UICONTROL Validation results]** card (for example, after validating a single field). Use the view controls to switch to **Chart** (or another view) when you want a visual summary instead of a table. During this step, you can optionally select **[!UICONTROL Properties]** to see more about the field.
 
 Select **[!UICONTROL Show in expanded view]** to open a larger, more detailed view of that field's validation.
 
-![Expanded view showing detailed field-level validation statistics and chart visualization.](./images/validation/expanded-view.png)
+![Expanded view showing detailed field-level validation statistics and chart visualization.](./assets/validation/expanded-view.png)
 
 Through the expanded view, you can view an itemized list of the entire field, based on a sample of up to 1000 records for the given field. You can use this capability to retrieve information on your valid, distinct, and null values.
 

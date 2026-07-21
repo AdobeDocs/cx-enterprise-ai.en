@@ -46,7 +46,7 @@ Data Insights Agent, accessible from the [AI Assistant](/help/ai-assistant/ai-as
 
 Using Data Insights Agent to answer data-centric questions in Analysis Workspace can save significant time that you might otherwise spend manually building visualizations in Analysis Workspace and familiarizing yourself with your data view components. 
 
-![Data Insights Agent within the AI Assistant](/help/agents/images/cja-agent/cja-ai-asst-da.gif)
+![Data Insights Agent within the AI Assistant](/help/agents/assets/cja-agent/cja-ai-asst-da.gif)
 
 ## In-scope vs. out-of-scope features
 
@@ -84,15 +84,15 @@ The following parameters govern access to Data Insights Agent in Customer Journe
    1. On the **[!UICONTROL Product Profiles]** tab, select the title of the product profile for which you want to provide access to [!UICONTROL AI Assistant: Product Knowledge].
    1. In the specific product profile, select the **[!UICONTROL Permissions]** tab.
 
-      ![Permissions tab in Admin Console](/help/agents/images/cja-agent/ai-assistant-permissions-tab.png)
+      ![Permissions tab in Admin Console](/help/agents/assets/cja-agent/ai-assistant-permissions-tab.png)
 
-   1. In the **[!UICONTROL Reporting Tools]** row in the provided table, select the edit icon ![Edit](/help/agents/images/cja-agent/Edit.svg).
-   1. Scroll to or search for **[!UICONTROL AI Assistant: Product Knowledge]**, then select the plus icon ![AddCircle](/help/agents/images/cja-agent/AddCircle.svg) next to this permission. 
-   1. Scroll to or search for **[!UICONTROL Data Insights Agent]**, then select the plus icon ![AddCircle](/help/agents/images/cja-agent/AddCircle.svg) next to this permission. 
+   1. In the **[!UICONTROL Reporting Tools]** row in the provided table, select the edit icon ![Edit](/help/agents/assets/cja-agent/Edit.svg).
+   1. Scroll to or search for **[!UICONTROL AI Assistant: Product Knowledge]**, then select the plus icon ![AddCircle](/help/agents/assets/cja-agent/AddCircle.svg) next to this permission. 
+   1. Scroll to or search for **[!UICONTROL Data Insights Agent]**, then select the plus icon ![AddCircle](/help/agents/assets/cja-agent/AddCircle.svg) next to this permission. 
    
       The **[!UICONTROL AI Assistant: Product Knowledge]** permission and the **[!UICONTROL Data Insights Agent]** permission are added to the **[!UICONTROL Included permission items]** column.
    
-      ![Add permission](/help/agents/images/cja-agent/ai-assistant-permissions.png).
+      ![Add permission](/help/agents/assets/cja-agent/ai-assistant-permissions.png).
 
    1. Select **[!UICONTROL Save]** to save the permissions.
 
@@ -113,7 +113,7 @@ The following parameters govern access to Data Insights Agent in Customer Journe
 
     1. Select one or more data views that you want to enable for Data Insights Agent, then select **[!UICONTROL Enable for Data Insights Agent]**.
 
-       ![Enable data views for Data Insights Agent](/help/agents/images/cja-agent/data-view-enable-dia.png)   
+       ![Enable data views for Data Insights Agent](/help/agents/assets/cja-agent/data-view-enable-dia.png)   
 
        For more information about enabling data views for Data Insights Agent, see the [AI Settings for a data view](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings).
 
@@ -123,14 +123,14 @@ The following parameters govern access to Data Insights Agent in Customer Journe
 
     1. Select the info icon at the top of the **[!UICONTROL Data Insights Agent]** column.
 
-       ![Data Insights Agent info icon](/help/agents/images/cja-agent/data-insights-agent-tooltip.png)
+       ![Data Insights Agent info icon](/help/agents/assets/cja-agent/data-insights-agent-tooltip.png)
 
 
 ## Access Data Insights Agent in the AI Assistant
 
 1. Go to [experience.adobe.com](https://experience.adobe.com/) and log in with your Adobe ID.
 
-2. Select **Customer Journey Analytics** from Experience Cloud Home.
+2. Select **Customer Journey Analytics** from CX Enterprise Home.
 
 3. Select **[!UICONTROL Blank project]** in the banner at the top of the projects page to open a new blank project.
 
@@ -146,7 +146,7 @@ The following parameters govern access to Data Insights Agent in Customer Journe
    
    For additional details, see [Manage access to Data Insights Agent in Customer Journey Analytics](#manage-access-to-data-insights-agent-in-customer-journey-analytics). 
 
-   ![AI Assistant icon](/help/agents/images/cja-agent/ai-asst-icon.png)
+   ![AI Assistant icon](/help/agents/assets/cja-agent/ai-asst-icon.png)
 
 6. In the **[!UICONTROL Ask about Customer Journey Analytics]** dialog at the bottom of the page, ask a data visualization question using Data Insights Agent.
  
@@ -158,13 +158,13 @@ For example, let's say you are interested in the orders your business received i
 
 **Prompt:** Enter *"Trend orders in July."*
 
-   ![AI prompt](/help/agents/images/cja-agent/ai-asst-prompt1.png)
+   ![AI prompt](/help/agents/assets/cja-agent/ai-asst-prompt1.png)
 
 **Response:** Data Insights Agent gathers insights by looking through the data in the data view, including the metrics and components. It translates the prompt into the right dimensions and metrics within the data range.
 
    As you can see, it automatically generated a line graph and a freeform table to show orders for July.
 
-   ![Answer to prompt - line graph and freeform table](/help/agents/images/cja-agent/ai-asst-result.png)
+   ![Answer to prompt - line graph and freeform table](/help/agents/assets/cja-agent/ai-asst-result.png)
 
 ### Example 2
 
@@ -174,7 +174,7 @@ Next, you want to see how your revenue compares by region.
 
 **Response:** Data Insights Agent intelligently understands that by "region," you mean "customer region." It produces a bar chart that best shows revenue by region:
 
-   ![Bar chart](/help/agents/images/cja-agent/ai-asst-result2.png)
+   ![Bar chart](/help/agents/assets/cja-agent/ai-asst-result2.png)
    
 ### Example 3
 
@@ -184,7 +184,7 @@ Next, in addition to understanding revenue by region, you also want to see data 
 
 **Response:** The **[!UICONTROL Bar]** chart still provides the most concise answer, but the profit metric has been added as a column in the freeform table:
 
-   ![Bar chart](/help/agents/images/cja-agent/ai-asst-result4.png)
+   ![Bar chart](/help/agents/assets/cja-agent/ai-asst-result4.png)
 
 ### Example 4
 
@@ -194,11 +194,11 @@ Finally, let's look at the revenue by product category.
 
 **Response:** Again, Data Insights Agent picks the most appropriate visualization, in this case the **[!UICONTROL Donut]** visualization, to answer the question.
 
-   ![Donut](/help/agents/images/cja-agent/ai-asst-result3.png)
+   ![Donut](/help/agents/assets/cja-agent/ai-asst-result3.png)
 
-## Access Data Insights Agent across Experience Cloud applications
+## Access Data Insights Agent across CX Enterprise applications
 
-Adobe Experience Platform Agent Orchestrator allows you to access the functionality of Data Insights Agent in multiple Adobe Experience Cloud applications, such as Adobe Journey Optimizer and Real-Time CDP. 
+Adobe Experience Platform Agent Orchestrator allows you to access the functionality of Data Insights Agent in multiple Adobe CX Enterprise applications, such as Adobe Journey Optimizer and Real-Time CDP. 
 
 Agent Orchestrator interprets your request, determines which specialized agents are needed, and orchestrates them to deliver the right response. It keeps track of context across multi-turn interactions, so you can build on prior queries naturally. 
 

@@ -31,14 +31,14 @@ Refer to the following table for a comparison of AI Assistant (Legacy) and AI As
 | User experience | AI Assistant (Legacy) is available in a right-rail panel only. | AI Assistant (Next-Gen) is available in both right-rail panel and immersive full-screen experience. |
 | Scope of capabilities | You can use AI Assistant (Legacy) for both product knowledge and operational insights. | You can use  AI Assistant (Next-Gen) for product knowledge, operational insights, as well as advanced agentic skills and multi-step task execution. |
 | Platform architecture | AI Assistant (Legacy) is not built on the Agent Orchestrator stack. | AI Assistant (Next-Gen) is powered by [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), enabling extensibility and advanced coordination across capabilities. |
-| Application coverage | AI Assistant (Legacy) is an application-specific implementation. | You can use AI Assistant (Next-Gen) for a unified AI Assistant experience across all Adobe Experience Cloud applications. |
+| Application coverage | AI Assistant (Legacy) is an application-specific implementation. | You can use AI Assistant (Next-Gen) for a unified AI Assistant experience across all Adobe CX Enterprise applications. |
 | Access and permission model | Application-scoped access model aligned to individual product boundaries. | All users get access to AI Assistant (Next-Gen) and associated Experience Platform agents. **Note**: <ul><li>**Adobe Experience Manager**: Your administrator must grant you the permission to access AI Assistant (Next-Gen) through the [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: Your administrator must grant you the permission to access AI Assistant through [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en). This allows you to ask product knowledge and data insights questions. |
 
 AI Assistant is an intelligent conversational, generative AI tool that will boost productivity and redefine work in Adobe Experience Platform-based Applications. You can use AI Assistant to access Adobe Experience Platform Agents and other AI capabilities.
 
 Read this guide to learn how you can use AI Assistant.
 
-![The AI Assistant home interface in full-screen.](./images/ai-assistant/blank-home.png)
+![The AI Assistant home interface in full-screen.](./assets/ai-assistant/blank-home.png)
 
 >[!SLIDE](agent-orchestrator-ui)
 
@@ -46,19 +46,19 @@ Read this guide to learn how you can use AI Assistant.
 
 There are several ways to access AI Assistant.
 
-In the Experience Cloud home interface, select **[!UICONTROL AI Assistant]** from the left-navigation to launch a full-screen view of AI Assistant.
+In the CX Enterprise home interface, select **[!UICONTROL AI Assistant]** from the left-navigation to launch a full-screen view of AI Assistant.
 
 +++Select to view
 
-![The Experience Cloud home with the AI Assistant icon selected in the left-navigation.](./images/ai-assistant/from-experience-cloud.png)
+![The CX Enterprise home with the AI Assistant icon selected in the left-navigation.](./assets/ai-assistant/from-experience-cloud.png)
 
 +++
 
-You can also launch AI Assistant from the home pages of Experience Cloud applications such as Experience Platform, Adobe Journey Optimizer, and Customer Journey Analytics. Navigate to your product home page and then select the **AI Assistant icon** from the top header to launch the AI Assistant chat panel on the right rail.
+You can also launch AI Assistant from the home pages of CX Enterprise applications such as Experience Platform, Adobe Journey Optimizer, and Customer Journey Analytics. Navigate to your product home page and then select the **AI Assistant icon** from the top header to launch the AI Assistant chat panel on the right rail.
 
 +++Select to view
 
-![The product home with the AI Assistant icon selected in the left-navigation.](./images/ai-assistant/from-product.png)
+![The product home with the AI Assistant icon selected in the left-navigation.](./assets/ai-assistant/from-product.png)
 
 +++
 
@@ -76,7 +76,7 @@ The AI Assistant interface includes several key elements to help you interact ef
 4. **Context setting**: - Select the Context setting icon to configure information sources for AI Assistant. You can use this tool to configure the application, sandbox, and dataview that AI Assistant references in order to answer your query. For more information, read the section on [context setting](#context-setting).
 5. **Discovery**: - Select **[!UICONTROL Learn]**, **[!UICONTROL Analyze]**, and **[!UICONTROL Optimize]** to view sample queries that you can use to get started. For more information, read the section on [discoverability prompts](#discoverability-prompts).
 
-![The AI Assistant in full-screen.](./images/ai-assistant/ui-home.png)
+![The AI Assistant in full-screen.](./assets/ai-assistant/ui-home.png)
 
 ### Rail view
 
@@ -90,7 +90,7 @@ The rail view provides quick access to chat, discovery prompts, updates, convers
 1. **Data and object autocomplete**: Select the plus icon to use data and object suggestion and autocomplete. When selected, you can use a pop-up window to select suggested entities. For more information, read the section on [data and object autocomplete](#autocomplete).
 1. **Context setting**: Select the Context setting icon to configure information sources for AI Assistant. You can use this tool to configure the application, sandbox, and dataview that AI Assistant references in order to answer your query. For more information, read the section on [context setting](#context-setting).
 
-![The AI Assistant in rail-view](./images/ai-assistant/rail-mode.png)
+![The AI Assistant in rail-view](./assets/ai-assistant/rail-mode.png)
 
 ## AI Assistant UI guide
 
@@ -108,19 +108,19 @@ From the full screen view, discovery prompts are grouped into three categories: 
 
 To use discovery prompts to advance product knowledge, select **[!UICONTROL Learn]** and then select a prompt from the dropdown window that appears.
 
-![The discovery prompt selection from the full screen view.](./images/ai-assistant/inputs/discover.png)
+![The discovery prompt selection from the full screen view.](./assets/ai-assistant/inputs/discover.png)
 
 >[!TAB Use discover from the rail view]
 
 Select **[!UICONTROL Discovery]** from the rail view to access an extensive list of discovery prompts that you can use to get started and populate your chat with AI Assistant.
 
-![The discovery panel from the rail view.](./images/ai-assistant/inputs/discover-rail.png)
+![The discovery panel from the rail view.](./assets/ai-assistant/inputs/discover-rail.png)
 
 >[!ENDTABS]
 
 Select a prompt to populate the input box. From here, you can edit the prompt to fit your particular use case. When ready, select the send icon on the right to submit your query.
 
-![The discover prompt in the input box.](./images/ai-assistant/inputs/question-input.png)
+![The discover prompt in the input box.](./assets/ai-assistant/inputs/question-input.png)
 
 ## Interacting with responses
 
@@ -130,23 +130,23 @@ AI Assistant then queries its knowledge base and computes an answer. After a few
 
 To better understand the underlying reasoning process, select **[!UICONTROL Reasoning complete]**.
 
-![The AI Assistant response.](./images/ai-assistant/inputs/answer.png)
+![The AI Assistant response.](./assets/ai-assistant/inputs/answer.png)
 
 The *[!UICONTROL Reasoning complete]* window expands to display a summary of your request and details on how the response was crafted.
 
-![The expanded reasoning panel in an AI Assistant response.](./images/ai-assistant/inputs/reasoning-complete.png)
+![The expanded reasoning panel in an AI Assistant response.](./assets/ai-assistant/inputs/reasoning-complete.png)
 
 ### Use related suggestions
 
 Next, navigate down to the bottom of the response and select **[!UICONTROL Related suggestions]** to receive a list of prompts relating to your initial query. You can use these prompts to further continue your conversation with AI Assistant.
 
-![The related suggestions window in AI Assistant.](./images/ai-assistant/inputs/related-suggestions.png)
+![The related suggestions window in AI Assistant.](./assets/ai-assistant/inputs/related-suggestions.png)
 
 ### View sources
 
 To verify AI Assistant's response, select **[!UICONTROL Sources]** to view a list of information sources that AI Assistant referenced when calculating its response.
 
-![The list of sources referenced by AI Assistant.](./images/ai-assistant/inputs/sources.png)
+![The list of sources referenced by AI Assistant.](./assets/ai-assistant/inputs/sources.png)
 
 ### Provide feedback
 
@@ -154,7 +154,7 @@ You can provide feedback of your experience with AI Assistant using the options 
 
 To provide feedback, select either thumbs up or thumbs down after receiving a response from AI Assistant, and then input your feedback in the provided text box. 
 
-![The thumbs up and thumbs down icons in AI Assistant.](./images/ai-assistant/inputs/feedback.png)
+![The thumbs up and thumbs down icons in AI Assistant.](./assets/ai-assistant/inputs/feedback.png)
 
 >[!BEGINTABS]
 
@@ -164,11 +164,11 @@ Select **[!UICONTROL Thumbs up]** to provide positive feedback. You can optional
 
 +++Select to view
 
-![The thumbs up feedback window.](./images/ai-assistant/inputs/thumbs-up.png)
+![The thumbs up feedback window.](./assets/ai-assistant/inputs/thumbs-up.png)
 
 You can also select **[!UICONTROL Detailed feedback]** to further elaborate on your feedback. When finished, select **[!UICONTROL Submit]**.
 
-![The detailed feedback window for thumbs up.](./images/ai-assistant/inputs/thumbs-up-detailed.png)
+![The detailed feedback window for thumbs up.](./assets/ai-assistant/inputs/thumbs-up-detailed.png)
 
 +++
 
@@ -178,11 +178,11 @@ Select **[!UICONTROL Thumbs down]** to provide constructive feedback. You can op
 
 +++Select to view
 
-![The thumbs down feedback window.](./images/ai-assistant/inputs/thumbs-down.png)
+![The thumbs down feedback window.](./assets/ai-assistant/inputs/thumbs-down.png)
 
 Similarly, you can also select **[!UICONTROL Detailed feedback]** to further elaborate on your feedback. When finished, select **[!UICONTROL Submit]**.
 
-![The detailed feedback window for thumbs down.](./images/ai-assistant/inputs/thumbs-down-detailed.png)
+![The detailed feedback window for thumbs down.](./assets/ai-assistant/inputs/thumbs-down-detailed.png)
 
 +++
 
@@ -192,59 +192,59 @@ Similarly, you can also select **[!UICONTROL Detailed feedback]** to further ela
 
 If AI Assistant's response includes an image, you can select the path icon to launch a split-view mode. This allows you to read the entirety of AI Assistant's response with contextual image displayed on the right.
 
-![The split-view mode on AI Assistant.](./images/ai-assistant/inputs/split-view.png)
+![The split-view mode on AI Assistant.](./assets/ai-assistant/inputs/split-view.png)
 
 ### Conversations
 
 You can use the *[!UICONTROL All conversations]* panel to reset and revisit conversations with AI Assistant. Select the **[!UICONTROL Conversations]** icon to view the *[!UICONTROL All conversations]* window.
 
-![The conversations window on AI Assistant.](./images/ai-assistant/conversations/select-conversations.png)
+![The conversations window on AI Assistant.](./assets/ai-assistant/conversations/select-conversations.png)
 
 To revisit a previous conversation, select the conversation topic from the list provided. 
 
-![The list of previous conversations recorded on AI Assistant.](./images/ai-assistant/conversations/revisit-conversation.png)
+![The list of previous conversations recorded on AI Assistant.](./assets/ai-assistant/conversations/revisit-conversation.png)
 
 To start a new conversation, select **[!UICONTROL New conversation]**.
 
-![The "new conversation" option selected.](./images/ai-assistant/conversations/new-conversation.png)
+![The "new conversation" option selected.](./assets/ai-assistant/conversations/new-conversation.png)
 
 ### Context setting {#context-setting}
 
 Use the context setting feature of AI Assistant to configure the **application**, **sandbox**, and **dataview** that AI Assistant references to answer your query. To access context setting, select the **[!UICONTROL Context setting]** icon from the input box.
 
-![The context setting icon selected.](./images/ai-assistant/inputs/context-selection.png)
+![The context setting icon selected.](./assets/ai-assistant/inputs/context-selection.png)
 
 The *[!UICONTROL Answer from...]* pop-up window appears. Use this window to configure the information sources that you want to use and then select **[!UICONTROL Set context]**.
 
 | Information source | Description | Examples |
 | --- | --- | --- |
-| App | The Experience Cloud application that your query pertains to. | Experience Platform, Journey Optimizer, Customer Journey Analytics, etc. |
+| App | The CX Enterprise application that your query pertains to. | Experience Platform, Journey Optimizer, Customer Journey Analytics, etc. |
 | Sandbox | The sandbox that contains the dataset(s) or information that your query pertains to. | Prod (VA7), Dev. |
 | Dataview | When you're using AI Assistant with Customer Journey Analytics, the dataview setting helps the Data Insights Agent understand: <ul><li>Which datasets to query</li><li>What data components are available</li><li>How to structure responses about your data</li><li>Which visualizations to create in Analysis Workspace</li></ul> | |
 
-![The "Answer from" panel where information sources can be configured.](./images/ai-assistant/inputs/answer-from.png)
+![The "Answer from" panel where information sources can be configured.](./assets/ai-assistant/inputs/answer-from.png)
 
 ### Data and object autocomplete
 
 You can use the autocomplete function to receive a list of data objects that exist in your sandbox. To use autocomplete, input the plus icon (+) in your query. As an alternative, you can also select the plus icon (+) located at the bottom of the text input box. A window appears with a list of recommended data objects from your sandbox.
 
-![The data and object autocomplete button selected.](./images/ai-assistant/autocomplete/autocomplete.png)
+![The data and object autocomplete button selected.](./assets/ai-assistant/autocomplete/autocomplete.png)
 
 ### Verify responses
 
 There are a number of ways that you can verify responses from AI Assistant. Select **[!UICONTROL Query Term Matched to Objects]** to view a summary of the terms in your query that were matched to specific objects in your organization.
 
-![The query terms matched with your response.](./images/ai-assistant/autocomplete/query-terms.png)
+![The query terms matched with your response.](./assets/ai-assistant/autocomplete/query-terms.png)
 
 Select **[!UICONTROL Here is how I got the results]** to see a detailed, step-by-step explanation of how AI Assistant arrived at its answer. Additionally, you can also view the SQL query that was executed to answer your question. This query is read-only and is not supported for use in Query Service.
 
-![The SQL verification tools on AI Assistant.](./images/ai-assistant/autocomplete/verifications.png)
+![The SQL verification tools on AI Assistant.](./assets/ai-assistant/autocomplete/verifications.png)
 
 ### Configure data visualization
 
 You can use AI Assistant's data visualization capabilities to gain a better understanding of your data. You can also specify the type of graph that you want to use in your query. For example, submit a query that says: **"Show profit by product name for last month (bar)"** to receive a bar graph of profit in the last month, organized by product name.
 
-![A bar graph displayed on AI Assistant](./images/ai-assistant/visualization/graph.png)
+![A bar graph displayed on AI Assistant](./assets/ai-assistant/visualization/graph.png)
 
 Next, select **[!UICONTROL Properties]** to change your graph type and configure values for your X and Y axis.
 
@@ -256,24 +256,24 @@ AI Assistant supports several graph types for data visualization. You can intera
 
 To view a line graph, select **[!UICONTROL Properties]** and then select **[!UICONTROL Line]**.
 
-![A line graph on AI Assistant.](./images/ai-assistant/visualization/line.png)
+![A line graph on AI Assistant.](./assets/ai-assistant/visualization/line.png)
 
 >[!TAB Area]
 
 To view an area graph, select **[!UICONTROL Properties]** and then select **[!UICONTROL Area]**.
 
-![An area graph on AI Assistant.](./images/ai-assistant/visualization/area.png)
+![An area graph on AI Assistant.](./assets/ai-assistant/visualization/area.png)
 
 >[!TAB Scatter]
 
 To view a scatter graph, select **[!UICONTROL Properties]** and then select **[!UICONTROL Scatter]**.
 
-![A scatter graph on AI Assistant.](./images/ai-assistant/visualization/scatter.png)
+![A scatter graph on AI Assistant.](./assets/ai-assistant/visualization/scatter.png)
 
 >[!TAB Donut]
 
 To view a donut graph, select **[!UICONTROL Properties]** and then select **[!UICONTROL Donut]**.
 
-![A donut graph on AI Assistant.](./images/ai-assistant/visualization/donut.png)
+![A donut graph on AI Assistant.](./assets/ai-assistant/visualization/donut.png)
 
 >[!ENDTABS]

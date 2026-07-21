@@ -85,7 +85,7 @@ Show me fields for affluent buyers.
 
 +++ Response
 
-![The AI Assistant shows a table displaying fields that are relevant to affluent buyers.](./images/audience/affluent-buyers.png)
+![The AI Assistant shows a table displaying fields that are relevant to affluent buyers.](./assets/audience/affluent-buyers.png)
 
 +++
 
@@ -93,7 +93,7 @@ Which audiences have not been activated or used in any campaign in the last 30 d
 
 +++ Response
 
-![The AI Assistant shows a table that displays audiences that haven't been activated or used in campaigns in the last 30 days.](./images/audience/not-activated.png)
+![The AI Assistant shows a table that displays audiences that haven't been activated or used in campaigns in the last 30 days.](./assets/audience/not-activated.png)
 
 +++
 
@@ -101,7 +101,7 @@ List all the audiences that have been mapped to new destinations in the last 3 m
 
 +++ Response
 
-![The AI Assistant lists the one audience that has been mapped to a new destination in the last 3 months.](./images/audience/new-destination.png)
+![The AI Assistant lists the one audience that has been mapped to a new destination in the last 3 months.](./assets/audience/new-destination.png)
 
 +++
 
@@ -109,7 +109,7 @@ Which account audience has the largest audience size and what is that size?
 
 +++ Response
 
-![The AI Assistant shows a table that displays the largest account audiences.](./images/audience/largest-account-audience.png)
+![The AI Assistant shows a table that displays the largest account audiences.](./assets/audience/largest-account-audience.png)
 
 +++
 
@@ -119,7 +119,7 @@ Do I have any audiences with identical or similar descriptions?
 
 +++ Response
 
-![The AI Assistant displays a table that contains the segment definition and the names of the audiences with the same segment definitions.](./images/audience/similar-descriptions.png)
+![The AI Assistant displays a table that contains the segment definition and the names of the audiences with the same segment definitions.](./assets/audience/similar-descriptions.png)
 
 +++
 
@@ -127,7 +127,7 @@ Identify audiences that have the same rules but have different names.
 
 +++ Response
 
-![The AI Assistant displays a table that contains the names of audiences that share the same audience rules.](./images/audience/same-rules-different-names.png)
+![The AI Assistant displays a table that contains the names of audiences that share the same audience rules.](./assets/audience/same-rules-different-names.png)
 
 +++
 
@@ -135,7 +135,7 @@ Show me all the audiences that have the same rules but different activation dest
 
 +++ Response
 
-![The AI Assistant shows that there are no duplicate segment definitions to different destinations.](./images/audience/same-rules-different-destinations.png)
+![The AI Assistant shows that there are no duplicate segment definitions to different destinations.](./assets/audience/same-rules-different-destinations.png)
 
 +++
 
@@ -143,7 +143,7 @@ Identify account audiences that have the same rules but have different names.
 
 +++ Response
 
-![The AI Assistant displays a table that contains the names and IDs of account audiences that share the same audience rules.](./images/audience/duplicate-account-audience.png)
+![The AI Assistant displays a table that contains the names and IDs of account audiences that share the same audience rules.](./assets/audience/duplicate-account-audience.png)
 
 +++
 
@@ -153,7 +153,7 @@ What is the current size of my audience "Gold-star Members in California_f153e1"
 
 +++ Response
 
-![The AI Assistant states the current size of the audience that was asked about.](./images/audience/current-size.png)
+![The AI Assistant states the current size of the audience that was asked about.](./assets/audience/current-size.png)
 
 +++
 
@@ -161,7 +161,7 @@ What is my biggest audience?
 
 +++ Response
 
-![The AI Assistant gives information about the audience with the most profiles, including name and audience ID.](./images/audience/largest-audience.png)
+![The AI Assistant gives information about the audience with the most profiles, including name and audience ID.](./assets/audience/largest-audience.png)
 
 +++
 
@@ -171,7 +171,7 @@ Which audiences have increased in size by more than 20% in the last week?
 
 +++ Response
 
-![The AI Assistant displays a table that lists the names of all the audiences that match the query. It also shows the percentage increase, the current audience size, as well as the former audience size.](./images/audience/increase-past-week.png)
+![The AI Assistant displays a table that lists the names of all the audiences that match the query. It also shows the percentage increase, the current audience size, as well as the former audience size.](./assets/audience/increase-past-week.png)
 
 +++
 
@@ -179,7 +179,7 @@ Which audiences have decreased in size by more than 10% in the last month?
 
 +++ Response
 
-![The AI Assistant displays a table that lists the names of all the audiences that match the query. It also shows the current audience size, the former audience size, as well as the date of the old audience size.](./images/audience/decrease-month.png)
+![The AI Assistant displays a table that lists the names of all the audiences that match the query. It also shows the current audience size, the former audience size, as well as the date of the old audience size.](./assets/audience/decrease-month.png)
 
 +++
 
@@ -187,7 +187,7 @@ What is my fastest growing audience?
 
 +++ Response
 
-![The AI Assistant states the name of the fastest growing audience, as well as the current size and the percentage of growth.](./images/audience/fastest-growing.png)
+![The AI Assistant states the name of the fastest growing audience, as well as the current size and the percentage of growth.](./assets/audience/fastest-growing.png)
 
 +++
 
@@ -201,7 +201,7 @@ When you create an audience with Audience Agent, AI Assistant will guide you thr
 
 +++ Response
 
-![The AI Assistant shows the plan to create an audience.](./images/audience/audience-create-plan.png)
+![The AI Assistant shows the plan to create an audience.](./assets/audience/audience-create-plan.png)
 
 +++
 
@@ -213,13 +213,13 @@ This plan is made up of three steps:
 
 #### Identify audience characteristics {#identify}
 
-![Step 1 of the plan, which is to identify audience characteristics.](./images/audience/plan-step-1.png){align="center" width="80%"}
+![Step 1 of the plan, which is to identify audience characteristics.](./assets/audience/plan-step-1.png){align="center" width="80%"}
 
 After accepting the plan, AI Assistant will grab the audience's characteristics based off of your initial query.
 
 +++ Response
 
-![The audience definition based off of the user query.](./images/audience/audience-create-definition.png)
+![The audience definition based off of the user query.](./assets/audience/audience-create-definition.png)
 
 For this query, AI Assistant generates the relevant Profile Query Language (PQL) that would look for people who live in California. In this use case, the PQL query would look like the following:
 
@@ -235,13 +235,13 @@ If the AI Assistant's audience definition is correct, you can approve and move o
 
 #### Estimate audience size {#estimate}
 
-![Step 2 of the plan, which is to estimate the size of the potential audience.](./images/audience/plan-step-2.png){align="center" width="80%"}
+![Step 2 of the plan, which is to estimate the size of the potential audience.](./assets/audience/plan-step-2.png){align="center" width="80%"}
 
 After approving the identified audience characteristics, AI Assistant will estimate the size of the potential audience and the audience definition details. 
 
 +++ Response
 
-![The sample estimate for the potential audience is displayed. The estimated size and the segment definition are shown.](./images/audience/audience-create-estimate.png)
+![The sample estimate for the potential audience is displayed. The estimated size and the segment definition are shown.](./assets/audience/audience-create-estimate.png)
 
 +++
 
@@ -249,7 +249,7 @@ If the estimated size looks correct, you can approve and move on to the next ste
 
 #### Create and persist new audience {#create}
 
-![Step 3 of the plan, which is to finish creating the audience.](./images/audience/plan-step-3.png){align="center" width="80%"}
+![Step 3 of the plan, which is to finish creating the audience.](./assets/audience/plan-step-3.png){align="center" width="80%"}
 
 Finally, if the characteristics and the audience size look correct, you can approve or reject the audience's creation.
 
@@ -257,17 +257,17 @@ Finally, if the characteristics and the audience size look correct, you can appr
 
 First, you can review the proposed audience through the provided data grid.
 
-![The review screen is displayed.](./images/audience/audience-create-review.png)
+![The review screen is displayed.](./assets/audience/audience-create-review.png)
 
 If the audience looks correct, you can accept the proposal by selecting **[!UICONTROL Create]** to finish creating the audience.
 
-![The complete proposal for the audience is displayed.](./images/audience/audience-create-proposal.png)
+![The complete proposal for the audience is displayed.](./assets/audience/audience-create-proposal.png)
 
 +++
 
 The audience is now created.
 
-![The audience proposal was accepted, and the audience was created.](./images/audience/audience-finish-create.png){align="center" width="80%"}
+![The audience proposal was accepted, and the audience was created.](./assets/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## Next steps
 

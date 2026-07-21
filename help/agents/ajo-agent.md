@@ -310,7 +310,7 @@ Learn more and discover the agent at a glance in this [overview](https://experie
 >
 >**Manage Segments**: To permission lets you create new audiences directly in AI Assistant.
 
-![Sample for AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
+![Sample for AJO Agent](./assets/ajo-agent/ajo-agent-sample.png)
 
 ## Use Cases
 

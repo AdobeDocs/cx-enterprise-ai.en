@@ -30,9 +30,9 @@ At Adobe's discretion, customers in the trial will get access to **Coworker Chat
 
 All eligible customers will be transitioned from AI Assistant and Adobe Experience Platform Agents to Coworker Chat on a rolling basis. In the meantime, certain customers may retain access to AI Assistant and Experience Platform Agents until enabled for Coworker Chat. Please note that Coworker Campaigns is not in scope for this trial.  
 
-**AI Assistant**: A full-page, immersive conversational interface powered by Agent Orchestrator and works cross-product, enabling practitioners using enabled Experience Cloud products to leverage GenAI and Agentic AI capabilities. For more information, read the [AI Assistant UI guide](../ai-assistant/ai-assistant-ui.md).
+**AI Assistant**: A full-page, immersive conversational interface powered by Agent Orchestrator and works cross-product, enabling practitioners using enabled CX Enterprise products to leverage GenAI and Agentic AI capabilities. For more information, read the [AI Assistant UI guide](../ai-assistant/ai-assistant-ui.md).
 
-**Adobe Experience Platform Agents**: Purpose-built AI agents skilled in delivering common jobs across customer experience domain categories. You can leverage Agents to expand your capacity to create and deliver experiences faster and with greater impact, unlocking next level productivity and efficiency. To understand what Agents can be leveraged with each Experience Cloud application, read the documentation on [Agentic AI in Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/agentic-ai).
+**Adobe Experience Platform Agents**: Purpose-built AI agents skilled in delivering common jobs across customer experience domain categories. You can leverage Agents to expand your capacity to create and deliver experiences faster and with greater impact, unlocking next level productivity and efficiency. To understand what Agents can be leveraged with each CX Enterprise application, read the documentation on [Agentic AI in CX Enterprise](../overview/agentic-ai.md).
 
 ## Trial program details
 
@@ -41,11 +41,11 @@ Customer eligibility for the trial is fully at Adobe's discretion. The trial is 
 Eligible customers receive an initial one-time entitlement of up to 10,000 AI Credits to use for:
 
 - Coworker Chat: Inputs entered in Coworker Chat. For a limited introductory period, inputs consume AI Credits at a rate of 25 AI credits per Input. This rate is available for a limited time only and subject to change.
-- Experience Platform Agents: Any combination of Jobs performed using Experience Platform Agents (depending on your existing license(s) to CX Enterprise applications) listed in the [AI Credit Consumption Table](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+- Experience Platform Agents: Any combination of Jobs performed using Experience Platform Agents (depending on your existing license(s) to CX Enterprise applications) listed in the [AI Credit Consumption Table](../overview/ai-credit-consumption.md).
 
 You can track your AI Credits using the license usage dashboard in the Adobe Experience Platform UI. For more information, read the [license usage dashboard documentation](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
-The Agentic AI Monitoring dashboard gives you clear visibility into how Agentic AI is being adopted and used across your organization. Authorized users can easily track engagement, gather feedback, monitor AI credit usage, and review key metrics. Use these insights to uncover optimization opportunities and support your governance and adoption efforts. To learn more, visit the [Agentic AI Usage Monitoring guide](https://experienceleague.adobe.com/en/docs/core-services/interface/features/monitoring).
+The Agentic AI Monitoring dashboard gives you clear visibility into how Agentic AI is being adopted and used across your organization. Authorized users can easily track engagement, gather feedback, monitor AI credit usage, and review key metrics. Use these insights to uncover optimization opportunities and support your governance and adoption efforts. To learn more, visit the [Agentic AI Usage Monitoring guide](../overview/monitoring.md).
 
 >[!IMPORTANT]
 >
@@ -61,7 +61,7 @@ Users of eligible customers will have default access to Coworker Chat as part of
 
 Users can access Coworker by selecting it from the application selector on the top header in CX Enterprise. 
 
-![The application selector where Coworker is.](../agents/images/coworker.png)
+![The application selector where Coworker is.](../agents/assets/coworker.png)
 
 If a customer wants to revoke their organization's access to **Coworker Chat** and/or revert to **AI Assistant** and **Experience Platform Agents**, send a request to [cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com) for consideration.
 
@@ -71,7 +71,7 @@ For customers who have not been transitioned to Coworker Chat:
 
 Users of eligible customers will have default access to AI Assistant and Agents as part of the trial, so no action is needed. Experience Platform Agents are guided by user input and oversight. Agents also honor previously defined product-level access controls, so users can only perform jobs or execute actions for which they have permissions within the applicable underlying CX Enterprise products. 
 
-Once you have access, navigate to the Adobe Experience Cloud homepage to get started with AI Assistant. You can use the [discovery prompts](../ai-assistant/ai-assistant-ui.md#discovery-prompts) to view suggestions for prompts and common workflows. Use this feature to help accelerate your onboarding with AI Assistant. Additionally, read the [prompt library](../ai-assistant/prompt-library.md) for a variety of prompts that you can use with different agents. For more comprehensive information, read the [AI Assistant UI guide](../ai-assistant/ai-assistant-ui.md). 
+Once you have access, navigate to the Adobe CX Enterprise homepage to get started with AI Assistant. You can use the [discovery prompts](../ai-assistant/ai-assistant-ui.md#discovery-prompts) to view suggestions for prompts and common workflows. Use this feature to help accelerate your onboarding with AI Assistant. Additionally, read the [prompt library](../ai-assistant/prompt-library.md) for a variety of prompts that you can use with different agents. For more comprehensive information, read the [AI Assistant UI guide](../ai-assistant/ai-assistant-ui.md). 
 
 If Customer wants to opt-out of access to these Agentic capabilities and disable the trial access, please send a request to [cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com).
 
@@ -83,7 +83,7 @@ Read the following guides for more information on Coworker, Agent Orchestrator, 
 - [Agent Orchestrator overview](agent-orchestrator.md)
 - [AI Assistant UI guide](../ai-assistant/ai-assistant-ui.md)
 - [AI Assistant prompt library](../ai-assistant/prompt-library.md)
-- [AI in Experience Cloud](../home.md)
+- [AI in CX Enterprise](../home.md)
 
 ## Frequently asked questions {#faq}
 
@@ -95,15 +95,15 @@ The Agentic usage-bound trial lets eligible customers use Coworker Chat (or sele
 
 ### Which Agents are included in this trial?
 
-Read the guide on [Agentic AI in Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/agentic-ai) for a complete list of Agents included in the trial.
+Read the guide on [Agentic AI in CX Enterprise](../overview/agentic-ai.md) for a complete list of Agents included in the trial.
 
 ### Who can participate in this trial?
 
-The trial is being rolled out to certain eligible Adobe Experience Cloud customers in phases so Adobe can provide appropriate support. If you are interested in participating, please reach out to your Adobe Account Team and they can verify your status and discuss options for access.
+The trial is being rolled out to certain eligible Adobe CX Enterprise customers in phases so Adobe can provide appropriate support. If you are interested in participating, please reach out to your Adobe Account Team and they can verify your status and discuss options for access.
 
 ### How much AI credits do I get and what happens when those AI Credits are used?
 
-Eligible customers receive up to 10,000 AI Credits for the trial, which are consumed as Coworker Chat (or Experience Platform Agents) execute tasks. Please note that these AI Credits only exist for the duration of the trial experience and do not roll over if you license additional AI Credits before using the full 10,000 AI Credits. For more information on AI Credit consumption, read the [Agent jobs and AI Credit consumption guide](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+Eligible customers receive up to 10,000 AI Credits for the trial, which are consumed as Coworker Chat (or Experience Platform Agents) execute tasks. Please note that these AI Credits only exist for the duration of the trial experience and do not roll over if you license additional AI Credits before using the full 10,000 AI Credits. For more information on AI Credit consumption, read the [Agent jobs and AI Credit consumption guide](../overview/ai-credit-consumption.md).
 
 ### Does this cost anything?
 
