@@ -44,7 +44,7 @@ Before you can use the Adobe Marketing Agent for [!DNL Microsoft 365 Copilot], y
 - [!DNL Microsoft 365] with [!DNL Microsoft Teams] or [!DNL Microsoft Copilot Chat].
 - Experience Platform and at least one of: Real-Time CDP, Adobe Journey Optimizer, and/or Customer Journey Analytics.
 - Entitlement to the Experience Platform Agent Orchestrator and agents.
-- Access to your organization's Adobe Experience Cloud account (sign-in and product entitlements) for the solutions and data you use. If you do not have Adobe access, contact your Adobe administrator.
+- Access to your organization's Adobe CX Enterprise account (sign-in and product entitlements) for the solutions and data you use. If you do not have Adobe access, contact your Adobe administrator.
 
 ## Enable the agent for your organization {#enable-the-agent-for-your-organization}
 
@@ -119,7 +119,7 @@ The initial release is available as an English‑language experience. Capabiliti
 
 >[!IMPORTANT]
 >
->The Adobe Marketing Agent invokes different Adobe agents and jobs depending on the submitted prompts. This underlying Adobe agent that gets invoked utilizes AI credits as indicated in the [Adobe Experience Platform agent jobs and AI credits consumption](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) page.
+>The Adobe Marketing Agent invokes different Adobe agents and jobs depending on the submitted prompts. This underlying Adobe agent that gets invoked utilizes AI credits as indicated in the [Adobe Experience Platform agent jobs and AI credits consumption](../overview/ai-credit-consumption.md) page.
 
 ## Appendix
 

@@ -1,6 +1,6 @@
 ---
-title: AI in Experience Cloud Applications
-description: Learn how Experience Cloud applications use generative AI (GenAI), AI Assistant, and agentic AI.
+title: AI in CX Enterprise Applications
+description: Learn how CX Enterprise applications use generative AI (GenAI), AI Assistant, and agentic AI.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -26,9 +26,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# AI in Experience Cloud
+# AI in CX Enterprise
 
-Welcome to the comprehensive guide for AI capabilities across Adobe Experience Cloud applications. This documentation covers how generative AI, AI Assistant, and Adobe agents are integrated into your Experience Cloud workflows to accelerate productivity and enhance decision-making.
+Welcome to the comprehensive guide for AI capabilities across Adobe CX Enterprise applications. This documentation covers how generative AI, AI Assistant, and Adobe agents are integrated into your CX Enterprise workflows to accelerate productivity and enhance decision-making.
 
 ## What's included in this guide
 

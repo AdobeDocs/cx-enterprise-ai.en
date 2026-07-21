@@ -46,7 +46,7 @@ Agent Orchestrator is made up of several key components, including the AI Assist
 
 ### AI Assistant conversational interface {#ai-assistant}
 
-AI Assistant is an intelligent, natural language conversational experience that lets practitioners using enabled Experience Cloud applications to leverage GenAI and Agentic AI capabilities, the breadth of which depends on the Experience Cloud applications licensed by customers. To unlock access, read [the guide on accessing AI Assistant](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
+AI Assistant is an intelligent, natural language conversational experience that lets practitioners using enabled CX Enterprise applications to leverage GenAI and Agentic AI capabilities, the breadth of which depends on the CX Enterprise applications licensed by customers. To unlock access, read [the guide on accessing AI Assistant](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
 
 For more information, read the [AI Assistant UI guide](../ai-assistant/ai-assistant-ui.md).
 
@@ -56,7 +56,7 @@ Reasoning engine interprets your goals based on your natural language prompts, c
 
 ### Adobe Experience Platform Agents {#agents}
 
-Adobe Experience Platform Agents are purpose-built grouping of AI agents skilled in delivering common jobs across customer experience domains. Below is the list of Adobe Experience Platform Agents that are currently available in Experience Cloud applications:
+Adobe Experience Platform Agents are purpose-built grouping of AI agents skilled in delivering common jobs across customer experience domains. Below is the list of Adobe Experience Platform Agents that are currently available in CX Enterprise applications:
 
 | Agent | Details | Supported applications |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ Adobe Experience Platform Agents are purpose-built grouping of AI agents skilled
 | [Journey Agent](./ajo-agent.md) | Journey Agent allows Adobe Journey Optimizer users to create, analyze, and optimize journeys using a natural language interface. With Journey Agent, you can quickly build journeys, detect and resolve schedule or audience conflicts, analyze performance and drop-off points, and identify top-performing journeys to replicate for future campaigns. It helps you make data-driven decisions, improve customer engagement, and streamline journey orchestration. | Adobe Journey Optimizer |
 | [Product Support Agent](product-support.md) | Product Support Agent is a self-serve debugging and troubleshooting capability that helps you troubleshoot Adobe Experience Platform features and applications without leaving your workflows. Support administrators can create customer support tickets with context from your AI Assistant interactions and you can check ticket updates through AI Assistant. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B Edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
-For further information around availability of Agents in Experience Cloud applications, please review the [Agentic AI in Experience Cloud documentation](https://experienceleague.adobe.com/en/docs/core-services/interface/features/agentic-ai).
+For further information around availability of Agents in CX Enterprise applications, please review the [Agentic AI in CX Enterprise documentation](../overview/agentic-ai.md).
 
 ### Knowledge base {#knowledge-base}
 

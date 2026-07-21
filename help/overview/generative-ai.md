@@ -1,5 +1,5 @@
 ---
-title: Generative AI in Experience Cloud Applications
+title: Generative AI in CX Enterprise Applications
 description: Get a high-level look at where you can take advantage of AI-powered features in CX Enterprise applications.
 solution: Experience Cloud
 landing-page-name: ai
