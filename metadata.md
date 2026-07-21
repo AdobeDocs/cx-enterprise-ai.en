@@ -10,7 +10,7 @@ product_v2:
     internal-label: "Real-Time Customer Data Platform"
 usetq: true
 product: experience cloud
-landing-page-name: AI
+landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
 type: Documentation
 mini-toc-levels: 2
