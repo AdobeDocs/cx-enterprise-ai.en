@@ -10,6 +10,11 @@ role: Admin,User,Developer,Leader
 # AI in Experience Cloud {#experience-cloud-ai}
 
 - [AI in Experience Cloud applications](home.md)
+- About AI in CX Enterprise {#overview}
+  - [Generative AI](./overview/generative-ai.md)
+  - [Agentic AI](./overview/agentic-ai.md)
+  - [Agentic AI monitoring](./overview/monitoring.md)
+  - [Agent jobs and AI credit consumption](./overview/ai-credit-consumption.md)
 - AI Assistant {#ai-assistant}
   - [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md)
   - [Prompt Library](./ai-assistant/prompt-library.md)
