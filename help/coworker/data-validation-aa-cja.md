@@ -83,10 +83,10 @@ You can validate individual metrics or dimensions, or you can validate all metri
 
    | Score | Rating | What it means |
    |---------|----------|----------|
-   | 97%–100% | ![Green square](./images/data-validation-aa-cja/excellent-square.svg) [!UICONTROL Excellent] | All properties are highly aligned. No action required. |
-   | 90%–96% | ![Yellow circle](./images/data-validation-aa-cja/good-circle.svg) [!UICONTROL Good] | Minor gaps are present. Monitor trends and investigate if they decline. |
-   | 75%–89% | ![Orange circle](./images/data-validation-aa-cja/review-circle.svg) [!UICONTROL Review] | Meaningful gaps exist. Investigate root causes before relying on Customer Journey Analytics data. |
-   | Less than 75% | ![Red circle](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Poor] | Significant misalignment. Take immediate action before using Customer Journey Analytics data. |
+   | 97%–100% | ![Green square](./assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL Excellent] | All properties are highly aligned. No action required. |
+   | 90%–96% | ![Yellow circle](./assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL Good] | Minor gaps are present. Monitor trends and investigate if they decline. |
+   | 75%–89% | ![Orange circle](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL Review] | Meaningful gaps exist. Investigate root causes before relying on Customer Journey Analytics data. |
+   | Less than 75% | ![Red circle](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Poor] | Significant misalignment. Take immediate action before using Customer Journey Analytics data. |
 
 1. Select the [!UICONTROL **Key insights**] tab to view two to four short callout boxes, each summarizing one finding from the analysis in a single sentence. Callouts are color-coded by severity so you can spot the most important findings first.
 
@@ -96,23 +96,23 @@ You can validate individual metrics or dimensions, or you can validate all metri
 
    For metrics, this is a line chart that compares the daily trend.
 
-   ![Daily trend tab showing a line chart](./images/data-validation-aa-cja/trend-line.png)
+   ![Daily trend tab showing a line chart](./assets/data-validation-aa-cja/trend-line.png)
 
    For dimensions, this is a bar chart that compares the top values.
 
-   ![Daily trend tab showing a horizontal bar chart](./images/data-validation-aa-cja/trend-bar.png)
+   ![Daily trend tab showing a horizontal bar chart](./assets/data-validation-aa-cja/trend-bar.png)
 
 1. (Conditional) When doing a single-dimension comparison or a single-metric comparison, you can view row-level detail in the [!UICONTROL **Date detail**] tab. This table lists the date, the Adobe Analytics value, the Customer Journey Analytics value, the variance percentage, and a status badge for each compared metric or dimension value.
 
-   ![Date detail tab showing a table of variance percentages and status badges](./images/data-validation-aa-cja/date-detail.png)
+   ![Date detail tab showing a table of variance percentages and status badges](./assets/data-validation-aa-cja/date-detail.png)
 
    The variance and status columns use the following scale:
 
    | Variance | Status | What it means |
    |---------|----------|----------|
-   | Less than 3% | ![Green checkmark](./images/data-validation-aa-cja/pass-check.svg) [!UICONTROL Pass] | Data is well aligned. No action required. |
-   | 3%–10% | ![Yellow warning triangle](./images/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Flag] | Monitor the difference and investigate if it continues or worsens. |
-   | Greater than 10% | ![Red circle](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Critical] | Investigate immediately. This usually points to a schema, ingestion, or mapping issue. |
+   | Less than 3% | ![Green checkmark](./assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL Pass] | Data is well aligned. No action required. |
+   | 3%–10% | ![Yellow warning triangle](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Flag] | Monitor the difference and investigate if it continues or worsens. |
+   | Greater than 10% | ![Red circle](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Critical] | Investigate immediately. This usually points to a schema, ingestion, or mapping issue. |
 
 1. (Conditional) When running a full report suite and data view audit, the [!UICONTROL **Daily trend**] and [!UICONTROL **Daily detail**] tabs are replaced by a scorecard showing pass, flagged, and critical counts, along with separate tables listing the top five best-matching and top five lowest-matching metrics and dimensions.
 

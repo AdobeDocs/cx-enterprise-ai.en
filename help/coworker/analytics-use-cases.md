@@ -25,7 +25,7 @@ Before you begin your analysis, access Coworker Chat by logging in to your CX En
 
    1. Select the MCP icon in the left rail, then make sure that [!UICONTROL **cja-mcp**] is available in your list of connected MCP servers.
 
-      ![The MCP icon highlighted in the Coworker left rail](images/data-validation-aa-cja/coworker-mcp-cja.png)
+      ![The MCP icon highlighted in the Coworker left rail](assets/data-validation-aa-cja/coworker-mcp-cja.png)
 
    1. (Conditional) If [!UICONTROL **cja-mcp**] is not yet connected, select [!UICONTROL **Add MCP Server**], specify cja in the [!UICONTROL **Server Name**] field and select it when it appears, then select [!UICONTROL **Add Server**].
 
@@ -79,7 +79,7 @@ Coworker Chat contains a memory feature that allows you to provide it with acces
 
 1. On the Memory page, in the Stored preferences section, specify one or more data views that you want Coworker Chat to use in your chats.
 
-   ![Memory section in the left rail](images/data-validation-aa-cja/coworker-memory.png)
+   ![Memory section in the left rail](assets/data-validation-aa-cja/coworker-memory.png)
 
 ## Use case: Find where customers drop off
 
@@ -119,7 +119,7 @@ Notice that Coworker Chat chooses the right visualization, sequences the touchpo
 
 >[!BEGINSHADEBOX]
 
-![The MCP icon highlighted in the Coworker left rail](images/data-validation-aa-cja/coworker-funnel-response.png)
+![The MCP icon highlighted in the Coworker left rail](assets/data-validation-aa-cja/coworker-funnel-response.png)
 
 This is a funnel question — let me run the conversion funnel to see where drop-off happens on the path to purchase.
 
@@ -170,7 +170,7 @@ Okay, let's break down by marketing channel
 
 >[!BEGINSHADEBOX]
 
-![The MCP icon highlighted in the Coworker left rail](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![The MCP icon highlighted in the Coworker left rail](assets/data-validation-aa-cja/coworker-funnel-response2.png)
 
 There's a custom **Marketing Channel** dimension. Let me pull the funnel by that, then calculate the per-channel conversion rates and identify where each channel leaks.
 
@@ -221,7 +221,7 @@ Interesting. Let's trying breaking down by device type.
 
 >[!BEGINSHADEBOX]
 
-![The MCP icon highlighted in the Coworker left rail](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![The MCP icon highlighted in the Coworker left rail](assets/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **Found it: mobile checkout is broken**
 

@@ -42,7 +42,7 @@ Read this document to learn about Agent Orchestrator.
 
 Agent Orchestrator is made up of several key components, including the AI Assistant conversational interface, a reasoning engine for decision-making and planning, specialized Adobe Experience Platform agents, and a knowledge base that provides access to relevant information.
 
-![The marketing architecture of Agent Orchestrator.](./images/agent-orchestrator/agentic-architecture.png)
+![The marketing architecture of Agent Orchestrator.](./assets/agent-orchestrator/agentic-architecture.png)
 
 ### AI Assistant conversational interface {#ai-assistant}
 

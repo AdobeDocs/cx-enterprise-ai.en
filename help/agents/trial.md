@@ -61,7 +61,7 @@ Users of eligible customers will have default access to Coworker Chat as part of
 
 Users can access Coworker by selecting it from the application selector on the top header in CX Enterprise. 
 
-![The application selector where Coworker is.](../agents/images/coworker.png)
+![The application selector where Coworker is.](../agents/assets/coworker.png)
 
 If a customer wants to revoke their organization's access to **Coworker Chat** and/or revert to **AI Assistant** and **Experience Platform Agents**, send a request to [cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com) for consideration.
 
