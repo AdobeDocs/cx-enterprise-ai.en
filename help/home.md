@@ -71,7 +71,7 @@ CX Enterprise Coworker is an agent-first evolution of AI Assistant. Instead of a
 
 Eligible customers are gradually being transitioned from AI Assistant and Experience Platform Agents to Coworker Chat. Read [CX Enterprise Coworker Trial](./agents/trial.md) to learn about trial eligibility, AI Credit usage, and how to get access.
 
-To see Coworker Chat in action, walk through [Coworker Chat in Playground](./coworker/playground-coworker-chat.md), or read real-world use cases such as [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md) and [Analyze conversion drop-off](./coworker/analytics-use-cases.md).
+To see Coworker Chat in action, walk through [Coworker Chat in Playground](./coworker/playground-coworker-chat.md), or read real-world use cases such as [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md) and [Analyze conversion drop-off](./coworker/analytics-chat.md).
 
 ## MCP
 
