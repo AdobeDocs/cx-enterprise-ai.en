@@ -5,7 +5,6 @@ user-guide-description: Learn how to use AI Assistant to expedite your workflow 
 description: Learn about AI Assistant in CX Enterprise. Improve your product knowledge and gain operational insights using AI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-dummy: true
 ---
 
 # AI in CX Enterprise {#experience-cloud-ai}
