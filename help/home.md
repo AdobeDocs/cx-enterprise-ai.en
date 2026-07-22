@@ -64,14 +64,17 @@ For the full list of agents, the applications each supports, and eligibility req
 
 ## CX Enterprise Coworker
 
-CX Enterprise Coworker is an agent-first evolution of AI Assistant. Instead of asking one question at a time, you describe a goal in natural language, and Coworker plans the work, executes it across your Adobe and connected systems, validates the results, and returns the finished work for your approval. Coworker includes:
+CX Enterprise Coworker is an agent-first evolution of AI Assistant that automates customer experience and marketing workflows, so your team can focus on business goals instead of routine execution. Instead of asking one question at a time, you describe a goal in natural language, and Coworker plans the work, executes it across your Adobe and connected systems, validates the results, and returns the finished work for your approval. Coworker includes:
 
-- **Coworker Chat**: A conversational interface for exploring your data, validating audiences and journeys, and completing multi-step tasks across CX Enterprise applications.
-- **Coworker Campaigns**: An AI-native application that consolidates campaign briefing, audience building, content generation, journey design, and proofing into a single conversational experience.
+- **[Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**: A conversational interface for exploring your data, validating audiences and journeys, and completing multi-step tasks across CX Enterprise applications.
+- **[Coworker Campaigns](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**: An AI-native application that consolidates campaign briefing, audience building, content generation, journey design, and proofing into a single conversational experience, using built-in templates, best practices, and prompting guidance so small, agile teams can launch campaigns quickly.
+- **Coworker Projects** (coming soon): A unified workspace for automating end-to-end customer experience orchestration workflows, helping teams coordinate tasks, approvals, and execution to drive outcomes from strategy through delivery. Documentation for Projects is coming soon.
 
 Eligible customers are gradually being transitioned from AI Assistant and Experience Platform Agents to Coworker Chat. Read [CX Enterprise Coworker Trial](./agents/trial.md) to learn about trial eligibility, AI Credit usage, and how to get access.
 
-To see Coworker Chat in action, walk through [Coworker Chat in Playground](./coworker/playground-coworker-chat.md), or read real-world use cases such as [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md) and [Analyze conversion drop-off](./coworker/analytics-chat.md).
+To see Coworker Chat in action, walk through [Coworker Chat in Playground](./coworker/playground-coworker-chat.md), or read real-world use cases such as [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md) and [Analyze CJA data](./coworker/analytics-chat.md).
+
+For full product documentation on Coworker Chat, Campaigns, and Projects, see [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home).
 
 ## MCP
 
