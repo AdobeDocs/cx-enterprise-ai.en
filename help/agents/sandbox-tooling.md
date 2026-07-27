@@ -60,6 +60,8 @@ For more information about using CX Coworker, see the [Coworker UI guide](https:
 
 ## Supported use cases {#supported-use-cases}
 
+Explore common ways to use Sandbox Tooling Agentic Skills to simplify sandbox management and metadata migration.
+
 ### Move object metadata across sandboxes
 
 As a sandbox administrator managing multiple Adobe Experience Platform sandboxes, you can migrate object metadata using natural-language requests instead of manually navigating the user interface.
