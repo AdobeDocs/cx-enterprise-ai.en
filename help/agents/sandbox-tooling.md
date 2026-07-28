@@ -44,11 +44,11 @@ To use Sandbox Tooling Agentic Skills:
 
 ![The request results with Proceed selected, highlighting Submit.](./assets/sandbox-tooling/results-proceed.png)
 
-4. Review the objects and dependencies that the agent identifies. Select the objects that you want to migrate, then select **[!UICONTROL Submit]**.
+4. Select one or more objects you want to migrate, then select **[!UICONTROL Submit]**.
 
 ![Object selection page highlighting Submit.](./assets/sandbox-tooling/object-selection.png)
 
-5. Review the migration plan. When you are ready to begin the migration, select **[!UICONTROL Proceed]**, then select **[!UICONTROL Submit]** to confirm. The migration may take several minutes to complete.
+5. Review the objects and dependencies that the agent identifies and confirm the operation actions - *Create New* or *Use Existing*. When you are ready to begin the migration, select **[!UICONTROL Proceed]**, then select **[!UICONTROL Submit]** to confirm. The migration may take several minutes to complete.
 
 ![Confirm action plan page highlighting Submit.](./assets/sandbox-tooling/action-plan.png)
 
