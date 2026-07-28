@@ -49,10 +49,10 @@ role: Admin,User,Developer,Leader
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Coworker {#coworker}
-  - [Coworker Campaigns](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
-  - [Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
+- Coworker help {#coworker}
+  - [Coworker help](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc} [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md)
   - [Analyze CJA data](./coworker/analytics-chat.md)
   - [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)
+
