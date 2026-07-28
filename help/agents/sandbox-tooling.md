@@ -23,7 +23,7 @@ Use Sandbox Tooling Agentic Skills to move object metadata—including schemas a
 
 Before you begin, ensure that you have:
 
-- Access to Adobe Experience Platform and the appropriate organisation and sandbox.
+- Access to Adobe Experience Platform and the appropriate organization and sandbox.
 - Access to the objects that you want to discover or migrate.
 - The Adobe CXO plugin installed in CX Coworker.
 
