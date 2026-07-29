@@ -49,8 +49,8 @@ role: Admin,User,Developer,Leader
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Coworker help {#coworker}
-  - [Coworker help](./coworker/overview.md)
+- Coworker {#coworker}
+  - [About Coworker](./coworker/overview.md)
   - Campaigns {#coworker-campaigns}
     - [Overview](./coworker/campaigns/overview.md)
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
