@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI in CX Enterprise Applications
 description: Learn how CX Enterprise applications use generative AI (GenAI), AI Assistant, agentic AI, CX Enterprise Coworker, and MCP tools.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds

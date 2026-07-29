@@ -1,4 +1,4 @@
-﻿---
+---
 title: Adobe CX Enterprise Coworker
 description: Learn how to take your marketing to the next level with Adobe CX Enterprise Coworker.
 ---
