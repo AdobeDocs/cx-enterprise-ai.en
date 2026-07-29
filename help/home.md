@@ -1,4 +1,4 @@
----
+﻿---
 title: AI in CX Enterprise Applications
 description: Learn how CX Enterprise applications use generative AI (GenAI), AI Assistant, agentic AI, CX Enterprise Coworker, and MCP tools.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
@@ -74,7 +74,7 @@ Eligible customers are gradually being transitioned from AI Assistant and Experi
 
 To see Coworker Chat in action, walk through [Coworker Chat in Playground](./coworker/playground-coworker-chat.md), or read real-world use cases such as [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md) and [Analyze CJA data](./coworker/analytics-chat.md).
 
-For full product documentation on Coworker Chat, Campaigns, and Projects, see [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home).
+For full product documentation on Coworker Chat, Campaigns, and Projects, see [Adobe CX Enterprise Coworker](./coworker/overview.md).
 
 ## MCP
 
@@ -103,3 +103,4 @@ To get the most value from your AI Assistant or Coworker experience, follow thes
 ## Legal considerations
 
 AI Assistant currently supports responses in English only, and language models may occasionally make mistakes. Always verify the information provided, and use the reasoning steps included in each response to understand how it was generated. For full details, read the [legal disclaimer](./ai-assistant/legal-disclaimer.md).
+
