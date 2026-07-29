@@ -49,9 +49,20 @@ role: Admin,User,Developer,Leader
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Coworker help {#coworker}
-  - [Coworker help](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- Coworker {#coworker}
+  - [About Coworker](./coworker/overview.md)
+  - Campaigns {#coworker-campaigns}
+    - [Overview](./coworker/campaigns/overview.md)
+    - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
+    - [Use cases](./coworker/campaigns/use-cases.md)
+    - [Prompting best practices](./coworker/campaigns/prompting-best-practices.md)
+    - [Connectors](./coworker/campaigns/connectors.md)
+    - [Release notes](./coworker/campaigns/release-notes.md)
+  - Chat {#coworker-chat}
+    - [Overview](./coworker/chat/overview.md)
+    - [Use cases](./coworker/chat/use-cases.md)
+    - [UI guide](./coworker/chat/ui-guide.md)
+    - [Analyze CJA data](./coworker/chat/analytics-chat.md)
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc} [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md)
-  - [Analyze CJA data](./coworker/analytics-chat.md)
   - [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)
