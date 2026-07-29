@@ -51,14 +51,14 @@ role: Admin,User,Developer,Leader
     - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [About Coworker](./coworker/overview.md)
-  - Campaigns {#coworker-campaigns}
+  - Campaigns {#campaigns}
     - [Overview](./coworker/campaigns/overview.md)
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
     - [Use cases](./coworker/campaigns/use-cases.md)
     - [Prompting best practices](./coworker/campaigns/prompting-best-practices.md)
     - [Connectors](./coworker/campaigns/connectors.md)
     - [Release notes](./coworker/campaigns/release-notes.md)
-  - Chat {#coworker-chat}
+  - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
     - [Use cases](./coworker/chat/use-cases.md)
     - [UI guide](./coworker/chat/ui-guide.md)
