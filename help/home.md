@@ -30,7 +30,7 @@ topic_v2:
 
 This guide covers the AI capabilities available across Adobe CX Enterprise applications: generative AI and AI Assistant for product knowledge and operational insights, Agent Orchestrator and Experience Platform Agents for automating jobs, CX Enterprise Coworker for a fully conversational, agent-first experience, and MCP for connecting your own AI tools to CX Enterprise data.
 
-## About AI in CX Enterprise
+## AI capabilities overview
 
 Start here for a primer on where and how AI is used across CX Enterprise:
 
@@ -38,6 +38,7 @@ Start here for a primer on where and how AI is used across CX Enterprise:
 - [Agentic AI](./overview/agentic-ai.md) explains how Experience Platform Agents work in both existing CX Enterprise applications and AI-first applications, and lists the agents available in each.
 - [Agentic AI monitoring](./overview/monitoring.md) covers the dashboards that track agent adoption, usage, feedback, and AI Credit consumption.
 - [Agent jobs and AI credit consumption](./overview/ai-credit-consumption.md) explains how AI Credits are consumed by agent jobs, with estimated consumption rates by agent and job type.
+- [CX Enterprise Agentic Tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview) covers additional agentic skills and tooling that extend CX Enterprise agents.
 
 ## AI Assistant
 
@@ -59,6 +60,7 @@ The following Experience Platform Agents are documented in this guide:
 - [Notifications Agent](./agents/notifications.md)
 - [Product Support Agent](./agents/product-support.md)
 - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
+- [Validate your data](./agents/data-validation.md)
 
 For the full list of agents, the applications each supports, and eligibility requirements, see [Agentic AI in CX Enterprise](./overview/agentic-ai.md).
 
@@ -72,13 +74,15 @@ CX Enterprise Coworker is an agent-first evolution of AI Assistant that automate
 
 Eligible customers are gradually being transitioned from AI Assistant and Experience Platform Agents to Coworker Chat. Read [CX Enterprise Coworker Trial](./agents/trial.md) to learn about trial eligibility, AI Credit usage, and how to get access.
 
-To see Coworker Chat in action, walk through [Coworker Chat in Playground](./coworker/playground-coworker-chat.md), or read real-world use cases such as [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md) and [Analyze CJA data](./coworker/analytics-chat.md).
+To see Coworker Chat in action, walk through [Coworker Chat in Playground](./coworker/playground-coworker-chat.md), or read real-world use cases such as [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md) and [Analyze CJA data](./coworker/chat/analytics-chat.md).
 
-For full product documentation on Coworker Chat, Campaigns, and Projects, see [Adobe CX Enterprise Coworker](./coworker/overview.md).
+For full product documentation on Coworker Chat, Campaigns, and Projects, see [Adobe CX Enterprise Coworker](./coworker/overview.md). For sandbox-to-sandbox object replication, see [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md).
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use, including Real-Time CDP, Experience Platform, Journey Optimizer, Customer Journey Analytics, and Adobe Analytics.
+[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use, including Real-Time CDP, Experience Platform, Journey Optimizer, Customer Journey Analytics, Adobe Analytics, and Workfront.
+
+New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected.
 
 ## Get started
 
