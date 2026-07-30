@@ -56,7 +56,7 @@ role: Admin,User,Developer,Leader
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
     - [Use cases](./coworker/campaigns/use-cases.md)
     - [Prompting best practices](./coworker/campaigns/prompting-best-practices.md)
-    - [Connectors](./coworker/campaigns/connectors.md)
+    - {hide-from-toc} [Connectors](./coworker/campaigns/connectors.md)
     - [Release notes](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
