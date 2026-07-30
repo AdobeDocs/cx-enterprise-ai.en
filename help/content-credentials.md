@@ -7,7 +7,7 @@ description: Learn how Adobe automatically attaches Content Credentials to GenAI
 
 This page covers details about how Adobe handles automatic attachment of Content Credentials across Adobe CX Enterprise applications.
 
-New regulations will go into effect requiring providers of generative AI technologies to support durable, machine-readable disclosures associated with GenAI-generated and GenAI-assisted content workflows for expanded transparency.
+New regulations require providers of generative AI technologies to support durable, machine-readable disclosures associated with GenAI-generated and GenAI-assisted content workflows for expanded transparency.
 
 As a tool provider, Adobe is automatically attaching machine-readable metadata (Content Credentials) to GenAI-generated and GenAI-edited content using Adobe technologies (including supported third-party generative AI models within Adobe workflows).
 
@@ -15,7 +15,7 @@ Content Credentials are a tamper evident metadata based on the C2PA open standar
 
 >[!IMPORTANT]
 >
->Customers can choose to customize Content Credentials with additional metadata such as name, social media handle, or edit history in certain applications including [Photoshop](https://helpx.adobe.com/photoshop/desktop/save-and-export/metadata-content-credentials/use-content-credentials.html), [Premiere](https://helpx.adobe.com/x-productkb/content-credentials.html), [Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/content-credentials), and others. This optional addition of customized metadata in Content Credentials is **distinct** from the use noted above, in which Content Credentials will be applied automatically and indicate limited information about the content, including that GenAI was used in its creation or editing. As noted above, Adobe automatically attaches Content Credentials to qualifying GenAI content. This functionality cannot be disabled.
+>Customers can choose to customize Content Credentials with additional metadata such as name, social media handle, or edit history in certain applications including [Photoshop](https://helpx.adobe.com/photoshop/desktop/save-and-export/metadata-content-credentials/use-content-credentials.html), [Premiere](https://helpx.adobe.com/x-productkb/content-credentials.html), [Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/content-credentials), and others. This optional addition of customized metadata in Content Credentials is **distinct** from the use noted above, in which Content Credentials are applied automatically and indicate limited information about the content, including that GenAI was used in its creation or editing. As noted above, Adobe automatically attaches Content Credentials to qualifying GenAI content. This functionality cannot be disabled.
 
 ## What's changing
 
@@ -31,7 +31,7 @@ No additional action is required to attach Content Credentials to qualifying gen
 
 >[!NOTE]
 >
->Content Credentials will not impact the appearance of your content. Content Credentials and visible watermarks serve different purposes. Content Credentials provide machine-readable provenance information, while visible watermarks provide a visual disclosure. You may choose to add visible watermarks to your content.
+>Content Credentials do not impact the appearance of your content. Content Credentials and visible watermarks serve different purposes. Content Credentials provide machine-readable provenance information, while visible watermarks provide a visual disclosure. You may choose to add visible watermarks to your content.
 
 ## What details are added as part of Content Credentials
 
@@ -130,7 +130,7 @@ The resulting Content Credentials depend on the application and workflow used. W
 
 **What happens when GenAI-generated images from Adobe and non-Adobe applications are combined?**
 
-Adobe preserves Content Credentials that are available and supported within the workflow. Wherever applicable, Adobe will update the underlying metadata with the latest information whenever applicable content (image, audio, video, text) is edited or created using GenAI within Adobe workflows. When you combine several sources into one new asset, their credentials are not replaced or lost. Instead, the new asset gets its own Content Credential, and the details from each source are kept inside it. If a source already had its own Content Credentials--whether it came from an Adobe or a non-Adobe tool--that history stays attached to it. This means the final asset carries a complete picture: its own record of being created or edited with GenAI, plus the individual history of each piece that went into it.
+Adobe preserves Content Credentials that are available and supported within the workflow. Wherever applicable, Adobe updates the underlying metadata with the latest information whenever applicable content (image, audio, video, text) is edited or created using GenAI within Adobe workflows. When you combine several sources into one new asset, their credentials are not replaced or lost. Instead, the new asset gets its own Content Credential, and the details from each source are kept inside it. If a source already had its own Content Credentials--whether it came from an Adobe or a non-Adobe tool--that history stays attached to it. This means the final asset carries a complete picture: its own record of being created or edited with GenAI, plus the individual history of each piece that went into it.
 
 **Do GenAI-edited and GenAI-created workflows in Adobe CX applications automatically attach Content Credentials?**
 
@@ -144,13 +144,13 @@ Content Credentials are durable metadata designed to remain associated with supp
 
 Some Adobe applications allow creators and organizations to add additional authenticated information to existing Content Credentials while preserving provenance. Availability varies by application.
 
-**Will it be possible to turn off automatic attachment of Content Credentials?**
+**Is it possible to turn off automatic attachment of Content Credentials?**
 
 No. New generative AI transparency laws require companies that provide generative AI tools, including Adobe, to attach durable metadata to qualifying content generated or edited with generative AI. Automatic attachment of Content Credentials cannot be turned off.
 
 **What happens to content created/edited with generative AI before the August release?**
 
-Content created or edited with generative AI tools before the August 3, 2026 release will not have automatic Content Credentials attached. However, content created in Firefly web and other apps where Content Credentials were previously applied will continue to have them attached.
+Content created or edited with generative AI tools before the August 3, 2026 release does not have automatic Content Credentials attached. However, content created in Firefly web and other apps where Content Credentials were previously applied continue to have them attached.
 
 **How can a customer check if content has Content Credentials attached?**
 
@@ -160,6 +160,6 @@ Customers can check whether content has Content Credentials attached by uploadin
 
 As content moves across publishing platforms, social media channels, email services, and other digital ecosystems, downstream services that support Content Credentials, or related provenance technologies, may be able to read attached metadata and may choose to display disclosures or indicators based on that information. Adobe does not control how external platforms display, interpret, or apply disclosures associated with attached Content Credentials. For the most current information on how a specific platform handles provenance information, customers should check that platform's guidelines directly.
 
-**Will these changes increase the cost of Adobe products or subscriptions?**
+**Do these changes increase the cost of Adobe products or subscriptions?**
 
-No. This will not impact the cost of Adobe products.
+No. Content Credentials do not impact the cost of Adobe products.
