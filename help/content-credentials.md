@@ -15,7 +15,7 @@ Content Credentials are a tamper evident metadata based on the C2PA open standar
 
 >[!IMPORTANT]
 >
->Customers can choose to customize Content Credentials with additional metadata such as name, social media handle, or edit history in certain applications including [Photoshop](https://helpx.adobe.com/photoshop/desktop/save-and-export/metadata-content-credentials/use-content-credentials.html), [Premiere](https://helpx.adobe.com/x-productkb/content-credentials.html), [Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/content-credentials), and others. This optional addition of customized metadata in Content Credentials is **distinct** from the use noted above, in which Content Credentials are applied automatically and indicate limited information about the content, including that GenAI was used in its creation or editing. As noted above, Adobe automatically attaches Content Credentials to qualifying GenAI content. This functionality cannot be disabled.
+>Customers can choose to customize Content Credentials with additional metadata such as name, social media handle, or edit history in certain applications including [Photoshop](https://helpx.adobe.com/photoshop/desktop/save-and-export/metadata-content-credentials/use-content-credentials.html), [Premiere](https://helpx.adobe.com/x-productkb/content-credentials.html), [Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/content-credentials), and others. This optional addition of customized metadata in Content Credentials is **distinct** from the use noted above, in which Content Credentials are applied automatically and indicate limited information about the content, including that GenAI was used in its creation or editing. Adobe automatically attaches Content Credentials to qualifying GenAI content. This functionality cannot be disabled.
 
 ## What's changing
 
@@ -41,7 +41,7 @@ Automatically attached Content Credentials may include information such as:
 * AI model used (for example, Adobe Firefly)
 * Usage: Whether it was generated or edited using GenAI
 * Time and date of content creation and/or modification with generative AI tools
-* Unique identifier (that can be used to distinguish each use of Generative AI)
+* Unique identifier (used to distinguish each use of Generative AI)
 
 By default, automatically attached Content Credentials do not include personally identifiable information (PII).
 
@@ -158,7 +158,7 @@ Customers can check whether content has Content Credentials attached by uploadin
 
 **How do external platforms display Content Credentials once content is published or shared?**
 
-As content moves across publishing platforms, social media channels, email services, and other digital ecosystems, downstream services that support Content Credentials, or related provenance technologies, may be able to read attached metadata and may choose to display disclosures or indicators based on that information. Adobe does not control how external platforms display, interpret, or apply disclosures associated with attached Content Credentials. For the most current information on how a specific platform handles provenance information, customers should check that platform's guidelines directly.
+As content moves across publishing platforms, social media channels, email services, and other digital ecosystems, downstream services that support Content Credentials, or related provenance technologies, may be able to read attached metadata and choose to display disclosures or indicators based on that information. Adobe does not control how external platforms display, interpret, or apply disclosures associated with attached Content Credentials. For the most current information on how a specific platform handles provenance information, customers should check that platform's guidelines directly.
 
 **Do these changes increase the cost of Adobe products or subscriptions?**
 
