@@ -1,5 +1,3 @@
-<!-- Purpose: ExL Landing page of what's coming up new with content credentials, how will they surface in Adobe CX applications and other workflows, with supporting links -->
-
 ---
 title: Content Credentials for generative AI transparency
 description: Learn how Adobe automatically attaches Content Credentials to GenAI-generated and GenAI-edited content across Adobe CX Enterprise applications.
