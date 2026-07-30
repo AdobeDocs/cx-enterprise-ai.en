@@ -38,7 +38,7 @@ No additional action is required to attach Content Credentials to qualifying gen
 Automatically attached Content Credentials may include information such as:
 
 * Name and version information of the AI system used (for example, Adobe GenStudio, Adobe Firefly)
-* AI model used (e.g. Adobe Firefly)
+* AI model used (for example, Adobe Firefly)
 * Usage: Whether it was generated or edited using GenAI
 * Time and date of content creation and/or modification with generative AI tools
 * Unique identifier (that can be used to distinguish each use of Generative AI)
@@ -150,7 +150,7 @@ No. New generative AI transparency laws require companies that provide generativ
 
 **What happens to content created/edited with generative AI before the August release?**
 
-Content created or edited with generative AI tools before the 3rd August release will not have automatic Content Credentials attached. However, content created in Firefly web and other apps where Content Credentials were previously applied will continue to have them attached.
+Content created or edited with generative AI tools before the August 3, 2026 release will not have automatic Content Credentials attached. However, content created in Firefly web and other apps where Content Credentials were previously applied will continue to have them attached.
 
 **How can a customer check if content has Content Credentials attached?**
 
