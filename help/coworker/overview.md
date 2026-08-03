@@ -17,7 +17,7 @@ Coworker Campaigns is a templatized feature for small agile teams to stand up an
 
 ## Chat
 
-Coworker Chat enables teams to automate Adobe product tasks through natural language, quickly turning ideas into actions with flexible planning, customizable skills, and intelligent execution.
+Coworker Chat enables teams to automate Adobe product tasks using natural language, quickly turning ideas into actions with flexible planning, customizable skills, and intelligent execution.
 
 * [Overview](./chat/overview.md)
 * [Use cases](./chat/use-cases.md)
@@ -27,4 +27,3 @@ Coworker Chat enables teams to automate Adobe product tasks through natural lang
 ## Projects (docs coming soon)
 
 Coworker Projects is a unified workspace for automating end-to-end customer experience orchestration workflows, helping teams coordinate tasks, approvals, and execution to drive outcomes from strategy through delivery.
-
