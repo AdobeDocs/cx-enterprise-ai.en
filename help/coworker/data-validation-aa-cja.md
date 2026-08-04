@@ -1,7 +1,6 @@
 ---
 title: Validate data with Coworker when upgrading from Adobe Analytics to Customer Journey Analytics
 description: Learn how Analytics admins use the CX Enterprise Coworker data validation skill to compare Adobe Analytics and Customer Journey Analytics data during the upgrade.
-hide: true
 ---
 # Validate data with Coworker when upgrading from Adobe Analytics to Customer Journey Analytics
 
