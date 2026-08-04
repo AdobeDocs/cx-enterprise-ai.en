@@ -5,7 +5,7 @@ hide: true
 ---
 # Connectors {#connectors}
 
-Adobe CX Enterprise Coworker Campaigns allows you to connect your Marketo Engage or Hubspot account allowing you to pull in contacts, segments, and activity.
+Adobe Coworker Campaigns allows you to connect your Marketo Engage or Hubspot account allowing you to pull in contacts, segments, and activity.
 
 >[!NOTE]
 >

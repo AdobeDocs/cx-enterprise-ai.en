@@ -1,10 +1,10 @@
 ---
-description: Learn about Adobe CX Enterprise Coworker Campaigns, an AI-native marketing application that turns a single prompt into a review-ready campaign.
-title: Adobe CX Enterprise Coworker Overview
+description: Learn about Adobe Coworker Campaigns, an AI-native marketing application that turns a single prompt into a review-ready campaign.
+title: Adobe Coworker Overview
 ---
-# Adobe CX Enterprise Coworker Campaigns overview {#overview}
+# Adobe Coworker Campaigns overview {#overview}
 
-Adobe CX Enterprise Coworker Campaigns is an AI-native marketing application that takes you from a single prompt to a complete review-ready campaign.
+Coworker Campaigns is an AI-native marketing application that takes you from a single prompt to a complete review-ready campaign.
 
 At this time, all interactions with the AI will direct you towards [campaign generation](./). More functionality is coming soon.
 

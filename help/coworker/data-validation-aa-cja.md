@@ -1,6 +1,6 @@
 ---
 title: Validate data with Coworker when upgrading from Adobe Analytics to Customer Journey Analytics
-description: Learn how Analytics admins use the CX Enterprise Coworker data validation skill to compare Adobe Analytics and Customer Journey Analytics data during the upgrade.
+description: Learn how Analytics admins use the Adobe Coworker data validation skill to compare Adobe Analytics and Customer Journey Analytics data during the upgrade.
 hide: true
 ---
 # Validate data with Coworker when upgrading from Adobe Analytics to Customer Journey Analytics
@@ -9,7 +9,7 @@ hide: true
 > 
 >Follow the steps on this page only after you complete all previous upgrade steps. You can follow the recommended upgrade steps (recommended for most organizations), or you can follow steps that are dynamically generated for your organization with the Customer Journey Analytics Upgrade Guide. <ul><li>**Recommended upgrade steps** (Recommended for most organizations)<p>A set of steps that lead to an ideal Customer Journey Analytics implementation.</p><p>For detailed information, see [Upgrade from Adobe Analytics to Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Customer Journey Analytics Upgrade Guide** (Custom steps tailored to the specific needs of your organization)<p>A new upgrade guide is available that dynamically generates upgrade steps that are tailored for your organization and your unique circumstances.</p><p>To access the guide from Customer Journey Analytics, select the **[!UICONTROL Workspace]** tab, then select **[!UICONTROL Upgrade to Customer Journey Analytics]** in the left panel. Follow the on-screen instructions.</p></li></ul>
 
-CX Enterprise Coworker includes a validation skill that allows you to validate data when upgrading from Adobe Analytics to Customer Journey Analytics. Data validation is completed within a single conversation.
+Adobe Coworker includes a validation skill that allows you to validate data when upgrading from Adobe Analytics to Customer Journey Analytics. Data validation is completed within a single conversation.
 
 This skill automatically compares:
 
@@ -33,7 +33,7 @@ You don't need to know how your implementation is architected. The skill automat
 
 ## Start a validation session
 
-1. Log in to CX Enterprise Coworker.
+1. Log in to Coworker.
 
 1. Select [!UICONTROL **New Chat**].
 

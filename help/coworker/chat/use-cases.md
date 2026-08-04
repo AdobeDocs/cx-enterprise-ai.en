@@ -4,7 +4,7 @@ title: Use Cases
 ---
 # Use cases {#use-cases}
 
-Below are use cases and sample prompts that practitioners are using in Adobe CX Enterprise Coworker Chat, organized by work area. Each prompt is built to be copied, adapted with your own data and context, and refined through conversation.
+Below are use cases and sample prompts that practitioners are using in Adobe Coworker Chat, organized by work area. Each prompt is built to be copied, adapted with your own data and context, and refined through conversation.
 
 ## Data insights
 
