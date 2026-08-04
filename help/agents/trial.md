@@ -1,6 +1,6 @@
 ---
-title: CX Enterprise Coworker Trial
-description: Learn about the the complimentary trial for CX Enterprise Coworker.
+title: Adobe Coworker Trial
+description: Learn about the the complimentary trial for Adobe Coworker.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -20,7 +20,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# CX Enterprise Coworker Trial
+# Adobe Coworker Trial
 
 >[!AVAILABILITY]
 >
@@ -79,7 +79,7 @@ If Customer wants to opt-out of access to these Agentic capabilities and disable
 
 Read the following guides for more information on Coworker, Agent Orchestrator, and AI Assistant:
 
-- [CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- [Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Agent Orchestrator overview](agent-orchestrator.md)
 - [AI Assistant UI guide](../ai-assistant/ai-assistant-ui.md)
 - [AI Assistant prompt library](../ai-assistant/prompt-library.md)

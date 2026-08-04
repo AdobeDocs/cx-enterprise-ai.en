@@ -31,7 +31,7 @@ role: Admin,User,Developer,Leader
   - [Product Support Agent](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Notifications Agent](./agents/notifications.md)
-  - [CX Enterprise Coworker Trial](./agents/trial.md)
+  - [Coworker Trial](./agents/trial.md)
   - [Validate your data](./agents/data-validation.md)
   - Data Engineering {#data-engineering}
     - {hide-from-toc} [Data Engineering Agent](./agents/data-engineering/overview.md)
