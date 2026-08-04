@@ -64,5 +64,5 @@ role: Admin,User,Developer,Leader
     - [UI guide](./coworker/chat/ui-guide.md)
     - [Analyze CJA data](./coworker/chat/analytics-chat.md)
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc} [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md)
+  - [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md)
   - [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)
