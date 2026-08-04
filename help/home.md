@@ -38,7 +38,7 @@ Start here for a primer on where and how AI is used across CX Enterprise:
 - [Agentic AI](./overview/agentic-ai.md) explains how Experience Platform Agents work in both existing CX Enterprise applications and AI-first applications, and lists the agents available in each.
 - [Agentic AI monitoring](./overview/monitoring.md) covers the dashboards that track agent adoption, usage, feedback, and AI Credit consumption.
 - [Agent jobs and AI credit consumption](./overview/ai-credit-consumption.md) explains how AI Credits are consumed by agent jobs, with estimated consumption rates by agent and job type.
-- [CX Enterprise Agentic Tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview) covers additional agentic skills and tooling that extend CX Enterprise agents.
+- [CX Enterprise agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview) cover additional agentic skills and tooling that extend CX Enterprise agents (video tutorials).
 
 ## AI Assistant
 
