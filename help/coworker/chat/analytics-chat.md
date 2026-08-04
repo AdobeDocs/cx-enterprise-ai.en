@@ -54,33 +54,33 @@ Tell Coworker the types of questions you want answered, and ask it which data vi
 **You:**
 
 >[!BEGINSHADEBOX]
->
->I'm interested in learning where customers drop off in the customer journey. Which data views in Customer Journey Analytics do I have access to that would be able to answer this question for me?
->
+
+I'm interested in learning where customers drop off in the customer journey. Which data views in Customer Journey Analytics do I have access to that would be able to answer this question for me?
+
 >[!ENDSHADEBOX]
 
 **Coworker Chat response:**
 
 >[!BEGINSHADEBOX]
->
->You have access to three data views. The `Customer lifecycle` data view contains the following dimensions and metrics, which would be best for answering your question.
->
+
+You have access to three data views. The `Customer lifecycle` data view contains the following dimensions and metrics, which would be best for answering your question.
+
 >[!ENDSHADEBOX]
 
 **You:**
 
 >[!BEGINSHADEBOX]
->
->Great, let's use that data view.
->
+
+Great, let's use that data view.
+
 >[!ENDSHADEBOX]
 
 **Coworker Chat response:**
 
 >[!BEGINSHADEBOX]
->
->Okay, I'll use the `Customer lifecycle` data view to answer future questions in this chat session.
->
+
+Okay, I'll use the `Customer lifecycle` data view to answer future questions in this chat session.
+
 >[!ENDSHADEBOX]
 
 ### Add a data view preference in Memory
@@ -132,9 +132,9 @@ You don't need to know what a "fallout visualization" is, or which metric goes i
 **You:**
 
 >[!BEGINSHADEBOX]
->
->Where are we losing people on the way to purchase?
->
+
+Where are we losing people on the way to purchase?
+
 >[!ENDSHADEBOX]
 
 **Coworker Chat response:**
@@ -183,9 +183,9 @@ Here's where you're losing people:
 **You:**
 
 >[!BEGINSHADEBOX]
->
->Okay, let's break down by marketing channel
->
+
+Okay, let's break down by marketing channel
+
 >[!ENDSHADEBOX]
 
 **Coworker Chat response:**
@@ -234,9 +234,9 @@ The marketing channels are doing their job — they're all getting people intere
 **You:**
 
 >[!BEGINSHADEBOX]
->
->Interesting. Let's try breaking down by device type.
->
+
+Interesting. Let's try breaking down by device type.
+
 >[!ENDSHADEBOX]
 
 **Coworker Chat response:**
@@ -293,20 +293,20 @@ The data pattern (equal engagement, catastrophic checkout drop) is a classic sig
 **You:**
 
 >[!BEGINSHADEBOX]
->
->So what should I do?
->
+
+So what should I do?
+
 >[!ENDSHADEBOX]
 
 **Coworker Chat response:**
 
 >[!BEGINSHADEBOX]
->
->Based on what the data shows, here's where I'd focus:
->
->* **Fix the mobile checkout — it's not a channel problem.** Every channel is converting people into the cart at a similar, healthy rate, so the ad spend is working across the board. The revenue is being lost specifically in the mobile checkout flow, which is where the fix belongs.
->* **Start with payment and form friction.** These are the most common reasons high-intent mobile shoppers abandon a cart. Offering mobile wallet options and shortening the form are usually the fastest wins.
->* **Re-check after the fix.** Once checkout changes ship, watch whether mobile's cart-to-purchase rate moves toward the desktop rate of 23.2%.
+
+Based on what the data shows, here's where I'd focus:
+
+* **Fix the mobile checkout — it's not a channel problem.** Every channel is converting people into the cart at a similar, healthy rate, so the ad spend is working across the board. The revenue is being lost specifically in the mobile checkout flow, which is where the fix belongs.
+* **Start with payment and form friction.** These are the most common reasons high-intent mobile shoppers abandon a cart. Offering mobile wallet options and shortening the form are usually the fastest wins.
+* **Re-check after the fix.** Once checkout changes ship, watch whether mobile's cart-to-purchase rate moves toward the desktop rate of 23.2%.
 
 Want me to save this as a project so you can track it, or set an alert if mobile cart-to-purchase drops below a threshold?
 
