@@ -28,7 +28,7 @@ topic_v2:
 ---
 # AI in CX Enterprise
 
-This guide covers the AI capabilities available across Adobe CX Enterprise applications: generative AI and AI Assistant for product knowledge and operational insights, Agent Orchestrator and Experience Platform Agents for automating jobs, CX Enterprise Coworker for a fully conversational, agent-first experience, and MCP for connecting your own AI tools to CX Enterprise data.
+This guide covers AI capabilities in Adobe CX Enterprise: generative AI, AI Assistant, Agent Orchestrator, Experience Platform Agents, CX Enterprise Coworker, and MCP.
 
 ## AI capabilities overview
 
@@ -37,14 +37,14 @@ Start here for a primer on where and how AI is used across CX Enterprise:
 - [Generative AI](./overview/generative-ai.md) describes which CX Enterprise applications support generative AI and AI Assistant, and how they compare.
 - [Agentic AI](./overview/agentic-ai.md) explains how Experience Platform Agents work in both existing CX Enterprise applications and AI-first applications, and lists the agents available in each.
 - [Agentic AI monitoring](./overview/monitoring.md) covers the dashboards that track agent adoption, usage, feedback, and AI Credit consumption.
-- [Agent jobs and AI credit consumption](./overview/ai-credit-consumption.md) explains how AI Credits are consumed by agent jobs, with estimated consumption rates by agent and job type.
-- [CX Enterprise Agentic Tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview) covers additional agentic skills and tooling that extend CX Enterprise agents.
+- [Agent jobs and AI credit consumption](./overview/ai-credit-consumption.md) explains how agent jobs consume AI Credits, with estimated consumption rates by agent and job type.
+- [CX Enterprise agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview) cover additional agentic skills and tooling that extend CX Enterprise agents (video tutorials).
 
 ## AI Assistant
 
 [AI Assistant](./ai-assistant/ai-assistant-ui.md) is a conversational, generative AI tool available in Adobe Experience Platform-based applications. Use it to gain product knowledge, troubleshoot problems, find operational insights, and access Experience Platform Agents, all through natural language prompts in a full-screen or rail view interface.
 
-Read the [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md) to learn how to navigate the interface, and the [prompt library](./ai-assistant/prompt-library.md) for example prompts by agent.
+To learn how to navigate the interface, read the [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md). To see example prompts by agent, see the [prompt library](./ai-assistant/prompt-library.md).
 
 ## Agent Orchestrator and Experience Platform agents
 
@@ -66,10 +66,10 @@ For the full list of agents, the applications each supports, and eligibility req
 
 ## CX Enterprise Coworker
 
-CX Enterprise Coworker is an agent-first evolution of AI Assistant that automates customer experience and marketing workflows, so your team can focus on business goals instead of routine execution. Instead of asking one question at a time, you describe a goal in natural language, and Coworker plans the work, executes it across your Adobe and connected systems, validates the results, and returns the finished work for your approval. Coworker includes:
+CX Enterprise Coworker is an agent-first evolution of AI Assistant that automates customer experience and marketing workflows, so your team can focus on business goals instead of routine execution. Instead of asking one question at a time, you describe a goal. Coworker plans, executes, validates, and returns the finished work for your approval. Coworker includes:
 
-- **[Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**: A conversational interface for exploring your data, validating audiences and journeys, and completing multi-step tasks across CX Enterprise applications.
-- **[Coworker Campaigns](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**: An AI-native application that consolidates campaign briefing, audience building, content generation, journey design, and proofing into a single conversational experience, using built-in templates, best practices, and prompting guidance so small, agile teams can launch campaigns quickly.
+- **[Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: A conversational interface for exploring your data, validating audiences and journeys, and completing multi-step tasks across CX Enterprise applications.
+- **[Coworker Campaigns](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: An AI-native application that consolidates campaign briefing, audience building, content generation, journey design, and proofing into a single conversational experience. It uses built-in templates, best practices, and prompting guidance to help small, agile teams launch campaigns quickly.
 - **Coworker Projects** (coming soon): A unified workspace for automating end-to-end customer experience orchestration workflows, helping teams coordinate tasks, approvals, and execution to drive outcomes from strategy through delivery. Documentation for Projects is coming soon.
 
 Eligible customers are gradually being transitioned from AI Assistant and Experience Platform Agents to Coworker Chat. Read [CX Enterprise Coworker Trial](./agents/trial.md) to learn about trial eligibility, AI Credit usage, and how to get access.
@@ -80,7 +80,7 @@ For full product documentation on Coworker Chat, Campaigns, and Projects, see [A
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use, including Real-Time CDP, Experience Platform, Journey Optimizer, Customer Journey Analytics, Adobe Analytics, and Workfront.
+[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use. These tools include [!DNL Real-Time CDP], [!DNL Experience Platform], [!DNL Journey Optimizer], [!DNL Customer Journey Analytics], [!DNL Adobe Analytics], and [!DNL Workfront].
 
 New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected.
 
@@ -92,7 +92,7 @@ Your Adobe Admin must grant the appropriate permissions before you can use AI As
 
 ### Privacy and security
 
-AI Assistant and Experience Platform Agents are built with privacy, security, and governance at the forefront, including sandbox-specific data isolation and honoring your existing access control policies. For full details, read [Privacy, security, and governance in AI Assistant](./ai-assistant/privacy.md).
+AI Assistant and Experience Platform Agents prioritize privacy, security, and governance, including sandbox-specific data isolation and your existing access control policies. For full details, read [Privacy, security, and governance in AI Assistant](./ai-assistant/privacy.md).
 
 ## Best practices
 
@@ -106,5 +106,5 @@ To get the most value from your AI Assistant or Coworker experience, follow thes
 
 ## Legal considerations
 
-AI Assistant currently supports responses in English only, and language models may occasionally make mistakes. Always verify the information provided, and use the reasoning steps included in each response to understand how it was generated. For full details, read the [legal disclaimer](./ai-assistant/legal-disclaimer.md).
+AI Assistant currently supports responses in English only, and language models occasionally make mistakes. Always verify the information provided, and use the reasoning steps included in each response to understand how it was generated. For full details, read the [legal disclaimer](./ai-assistant/legal-disclaimer.md).
 
