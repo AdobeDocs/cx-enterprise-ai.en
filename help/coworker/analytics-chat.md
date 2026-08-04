@@ -66,7 +66,7 @@ Tell Coworker the types of questions you want answered, and ask it which data vi
 
 >[!BEGINSHADEBOX]
 
-I'm interested in learning where customers drop off in the customer journey. Which data views in Customer Journey Analytics do I have access to that would be able to answer this question for me?
+I'm interested in learning where customers drop off in the customer journey. Which data views in Customer Journey Analytics do I have access to that would be able to answer this question for me? 
 
 >[!ENDSHADEBOX]
 
@@ -150,7 +150,7 @@ Where are we losing people on the way to purchase?
 
 **Coworker Chat response:**
 
-Notice that Coworker Chat chooses the right visualization, sequences the touchpoints, and even adds recommended next steps.
+Notice that Coworker Chat chooses the right visualization, sequences the touchpoints, and even adds recommended next steps. 
 
 >[!BEGINSHADEBOX]
 
