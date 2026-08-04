@@ -13,7 +13,7 @@ role: Admin,User,Developer,Leader
 - About AI in CX Enterprise {#overview}
   - [Generative AI](./overview/generative-ai.md)
   - [Agentic AI](./overview/agentic-ai.md)
-  - [Agentic AI monitoring](./overview/monitoring.md)
+  - [Agentic AI Monitoring](./overview/monitoring.md)
   - [Agent jobs and AI credit consumption](./overview/ai-credit-consumption.md)
   - [Agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - AI Assistant {#ai-assistant}
