@@ -1,10 +1,10 @@
 ---
-description: Learn about feature enhancements and fixes in the Adobe CX Enterprise Coworker Campaigns release notes.
-title: Adobe CX Enterprise Coworker Campaigns release notes
+description: Learn about feature enhancements and fixes in the Adobe Coworker Campaigns release notes.
+title: Adobe Coworker Campaigns release notes
 ---
-# Adobe CX Enterprise Coworker Campaigns release notes {#release-notes}
+# Adobe Coworker Campaigns release notes {#release-notes}
 
-Adobe CX Enterprise Coworker Campaigns releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
+Coworker Campaigns releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
 
 ## July 2026 {#july-2026}
 
@@ -124,7 +124,7 @@ Adobe CX Enterprise Coworker Campaigns releases operate on a continuous delivery
 
 **Release date: June 10, 2026**
 
-* The app is now CX Enterprise Coworker Campaigns with updated naming throughout
+* The app is now Coworker Campaigns with updated naming throughout
 * A first-time onboarding tour walks you through building a demo brand
 * Launch campaigns from a dedicated dialog when your plan is ready to go
 * Connect HubSpot with an API key from the integrations catalog
