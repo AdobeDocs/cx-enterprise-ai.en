@@ -8,7 +8,7 @@ description: Learn how Analytics admins use the CX Enterprise Coworker data vali
 > 
 >Follow the steps on this page only after you complete all previous upgrade steps. You can follow the recommended upgrade steps (recommended for most organizations), or you can follow steps that are dynamically generated for your organization with the Customer Journey Analytics Upgrade Guide. <ul><li>**Recommended upgrade steps** (Recommended for most organizations)<p>A set of steps that lead to an ideal Customer Journey Analytics implementation.</p><p>For detailed information, see [Upgrade from Adobe Analytics to Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Customer Journey Analytics Upgrade Guide** (Custom steps tailored to the specific needs of your organization)<p>A new upgrade guide is available that dynamically generates upgrade steps that are tailored for your organization and your unique circumstances.</p><p>To access the guide from Customer Journey Analytics, select the **[!UICONTROL Workspace]** tab, then select **[!UICONTROL Upgrade to Customer Journey Analytics]** in the left panel. Follow the on-screen instructions.</p></li></ul>
 
-CX Enterprise Coworker includes a validation skill that allows you to validate data when upgrading from Adobe Analytics to Customer Journey Analytics. Data validation is completed within a single conversation.
+Coworker includes a validation skill that allows you to validate data when upgrading from Adobe Analytics to Customer Journey Analytics. Data validation is completed within a single conversation.
 
 This skill automatically compares:
 
@@ -95,7 +95,7 @@ You can validate individual metrics or dimensions, or you can validate all metri
 
 1. Select the [!UICONTROL **Key insights**] tab to view two to four short callout boxes, each summarizing one finding from the analysis in a single sentence. 
 
-   Callouts are color-coded by severity so you can spot the most important findings first.
+   Callouts are color-coded by severity so you can identify the most important findings first.
 
 1. Select the [!UICONTROL **Summary**] tab to view the following information:
 
@@ -107,7 +107,7 @@ You can validate individual metrics or dimensions, or you can validate all metri
    
    * Days passing
 
-     Reflects how many days in the date range fall into the [!UICONTROL **Pass**] variance statuse described below.
+     Reflects how many days in the date range fall into the [!UICONTROL **Pass**] variance status described below.
    
    * Days critical
 
@@ -155,7 +155,7 @@ You can validate individual metrics or dimensions, or you can validate all metri
    
    * Tables listing the top five best-matching and top five lowest-matching metrics and dimensions
 
-1. Scroll down in the analysis to view additional patterns and issues that were discovered during the analysis, likely causes for those patterns, and suggested actions that you can take to resolve any data discrepancies. 
+1. Scroll down in the analysis to view additional patterns and issues discovered during the analysis, likely causes for those patterns, and suggested actions to resolve any data discrepancies. 
 
    >[!NOTE]
    >
