@@ -1,6 +1,6 @@
 ---
 title: AI in CX Enterprise Applications
-description: Learn how CX Enterprise applications use generative AI (GenAI), AI Assistant, agentic AI, Adobe Coworker, and MCP tools.
+description: Learn how CX Enterprise applications use generative AI (GenAI), AI Assistant, agentic AI, CX Enterprise Coworker, and MCP tools.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -28,7 +28,7 @@ topic_v2:
 ---
 # AI in CX Enterprise
 
-This guide covers AI capabilities in Adobe CX Enterprise: generative AI, AI Assistant, Agent Orchestrator, Experience Platform Agents, Adobe Coworker, and MCP.
+This guide covers AI capabilities in Adobe CX Enterprise: generative AI, AI Assistant, Agent Orchestrator, Experience Platform Agents, CX Enterprise Coworker, and MCP.
 
 ## AI capabilities overview
 

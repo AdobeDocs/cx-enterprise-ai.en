@@ -1,6 +1,6 @@
 ---
-title: Adobe Coworker Trial
-description: Learn about the the complimentary trial for Adobe Coworker.
+title: CX Enterprise Coworker Trial
+description: Learn about the the complimentary trial for CX Enterprise Coworker.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -20,7 +20,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# Adobe Coworker Trial
+# CX Enterprise Coworker Trial
 
 >[!AVAILABILITY]
 >
