@@ -1,5 +1,5 @@
 ---
-description: A step-by-step guide to generating an email campaign in Adobe Coworker Campaigns, from writing prompts to reviewing and exporting your campaign.
+description: A step-by-step guide to generating an email campaign in Adobe CX Enterprise Coworker Campaigns, from writing prompts to reviewing and exporting your campaign.
 title: Create an email campaign
 ---
 # Create an email campaign {#create-an-email-campaign}
@@ -14,7 +14,7 @@ Learn how to generate and review complete email campaigns in minutes.
 
 Make sure you have:
 
-* An active Adobe Coworker Campaigns account ([sign up here](https://coworker-campaigns.experience.adobe.com/){target="_blank"} if you have not already).
+* An active Adobe CX Enterprise Coworker Campaigns account ([sign up here](https://coworker-campaigns.experience.adobe.com/){target="_blank"} if you have not already).
 
 * Your brand added under **Your stuff** > **Brands**.
 
