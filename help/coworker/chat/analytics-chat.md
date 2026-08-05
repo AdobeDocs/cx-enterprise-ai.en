@@ -11,7 +11,7 @@ You can use Coworker Chat in two ways, depending on how much analysis you need:
 * **Quick answers** - Ask a direct, plain-language question and get an immediate answer. Business users often use Coworker Chat this way, and analysts use it too when they need a fast answer for a stakeholder.
 * **Deep thought work** - Have an extended, multi-turn conversation with Coworker Chat to investigate a business problem, rule out causes, and arrive at a recommendation. Analysts typically use this approach to explore data in depth before making a recommendation.
 
-Before you begin your analysis, learn about the Coworker Chat interface and configuration options, then make sure Coworker is connected to Customer Journey Analytics and to the data view that contains the data you want to use.
+Before you begin, learn the Coworker Chat interface and configuration options, then ensure Coworker is connected to Customer Journey Analytics and the relevant data view.
 
 ## Get started with Coworker Chat
 
@@ -48,12 +48,14 @@ For more information, see the [Coworker Chat UI guide](/help/coworker/chat/ui-gu
 
 #### User-level best practices 
 
-* Use plan mode. This is especially useful for complex tasks, but can also yield better results for simple tasks because it allows Coworker to ask follow-up questions before acting. For more information, see [Plan mode](/help/coworker/chat/ui-guide.md#plan-mode).
+* Use plan mode. 
+
+  This mode is especially useful for complex tasks, but can also yield better results for simple tasks because it allows Coworker to ask follow-up questions before acting. For more information, see [Plan mode](/help/coworker/chat/ui-guide.md#plan-mode).
 
 * When creating a prompt, be as specific as possible:
 
   * Name the dimensions, metrics, and date range you want analyzed.
-  * Reference data view components, such as dimensions, metrics, and segments, by their exact name.
+  * Reference data view components by their exact name.
   * Specify any segments, audiences, channels, or devices you want included, excluded, or compared.
   * State whether you want a specific visualization type, such as a funnel, trend, or cohort table.
   * Ask for recommended next steps if you want Coworker Chat to suggest follow-up questions.
@@ -84,7 +86,7 @@ You might have access to various data views in Customer Journey Analytics, each 
 
 ### Decide which data views you want to use
 
-Tell Coworker the types of questions you want answered, and ask it which data views you have access to that would be best to provide that information. You can also [set your data view as a preference in memory](#add-a-data-view-preference-in-memory).
+Tell Coworker the types of questions you want answered, and ask it which data views you have access to that provide that information. You can also [set your data view as a preference in memory](#add-a-data-view-preference-in-memory).
 
 **You:**
 
@@ -130,7 +132,7 @@ Coworker Chat contains a memory feature that allows you to provide it with acces
 
 ## Analyze in Customer Journey Analytics
 
-After Coworker creates a visualization, you can open the visualization in Analysis Workspace in Customer Journey Analytics for deeper analysis with more granular control. The visualization opens in a new Analysis Workspace project in Customer Journey Analytics.
+After Coworker creates a visualization, you can open it in Analysis Workspace for deeper analysis and granular control. The visualization opens in a new Analysis Workspace project in Customer Journey Analytics.
 
 To open a visualization in a new Analysis Workspace project:
 
@@ -259,7 +261,7 @@ This skill (`cja-skill-creator`) turns an analysis you've already run into a reu
 
 #### Required permissions
 
-* Manage skills, to save a reusable skill
+* Manage skills
 
 #### Key use cases
 
@@ -484,7 +486,7 @@ Want me to save this as a project so you can track it, or set an alert if mobile
 
 >[!ENDSHADEBOX]
 
-### What just happened
+### What happened
 
 In four plain-language questions, Coworker helped us:
 

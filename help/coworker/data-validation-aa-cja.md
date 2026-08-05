@@ -8,7 +8,7 @@ description: Learn how Analytics admins use the CX Enterprise Coworker data vali
 > 
 >Follow the steps on this page only after you complete all previous upgrade steps. You can follow the recommended upgrade steps (recommended for most organizations), or you can follow steps that are dynamically generated for your organization with the Customer Journey Analytics Upgrade Guide. <ul><li>**Recommended upgrade steps** (Recommended for most organizations)<p>A set of steps that lead to an ideal Customer Journey Analytics implementation.</p><p>For detailed information, see [Upgrade from Adobe Analytics to Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Customer Journey Analytics Upgrade Guide** (Custom steps tailored to the specific needs of your organization)<p>A new upgrade guide is available that dynamically generates upgrade steps that are tailored for your organization and your unique circumstances.</p><p>To access the guide from Customer Journey Analytics, select the **[!UICONTROL Workspace]** tab, then select **[!UICONTROL Upgrade to Customer Journey Analytics]** in the left panel. Follow the on-screen instructions.</p></li></ul>
 
-CX Enterprise Coworker includes a validation skill that allows you to validate data when upgrading from Adobe Analytics to Customer Journey Analytics. Data validation is completed within a single conversation.
+Coworker includes a validation skill that allows you to validate data when upgrading from Adobe Analytics to Customer Journey Analytics. Data validation is completed within a single conversation.
 
 This skill automatically compares:
 
@@ -44,7 +44,9 @@ You don't need to know how your implementation is architected. The skill automat
 
    Your request is routed to the data validation skill, which starts an interactive setup process. 
 
-1. The setup process includes the questions in the table below. For each question, select an answer, then select [!UICONTROL **Submit**].
+1. For each question in the setup process, select an answer, then select [!UICONTROL **Submit**].
+
+   The setup process includes the questions in the table below. 
 
    >[!NOTE]
    >
@@ -56,7 +58,9 @@ You don't need to know how your implementation is architected. The skill automat
    | [!UICONTROL **Select your report suite**] <!--In the UI, recommend change to "Select your Adobe Analytics report suite"--> | This is the report suite in Adobe Analytics that contains the data that you want to validate against the Customer Journey Analytics data. |
    | [!UICONTROL **Select your Customer Journey Analytics data view**] | This is the data view in Customer Journey Analytics that contains the same data as the Adobe Analytics report suite that you selected. |
 
-1. Review the setup summary to confirm you're validating the right data before you continue. The summary includes the company, report suite, and data view you selected, along with a preview of the top metrics and dimensions in each system.
+1. Review the setup summary to confirm you're validating the right data before you continue. 
+
+   The summary includes the company, report suite, and data view you selected, along with a preview of the top metrics and dimensions in each system.
 
 1. Continue with the following section, [Choose the data to validate](#choose-the-data-to-validate).
 
@@ -76,7 +80,9 @@ You can validate individual metrics or dimensions, or you can validate all metri
 
 ## Review the analysis
 
-1. Select the [!UICONTROL **Overall matching rate**] tab to view a percentage that indicates how closely the data from the Adobe Analytics report suite matches that of the Customer Journey Analytics data view. This score always appears first, before any other results. It weighs every compared metric and dimension equally to ensure that high-volume metrics, such as page views, don't skew the score.
+1. Select the [!UICONTROL **Overall matching rate**] tab to view a percentage that indicates how closely the data from the Adobe Analytics report suite matches that of the Customer Journey Analytics data view. 
+
+   This score always appears first, before any other results. It weighs every compared metric and dimension equally to ensure that high-volume metrics, such as page views, don't skew the score.
 
    Use the following scale to interpret the score:
 
@@ -87,11 +93,27 @@ You can validate individual metrics or dimensions, or you can validate all metri
    | 75%–89% | ![Orange circle](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL Review] | Meaningful gaps exist. Investigate root causes before relying on Customer Journey Analytics data. |
    | Less than 75% | ![Red circle](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Poor] | Significant misalignment. Take immediate action before using Customer Journey Analytics data. |
 
-1. Select the [!UICONTROL **Key insights**] tab to view two to four short callout boxes, each summarizing one finding from the analysis in a single sentence. Callouts are color-coded by severity so you can spot the most important findings first.
+1. Select the [!UICONTROL **Key insights**] tab to view two to four short callout boxes, each summarizing one finding from the analysis in a single sentence. 
 
-1. Select the [!UICONTROL **Summary**] tab to view Adobe Analytics totals, Customer Journey Analytics totals, total variance, days passing, and days critical, where days passing and days critical reflect how many days in the date range fall into the [!UICONTROL **Pass**] and [!UICONTROL **Critical**] variance statuses described below.
+   Callouts are color-coded by severity so you can identify the most important findings first.
 
-1. (Conditional) When doing a single-dimension comparison or a single-metric comparison, you can view a side-by-side comparison of the Adobe Analytics data and the Customer Journey Analytics data in the [!UICONTROL **Daily trend**] tab.
+1. Select the [!UICONTROL **Summary**] tab to view the following information:
+
+   * Adobe Analytics totals
+   
+   * Customer Journey Analytics totals
+   
+   * Total variance
+   
+   * Days passing
+
+     Reflects how many days in the date range fall into the [!UICONTROL **Pass**] variance status described below.
+   
+   * Days critical
+
+     Reflects how many days in the date range fall into the [!UICONTROL **Critical**] variance status described below.
+
+1. (Conditional) When doing a single-dimension comparison or a single-metric comparison, select the [!UICONTROL **Daily trend**] tab to view a side-by-side comparison of the Adobe Analytics data and the Customer Journey Analytics data.
 
    For metrics, this is a line chart that compares the daily trend.
 
@@ -101,7 +123,17 @@ You can validate individual metrics or dimensions, or you can validate all metri
 
    ![Daily trend tab showing a horizontal bar chart](./assets/data-validation-aa-cja/trend-bar.png)
 
-1. (Conditional) When doing a single-dimension comparison or a single-metric comparison, you can view row-level detail in the [!UICONTROL **Date detail**] tab. This table lists the date, the Adobe Analytics value, the Customer Journey Analytics value, the variance percentage, and a status badge for each compared metric or dimension value.
+1. (Conditional) When doing a single-dimension comparison or a single-metric comparison, select the [!UICONTROL **Date detail**] tab to view the following information for each compared metric or dimension value: 
+
+   * Date
+   
+   * Adobe Analytics value
+   
+   * Customer Journey Analytics value
+   
+   * Variance percentage
+   
+   * Status badge 
 
    ![Date detail tab showing a table of variance percentages and status badges](./assets/data-validation-aa-cja/date-detail.png)
 
@@ -113,9 +145,17 @@ You can validate individual metrics or dimensions, or you can validate all metri
    | 3%–10% | ![Yellow warning triangle](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Flag] | Monitor the difference and investigate if it continues or worsens. |
    | Greater than 10% | ![Red circle](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Critical] | Investigate immediately. This usually points to a schema, ingestion, or mapping issue. |
 
-1. (Conditional) When running a full report suite and data view audit, the [!UICONTROL **Daily trend**] and [!UICONTROL **Daily detail**] tabs are replaced by a scorecard showing pass, flagged, and critical counts, along with separate tables listing the top five best-matching and top five lowest-matching metrics and dimensions.
+1. (Conditional) When running a full report suite and data view audit, select the [!UICONTROL **Scorecard**] tab to view the following information:
 
-1. Scroll down in the analysis to view additional patterns and issues that were discovered during the analysis, likely causes for those patterns, and suggested actions that you can take to resolve any data discrepancies. 
+   * Pass counts
+   
+   * Flagged counts
+   
+   * Critical counts
+   
+   * Tables listing the top five best-matching and top five lowest-matching metrics and dimensions
+
+1. Scroll down in the analysis to view additional patterns and issues discovered during the analysis, likely causes for those patterns, and suggested actions to resolve any data discrepancies. 
 
    >[!NOTE]
    >
@@ -133,7 +173,11 @@ You can validate individual metrics or dimensions, or you can validate all metri
 
 1. Verify that the suggested actions are valid, then resolve them in Adobe Experience Platform or Adobe Analytics.
 
-1. (Optional) Continue your analysis by analyzing another metric, analyzing another dimension, or by running another report of up to 40 metrics and 20 dimensions, as described in [Choose the data to validate](#choose-the-data-to-validate). You don't need to repeat the setup process to do this; your company, report suite, and data view selections carry forward throughout the conversation.
+1. (Optional) Continue your analysis by analyzing another metric, analyzing another dimension, or running another report of up to 40 metrics and 20 dimensions, as described in [Choose the data to validate](#choose-the-data-to-validate). 
 
-1. Continue following the [recommended upgrade steps](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) or the dynamically generated upgrade steps in the Customer Journey Analytics Upgrade Guide. To access the guide from Customer Journey Analytics, select the **[!UICONTROL Workspace]** tab, then select **[!UICONTROL Upgrade to Customer Journey Analytics]** in the left panel. Follow the on-screen instructions.
+   You don't need to repeat the setup process to do this; your company, report suite, and data view selections carry forward throughout the conversation.
+
+1. Continue following the [recommended upgrade steps](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) or the dynamically generated upgrade steps in the Customer Journey Analytics Upgrade Guide. 
+
+   To access the Customer Journey Analytics Upgrade Guide from Customer Journey Analytics, select the **[!UICONTROL Workspace]** tab, then select **[!UICONTROL Upgrade to Customer Journey Analytics]** in the left panel. Follow the on-screen instructions.
 
