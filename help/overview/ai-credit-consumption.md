@@ -26,7 +26,7 @@ An _AI credit_ is a usage-based metric that quantifies the execution of actions 
 
 ### CX Enterprise Coworker credit rate
 
-For a limited introductory period, Coworker inputs consume AI credits at a rate of 25 AI credits per Input. This rate is available for a limited time only and subject to change.
+For a limited introductory period, Coworker inputs consume AI credits at a rate of 25 AI credits per Input. This rate is available for a limited time only and is subject to change.
 
 ### AEP Agents credit rate
 
@@ -70,4 +70,4 @@ To see which AEP Agents and agent jobs are available in your licensed CX Enterpr
 
 * [GenAI in CX Enterprise](generative-ai.md)
 * [Agentic AI in CX Enterprise](agentic-ai.md)
-* [Adobe Experience Platform Agents usage-bound trial](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform Agents usage-bound trial](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
