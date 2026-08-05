@@ -21,8 +21,8 @@ An _AI credit_ is a usage-based metric that quantifies the execution of actions 
 
 ## Eligible services consuming AI credits
 
-* CX Enterprise Coworker
-* AEP Agents
+* [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [AEP Agents](#aep-agents-credit-rate)
 
 ### CX Enterprise Coworker credit rate
 
