@@ -27,7 +27,7 @@ Before you begin, ensure that you have:
 - Access to the objects that you want to discover or migrate.
 - The Adobe CXO plugin installed in CX Coworker.
 
-For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Use Sandbox Tooling Agentic Skills {#use-sandbox-tooling-agentic-skills}
 
@@ -56,7 +56,7 @@ To use Sandbox Tooling Agentic Skills:
 
 ![Transfer complete page showing the request status.](./assets/sandbox-tooling/transfer-complete.png)
 
-For more information about using CX Coworker, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+For more information about using CX Coworker, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Supported use cases {#supported-use-cases}
 
