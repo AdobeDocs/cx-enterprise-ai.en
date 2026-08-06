@@ -34,10 +34,10 @@ This guide covers AI capabilities in Adobe CX Enterprise: generative AI, AI Assi
 
 Start here for a primer on where and how AI is used across CX Enterprise:
 
-- [Generative AI](./overview/generative-ai.md) describes which CX Enterprise applications support generative AI and AI Assistant, and how they compare.
-- [Agentic AI](./overview/agentic-ai.md) explains how Experience Platform Agents work in both existing CX Enterprise applications and AI-first applications, and lists the agents available in each.
-- [Agentic AI monitoring](./overview/monitoring.md) covers the dashboards that track agent adoption, usage, feedback, and AI Credit consumption.
-- [Agent jobs and AI credit consumption](./overview/ai-credit-consumption.md) explains how agent jobs consume AI Credits, with estimated consumption rates by agent and job type.
+- [About generative AI](./overview/generative-ai.md) describes which CX Enterprise applications support generative AI and AI Assistant, and how they compare.
+- [About agentic AI](./overview/agentic-ai.md) explains how Experience Platform Agents work in both existing CX Enterprise applications and AI-first applications, and lists the agents available in each.
+- [AI monitoring](./overview/monitoring.md) covers the dashboards that track agent adoption, usage, feedback, and AI Credit consumption.
+- [AI credits consumption](./overview/ai-credit-consumption.md) explains how agent jobs consume AI Credits, with estimated consumption rates by agent and job type.
 - [CX Enterprise agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview) cover additional agentic skills and tooling that extend CX Enterprise agents (video tutorials).
 
 ## AI Assistant
