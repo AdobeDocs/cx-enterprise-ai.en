@@ -66,7 +66,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Generative AI in CX Enterprise
+# About generative AI in CX Enterprise
 
 Generative AI (genAI) in CX Enterprise helps you automate creative and cognitive tasks and enhance productivity. This page helps you understand where [!DNL CX Enterprise] applications support genAI and AI Assistant. It provides links to learn more about these features.
 
