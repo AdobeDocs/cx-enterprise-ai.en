@@ -74,7 +74,7 @@ Coworker is an agent-first evolution of AI Assistant that automates customer exp
 
 Eligible customers are gradually being transitioned from AI Assistant and Experience Platform Agents to Coworker Chat. Read [Coworker Trial](./agents/trial.md) to learn about trial eligibility, AI Credit usage, and how to get access.
 
-To see Coworker Chat in action, walk through [Coworker Chat in Playground](./coworker/playground-coworker-chat.md), or read real-world use cases such as [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md) and [Analyze CJA data](./coworker/chat/analytics-chat.md).
+To see Coworker Chat in action, walk through [Coworker Chat in Playground](./coworker/playground-coworker-chat.md), or read real-world use cases such as [Validate AA to CJA migration data](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md) and [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md).
 
 For full product documentation on Coworker Chat, Campaigns, and Projects, see [Coworker](./coworker/overview.md). For sandbox-to-sandbox object replication, see [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md).
 

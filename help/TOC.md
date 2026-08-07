@@ -60,9 +60,12 @@ role: Admin,User,Developer,Leader
     - [Release notes](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
-    - [Use cases](./coworker/chat/use-cases.md)
     - [UI guide](./coworker/chat/ui-guide.md)
-    - [Analyze CJA data](./coworker/chat/analytics-chat.md)
+    - Use cases {#use-cases}
+      - [Overview](./coworker/chat/use-cases/overview.md)
+      - Data Insights {#data-insights}
+        - [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Validate AA to CJA migration data](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Sandbox tooling {#sandbox-tooling}
+        - [Move objects across sandboxes](./agents/sandbox-tooling.md)
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
-  - [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md)
-  - [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)

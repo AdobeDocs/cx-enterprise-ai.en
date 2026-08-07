@@ -19,6 +19,8 @@ description: Learn how to use Sandbox Tooling Agentic Skills to replicate object
 
 Use Sandbox Tooling Agentic Skills to move object metadata—including schemas and audiences—across Adobe Experience Platform environments by describing what you want to accomplish in natural language. Using CX Coworker, you can discover the required metadata, automatically identify dependencies, create migration packages, and migrate objects through a conversational experience.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3496706?learn=on)
+
 ## Prerequisites {#prerequisites}
 
 Before you begin, ensure that you have:
