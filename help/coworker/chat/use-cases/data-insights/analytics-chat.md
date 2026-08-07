@@ -128,7 +128,7 @@ Coworker Chat contains a memory feature that allows you to provide it with acces
 
 1. On the Memory page, in the [!UICONTROL **Stored preferences**] section, specify one or more data views that you want Coworker Chat to use in your chats.
 
-   ![Memory section in the left rail](../.../../assets/coworker-memory.png)
+   ![Memory section in the left rail](../../assets/coworker-memory.png)
 
 ## Analyze in Customer Journey Analytics
 
@@ -146,7 +146,7 @@ To open a visualization in a new Analysis Workspace project:
 
 You can see Customer Journey Analytics use cases and sample prompts that practitioners are using in Adobe CX Enterprise Coworker Chat, from quick answers to deep thought work investigations. Each prompt is built to be copied, adapted with your own data and context, and refined through conversation.
 
-For more information, see [Use cases](/help/coworker/chat/use-cases.md).
+For more information, see [Use cases](/help/coworker/chat/use-cases/overview.md).
 
 ## Analytics skills
 
@@ -243,7 +243,7 @@ This skill (`aa-cja-validation`) compares, audits, and reconciles data between [
 
 | Use case | Function | Sample prompts |
 |---------|----------|---------|
-| **Validate data when upgrading from Adobe Analytics to Customer Journey Analytics** | Compare, audit, and reconcile data between [!DNL Adobe Analytics] and Customer Journey Analytics.<p>For more information, see [Validate data with Coworker when upgrading from Adobe Analytics to Customer Journey Analytics](/help/coworker/data-validation-aa-cja.md).</p> | <ul><li>"Compare my Adobe Analytics report suite to my Customer Journey Analytics data view"</li><li>"Validate page views between Adobe Analytics and Customer Journey Analytics"</li></ul> |
+| **Validate data when upgrading from Adobe Analytics to Customer Journey Analytics** | Compare, audit, and reconcile data between [!DNL Adobe Analytics] and Customer Journey Analytics.<p>For more information, see [Validate data with Coworker when upgrading from Adobe Analytics to Customer Journey Analytics](data-validation-aa-cja.md).</p> | <ul><li>"Compare my Adobe Analytics report suite to my Customer Journey Analytics data view"</li><li>"Validate page views between Adobe Analytics and Customer Journey Analytics"</li></ul> |
 
 #### In scope
 
