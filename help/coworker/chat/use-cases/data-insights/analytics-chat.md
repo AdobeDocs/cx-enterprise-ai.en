@@ -74,7 +74,7 @@ In Coworker Chat, verify that Coworker is connected to Customer Journey Analytic
 
 1. Select the MCP icon in the left rail, then make sure that [!UICONTROL **cja-mcp**] is available in your list of connected MCP servers.
 
-   ![The MCP icon highlighted in the Coworker left rail](./assets/coworker-mcp-cja.png)
+   ![The MCP icon highlighted in the Coworker left rail](../../assets/coworker-mcp-cja.png)
 
 1. (Conditional) If [!UICONTROL **cja-mcp**] is not yet connected, select [!UICONTROL **Add MCP Server**], specify cja in the [!UICONTROL **Server Name**] field and select it when it appears, then select [!UICONTROL **Add Server**].
 
@@ -128,7 +128,7 @@ Coworker Chat contains a memory feature that allows you to provide it with acces
 
 1. On the Memory page, in the [!UICONTROL **Stored preferences**] section, specify one or more data views that you want Coworker Chat to use in your chats.
 
-   ![Memory section in the left rail](./assets/coworker-memory.png)
+   ![Memory section in the left rail](../.../../assets/coworker-memory.png)
 
 ## Analyze in Customer Journey Analytics
 
@@ -317,7 +317,7 @@ Notice that Coworker Chat chooses the right visualization, sequences the touchpo
 
 >[!BEGINSHADEBOX]
 
-![Funnel table showing session counts, conversion rates, and drop-off at each step from sessions to purchase](./assets/coworker-funnel-response.png)
+![Funnel table showing session counts, conversion rates, and drop-off at each step from sessions to purchase](../../assets/coworker-funnel-response.png)
 
 This is a funnel question — let me run the conversion funnel to see where drop-off happens on the path to purchase.
 
@@ -366,7 +366,7 @@ Okay, let's break down by marketing channel
 
 >[!BEGINSHADEBOX]
 
-![Funnel table showing conversion rates and drop-off broken down by marketing channel](./assets/coworker-funnel-response2.png)
+![Funnel table showing conversion rates and drop-off broken down by marketing channel](../../assets/coworker-funnel-response2.png)
 
 There's a custom **Marketing Channel** dimension. Let me pull the funnel by that, then calculate the per-channel conversion rates and identify where each channel leaks.
 
@@ -417,7 +417,7 @@ Interesting. Let's try breaking down by device type.
 
 >[!BEGINSHADEBOX]
 
-![Funnel table showing conversion rates and drop-off broken down by device type](./assets/coworker-funnel-response3.png)
+![Funnel table showing conversion rates and drop-off broken down by device type](../../assets/coworker-funnel-response3.png)
 
 **Found it: mobile checkout is broken**
 
