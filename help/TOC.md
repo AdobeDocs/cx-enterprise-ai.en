@@ -1,8 +1,8 @@
 ---
 audience: user
-user-guide-title: AI Assistant in Adobe CX Enterprise
-user-guide-description: Learn how to use AI Assistant to expedite your workflow with Adobe Experience Platform and Real-Time Customer Data Platform.
-description: Learn about AI Assistant in CX Enterprise. Improve your product knowledge and gain operational insights using AI in CX Enterprise.
+user-guide-title: Coworker
+user-guide-description: Learn how to build, configure, integrate, and extend AI Assistant, Coworker, agents, and MCPs through practical documentation, implementation guidance, and reference materials.
+description: Learn about AI tools in CX Enterprise. Improve your product knowledge and gain operational insights using AI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 ---
