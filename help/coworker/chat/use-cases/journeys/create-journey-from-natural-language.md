@@ -1,5 +1,5 @@
 ---
-title: Adobe Journey Optimizer & Coworker - Generate Journeys with Natural Language
+title: Journey Optimizer & Coworker - Generate Journeys
 description: Learn how Coworker helps marketers create Adobe Journey Optimizer journeys using simple natural language prompts.
 feature: AI Tools
 role: User

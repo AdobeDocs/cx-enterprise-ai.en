@@ -1,6 +1,6 @@
 ---
 description: A step-by-step guide to generating an email campaign in Adobe CX Enterprise Coworker Campaigns, from writing prompts to reviewing and exporting your campaign.
-title: Create an email campaign
+title: Create an Email Campaign
 ---
 # Create an email campaign {#create-an-email-campaign}
 

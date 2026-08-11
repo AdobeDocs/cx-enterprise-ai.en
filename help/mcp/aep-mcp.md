@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Platform tools in CX Coworker Gateway
+title: Experience Platform Tools in CX Coworker Gateway
 description: Learn which Adobe Experience Platform tools are available through CX Coworker Gateway.
 ---
 
