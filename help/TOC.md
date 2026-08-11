@@ -62,15 +62,15 @@ role: Admin,User,Developer,Leader
     - [Overview](./coworker/chat/overview.md)
     - [UI guide](./coworker/chat/ui-guide.md)
     - Use cases {#use-cases}
-      - [Overview](./coworker/chat/use-cases/overview.md)
+      - [Coworker Chat use cases](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
         - [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [Root cause analysis](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [Validate AA to CJA migration data](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
+        - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
       - Audiences {#audiences}
-        - [Create audiences using natural language](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+        - [Assess platform health and build audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Journeys {#journeys}
         - [Create journeys using natural language](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - Sandbox tooling {#sandbox-tooling}
-        - [Move objects across sandboxes](./agents/sandbox-tooling.md)
+        - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
