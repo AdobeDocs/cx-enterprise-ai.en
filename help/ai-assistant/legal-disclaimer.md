@@ -1,5 +1,5 @@
 ---
-title: Legal Disclaimer - Personal Data, Language Support, and Verifying Responses
+title: Legal Disclaimer - Personal Data, Language, and Responses
 description: Learn about legal disclaimers regarding personal data, language support, and verifying responses when using AI Assistant.
 TQID: https://experienceleague.adobe.com/yfjRu87Nfi1tYchKcfUY79g-13A319iW6g8splURndw
 product_v2:

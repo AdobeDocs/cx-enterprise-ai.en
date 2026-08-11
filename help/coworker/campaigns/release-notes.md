@@ -1,6 +1,6 @@
 ---
 description: Learn about feature enhancements and fixes in the Adobe CX Enterprise Coworker Campaigns release notes.
-title: Adobe CX Enterprise Coworker Campaigns release notes
+title: CX Enterprise Coworker Campaigns Release Notes
 ---
 # Adobe CX Enterprise Coworker Campaigns release notes {#release-notes}
 

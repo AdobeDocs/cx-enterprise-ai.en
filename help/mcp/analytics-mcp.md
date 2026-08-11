@@ -1,5 +1,5 @@
 ---
-title: Adobe Analytics tools in Adobe CX Coworker Gateway
+title: Adobe Analytics Tools in CX Coworker Gateway
 description: Learn which Adobe Analytics tools are available through Adobe CX Coworker Gateway.
 ---
 # Adobe Analytics tools in Adobe CX Coworker Gateway {#aa-mcp}

@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics & Coworker - Explore Trends and Root Causes with Natural Language
+title: Customer Journey Analytics & Coworker - Root Cause Analysis
 description: Learn how Coworker answers analytics questions in natural language, visualize trends, uncover patterns, and perform root cause analysis without manual queries.
 feature: AI Tools
 role: User

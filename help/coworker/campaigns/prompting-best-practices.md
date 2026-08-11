@@ -1,6 +1,6 @@
 ---
 description: Learn Coworker Campaigns prompting best practices - the CO-STAR framework, do's and don'ts, unsupported content, and a quality checklist for prompts.
-title: Prompting best practices
+title: Prompting Best Practices
 ---
 # Prompting best practices {#best-practices}
 
