@@ -57,6 +57,9 @@ dummy: true
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
     - [Use cases](./coworker/campaigns/use-cases.md)
     - [Prompting best practices](./coworker/campaigns/prompting-best-practices.md)
+    - Connectors {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Release notes](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)

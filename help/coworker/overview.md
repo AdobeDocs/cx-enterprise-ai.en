@@ -14,6 +14,11 @@ Coworker Campaigns is a templatized feature for small agile teams to stand up an
 * [Create an email campaign](./campaigns/create-an-email-campaign.md)
 * [Use cases](./campaigns/use-cases.md)
 * [Prompting best practices](./campaigns/prompting-best-practices.md)
+<!--
+broken links
+* [Connect to Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+* [Connect to Hubspot](./coworker/campaigns/connectors/hubspot.md) 
+-->
 
 ## Chat
 
@@ -23,6 +28,6 @@ Coworker Chat enables teams to automate Adobe product tasks using natural langua
 * [Use cases](./chat/use-cases/overview.md)
 * [UI guide](./chat/ui-guide.md)
 
-## Projects (docs coming soon)
+## Projects (coming soon)
 
 Coworker Projects is a unified workspace for automating end-to-end customer experience orchestration workflows, helping teams coordinate tasks, approvals, and execution to drive outcomes from strategy through delivery.
