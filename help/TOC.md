@@ -71,6 +71,7 @@ dummy: true
         - [Assess platform health and build audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Journeys {#journeys}
         - [Create journeys using natural language](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+        - [Create a loyalty challenge and surface insights](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Sandbox tooling {#sandbox-tooling}
         - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
