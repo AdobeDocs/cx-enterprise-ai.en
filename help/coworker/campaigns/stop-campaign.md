@@ -6,14 +6,10 @@ title: Stop a campaign
 
 Users can now stop a campaign that is actively sending (a "live" campaign) directly from the campaign detail page. Stopping a campaign is permanent: recipients stop progressing through the campaign immediately, and the campaign cannot be resumed or restarted afterward.
 
----
-
 ## Prerequisites
 
 - The campaign must be in a live (actively sending) state. The Stop action is not available for draft, scheduled, or already-stopped campaigns.
 - [NEEDS INPUT — to confirm with engineer: does stopping a campaign require a specific role or permission, or can any user with campaign access do this?]
-
----
 
 ## What this feature does
 
@@ -27,8 +23,6 @@ A "Stop Campaign" action appears in the campaign detail header whenever a campai
 - After stopping, the campaign's status badge updates to "Stopped."
 - If the stop request fails, an error message is shown and the campaign remains live.
 
----
-
 ## How to use it
 
 1. Open a campaign that is currently live (actively sending).
@@ -41,8 +35,6 @@ A "Stop Campaign" action appears in the campaign detail header whenever a campai
 
 Not applicable — this feature is a single confirmation action with no input fields.
 
----
-
 ## UI callouts
 
 > **Tech writer note**: Screenshots needed for the following:
@@ -51,8 +43,6 @@ Not applicable — this feature is a single confirmation action with no input fi
 - [ ] The confirmation dialog with the permanence warning
 - [ ] The "Stopped" status badge after a successful stop
 - [ ] The error message shown if stopping fails
-
----
 
 ## What this feature does not do
 

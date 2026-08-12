@@ -25,8 +25,6 @@ When a user launches a campaign, they choose one of three schedule modes, then c
 - Recurring campaigns can be set to run indefinitely ("Never" end) or until a specific end date. One-time and immediate campaigns don't have an end date option, since they run once.
 - Users can edit the schedule of a campaign that has already been launched or scheduled, using the same schedule options, from the campaign's settings.
 
----
-
 ## How to use it
 
 **To schedule a campaign at launch:**
@@ -58,8 +56,6 @@ When a user launches a campaign, they choose one of three schedule modes, then c
 | Day of month | Which day of the month the campaign repeats on | Yes, for Monthly frequency |
 | End campaign | Never, or on a specific end date | Yes, for Recurring |
 
----
-
 ## UI callouts
 
 > **Tech writer note**: Screenshots needed for the following:
@@ -71,8 +67,6 @@ When a user launches a campaign, they choose one of three schedule modes, then c
 - [ ] The "Scheduled" status badge on a campaign awaiting its start time
 - [ ] The "Live" status badge with a recurrence summary (e.g. "Weekly on Tue, Thu at 9:00 AM")
 - [ ] The schedule section in campaign settings, showing the edit entry point
-
----
 
 ## What this feature does not do
 
