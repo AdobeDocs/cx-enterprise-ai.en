@@ -29,8 +29,6 @@ Clicking an email card on the campaign board opens the email editor as a side pa
 - "Send test email" sends a real preview to the user's own inbox using sample data; it doesn't affect campaign reporting.
 - An email-client compatibility check is available in some environments, covering Gmail, Outlook, Apple Mail, Yahoo Mail, Samsung Email, and Thunderbird. [NEEDS INPUT — this is behind a feature flag; confirm whether it's enabled for the target audience before documenting it as generally available]
 
----
-
 ## How to access
 
 1. Open the desired campaign and click Open editor in the email card.
@@ -38,11 +36,11 @@ Clicking an email card on the campaign board opens the email editor as a side pa
 SCREENSHOT
 
 1. Edit the **Subject** and **Preheader** fields directly, or click **Smart suggestions** next to either for AI-generated alternatives.
-3. Click into the email body to select a text block or image, then use the floating toolbar that appears to format the text or manage the image.
-4. Use **Switch HTML Template** to replace the email body with a different template.
-5. Use **Send test email**, enter a recipient address, and click **Send** to email a live preview to that address.
-6. Use the version history icon to preview and restore an earlier saved version.
-7. Changes save automatically — no manual save step is required.
+1. Click into the email body to select a text block or image, then use the floating toolbar that appears to format the text or manage the image.
+1. Use **Switch HTML Template** to replace the email body with a different template.
+1. Use **Send test email**, enter a recipient address, and click **Send** to email a live preview to that address.
+1. Use the version history icon to preview and restore an earlier saved version.
+1. Changes save automatically — no manual save step is required.
 
 ### Input fields / parameters
 
@@ -51,8 +49,6 @@ SCREENSHOT
 | Subject | The email's subject line | No (can be left blank; not currently enforced) |
 | Preheader | The preview text shown next to the subject in an inbox | No |
 | Recipient email address | Where to send a test email | Yes, for Send test email |
-
----
 
 ## UI callouts
 
@@ -66,8 +62,6 @@ SCREENSHOT
 - [ ] The "Switch HTML Template" dialog
 - [ ] The Send test email dialog
 - [ ] The email-client compatibility checker (if enabled in the target environment)
-
----
 
 ## What this feature does not do
 

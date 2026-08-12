@@ -26,7 +26,7 @@ When a user launches a campaign, Halo first validates that the campaign is ready
 - On success, the campaign's status updates to "Scheduled" or "Live" (depending on the chosen schedule), and a confirmation message notes that campaign insights will be available within 2 hours.
 - If the campaign was already launched (for example, from a duplicate click), Halo shows an "already launched" message rather than an error.
 - If launch fails, an error message appears and the campaign stays in Draft; the user can try again.
-- Once a campaign is stopped (see [Stop a live campaign](./stop-live-campaign.md)), it can't be relaunched from the same campaign record — stopping is a separate, permanent state.
+- Once a campaign is stopped <!--(see [Stop a live campaign](./stop-live-campaign.md))-->, it can't be relaunched from the same campaign record — stopping is a separate, permanent state.
 
 ## How to access
 
@@ -42,9 +42,11 @@ When a user launches a campaign, Halo first validates that the campaign is ready
 4. Review the schedule shown in the dialog. To change it, use the schedule options described in [Schedule when a campaign launches](/help/coworker/campaigns/schedule-campaign.md), then save.
 5. Confirm to launch. On success, a confirmation message appears and the campaign's status updates (to "Scheduled" or "Live").
 
-<!-- ## Input fields / parameters
+<!-- 
+## Input fields / parameters
 
-Not applicable beyond the schedule fields already documented in [Schedule when a campaign launches](/help/coworker/campaigns/schedule-campaign.md) — launching itself doesn't require any additional input. -->
+Not applicable beyond the schedule fields already documented in [Schedule when a campaign launches](/help/coworker/campaigns/schedule-campaign.md) — launching itself doesn't require any additional input. 
+-->
 
 ## UI callouts
 
@@ -58,11 +60,9 @@ Not applicable beyond the schedule fields already documented in [Schedule when a
 - [ ] The "already launched" message
 - [ ] The generic launch-failure error message
 
----
-
 ## What this feature does not do
 
 - It doesn't let a campaign launch with a sample (non-real) audience, untested emails, or unconfigured sending settings — all three must be resolved first.
 - Launching doesn't accept a schedule as part of the same action; the schedule is saved separately (from within the same dialog) before or as part of confirming launch.
-- It doesn't support relaunching a campaign that's been stopped — stopping is permanent (see [Stop a live campaign](./stop-live-campaign.md)).
+- It doesn't support relaunching a campaign that's been stopped — stopping is permanent <!--(see [Stop a live campaign](./stop-live-campaign.md))-->.
 - [NEEDS INPUT — to confirm with engineer/PM: for some users, Launch may be replaced by a "coming soon" experience offering only a campaign download (PDF/DOCX) or a proof email send, without in-app self-serve launch. Confirm the audience this applies to before publishing, since it changes the how-to steps for that cohort.]
