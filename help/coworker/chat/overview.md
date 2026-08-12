@@ -33,6 +33,19 @@ If you have used AI Assistant and Adobe Experience Platform Agent Orchestrator, 
 >
 >Interface screenshots will be added as the experience is finalized.
 
+## Compatible CX Enterprise applications
+
+The following CX Enterprise applications are compatible with Coworker Chat:
+
+* Real-Time CDP B2C Edition
+* Adobe Journey Optimizer B2C Edition
+* Customer Journey Analytics B2C edition
+* _AEM (coming soon)_
+* _Workfront (coming soon)_
+* _Real-Time CDP B2B Edition (coming soon)_
+* _Adobe Journey Optimizer B2B Edition (coming soon)_
+* _Customer Journey Analytics B2B edition (coming soon)_
+
 ## Building blocks
 
 Coworker Chat is powered by the Coworker building blocks. The following building blocks are available today.
