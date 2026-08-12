@@ -1,5 +1,5 @@
 ---
-title: Access CX Coworker Gateway tools
+title: Access CX Coworker Gateway Tools
 description: Confirm product availability, organization enablement, and permissions before using Adobe CX Coworker Gateway tools.
 ---
 # Access CX Coworker Gateway tools {#mcp-access}

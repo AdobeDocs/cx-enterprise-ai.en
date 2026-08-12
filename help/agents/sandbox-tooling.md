@@ -7,7 +7,7 @@ description: Learn how to use Sandbox Tooling Agentic Skills to replicate object
 
 >[!AVAILABILITY]
 >
->Sandbox Tooling Agentic Skills are available to all customers with access to Adobe Coworker. To use all available features, you need the following permissions:
+>Sandbox Tooling Agentic Skills are available to all customers with access to Adobe CX Enterprise Coworker. To use all available features, you need the following permissions:
 >
 >**Manage-sandbox** or **View-sandbox**: These permissions let you use Sandbox Tooling Agentic Skills to view sandboxes directly in Coworker.
 >
@@ -17,7 +17,9 @@ description: Learn how to use Sandbox Tooling Agentic Skills to replicate object
 >
 >You can currently use Sandbox Tooling Agentic Skills to discover, package, and migrate schema and audience objects. Support for additional object types will be added in future releases.
 
-Use Sandbox Tooling Agentic Skills to move object metadata—including schemas and audiences—across Adobe Experience Platform environments by describing what you want to accomplish in natural language. Using Coworker, you can discover the required metadata, automatically identify dependencies, create migration packages, and migrate objects through a conversational experience.
+Use Sandbox Tooling Agentic Skills to move object metadata—including schemas and audiences—across Adobe Experience Platform environments by describing what you want to accomplish in natural language. Using CX Coworker, you can discover the required metadata, automatically identify dependencies, create migration packages, and migrate objects through a conversational experience.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496706?learn=on)
 
 ## Prerequisites {#prerequisites}
 
@@ -25,13 +27,13 @@ Before you begin, ensure that you have:
 
 - Access to Adobe Experience Platform and the appropriate organization and sandbox.
 - Access to the objects that you want to discover or migrate.
-- The Adobe CXO plugin installed in Coworker.
+- The Adobe CXO plugin installed in CX Coworker.
 
-For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Use Sandbox Tooling Agentic Skills {#use-sandbox-tooling-agentic-skills}
 
-Interact with Sandbox Tooling Agentic Skills through Coworker using natural language. Describe your goal as clearly as possible. Specific requests produce the best results, while vague or overly brief prompts may return lower-quality results or may not invoke the agent.
+Interact with Sandbox Tooling Agentic Skills through CX Coworker using natural language. Describe your goal as clearly as possible. Specific requests produce the best results, while vague or overly brief prompts may return lower-quality results or may not invoke the agent.
 
 To use Sandbox Tooling Agentic Skills:
 
@@ -56,7 +58,7 @@ To use Sandbox Tooling Agentic Skills:
 
 ![Transfer complete page showing the request status.](./assets/sandbox-tooling/transfer-complete.png)
 
-For more information about using Coworker, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
+For more information about using CX Coworker, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Supported use cases {#supported-use-cases}
 
@@ -66,7 +68,7 @@ Explore common ways to use Sandbox Tooling Agentic Skills to simplify sandbox ma
 
 As a sandbox administrator managing multiple Adobe Experience Platform sandboxes, you can migrate object metadata using natural-language requests instead of manually navigating the user interface.
 
-Using Coworker, you can migrate object metadata—including schemas, audiences, and related configuration assets—from one sandbox to another by describing the migration in natural language. Sandbox Tooling Agentic Skills automatically identify and package the required dependencies, helping ensure a reliable migration.
+Using CX Coworker, you can migrate object metadata—including schemas, audiences, and related configuration assets—from one sandbox to another by describing the migration in natural language. Sandbox Tooling Agentic Skills automatically identify and package the required dependencies, helping ensure a reliable migration.
 
 For example:
 

@@ -1,6 +1,6 @@
 ---
 description: A reference guide to the Coworker Chat interface, covering navigation, the input box, responses, chat history, and configuring Skills, MCP servers, and Memory.
-title: UI Guide
+title: Coworker Chat UI Guide
 ---
 # UI guide {#ui-guide}
 

@@ -14,7 +14,7 @@ feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
 ---
-# Agentic AI in Adobe CX Enterprise
+# About Agentic AI in Adobe CX Enterprise
 
 Adobe [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/home) powers agentic AI capabilities in CX Enterprise applications.
 

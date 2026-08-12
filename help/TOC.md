@@ -1,20 +1,21 @@
 ---
 audience: user
-user-guide-title: AI Assistant in Adobe CX Enterprise
-user-guide-description: Learn how to use AI Assistant to expedite your workflow with Adobe Experience Platform and Real-Time Customer Data Platform.
-description: Learn about AI Assistant in CX Enterprise. Improve your product knowledge and gain operational insights using AI in CX Enterprise.
+user-guide-title: Coworker
+user-guide-description: Learn how to build, configure, integrate, and extend AI Assistant, Coworker, agents, and MCPs through practical documentation, implementation guidance, and reference materials.
+description: Learn about AI tools in CX Enterprise. Improve your product knowledge and gain operational insights using AI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
+dummy: true
 ---
 
 # AI in CX Enterprise {#experience-cloud-ai}
 
 - [AI in CX Enterprise applications](home.md)
 - About AI in CX Enterprise {#overview}
-  - [Generative AI](./overview/generative-ai.md)
-  - [Agentic AI](./overview/agentic-ai.md)
-  - [Agentic AI Monitoring](./overview/monitoring.md)
-  - [Agent jobs and AI credit consumption](./overview/ai-credit-consumption.md)
+  - [About generative AI](./overview/generative-ai.md)
+  - [About agentic AI](./overview/agentic-ai.md)
+  - [About AI credits consumption](./overview/ai-credit-consumption.md)
+  - [Agentic AI Monitoring dashboard](./overview/monitoring.md)
   - [Agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - AI Assistant {#ai-assistant}
   - [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md)
@@ -62,9 +63,17 @@ role: Admin,User,Developer,Leader
     - [Release notes](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
-    - [Use cases](./coworker/chat/use-cases.md)
     - [UI guide](./coworker/chat/ui-guide.md)
-    - [Analyze CJA data](./coworker/chat/analytics-chat.md)
+    - Use cases {#use-cases}
+      - [Coworker Chat use cases](./coworker/chat/use-cases/overview.md)
+      - Data Insights {#data-insights}
+        - [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
+        - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Audiences {#audiences}
+        - [Assess platform health and build audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - Journeys {#journeys}
+        - [Create journeys using natural language](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - Sandbox tooling {#sandbox-tooling}
+        - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc} [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md)
-  - [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)

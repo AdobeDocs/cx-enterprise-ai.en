@@ -1,8 +1,8 @@
 ---
-description: Learn about feature enhancements and fixes in the Adobe Coworker Campaigns release notes.
-title: Adobe Coworker Campaigns release notes
+description: Learn about feature enhancements and fixes in the Adobe CX Enterprise Coworker Campaigns release notes.
+title: CX Enterprise Coworker Campaigns Release Notes
 ---
-# Adobe Coworker Campaigns release notes {#release-notes}
+# Adobe CX Enterprise Coworker Campaigns release notes {#release-notes}
 
 Coworker Campaigns releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
 

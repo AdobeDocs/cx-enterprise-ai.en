@@ -1,5 +1,5 @@
 ---
-title: Real-Time CDP MCP (Beta)
+title: Real-Time CDP Tools in CX Coworker Gateway
 description: Learn how to connect Adobe Real-Time CDP to MCP clients using the MCP server.
 ---
 # Real-Time CDP tools in CX Coworker Gateway {#rtcdp-mcp}

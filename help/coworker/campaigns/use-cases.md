@@ -1,10 +1,10 @@
 ---
-description: Browse real prompt patterns for Adobe Coworker Campaigns, organized by use case across acquisition, engagement, events, conversion, and retention campaigns.
-title: Use cases
+description: Browse real prompt patterns for Adobe CX Enterprise Coworker Campaigns, organized by use case across acquisition, engagement, events, conversion, and retention campaigns.
+title: Coworker Campaigns Use Cases
 ---
 # Use cases {#use-cases}
 
-Below are real prompt patterns that lifecycle and growth marketers are using in Adobe Coworker Campaigns. Each one is built to be copied, swapped with your own audience and brand details, and refined in conversation.
+Below are real prompt patterns that lifecycle and growth marketers are using in Adobe CX Enterprise Coworker Campaigns. Each one is built to be copied, swapped with your own audience and brand details, and refined in conversation.
 
 ## How to use
 

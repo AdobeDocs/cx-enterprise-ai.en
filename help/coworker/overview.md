@@ -1,8 +1,8 @@
 ---
-title: Adobe Coworker
-description: Learn how to take your marketing to the next level with Adobe Coworker.
+title: About Adobe CX Enterprise Coworker
+description: Learn how to take your marketing to the next level with Adobe CX Enterprise Coworker.
 ---
-# About Adobe Coworker
+# About Adobe CX Enterprise Coworker
 
 Coworker is an AI-powered teammate that reimagines the nature of work for organizations, teams, and individuals. Coworker elegantly automates customer experience and marketing workflows so organizations can focus on realizing their business goals and transforming outcomes, not coordinating tasks. As an agentic engine, Coworker takes a new innovative approach to automating business process. It elevates AI model performance and accuracy by bringing together data, intelligence, collaboration and agentic skills execution with enterprise context, governance, and human oversight built in.
 
@@ -22,9 +22,8 @@ Coworker Campaigns is a templatized feature for small agile teams to stand up an
 Coworker Chat enables teams to automate Adobe product tasks using natural language, quickly turning ideas into actions with flexible planning, customizable skills, and intelligent execution.
 
 * [Overview](./chat/overview.md)
-* [Use cases](./chat/use-cases.md)
+* [Use cases](./chat/use-cases/overview.md)
 * [UI guide](./chat/ui-guide.md)
-* [Analyze Customer Journey Analytics data](./chat/analytics-chat.md)
 
 ## Projects (coming soon)
 
