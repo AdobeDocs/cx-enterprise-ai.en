@@ -24,6 +24,8 @@ You can use the Adobe Experience Platform product tools to inspect schemas, data
 | `search_dule` | Query data governance labels, policies, actions | Data Governance · labels, policies, marketing_actions | list, get, list enabled, evaluate | Active |
 | `search_query_service` | Query SQL queries, templates, schedules, alerts | Query Service · queries, templates, schedules, alerts | list, get, filter, get connection params | Active |
 | `search_schema_registry` | Query XDM schemas, field groups, classes, types | Schema Registry · schemas, fieldgroups, classes, data_types, descriptors | list, get, filter by container | Active |
+| `execute_observability_metrics_query` | Query [!DNL Observability Insights] metrics for the current sandbox or across all sandboxes | Observability Insights · metrics | time-series and aggregate queries, multi-metric requests, tag filters, groupBy/exclude, per-metric downsample | Active |
+| `inspect_observability_breaches` | Detect [!DNL Observability Insights] breach intervals where an actual metric exceeded its baseline | Observability Insights · breaches | list breach intervals per series, org and sandbox scope | Active |
 
 ## Tool Reference
 
@@ -191,3 +193,47 @@ Unified tool for Query Service resources. List and retrieve ad-hoc queries, save
 | --- | --- | --- |
 | `entity_type` | Yes | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | Yes | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### execute_observability_metrics_query
+
+**Resource:** Observability Insights · metrics
+**Status:** Active
+
+Query [!DNL Observability Insights] metrics for the current sandbox, or across all sandboxes in your organization. Supports multiple metrics in a single request, tag-based filters, and per-metric downsampling. For `scope=org`, include at least one `groupBy` filter on every metric. All operations are read-only.
+
+**Capabilities:** query metric datapoints, time-series or aggregate, multi-metric requests, tag filters, groupBy/exclude, per-metric downsample
+
+**Parameters:**
+
+| Parameter | Required | Description |
+| --- | --- | --- |
+| `metrics` | Yes | Array of metric specs. Each includes `name` (fully qualified metric name), `aggregator` (`sum`, `avg`, `min`, `max`, `count`, `last`, `p50`, `p95`, `p99`, histogram variants, or `absent`), optional `filters`, and optional `downsample` |
+| `start` | Yes | Window start, ISO 8601, e.g. `2026-01-15T00:00:00.000Z`. Must be earlier than `end`. Max window: 31 days |
+| `end` | Yes | Window end, ISO 8601. Must be later than `start` |
+| `granularity` | No | Time bucket size: `MINUTE`, `FIVE_MINUTE`, `TEN_MINUTE`, `FIFTEEN_MINUTE`, `THIRTY_MINUTE`, `HOUR`, `FOUR_HOUR`, `TWELVE_HOUR`, `DAY`, `TWO_DAY`, `WEEK`, `MONTH`, or `ALL` (collapses the window into a single aggregate). Omit to let the server choose |
+| `scope` | No | `sandbox` (default) queries the current sandbox. `org` queries all sandboxes in your organization and requires a `groupBy` filter on every metric |
+
+Each filter in `metrics[].filters` includes a `name` (tag name), `value` (exact, wildcard, or regex match), and optional `groupBy` and `exclude` booleans.
+
+### inspect_observability_breaches
+
+**Resource:** Observability Insights · breaches
+**Status:** Active
+
+Detect [!DNL Observability Insights] breach intervals, the time windows where an actual metric exceeded its paired baseline metric, for the current sandbox or across all sandboxes in your organization. Returns pre-matched intervals per series. Open-ended breaches still in progress at the end of the window are returned with `end: null`. All operations are read-only.
+
+**Capabilities:** list breach intervals per series, org and sandbox scope
+
+**Parameters:**
+
+| Parameter | Required | Description |
+| --- | --- | --- |
+| `metrics` | Yes | Array of breach specs. Each includes `name` (label for the run), `actual_metric` (observed-value metric), `baseline_metric` (threshold or expected-value metric), and optional `filters` |
+| `start` | Yes | Window start, ISO 8601. Must be earlier than `end`. Max window: 31 days |
+| `end` | Yes | Window end, ISO 8601 |
+| `granularity` | No | Time bucket size, same values as `execute_observability_metrics_query` except `ALL`. Each bucket is evaluated independently against the baseline |
+| `scope` | No | `sandbox` (default) or `org`. On `org` scope, both `actual_metric` and `baseline_metric` filters must each include a `groupBy` filter |
+
+>[!NOTE]
+>
+>Both Observability Insights tools are also limited to an estimated 10,000 datapoints per request. Narrow the time range, add filters, or use a coarser `granularity` if a request is rejected for exceeding this limit.
