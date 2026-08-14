@@ -6,6 +6,15 @@ title: Coworker Chat Use Cases
 
 Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries by hand. This page catalogs the use cases practitioners rely on most, organized by work area: data insights, audiences, journeys, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation.
 
+## Adobe Experience Manager (AEM)
+
+<!-- CQDOC-23874 - draft -->
+
+| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Update AEM pages  | Perform actions such as updating, removing, replacing, or adding content elements to keep experiences accurate and current. Inputs can be natural language or visual annotations like PDFs or screenshots. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) | On &lt;URL&gt; update the headline to Hello World<br><br>on &lt;URL&gt; change “Take our Coffee Quiz” button to a more engaging version<br><br>Update &lt;URL&gt; based on the attached<br><br>on &lt;URL&gt; I want to a add a new teaser section to the bottom of the page about a promotion we are running in the month of august that is buy a coffee machine and get 2 bags of coffee free. Also find image of friends drinking coffee and use that in the teaser |
+| Update AEM in bulk | Perform bulk actions across multiple pages at the same time such as removing, replacing, or adding content elements to keep experiences accurate and current. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) | on &lt;aem path&gt; update all pages that contain copy "MyBarista\" to "BrewPass" |
+
 ## Data insights
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
@@ -58,13 +67,3 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Move objects across sandboxes](/help/agents/sandbox-tooling.md) | Seamlessly migrate schemas, audiences, and other object configurations across sandboxes, with dependencies auto-resolved | `sandbox-tooling-workflow` | Adobe Experience Platform | "Move schema Luma Loyalty Members Platinum from current sandbox to prod sandbox" · "Promote the US Gold Loyalty Members audience to stage" |
-
-## Experience Generation
-
-| Use Case | Description | Skill(s) | Application | Sample Prompts |
-| --- | --- | --- | --- | --- |
-| Update AEM pages | Perform actions such as updating, removing, replacing, or adding content elements to keep experiences accurate and current. Inputs can be natural language or visual annotations like PDFs or screenshots. | `aem-sites-pages-update` | AEM as a Cloud Service - Sites | On &lt;url&gt; update the headline to Hello World<br>on &lt;your-publish-URL&gt; change “Take our Coffee Quiz” button to a more engaging version<br>Update &lt;URL&gt; based on the attached<br>on https://author-p149891-e1546481.adobeaemcloud.com/content/frescopa/en/index.html i want to a add a new teaser section to the bottom of the page about a promotion we are running in the month of august that is buy a coffee machine and get 2 bags of coffee free. Also find image of friends drinking coffee and use that in the teaser |
-| Update AEM in bulk | Perform bulk actions across multiple pages at the same time such as removing, replacing, or adding content elements to keep experiences accurate and current. | `aem-sites-pages-bulkreplace` | AEM as a Cloud Service - Sites | on &lt;aem path&gt; update all pages that contain copy "MyBarista" to "BrewPass" |
-| Edit Content Fragments  | Use natural language to manage a single Content Fragment or hundreds at once. AI handles search, creation, updates, publishing, tagging, and other content operations while automatically enforcing the appropriate governance workflow. | `aem-sites-contentfragments-bulk-edit` | AEM as a Cloud Service - Sites | find Content Fragments under /content/dam/agentic-cf whose calories field is set to 150  and update 20 also update the 'Serving Style' field on the same fragments to 'Iced'<br>Create 3 fragments ones under /content/dam/agentic-cf  name them 'Cortado Freddo Summer’, 'Turkish Coffee Summer’, 'Café de Olla Summer’ and 'Calories' 150 each. Tag the 3 fragments with the 'Frescopa : Coffee' tag |
-| Go from Figma to Visual Content Fragment - technical | Import designs directly from Figma into Adobe Experience Manager using natural language. The skill automatically creates the required content model, content fragment, assets, and visualization template, enabling business users to move from design to web-ready content in minutes without manual setup. | `aem-sites-visualcontentfragments-create` | AEM as a Cloud Service - Sites | Import from &lt;figma path&gt; |
-| Read/write AEM form content | Optimize and manage Content Fragments for AI-powered experiences through readiness checks that include semantic analysis and impact assessment. Evaluates content quality, metadata, structure, schema compliance, and references to surface issues affecting search, publishing, translation, or headless delivery. Analyzes dependencies across Content Fragments, collections, assets, models, and pages to identify risks and recommend safe actions. Finally it provides assessments with guided, human-reviewed remediation steps. | `aem-forms-adaptiveform-author` | AEM as a Cloud Service - Forms | Create a new form based on attached brief &#47; screenshot<br>Now bring this form in line with attached guidelines - the standard wizard structure and approved wording<br>Create a coffee subscription form with personal info, subscription preferences. Keep only relevant fields mandatory, use wizard layout for easier navigation. |
