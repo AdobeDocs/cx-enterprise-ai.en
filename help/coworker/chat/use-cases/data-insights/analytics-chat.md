@@ -1,6 +1,9 @@
 ---
 title: Analyze Customer Journey Analytics Data with Coworker Chat
 description: Learn how to use Adobe CX Enterprise Coworker Chat to analyze Customer Journey Analytics data, build funnels, and find where customers drop off in the journey.
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 ---
 # Analyze Customer Journey Analytics data with Coworker Chat
 
