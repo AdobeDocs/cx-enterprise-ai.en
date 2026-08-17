@@ -6,7 +6,7 @@ title: Coworker Chat Use Cases
 
 Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries by hand. This page catalogs the use cases practitioners rely on most, organized by work area: data insights, audiences, journeys, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation.
 
-## Adobe Experience Manager (AEM)
+## Experience Production
 
 >[!NOTE]
 >
@@ -14,7 +14,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 <!-- CQDOC-23874 - draft -->
 
-### Adobe Experience Manager (AEM) - Sites Use Cases
+### Experience Production - Sites Use Cases
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -22,7 +22,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Update AEM in bulk | Perform bulk actions across multiple pages at the same time such as removing, replacing, or adding content elements to keep experiences accurate and current. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) | on &lt;aem path&gt; update all pages that contain copy "MyBarista\" to "BrewPass" |
 | Go from Figma to Visual Content Fragment - technical | Import designs directly from Figma into Adobe Experience Manager using natural language. The skill automatically creates the required content model, content fragment, assets, and visualization template, enabling business users to move from design to web-ready content in minutes without manual setup. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) | Import from &lt;figma path&gt;<br><br>`import-https-www.figma.com-design-DbNX47efHBu8LaDUWmdvb5-Frescopa-Coffee-node-id-2026-08-06 (2).txt` |
 
-### Adobe Experience Manager (AEM) - Forms Use Cases
+### Experience Production - Forms Use Cases
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
