@@ -1,6 +1,9 @@
 ---
 description: description goes here.
 title: Launch a campaign
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 ---
 # Launch a campaign {#launch-campaign}
 

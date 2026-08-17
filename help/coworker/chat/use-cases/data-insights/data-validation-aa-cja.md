@@ -6,8 +6,11 @@ role: User
 level: Intermediate
 doc-type: Feature Video
 duration: 
-last-substantial-update: 2026-08-10
+last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22083
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 ---
 # Validate data with Coworker when upgrading from Adobe Analytics to Customer Journey Analytics
 
