@@ -23,6 +23,7 @@ You can use the Adobe Experience Platform product tools to inspect schemas, data
 | `search_data_lake` | Inspect dataset metadata and batch health | Data Lake API · datasets, batches | get, get size, list failed batches | Active |
 | `search_dule` | Query data governance labels, policies, actions | Data Governance · labels, policies, marketing_actions | list, get, list enabled, evaluate | Active |
 | `search_query_service` | Query SQL queries, templates, schedules, alerts | Query Service · queries, templates, schedules, alerts | list, get, filter, get connection params | Active |
+| `search_sandbox_health_assessment` | Retrieve the latest Run and Operate health check assessment results for the current sandbox | Run and Operate · health check assessments | list, get by check name | Active |
 | `search_schema_registry` | Query XDM schemas, field groups, classes, types | Schema Registry · schemas, fieldgroups, classes, data_types, descriptors | list, get, filter by container | Active |
 
 ## Tool Reference
@@ -191,3 +192,18 @@ Unified tool for Query Service resources. List and retrieve ad-hoc queries, save
 | --- | --- | --- |
 | `entity_type` | Yes | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | Yes | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### search_sandbox_health_assessment
+
+**Resource:** Run and Operate · health check assessments
+**Status:** Active
+
+Retrieve the latest Run and Operate health check assessment results for the current sandbox. Returns results across every supported category, including schemas and identities, segmentation, ingestion, and profile. To identify the root cause without a separate lookup, each result includes the affected assets behind a failing check. Only checks with a published, human-readable name are returned. All operations are read-only.
+
+>[!NOTE]
+>
+>This tool only retrieves assessment results. To remediate a flagged issue, use the health check detail panel in the [!DNL Experience Platform] UI. See [Health Checks](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Automatic remediation guidance for supported health checks is available as a skill in [CX Coworker Chat](../coworker/chat/overview.md).
+
+**Capabilities:** list all health check results for the current sandbox, get results for one named check
+
+No parameters.
