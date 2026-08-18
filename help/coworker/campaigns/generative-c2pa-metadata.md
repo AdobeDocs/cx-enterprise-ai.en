@@ -24,14 +24,14 @@ The following table summarizes when C2PA metadata is attached, based on the imag
 
 ## What happens as your content moves {#cc-content-moves}
 
-Coworker Campaigns preserves Content Credentials associated with supported image assets. If an image contains Content Credentials when imported into Coworker Campaigns, those credentials are retained when the asset is used in generated campaign content and outbound email experiences. [Learn more about C2PA metadata](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}.
+Coworker Campaigns preserves Content Credentials associated with supported image assets. If an image contains Content Credentials when imported into Coworker Campaigns, those credentials are retained when the asset is used in generated campaign content and outbound email experiences.
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
 ## Additional resources
 
-* [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
+* [Learn more about C2PA metadata](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}
 
-* [How Content Credentials work across Adobe products](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}
+* [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
 * [Guardrails and limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
