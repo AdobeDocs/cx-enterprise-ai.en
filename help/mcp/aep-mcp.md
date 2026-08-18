@@ -198,11 +198,11 @@ Unified tool for Query Service resources. List and retrieve ad-hoc queries, save
 **Resource:** Run and Operate · health check assessments
 **Status:** Active
 
-Retrieve the latest Run and Operate health check assessment results for the current sandbox. Returns results across every supported category, including schemas and identities, merge policies, segmentation, automatic data expiration, datasets, sources, destinations, ingestion, Query Service, and profile. Each result includes the affected assets behind a failing check, so you can identify root cause without a separate lookup. Only checks with a published, human-readable name are returned. All operations are read-only.
+Retrieve the latest Run and Operate health check assessment results for the current sandbox. Returns results across every supported category, including schemas and identities, segmentation, ingestion, and profile. To identify the root cause without a separate lookup, each result includes the affected assets behind a failing check. Only checks with a published, human-readable name are returned. All operations are read-only.
 
 >[!NOTE]
 >
->This tool only retrieves assessment results. To remediate a flagged issue, use the health check detail panel in the [!DNL Experience Platform] UI. See [Health Checks](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks).
+>This tool only retrieves assessment results. To remediate a flagged issue, use the health check detail panel in the [!DNL Experience Platform] UI. See [Health Checks](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Automatic remediation guidance for supported health checks is available as a skill in [CX Coworker Chat](../coworker/chat/overview.md).
 
 **Capabilities:** list all health check results for the current sandbox, get results for one named check
 
