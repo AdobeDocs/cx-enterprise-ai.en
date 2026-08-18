@@ -9,7 +9,7 @@ feature_v2:
 
 Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries by hand. This page catalogs the use cases practitioners rely on most, organized by work area: data insights, audiences, journeys, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation.
 
-## Experience Production
+## Brand Experience
 
 <!-- CQDOC-23874 - link in note needs to be replaced once page is published -->
 
