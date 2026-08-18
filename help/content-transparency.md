@@ -5,17 +5,21 @@ description: Learn how Adobe automatically attaches C2PA metadata to GenAI-gener
 
 # Generative AI content transparency
 
+Throughout August 2026, Adobe is gradually rolling out C2PA metadata support across Adobe Creative Cloud, Adobe Document Cloud, Adobe Firefly, and Adobe CX Enterprise applications. 
+
+>[!NOTE]
+>
+>Following the rollout, future workflows that involve content being created or edited using AI will automatically have C2PA metadata support.
+
 This page covers details about how Adobe handles automatic attachment of C2PA metadata across Adobe CX Enterprise applications.
 
-New regulations require providers of generative AI technologies to support durable, machine-readable disclosures associated with GenAI-generated and GenAI-assisted content workflows for expanded transparency.
+New regulations require providers of generative AI technologies to support durable, machine-readable disclosures associated with GenAI-generated and GenAI-edited content workflows for expanded transparency.
 
-As a tool provider, Adobe is automatically attaching machine-readable C2PA metadata to GenAI-generated and GenAI-edited content using Adobe technologies (including supported third-party generative AI models within Adobe workflows).
-
-C2PA metadata is a tamper evident metadata based on the C2PA open standard. Downstream platforms and services that support C2PA metadata may use this information to display transparency indicators to end users.
+As a tool provider, Adobe is automatically attaching machine-readable C2PA metadata to GenAI-generated and GenAI-edited content using Adobe technologies (including supported third-party generative AI models within Adobe workflows). [Learn more about C2PA](https://c2pa.org/).
 
 ## What's changing
 
-Beginning in August 2026, Adobe is adding C2PA metadata support across Adobe Creative Cloud, Adobe Document Cloud, Adobe Firefly, and Adobe CX Enterprise applications. 
+Rolling out in August 2026, Adobe will introduce C2PA metadata support across Adobe Creative Cloud, Adobe Document Cloud, Adobe Firefly, and Adobe CX Enterprise applications. 
 
 This release includes:
 
@@ -27,7 +31,7 @@ No additional action is required to attach C2PA metadata to qualifying generativ
 
 >[!NOTE]
 >
->C2PA metadata does not impact the appearance of your content. C2PA metadata and visible watermarks serve different purposes. C2PA metadata provides machine-readable provenance information, while visible watermarks provide a visual disclosure. You may choose to add visible watermarks to your content.
+>C2PA metadata will not impact the appearance of your content. C2PA metadata and visible watermarks serve different purposes. C2PA metadata provides machine-readable provenance information, while visible watermarks provide visual disclosure. You may choose to add visible watermarks to your content based on business needs and the legal requirements of each applicable jurisdiction.
 
 ## What details are added as part of C2PA metadata
 
@@ -37,7 +41,7 @@ Automatically attached C2PA metadata may include information such as:
 * AI model used (for example, Adobe Firefly)
 * Usage: Whether it was generated or edited using GenAI
 * Time and date of content creation and/or modification with generative AI tools
-* Unique identifier (used to distinguish each use of Generative AI)
+* Unique identifier (that can be used to distinguish each use of Generative AI)
 
 ## C2PA metadata across the content supply chain
 
@@ -59,7 +63,11 @@ Adobe provides [guidance](https://helpx.adobe.com/creative-cloud/apps/generative
 
 ## Availability & releases
 
-These features are available beginning **August 2026** across supported Adobe CX Enterprise workflows.
+These features are rolling out throughout **August 2026** across supported Adobe CX Enterprise workflows.
+
+>[!NOTE]
+>
+>Following the rollout, future workflows that involve content being created or edited using AI will automatically have C2PA metadata support.
 
 The release includes:
 
@@ -67,15 +75,13 @@ The release includes:
 
 C2PA metadata is automatically attached to supported GenAI-generated and GenAI-edited content. This functionality is enabled by default and cannot be disabled.
 
-Where applicable, all Adobe CX Enterprise applications continue to preserve existing C2PA metadata as supported assets move through Adobe workflows. This helps maintain the integrity of provenance information throughout the content supply chain.
-
 ### Watermark guidance
 
 Adobe provides [documentation](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) describing how to use existing watermarking features available in supported Adobe applications for organizations that choose or need to apply visible labels.
 
 ## Supported applications across Adobe CX Enterprise {#supported-applications}
 
-The following Adobe applications and services provide additional information about C2PA metadata within certain CX Enterprise apps.
+The following Adobe applications and services provide additional information about how and when C2PA metadata is attached to qualifying content within certain CX Enterprise apps.
 
 However, where applicable, all Adobe CX Enterprise applications continue to preserve existing C2PA metadata as supported assets move through Adobe workflows. This helps maintain the integrity of provenance information throughout the content supply chain.
 
