@@ -11,9 +11,18 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ## Experience Production
 
+<!-- CQDOC-23874 - note needs to be replaced once page is published -->
+
+<!--
 >[!NOTE]
 >
->See also [Overview of Agents in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview).
+>See also [Overview of Agentic Capabilites in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+-->
+
+>[!NOTE]
+>
+>See also [Overview of AI in AEM](
+https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/overview).
 
 <!-- CQDOC-23874 - draft -->
 
