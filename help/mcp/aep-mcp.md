@@ -23,6 +23,7 @@ You can use the Adobe Experience Platform product tools to inspect schemas, data
 | `search_data_lake` | Inspect dataset metadata and batch health | Data Lake API · datasets, batches | get, get size, list failed batches | Active |
 | `search_dule` | Query data governance labels, policies, actions | Data Governance · labels, policies, marketing_actions | list, get, list enabled, evaluate | Active |
 | `search_query_service` | Query SQL queries, templates, schedules, alerts | Query Service · queries, templates, schedules, alerts | list, get, filter, get connection params | Active |
+| `search_sandbox_health_assessment` | Retrieve the latest Run and Operate health check assessment results for the current sandbox | Run and Operate · health check assessments | list, get by check name | Active |
 | `search_schema_registry` | Query XDM schemas, field groups, classes, types | Schema Registry · schemas, fieldgroups, classes, data_types, descriptors | list, get, filter by container | Active |
 | `execute_observability_metrics_query` | Query [!DNL Observability Insights] metrics for the current sandbox or across all sandboxes | Observability Insights · metrics | time-series and aggregate queries, multi-metric requests, tag filters, groupBy/exclude, per-metric downsample | Active |
 | `inspect_observability_breaches` | Detect [!DNL Observability Insights] breach intervals where a metric exceeded its configured baseline | Observability Insights · breaches | list breach intervals per series, org and sandbox scope | Active |
@@ -239,3 +240,18 @@ Detect [!DNL Observability Insights] breach intervals, the time windows where a 
 >[!NOTE]
 >
 >Both Observability Insights tools are also limited to an estimated 10,000 datapoints per request. Narrow the time range, add filters, or use a coarser `granularity` if a request is rejected for exceeding this limit.
+
+### search_sandbox_health_assessment
+
+**Resource:** Run and Operate · health check assessments
+**Status:** Active
+
+Retrieve the latest Run and Operate health check assessment results for the current sandbox. Returns results across every supported category, including schemas and identities, segmentation, ingestion, and profile. To identify the root cause without a separate lookup, each result includes the affected assets behind a failing check. Only checks with a published, human-readable name are returned. All operations are read-only.
+
+>[!NOTE]
+>
+>This tool only retrieves assessment results. To remediate a flagged issue, use the health check detail panel in the [!DNL Experience Platform] UI. See [Health Checks](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Automatic remediation guidance for supported health checks is available as a skill in [CX Coworker Chat](../coworker/chat/overview.md).
+
+**Capabilities:** list all health check results for the current sandbox, get results for one named check
+
+No parameters.
