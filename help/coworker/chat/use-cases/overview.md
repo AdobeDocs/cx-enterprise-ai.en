@@ -19,8 +19,7 @@ See also [Overview of Agentic Capabilites in AEM](https://experienceleague.adobe
 
 >[!NOTE]
 >
->See also [Overview of AI in AEM](
-https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/overview).
+>See also [Overview of AI in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/overview).
 
 <!-- CQDOC-23874 - draft -->
 
