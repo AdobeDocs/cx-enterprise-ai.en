@@ -9,13 +9,9 @@ New laws are emerging around generative AI transparency, and Adobe is working to
 
 C2PA metadata is durable, invisible metadata that records how a piece of content was created or edited. When you generate or edit an image with generative AI tools in Coworker Campaigns, C2PA metadata is automatically attached to that image. No action is required on your part.
 
->[!BEGINSHADEBOX]
-
 ## Content Credentials in email campaigns {#content-credentials-email}
 
 Images sent in your email campaigns keep their Content Credentials intact, so recipients can verify the origin and authenticity of any image directly from the delivered email.
-
->[!ENDSHADEBOX]
 
 ## Actions that attach C2PA metadata {#cc-workflows}
 
