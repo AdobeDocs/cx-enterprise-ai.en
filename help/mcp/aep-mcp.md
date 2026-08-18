@@ -25,7 +25,7 @@ You can use the Adobe Experience Platform product tools to inspect schemas, data
 | `search_query_service` | Query SQL queries, templates, schedules, alerts | Query Service · queries, templates, schedules, alerts | list, get, filter, get connection params | Active |
 | `search_schema_registry` | Query XDM schemas, field groups, classes, types | Schema Registry · schemas, fieldgroups, classes, data_types, descriptors | list, get, filter by container | Active |
 | `execute_observability_metrics_query` | Query [!DNL Observability Insights] metrics for the current sandbox or across all sandboxes | Observability Insights · metrics | time-series and aggregate queries, multi-metric requests, tag filters, groupBy/exclude, per-metric downsample | Active |
-| `inspect_observability_breaches` | Detect [!DNL Observability Insights] breach intervals where an actual metric exceeded its baseline | Observability Insights · breaches | list breach intervals per series, org and sandbox scope | Active |
+| `inspect_observability_breaches` | Detect [!DNL Observability Insights] breach intervals where a metric exceeded its configured baseline | Observability Insights · breaches | list breach intervals per series, org and sandbox scope | Active |
 
 ## Tool Reference
 
@@ -211,7 +211,7 @@ Query [!DNL Observability Insights] metrics for the current sandbox, or across a
 | `start` | Yes | Window start, ISO 8601, e.g. `2026-01-15T00:00:00.000Z`. Must be earlier than `end`. Max window: 31 days |
 | `end` | Yes | Window end, ISO 8601. Must be later than `start` |
 | `granularity` | No | Time bucket size: `MINUTE`, `FIVE_MINUTE`, `TEN_MINUTE`, `FIFTEEN_MINUTE`, `THIRTY_MINUTE`, `HOUR`, `FOUR_HOUR`, `TWELVE_HOUR`, `DAY`, `TWO_DAY`, `WEEK`, `MONTH`, or `ALL` (collapses the window into a single aggregate). Omit to let the server choose |
-| `scope` | No | `sandbox` (default) queries the current sandbox. `org` queries all sandboxes in your organization and requires a `groupBy` filter on every metric |
+| `scope` | No | `sandbox` (default) queries the current sandbox. `org` queries all sandboxes in your organization and recommends a `groupBy` filter on every metric |
 
 Each filter in `metrics[].filters` includes a `name` (tag name), `value` (exact, wildcard, or regex match), and optional `groupBy` and `exclude` booleans.
 
@@ -220,7 +220,7 @@ Each filter in `metrics[].filters` includes a `name` (tag name), `value` (exact,
 **Resource:** Observability Insights · breaches
 **Status:** Active
 
-Detect [!DNL Observability Insights] breach intervals, the time windows where an actual metric exceeded its paired baseline metric, for the current sandbox or across all sandboxes in your organization. Returns pre-matched intervals per series. Open-ended breaches still in progress at the end of the window are returned with `end: null`. All operations are read-only.
+Detect [!DNL Observability Insights] breach intervals, the time windows where a metric exceeded its configured baseline, for the current sandbox or across all sandboxes in your organization. Returns pre-matched intervals per series. Open-ended breaches still in progress at the end of the window are returned with `end: null`. All operations are read-only.
 
 **Capabilities:** list breach intervals per series, org and sandbox scope
 
@@ -228,11 +228,13 @@ Detect [!DNL Observability Insights] breach intervals, the time windows where an
 
 | Parameter | Required | Description |
 | --- | --- | --- |
-| `metrics` | Yes | Array of breach specs. Each includes `name` (label for the run), `actual_metric` (observed-value metric), `baseline_metric` (threshold or expected-value metric), and optional `filters` |
+| `metrics` | Yes | Array of breach specs. Each includes `name` (fully qualified metric name) and optional `filters` |
 | `start` | Yes | Window start, ISO 8601. Must be earlier than `end`. Max window: 31 days |
 | `end` | Yes | Window end, ISO 8601 |
 | `granularity` | No | Time bucket size, same values as `execute_observability_metrics_query` except `ALL`. Each bucket is evaluated independently against the baseline |
-| `scope` | No | `sandbox` (default) or `org`. On `org` scope, both `actual_metric` and `baseline_metric` filters must each include a `groupBy` filter |
+| `scope` | No | `sandbox` (default) or `org`. On `org` without a sandbox filter, include at least one filter with `groupBy: true` per metric so results are split by that dimension instead of collapsed across the org |
+
+`inspect_observability_breaches` does not accept `aggregator` or `downsample` on `metrics[]`. The tool sets these internally to evaluate the breach condition.
 
 >[!NOTE]
 >
