@@ -6,8 +6,11 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 186
-last-substantial-update: 2026-08-10
+last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22082
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 ---
 
 # Customer Journey Analytics & Coworker - explore trends and root causes with natural language
