@@ -49,9 +49,9 @@ See also [Overview of Agentic Capabilites in AEM](https://experienceleague.adobe
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-| Search by semantic theme | Find assets by concept, mood, or visual theme using AI-powered semantic matching | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find me morning coffee lifestyle images |
-| Search by custom metadata | Filter assets by custom metadata fields (for example, Coffee Blend, Brand, Roast Level) | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find assets where `Coffee Blend` is `Morning Muse` |
-| Search by tag | Filter assets using AEM tag taxonomy values | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find assets tagged with `lifestyle photography` |
+| Design and create folder hierarchies | Recommends and creates scalable folder structures in AEM Assets based on business needs or CSV inputs. | Onboard new assets to AEM | Adobe Experience Manager (AEM) Assets | Recommend a folder structure for our lifestyle marketing assets<br><br>Create folders based on this CSV file |
+| Design and create tags | Builds tag namespaces and hierarchical taxonomies based on conversational design and structured inputs such as CSV files | Onboard new assets to AEM | Adobe Experience Manager (AEM) Assets | Recommend a tag structure for brand, region, and campaign classification<br><br>Import tags from this CSV |
+| Create and apply metadata forms | Designs metadata forms with structured fields, tabs, and sections, and applies them to folders to ensure consistent metadata capture across assets. | Onboard new assets to AEM | Adobe Experience Manager (AEM) Assets | Design a form with Basic, Rights, and Creative tabs<br><br>Build a form from this CSV: [paste CSV data or attach file] |
 
 ## Content Advisor - AEM Assets Use Cases
 
@@ -69,7 +69,7 @@ See also [Overview of Agentic Capabilites in AEM](https://experienceleague.adobe
 | --- | --- | --- | --- | --- |
 | High-resolution rendition creation and Channel-optimized renditions | Generate new renditions of an asset at a specified resolution and quality level, making it easy to prepare channel-ready variations without manual editing. You can also produce renditions tailored to platform-specific requirements, such as Instagram Stories, ensuring assets meet format, ratio, and quality guidelines automatically | Generate dynamic content variants | Adobe Experience Manager (AEM) Assets | Create a `2000px` rendition as `JPEG` with `80% quality`<br><br>Create a rendition for an Instagram story |
 | Branded overlays and composite generation | Apply promotional graphics, overlays, or badges to existing assets with precise placement, supporting rapid creation of campaign-ready composites. | Multi-variant asset optimization | Adobe Experience Manager (AEM) Assets | Overlay the image with `30%` discount graphics over the promotional banner, placing it `100px` from the center |
-| Image enhancements, background color adjustments, orientation transformations  | Apply visual improvements (sharpening image), replace background colors, and perform orientation transformations | Optimized image content| Adobe Experience Manager (AEM) Assets | Change background color of the `PNG` to `#ff8932` <br><br>Sharpen the image<br><br>Mirror the image horizontally |
+| Image enhancements, background color adjustments, orientation transformations  | Apply visual improvements (sharpening image), replace background colors, and perform orientation transformations | Multi-variant asset optimization | Adobe Experience Manager (AEM) Assets | Change background color of the `PNG` to `#ff8932` <br><br>Sharpen the image<br><br>Mirror the image horizontally |
 
 ## Brand Governance
 
