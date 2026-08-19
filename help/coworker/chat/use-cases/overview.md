@@ -7,7 +7,7 @@ feature_v2:
 ---
 # Coworker Chat use cases{#use-cases}
 
-Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries by hand. This page catalogs the use cases practitioners rely on most, organized by work area: data insights, audiences, journeys, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation.
+Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries manually. This page catalogs the use cases practitioners rely on most, organized by work area: data insights, audiences, journeys, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation.
 
 ## Brand Experience
 
@@ -73,9 +73,16 @@ See also [Overview of Agentic Capabilites in AEM](https://experienceleague.adobe
 
 ## Brand Governance
 
-| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| Use Case | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
+| Full brand context lookup | Retrieve the cascade-resolved brand rules and verticals for a brand | enterprise-context | Brand Governance | "Give me the full brand context for this brand"<br>"What verticals exist for this brand?"<br>"Resolve the owning brand for this asset path" |
+| Create or update brand rules | Add or modify a brand-context rule for a claim-type vertical | enterprise-context | Brand Governance | "Add a new disclaimer rule for the pharma vertical"<br>"Update rule #42 to require a citation" |
+| Guideline & segment lookup | Retrieve detailed brand guidelines, scoped by segment, market, or category | enterprise-context | Brand Governance | "What are the tone-of-voice guidelines for this brand?"<br>"List the claim categories used in the health vertical" |
+| Evaluate content against brand guidelines | Evaluate a published/authored page, text block, or image against configured brand checks | aem-governance | Brand Governance | "Evaluate this landing page against SecurBank guidelines"<br>"Does this tagline pass our tone-of-voice checks?" |
+| Check configuration | List all configured checks (guidelines) for one or every brand | aem-governance | Brand Governance | "List every check configured for SecurBank"<br>"What guidelines apply to this URL?" |
+| Brand inventory discovery | List and identify all configured brands for the organization | aem-governance | Brand Governance | "List all brands configured"<br>"What guidelines apply to this URL `http://frescopa-coffee`" |
+| Audit AEM permissions | Explore configured permission policies, ACLs, and inheritance rules for group, or service account at a given path | aem-governance | Brand Governance | "Audit Amit's access under `/content/folder`"<br>"What can this service account do at this path?"<br>"Show the access policies applied to this content path `/content/`" |
+| Debug AEM permissions | debug / understand permission policies, ACLs, and inheritance rules. | aem-governance | Brand Governance | "Why can principal admin write `/content/folder/us` on `https://author/` ?"<br>"Why can't sample-author write in `/content/dam` on `https://author`" |
 
 ## Data insights
 
