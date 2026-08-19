@@ -27,7 +27,7 @@ See also [Overview of Agentic Capabilites in AEM](https://experienceleague.adobe
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-| Update AEM pages  | Perform actions such as updating, removing, replacing, or adding content elements to keep experiences accurate and current. Inputs can be natural language or visual annotations like PDFs or screenshots. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) | On &lt;URL&gt; update the headline to Hello World<br><br>on &lt;URL&gt; change “Take our Coffee Quiz” button to a more engaging version<br><br>Update &lt;URL&gt; based on the attached<br><br>on &lt;URL&gt; I want to a add a new teaser section to the bottom of the page about a promotion we are running in the month of august that is buy a coffee machine and get 2 bags of coffee free. Also find image of friends drinking coffee and use that in the teaser |
+| Update AEM pages  | Perform actions such as updating, removing, replacing, or adding content elements to keep experiences accurate and current. Inputs can be natural language or visual annotations like PDFs or screenshots. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) | On &lt;URL&gt; update the headline to Hello World<br><br>on &lt;URL&gt; change "Take our Coffee Quiz" button to a more engaging version<br><br>Update &lt;URL&gt; based on the attached<br><br>on &lt;URL&gt; I want to a add a new teaser section to the bottom of the page about a promotion we are running in the month of august that is buy a coffee machine and get 2 bags of coffee free. Also find image of friends drinking coffee and use that in the teaser |
 | Update AEM in bulk | Perform bulk actions across multiple pages at the same time such as removing, replacing, or adding content elements to keep experiences accurate and current. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) | on &lt;aem path&gt; update all pages that contain copy "MyBarista\" to "BrewPass" |
 | Go from Figma to Visual Content Fragment - technical | Import designs directly from Figma into Adobe Experience Manager using natural language. The skill automatically creates the required content model, content fragment, assets, and visualization template, enabling business users to move from design to web-ready content in minutes without manual setup. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) | Import from &lt;figma path&gt;<br><br>`import-https-www.figma.com-design-DbNX47efHBu8LaDUWmdvb5-Frescopa-Coffee-node-id-2026-08-06 (2).txt` |
 
@@ -38,25 +38,31 @@ See also [Overview of Agentic Capabilites in AEM](https://experienceleague.adobe
 | Create form | Generate a new Adaptive Form from a plain-language description, an attached brief, an image, or a PDF | Form creation | Adobe Experience Manager (AEM) | "Create an employee onboarding form"<br><br>"Create a form using the attached brief (image or pdf)" |
 | Update form | Modify an existing form — add/edit fields, adjust simple layout, configure submit actions, or apply changes from an attached guidelines document | Form creation | Adobe Experience Manager (AEM) | "Add Middle Name field below First Name field"<br><br>"Put First Name and Last Name fields in a 2 column layout, 50/50"<br><br>"Configure the form to send data to a REST endpoint"<br><br>"Update this form to match the attached guidelines document" |
 
-### Onboarding
+### Onboarding - AEM Assets Use Cases
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
+| Search by semantic theme | Find assets by concept, mood, or visual theme using AI-powered semantic matching | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find me morning coffee lifestyle images |
+| Search by custom metadata | Filter assets by custom metadata fields (for example, Coffee Blend, Brand, Roast Level) | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find assets where `Coffee Blend` is `Morning Muse` |
+| Search by tag | Filter assets using AEM tag taxonomy values | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find assets tagged with `lifestyle photography` |
 
-## Content Advisor
+## Content Advisor - AEM Assets Use Cases
 
-### Discovery
+### Content Discovery
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
+| Search by semantic theme | Find assets by concept, mood, or visual theme using AI-powered semantic matching | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find me morning coffee lifestyle images |
+| Search by custom metadata | Filter assets by custom metadata fields (for example, Coffee Blend, Brand, Roast Level) | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find assets where `Coffee Blend` is `Morning Muse`<br><br>Get me assets whose license is not expired<br><br>Find me assets whose Campaign Name is not set (the property must be indexed for appropriate results). |
+| Sorting search results | Sort search results using modified date, created date, or asset name, and choose ascending or descending order. | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find mountain images sorted by modified date in descending order (shows the most recently modified assets first)<br><br>Show mountain images sorted by name in ascending order (shows the image names starting with letter A first followed by B, and so on). |
 
 ### Content Optimization
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
+| High-resolution rendition creation and Channel-optimized renditions | Generate new renditions of an asset at a specified resolution and quality level, making it easy to prepare channel-ready variations without manual editing. You can also produce renditions tailored to platform-specific requirements, such as Instagram Stories, ensuring assets meet format, ratio, and quality guidelines automatically | Generate dynamic content variants | Adobe Experience Manager (AEM) Assets | Create a `2000px` rendition as `JPEG` with `80% quality`<br><br>Create a rendition for an Instagram story |
+| Branded overlays and composite generation | Apply promotional graphics, overlays, or badges to existing assets with precise placement, supporting rapid creation of campaign-ready composites. | Multi-variant asset optimization | Adobe Experience Manager (AEM) Assets | Overlay the image with `30%` discount graphics over the promotional banner, placing it `100px` from the center |
+| Image enhancements, background color adjustments, orientation transformations  | Apply visual improvements (sharpening image), replace background colors, and perform orientation transformations | Optimized image content| Adobe Experience Manager (AEM) Assets | Change background color of the `PNG` to `#ff8932` <br><br>Sharpen the image<br><br>Mirror the image horizontally |
 
 ## Brand Governance
 
