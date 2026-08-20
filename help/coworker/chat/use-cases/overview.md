@@ -49,9 +49,10 @@ See also [Overview of Agentic Capabilites in AEM](https://experienceleague.adobe
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-| Design and create folder hierarchies | Recommends and creates scalable folder structures in AEM Assets based on business needs or CSV inputs. | Onboard new assets to AEM | Adobe Experience Manager (AEM) Assets | Recommend a folder structure for our lifestyle marketing assets<br><br>Create folders based on this CSV file |
-| Design and create tags | Builds tag namespaces and hierarchical taxonomies based on conversational design and structured inputs such as CSV files | Onboard new assets to AEM | Adobe Experience Manager (AEM) Assets | Recommend a tag structure for brand, region, and campaign classification<br><br>Import tags from this CSV |
-| Create and apply metadata forms | Designs metadata forms with structured fields, tabs, and sections, and applies them to folders to ensure consistent metadata capture across assets. | Onboard new assets to AEM | Adobe Experience Manager (AEM) Assets | Design a form with Basic, Rights, and Creative tabs<br><br>Build a form from this CSV: [paste CSV data or attach file] |
+| Guided end-to-end onboarding | Orchestrates the full onboarding lifecycle, repository selection, delegation to the folder, tag, metadata, import, and search sub-skills, if you do not know the specific onboarding task that you need | `aem-onboarding-workflow` | Adobe Experience Manager (AEM) Assets | Onboard our team to AEM Assets<br><br>Walk me through AEM DAM onboarding |
+| Design and create folder hierarchies | Recommends and creates scalable folder structures in AEM Assets (under `/content/dam`) based on business needs or CSV inputs. | `aem-folder-management` | Adobe Experience Manager (AEM) Assets | Recommend a folder structure for our lifestyle marketing assets<br><br>Create folders based on this CSV file |
+| Design and create tags | Designs and creates controlled tag vocabularies under `/content/cq:tags` — namespaces, hierarchical tags, and batch tag operations | `aem-tag-taxonomy` | Adobe Experience Manager (AEM) Assets | Design a tag taxonomy with namespaces for our product categories<br><br>Import tags from this CSV<br><br>Create these hierarchical tags in AEM |
+| Create and assign metadata forms | Designs and creates custom metadata forms, the authoring UI content authors use, from a CSV, table, requirements doc, or description, then optionally assigns them to folders | `aem-metadata-form` | Adobe Experience Manager (AEM) Assets | Create a metadata form from this list of fields<br><br>Assign this form to the `campaigns` folder |
 
 ## Content Advisor - AEM Assets Use Cases
 
@@ -61,7 +62,8 @@ See also [Overview of Agentic Capabilites in AEM](https://experienceleague.adobe
 | --- | --- | --- | --- | --- |
 | Search by semantic theme | Find assets by concept, mood, or visual theme using AI-powered semantic matching | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find me morning coffee lifestyle images |
 | Search by custom metadata | Filter assets by custom metadata fields (for example, Coffee Blend, Brand, Roast Level) | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find assets where `Coffee Blend` is `Morning Muse`<br><br>Get me assets whose license is not expired<br><br>Find me assets whose Campaign Name is not set (the property must be indexed for appropriate results). |
-| Sorting search results | Sort search results using modified date, created date, or asset name, and choose ascending or descending order. | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Find mountain images sorted by modified date in descending order (shows the most recently modified assets first)<br><br>Show mountain images sorted by name in ascending order (shows the image names starting with letter A first followed by B, and so on). |
+| Search by approval status | Filter by `dam:assetStatus` — approved, in-review, rejected, or missing | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Show me all approved assets in the `Campaign` folder |
+| Search by folder/path | Identify assets by interpreting natural language prompts that reference folder names in AEM. You can simply mention the folder in their prompt, without manually navigating through the repository, significantly reducing the number of clicks needed to locate the right content. | Asset discovery for binary assets | Adobe Experience Manager (AEM) Assets | Are there any svgs in folder `WKND`?<br><br>Show assets modified after Nov 1 2025 in folder `WKND`. |
 
 ### Content Optimization
 
