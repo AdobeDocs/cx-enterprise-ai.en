@@ -35,9 +35,9 @@ See also [Overview of Agentic Capabilites in AEM](https://experienceleague.adobe
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-| Create form | Generate a new Adaptive Form from a plain-language description, an attached brief, an image, or a PDF | Form creation | Adobe Experience Manager (AEM) | "Create an employee onboarding form"<br><br>"Create a form using the attached brief (image or pdf)" |
-| Edit/Update form | Modify an existing form — add/edit fields, adjust simple layout, configure submit actions, or apply changes from an attached guidelines document | Form creation | Adobe Experience Manager (AEM) | "Add Middle Name field below First Name field"<br><br>"Put First Name and Last Name fields in a 2 column layout, 50/50"<br><br>"Configure the form to send data to a REST endpoint"<br><br>"Update this form to match the attached guidelines document" |
-| Embed form | Place an existing or newly created form onto a designated AEM Sites page (supported on Edge Delivery Services pages only) | Form creation | Adobe Experience Manager (AEM) | "Embed this form on the homepage of our site" |
+| Create form | Generate a new Adaptive Form from a plain-language description, an attached brief, an image, or a PDF | `aem-forms-adaptiveform-create` | Adobe Experience Manager (AEM) | "Create an employee onboarding form"<br><br>"Create a form using the attached brief (image or pdf)" |
+| Edit/Update form | Modify an existing form — add/edit fields, adjust simple layout, configure submit actions, or apply changes from an attached guidelines document | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) | "Add Middle Name field below First Name field"<br><br>"Put First Name and Last Name fields in a 2 column layout, 50/50"<br><br>"Configure the form to send data to a REST endpoint"<br><br>"Update this form to match the attached guidelines document" |
+| Embed form | Place an existing or newly created form onto a designated AEM Sites page (supported on Edge Delivery Services pages only) | `aem-forms-adaptiveform-embed` | Adobe Experience Manager (AEM) | "Embed this form on the homepage of our site" |
 
 ### Development
 
