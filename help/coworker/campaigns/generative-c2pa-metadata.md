@@ -24,13 +24,11 @@ The following table summarizes when C2PA metadata is attached, based on the imag
 ## Content types and their scope {#content-types}
 
 * **Images**: Covered. C2PA metadata is attached when images are generated with generative AI, and preserved through cropping, text overlay, and image overlay operations performed by image generation in Coworker Campaigns.
-* **Text**: Not applicable. Text-only outputs of image generation in Coworker Campaigns, such as copy generation, translation, and brand alignment suggestions, do not require C2PA metadata.
+* **Text**: Not applicable. Text-only outputs in Coworker Campaigns, such as copy generation, translation, and brand alignment suggestions, do not require C2PA metadata.
 
 ## What happens as your content moves {#content-moves}
 
 Coworker Campaigns preserves C2PA metadata associated with supported image assets. If an image contains C2PA metadata when imported into Coworker Campaigns, those credentials are retained when the asset is used in generated campaign content and outbound email experiences.
-
-<!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
 ## Additional resources {#resources}
 
