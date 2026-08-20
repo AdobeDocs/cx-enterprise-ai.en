@@ -9,6 +9,8 @@ feature_v2:
 
 Get oriented with the Coworker Chat interface. This guide covers everything from accessing the app and navigating the workspace to getting the most out of conversations, managing your history, and tailoring your setup.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
+
 ## Access Coworker Chat
 
 Access Coworker Chat by navigating to [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker) and signing in with your Adobe credentials.
