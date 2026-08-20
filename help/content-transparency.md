@@ -93,7 +93,7 @@ However, where applicable, all Adobe CX Enterprise applications continue to pres
 |---|---|
 | Adobe Advertising Cloud | |
 | Adobe Experience Manager (AEM) | |
-| AI Assistant for Content Generation (feature in Adobe Journey Optimizer / Adobe Campaign) | [Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
+| AI Assistant for Content Generation (feature in Adobe Journey Optimizer / Adobe Campaign) | [Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2B Edition | [Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/content-credentials) |
 | Adobe Journey Optimizer B2C | |
 | Adobe Campaign | |
@@ -101,11 +101,11 @@ However, where applicable, all Adobe CX Enterprise applications continue to pres
 | GenStudio for Performance Marketing | |
 | Adobe Marketo Engage | |
 | Adobe Workfront | |
+| CX Enterprise Coworker Campaigns (formerly HALO) | [Documentation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)
 
 ## Related links
 
 * [Visible Watermark Guide](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
-* [Content Authenticity Initiative](https://contentauthenticity.adobe.com/)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
 
 ## Frequently asked questions
