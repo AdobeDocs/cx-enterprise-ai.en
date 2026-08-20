@@ -21,7 +21,7 @@ Coworker Campaigns is a templatized feature for small agile teams to stand up an
 * [Use cases](./campaigns/use-cases.md)
 * [Prompting best practices](./campaigns/prompting-best-practices.md)
 * [Connect to Marketo Engage](./campaigns/connectors/marketo.md)
-* [Connect to Hubspot](./campaigns/campaigns/connectors/hubspot.md)
+* [Connect to Hubspot](./campaigns/connectors/hubspot.md)
 
 ## Chat
 

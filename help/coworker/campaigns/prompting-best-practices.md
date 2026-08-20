@@ -136,4 +136,4 @@ Always provide context and the value proposition so the AI can generate relevant
 
 >[!MORELIKETHIS]
 >
->Browse more [prompt patterns](./campaigns/use-cases.md) for Coworker Campaigns.
+>Browse more [prompt patterns](use-cases.md) for Coworker Campaigns.
