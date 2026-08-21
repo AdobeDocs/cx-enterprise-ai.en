@@ -4,10 +4,13 @@ title: Coworker Chat UI Guide
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+jira: KT-22106
 ---
 # UI guide {#ui-guide}
 
 Get oriented with the Coworker Chat interface. This guide covers everything from accessing the app and navigating the workspace to getting the most out of conversations, managing your history, and tailoring your setup.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Access Coworker Chat
 

@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-solution: Experience Cloud,Experience Platform,Real-Time Customer Data Platform
+solution: Experience Cloud,Experience Platform,Real-Time Customer Data Platform,CX Enterprise
 usetq: true
 product: experience cloud
 landing-page-name: ai
