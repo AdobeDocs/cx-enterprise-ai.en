@@ -13,7 +13,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 >
 >Coming soon: 
 >
->New AEM agentic capabilities through CX Enterprise Coworker, an evolution of AI Assistant built to help you do more, faster.
+>New AEM agentic capabilities through CX Enterprise Coworker, built to help you do more, faster.
 >
 >All eligible customers will get access to Adobe Experience Manager agentic capabilities in Coworker, on a rolling basis.
 >
