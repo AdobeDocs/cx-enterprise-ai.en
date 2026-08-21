@@ -42,11 +42,11 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-| Diagnose and fix failing Cloud Manager pipelines | Investigate a failed pipeline execution, identify the root cause, and generate a fix (as a diff)  for review | `cloud-manager-pipeline-troubleshooting` | Adobe Experience Manager (AEM)  | "Why did my build pipeline fail?"<br><br>"Suggest a fix for my broken prod pipeline" |
+| Diagnose and fix failing Cloud Manager pipelines | Investigate a failed pipeline execution, identify the root cause, and generate a fix (with a diff)  for review | `cloud-manager-pipeline-troubleshooting` | Adobe Experience Manager (AEM)  | "Why did my build pipeline fail?"<br><br>"Suggest a fix for my broken prod pipeline" |
 | Manage Cloud Manager pipelines| Create, run, and monitor AEM Cloud Manager pipelines, including logs, artifacts, variables, and settings | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM)  | "List pipelines for program 12345"<br><br>"Why did my Dev Pipeline execution fail?" |
 | Manage Cloud Manager environments | Create, configure, and maintain AEM Cloud Manager environments, including RDEs, environment variables, logs, and backups | `cloud-manager-environment-management` | Adobe Experience Manager (AEM)  | "List my environments for program 12345"<br><br>"Reset my RDE" |
 | Manage Cloud Manager programs | List, inspect, and delete AEM Cloud Manager programs, including their pipelines and environments | `cloud-manager-program-management` | Adobe Experience Manager (AEM)  | "List my Cloud Manager programs"<br><br>"Get details for program 12345" |
-| Manage Cloud Manager update schedules | Configure daily Quiet Hours and Update-Free Periods for automated maintenance, and view Adobe's global Code-Freeze windows | `cloud-manager-release-management` | Adobe Experience Manager (AEM)  | "What's my current Quiet Hours window?"<br><br>"Schedule an update-free period from Dec 20 to Jan 2" |
+| Manage AEM release update schedules | Configure daily Quiet Hours and Update-Free Periods for automated maintenance, and view Adobe's global Code-Freeze windows | `cloud-manager-release-management` | Adobe Experience Manager (AEM)  | "What's my current Quiet Hours window?"<br><br>"Schedule an update-free period from Dec 20 to Jan 2" |
 
 ### Onboarding - AEM Assets Use Cases
 
