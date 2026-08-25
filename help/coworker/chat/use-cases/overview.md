@@ -23,21 +23,17 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ### Experience Production - Sites Use Cases
 
->[!NOTE]
->
->See also [Agentic Capabilities in AEM: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites).
-
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Update AEM pages  | Perform actions such as updating, removing, replacing, or adding content elements to keep experiences accurate and current. Inputs can be natural language or visual annotations like PDFs or screenshots. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) | On &lt;URL&gt; update the headline to Hello World<br><br>on &lt;URL&gt; change "Take our Coffee Quiz" button to a more engaging version<br><br>Update &lt;URL&gt; based on the attached<br><br>on &lt;URL&gt; I want to a add a new teaser section to the bottom of the page about a promotion we are running in the month of august that is buy a coffee machine and get 2 bags of coffee free. Also find image of friends drinking coffee and use that in the teaser |
 | Update AEM in bulk | Perform bulk actions across multiple pages at the same time such as removing, replacing, or adding content elements to keep experiences accurate and current. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) | on &lt;aem path&gt; update all pages that contain copy "MyBarista\" to "BrewPass" |
 | Go from Figma to Visual Content Fragment | Import designs directly from Figma into Adobe Experience Manager using natural language. The skill automatically creates the required content model, content fragment, assets, and visualization template, enabling business users to move from design to web-ready content in minutes without manual setup. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) | Import from &lt;Figma_URL&gt; |
 
-### Experience Production - Forms Use Cases
+**Related information**
 
->[!NOTE]
->
->See also [Agentic Capabilities in AEM: Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms).
+* [Agentic Capabilities in AEM: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+
+### Experience Production - Forms Use Cases
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -46,11 +42,11 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Add business logic | Create simple rules, such as showing or hiding a field based on another field's value | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) | "Show the Company field only when Employee Type is Contractor"<br><br>"Show the &lt;field&gt; field only when &lt;other field&gt; is &lt;value&gt;" |
 | Embed form | Place an existing or newly created form onto a designated AEM Sites page (supported on Edge Delivery Services pages only) | `aem-forms-adaptiveform-embed` | Adobe Experience Manager (AEM) | "Embed this form on the homepage of our site"<br><br>"Embed this form on &lt;page path&gt;" |
 
-### Development
+**Related information**
 
->[!NOTE]
->
->See also [Agentic Capabilities in AEM: Brand Experience - Development](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases).
+* [Agentic Capabilities in AEM: Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+
+### Development
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -60,11 +56,11 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Manage Cloud Manager programs | List, inspect, and delete AEM Cloud Manager programs, including their pipelines and environments | `cloud-manager-program-management` | Adobe Experience Manager (AEM)  | "List my Cloud Manager programs"<br><br>"Get details for program 12345" |
 | Manage AEM release update schedules | Configure daily Quiet Hours and Update-Free Periods for automated maintenance, and view Adobe's global Code-Freeze windows | `cloud-manager-release-management` | Adobe Experience Manager (AEM)  | "What's my current Quiet Hours window?"<br><br>"Schedule an update-free period from Dec 20 to Jan 2" |
 
-### Onboarding - AEM Assets Use Cases
+**Related information**
 
->[!NOTE]
->
->See also [Agentic Capabilities in AEM: Brand Experience - Onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases).
+* [Agentic Capabilities in AEM: Brand Experience - Development](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+
+### Onboarding - AEM Assets Use Cases
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -73,13 +69,13 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Design and create tags | Designs and creates controlled tag vocabularies under `/content/cq:tags` — namespaces, hierarchical tags, and batch tag operations. | `aem-tag-taxonomy` | Adobe Experience Manager (AEM) Assets | "Design a tag taxonomy with namespaces for our product categories"<br><br>"Import tags from this CSV"<br><br>"Create these hierarchical tags in AEM" |
 | Create and assign metadata forms | Designs and creates custom metadata forms, the authoring UI content authors use, from a CSV, table, requirements doc, or description, then optionally assigns them to folders. | `aem-metadata-form` | Adobe Experience Manager (AEM) Assets | "Create a metadata form from this list of fields"<br><br>"Assign this form to the `campaigns` folder" |
 
+**Related information**
+
+* [Agentic Capabilities in AEM: Brand Experience - Onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+
 ## Content Advisor - AEM Assets Use Cases
 
 ### Content Discovery
-
->[!NOTE]
->
->See also [Agentic Capabilities in AEM: Content Advisor - Content Discovery](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases).
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -88,11 +84,11 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Search by approval status | Filter assets based on the approval status. For example, approved, in-review, rejected, or missing status. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | "Show me all approved assets in the `Campaign` folder" |
 | Search by folder/path | Identify assets by interpreting natural language prompts that reference folder names in AEM. You can simply mention the folder in their prompt, without manually navigating through the repository, significantly reducing the number of clicks needed to locate the right content. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | "Are there any svgs in folder `WKND`"?<br><br>"Show assets modified after Nov 1 2025 in folder `WKND`" |
 
-### Content Optimization
+**Related information**
 
->[!NOTE]
->
->See also [Agentic Capabilities in AEM: Content Advisor - Content Optimization](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases).
+* [Agentic Capabilities in AEM: Content Advisor - Content Discovery](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+
+### Content Optimization
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -100,17 +96,21 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Branded overlays and composite generation | Apply promotional graphics, overlays, or badges to existing assets with precise placement, supporting rapid creation of campaign-ready composites. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | "Overlay the image with `30%` discount graphics over the promotional banner, placing it `100px` from the center" |
 | Image enhancements, background color adjustments, orientation transformations | Apply visual improvements (sharpening image), replace background colors, and perform orientation transformations. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | "Change background color of the `PNG` to `#ff8932`"<br><br>"Sharpen the image"<br><br>"Mirror the image horizontally" |
 
-## Brand Governance
+**Related information**
 
->[!NOTE]
->
->See also [Agentic Capabilities in AEM: Brand Governance](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases).
+* [Agentic Capabilities in AEM: Content Advisor - Content Optimization](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+
+## Brand Governance
 
 | Use Case | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Guideline & segment lookup | Retrieve detailed brand guidelines, scoped by segment, market, or category | enterprise-context | Adobe Experience Manager (AEM)  | "What are the tone-of-voice guidelines for this brand?"<br>"List the claim categories used in the health vertical" |
 | Evaluate content against brand guidelines | Evaluate a published/authored page, text block, or image against configured brand checks | aem-governance | Adobe Experience Manager (AEM)  | "Evaluate this landing page against SecurBank guidelines"<br>"Does this tagline pass our tone-of-voice checks?" |
 | Debug AEM permissions | Debug / understand permission policies, ACLs, and inheritance rules. | aem-governance | Adobe Experience Manager (AEM)  | "Why can principal admin write `/content/folder/us` on `https://author/` ?"<br>"Why can't sample-author write in `/content/dam` on `https://author`" |
+
+**Related information**
+
+* [Agentic Capabilities in AEM: Brand Governance](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Data insights
 
