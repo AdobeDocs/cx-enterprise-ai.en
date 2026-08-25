@@ -17,11 +17,15 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 >
 >All eligible customers will get access to Adobe Experience Manager agentic capabilities in Coworker, on a rolling basis.
 >
->See also [Overview of AI in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/overview).
+>See also [Overview of Agentic Capabilities in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Brand Experience
 
 ### Experience Production - Sites Use Cases
+
+>[!NOTE]
+>
+>See also [Agentic Capabilities in AEM: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites).
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -30,6 +34,10 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Go from Figma to Visual Content Fragment | Import designs directly from Figma into Adobe Experience Manager using natural language. The skill automatically creates the required content model, content fragment, assets, and visualization template, enabling business users to move from design to web-ready content in minutes without manual setup. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) | Import from &lt;Figma_URL&gt; |
 
 ### Experience Production - Forms Use Cases
+
+>[!NOTE]
+>
+>See also [Agentic Capabilities in AEM: Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms).
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -40,6 +48,10 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ### Development
 
+>[!NOTE]
+>
+>See also [Agentic Capabilities in AEM: Brand Experience - Development](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases).
+
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Diagnose and fix failing Cloud Manager pipelines | Investigate a failed pipeline execution, identify the root cause, and generate a fix (with a diff)  for review | `cloud-manager-pipeline-troubleshooting` | Adobe Experience Manager (AEM)  | "Why did my build pipeline fail?"<br><br>"Suggest a fix for my broken prod pipeline" |
@@ -49,6 +61,10 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Manage AEM release update schedules | Configure daily Quiet Hours and Update-Free Periods for automated maintenance, and view Adobe's global Code-Freeze windows | `cloud-manager-release-management` | Adobe Experience Manager (AEM)  | "What's my current Quiet Hours window?"<br><br>"Schedule an update-free period from Dec 20 to Jan 2" |
 
 ### Onboarding - AEM Assets Use Cases
+
+>[!NOTE]
+>
+>See also [Agentic Capabilities in AEM: Brand Experience - Onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases).
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -61,6 +77,10 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ### Content Discovery
 
+>[!NOTE]
+>
+>See also [Agentic Capabilities in AEM: Content Advisor - Content Discovery](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases).
+
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Search by semantic theme | Find assets by concept, mood, or visual theme using AI-powered semantic matching. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | "Find me morning coffee lifestyle images" |
@@ -70,6 +90,10 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ### Content Optimization
 
+>[!NOTE]
+>
+>See also [Agentic Capabilities in AEM: Content Advisor - Content Optimization](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases).
+
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | High-resolution rendition creation and Channel-optimized renditions | Generate new renditions of an asset at a specified resolution and quality level, making it easy to prepare channel-ready variations without manual editing. You can also produce renditions tailored to platform-specific requirements, such as Instagram Stories, ensuring assets meet format, ratio, and quality guidelines automatically. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | "Create a `2000px` rendition as `JPEG` with `80% quality`"<br><br>"Create a rendition for an Instagram story" |
@@ -77,6 +101,10 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Image enhancements, background color adjustments, orientation transformations | Apply visual improvements (sharpening image), replace background colors, and perform orientation transformations. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | "Change background color of the `PNG` to `#ff8932`"<br><br>"Sharpen the image"<br><br>"Mirror the image horizontally" |
 
 ## Brand Governance
+
+>[!NOTE]
+>
+>See also [Agentic Capabilities in AEM: Brand Governance](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases).
 
 | Use Case | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
