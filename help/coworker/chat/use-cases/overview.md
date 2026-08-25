@@ -17,7 +17,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 >
 >All eligible customers will get access to Adobe Experience Manager agentic capabilities in Coworker, on a rolling basis.
 >
->See also [Overview of Agentic Capabilities in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>See also [AI in AEM - Overview of Agentic Capabilities in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Brand Experience
 
