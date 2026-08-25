@@ -17,6 +17,7 @@ dummy: true
   - [About AI credits consumption](./overview/ai-credit-consumption.md)
   - [Agentic AI Monitoring dashboard](./overview/monitoring.md)
   - [Agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
+- [Generative AI content transparency](content-transparency.md)
 - AI Assistant {#ai-assistant}
   - [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md)
   - [Prompt Library](./ai-assistant/prompt-library.md)
