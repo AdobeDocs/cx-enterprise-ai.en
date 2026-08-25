@@ -1,6 +1,6 @@
 ---
 audience: user
-user-guide-title: Coworker
+user-guide-title: AI in CX Enterprise
 user-guide-description: Learn how to build, configure, integrate, and extend AI Assistant, Coworker, agents, and MCPs through practical documentation, implementation guidance, and reference materials.
 description: Learn about AI tools in CX Enterprise. Improve your product knowledge and gain operational insights using AI in CX Enterprise.
 solution: Experience Cloud
