@@ -16,7 +16,7 @@ role: Admin,User,Developer,Leader
   - [Agentic AI monitoring](./overview/monitoring.md)
   - [Agent jobs and AI credit consumption](./overview/ai-credit-consumption.md)
   - [Agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
-- [Generative AI content transparency](content-transparency.md)
+  - [Generative AI content transparency](content-transparency.md)
 - AI Assistant {#ai-assistant}
   - [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md)
   - [Prompt Library](./ai-assistant/prompt-library.md)
