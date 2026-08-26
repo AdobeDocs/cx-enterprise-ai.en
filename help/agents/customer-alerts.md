@@ -117,12 +117,12 @@ For example:
 
 Analyze the alerts that you subscribe to and are responsible for monitoring.
 
-Use the My Alerts experience to review recent activity, prioritize high-severity issues, and focus operational analysis on the alerts most relevant to your role.
+Use the [!DNL My Alerts] experience to review recent activity, prioritize high-severity issues, and focus operational analysis on the alerts most relevant to your role.
 
 For example:
 
 - "Show me the high-severity alerts I subscribe to."
-- "What alerts from My Alerts were triggered this week?"
+- "What alerts from [!DNL My Alerts] were triggered this week?"
 - "Do any of my subscribed alerts require attention?"
 
 ### Manage alert subscriptions
@@ -168,7 +168,7 @@ Use the following prompts as examples when interacting with Customer Alert Skill
 ### My Alerts prompts
 
 - "Show me the high-severity alerts I subscribe to."
-- "What alerts from My Alerts were triggered this week?"
+- "What alerts from [!DNL My Alerts] were triggered this week?"
 - "Are any of my subscribed alerts currently active?"
 - "Do any of my subscribed alerts require attention?"
 
