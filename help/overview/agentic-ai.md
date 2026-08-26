@@ -14,13 +14,13 @@ feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
 ---
-# Agentic AI in Adobe CX Enterprise
+# About Agentic AI in Adobe CX Enterprise
 
-Adobe Experience Platform Agents is powered by [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) to enable agentic AI capabilities within CX Enterprise applications.
+Adobe [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/home) powers agentic AI capabilities in CX Enterprise applications.
 
-These agents help automate tasks, deliver insights faster, and streamline workflows. As a result, teams can work more efficiently and get more value from CX Enterprise.
+Agents help automate tasks, deliver insights faster, and streamline workflows. As a result, teams can work more efficiently and get more value from CX Enterprise.
 
-Access to AI agents in CX Enterprise is available in either:
+CX Enterprise AI agents are available in either:
 
 * [Existing CX Enterprise applications](#existing-apps)
 * [AI-first CX Enterprise applications](#ai-first-apps)
@@ -29,7 +29,7 @@ The following sections describe these two ways to enable agentic AI in CX Enterp
 
 ## Existing CX Enterprise applications {#existing-apps}
 
-In existing applications, you can use natural language to instruct Adobe Experience Platform Agents through [AI Assistant](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) conversational interface. AI Assistant is available in both full-screen and right-rail views.
+In existing applications, you can use natural language to instruct Adobe Experience Platform Agents through the conversational interface in [AI Assistant](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/home). AI Assistant is available in both full-screen and right-rail views.
 
 Agents can be enabled in existing CX Enterprise apps for customers in one of the following categories:
 
@@ -39,7 +39,7 @@ Agents can be enabled in existing CX Enterprise apps for customers in one of the
 
 Using AI agents to perform _agent jobs_ consumes AI credits. Learn more about agent jobs and AI credits in _[Agent jobs and AI credit consumption](ai-credit-consumption.md)_.
 
-AI agents follow _your_ input, oversight, and they respect product-level access controls. You can only perform jobs or access data that you are authorized to use in the underlying CX Enterprise application.
+AI agents follow _your_ input and oversight, and they respect product-level access controls. You can only perform jobs or access data that you are authorized to use in the underlying CX Enterprise application.
 
 ### AI agents in existing CX Enterprise apps {#existing-apps-table}
 
@@ -58,12 +58,13 @@ The following table lists Experience Platform Agents available in existing CX En
 
 ## AI-first CX Enterprise applications {#ai-first-apps}
 
-AI-first applications are built with generative or agentic Al at the core. They use generative or agentic Al for key tasks, and the agentic features are already included in the Al-first application license. As such, they do not require the Experience Platform Agent Orchestrator license.
+AI-first applications are built with generative or agentic AI as the primary component. They use generative or agentic AI for key tasks, and the agentic features are already included in the AI-first application license. As such, they do not require the Experience Platform Agent Orchestrator license.
 
-The following table lists Experience Platform Agents available as Al-first applications. They are enabled by licensing these Al-first applications:  
+The following table lists Experience Platform Agents available as AI-first applications. They are enabled by licensing these AI-first applications:  
 
 | Agent name  | Capabilities | Supported applications   |
 |---|----------|----------|
+| [CX Enterprise Coworker](../coworker/overview.md) | Acts as an agentic teammate: plans multi-step work from a natural-language goal, executes it across your Adobe and connected systems, validates the results, and returns the finished work for your approval — reducing the need to coordinate tasks manually. | <ul><li>CX Enterprise Coworker (Chat)</li><li>CX Enterprise Coworker (Campaigns)</li></ul> |
 | [Experimentation Agent](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) |  Automate, analyze, and synthesize insights, so you can quickly identify high-impact experiments and growth opportunities from a centralized workspace — all while reducing manual processes.  | <ul><li>AJO Experimentation Accelerator</li></ul>   |
 | [LLM Optimization Agent](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home) |  Enhance visibility, accuracy, and influence in AI-driven search environments, provide insights into brand presence in AI-generated answers, offer prescriptive content recommendations, and automate optimization fixes. | <ul><li>Adobe LLM Optimizer</li></ul>   |
 | [Site Optimization Agent](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home) | Maximize business impact by automatically detecting and deploying website enhancements. Using generative AI and multiple monitoring technologies, you can increase site traffic acquisition, engagement, and more | <ul><li>AEM Sites Optimizer</li></ul> |

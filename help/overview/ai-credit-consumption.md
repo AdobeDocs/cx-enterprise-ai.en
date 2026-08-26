@@ -1,34 +1,38 @@
 ---
-title: Agent Jobs and AI Credit Consumption
-description: Learn about agent jobs and AI credit consumption rates in CX Enterprise applications.
+title: AI Credit Consumption
+description: Learn about AI credits consumption in CX Enterprise applications.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
 ---
-# Adobe Experience Platform agent jobs and AI credits consumption  
+# AI credits consumption
 
-Learn about agentic AI jobs and AI credit consumption in CX Enterprise applications. For information about enabling agentic AI capabilities in existing CX Enterprise applications, see [Agentic AI in CX Enterprise](agentic-ai.md#existing-apps).
-
-## What's new
-
-| Feature | Description |
-| --- | --- |
-| [CX Enterprise Agentic AI Capability Catalog](https://agentic-capability-explorer.entapp.adproto.com/) | Discover which agentic AI jobs are available in your licensed CX Enterprise apps. |
-
-## Agent jobs
-
-An _agent job_ is a series of tasks and actions an agent executes to achieve a specific outcome, as directed by customer inputs.
-
-Using natural language prompts via AI Assistant, you can ask agents to carry out specific jobs. Based on those inputs, Agent Orchestrator coordinates the appropriate agents to execute each step within the relevant CX Enterprise applications.
+Learn about AI credits consumption in CX Enterprise applications. 
 
 ## AI credits
 
-An _AI credit_ is a usage-based metric that quantifies the execution of agent jobs. AI credits do not apply to [AI-first applications](agentic-ai.md).
+An _AI credit_ is a usage-based metric that quantifies the execution of actions or jobs. 
 
-## AI credit consumption
+## Eligible services consuming AI credits
+
+* [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [AEP Agents](#aep-agents-credit-rate)
+
+### CX Enterprise Coworker credit rate
+
+For a limited introductory period, Coworker inputs consume AI credits at a rate of 25 AI credits per Input. This rate is available for a limited time only and is subject to change.
+
+### AEP Agents credit rate
+
+An _agent job_ is a series of tasks and actions an AEP agent executes to achieve a specific outcome, as directed by customer inputs.
+
+Using natural language prompts via AI Assistant, you can ask agents to carry out specific jobs. Based on those inputs, Agent Orchestrator coordinates the appropriate agents to execute each step within the relevant CX Enterprise applications.
 
 AI credit usage may vary depending on the complexity and value of the job executed:
 
@@ -36,9 +40,9 @@ AI credit usage may vary depending on the complexity and value of the job execut
 * Complex (often multi-step) tasks consume more credits  
 * Tasks involving advanced reasoning, validation, multi-agent coordination, or integration consume more credits  
 
-**Note:** The [CX Enterprise Agentic AI Capability Catalog](https://agentic-capability-explorer.entapp.adproto.com/) is also available to help you discover which agentic AI jobs are available in your licensed CX Enterprise apps.
+To see which AEP Agents and agent jobs are available in your licensed CX Enterprise apps, see [CX Enterprise Agentic AI Capability Catalog](https://agentic-capability-explorer.entapp.adproto.com/).
 
-### Estimated AI credit consumption rates
+#### Estimated agent job credit rates
 
 | Agent | Job | Supported applications | Estimated AI credits | Sample prompts |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
@@ -66,4 +70,4 @@ AI credit usage may vary depending on the complexity and value of the job execut
 
 * [GenAI in CX Enterprise](generative-ai.md)
 * [Agentic AI in CX Enterprise](agentic-ai.md)
-* [Adobe Experience Platform Agents usage-bound trial](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform Agents usage-bound trial](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)

@@ -1,6 +1,6 @@
 ---
 description: Learn how to visualize data with the Data Insights Agent in Customer Journey Analytics
-title: Visualize data with the Data Insights Agent in Customer Journey Analytics
+title: Visualize Data with the Data Insights Agent
 role: User, Admin
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ

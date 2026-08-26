@@ -79,7 +79,7 @@ If Customer wants to opt-out of access to these Agentic capabilities and disable
 
 Read the following guides for more information on Coworker, Agent Orchestrator, and AI Assistant:
 
-- [CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- [Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Agent Orchestrator overview](agent-orchestrator.md)
 - [AI Assistant UI guide](../ai-assistant/ai-assistant-ui.md)
 - [AI Assistant prompt library](../ai-assistant/prompt-library.md)

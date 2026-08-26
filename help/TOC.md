@@ -1,21 +1,23 @@
 ---
 audience: user
-user-guide-title: AI Assistant in Adobe CX Enterprise
-user-guide-description: Learn how to use AI Assistant to expedite your workflow with Adobe Experience Platform and Real-Time Customer Data Platform.
-description: Learn about AI Assistant in CX Enterprise. Improve your product knowledge and gain operational insights using AI in CX Enterprise.
+user-guide-title: AI in CX Enterprise
+user-guide-description: Learn how to build, configure, integrate, and extend AI Assistant, Coworker, agents, and MCPs through practical documentation, implementation guidance, and reference materials.
+description: Learn about AI tools in CX Enterprise. Improve your product knowledge and gain operational insights using AI in CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
+dummy: true
 ---
 
 # AI in CX Enterprise {#experience-cloud-ai}
 
 - [AI in CX Enterprise applications](home.md)
 - About AI in CX Enterprise {#overview}
-  - [Generative AI](./overview/generative-ai.md)
-  - [Agentic AI](./overview/agentic-ai.md)
-  - [Agentic AI monitoring](./overview/monitoring.md)
-  - [Agent jobs and AI credit consumption](./overview/ai-credit-consumption.md)
+  - [About generative AI](./overview/generative-ai.md)
+  - [About agentic AI](./overview/agentic-ai.md)
+  - [About AI credits consumption](./overview/ai-credit-consumption.md)
+  - [Agentic AI Monitoring dashboard](./overview/monitoring.md)
   - [Agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Generative AI content transparency](content-transparency.md)
 - AI Assistant {#ai-assistant}
   - [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md)
   - [Prompt Library](./ai-assistant/prompt-library.md)
@@ -32,7 +34,7 @@ role: Admin,User,Developer,Leader
   - [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Notifications Agent](./agents/notifications.md)
-  - [CX Enterprise Coworker Trial](./agents/trial.md)
+  - [Coworker Trial](./agents/trial.md)
   - [Validate your data](./agents/data-validation.md)
   - Data Engineering {#data-engineering}
     - {hide-from-toc} [Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -50,8 +52,34 @@ role: Admin,User,Developer,Leader
     - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
     - [Adobe Analytics tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Coworker help {#coworker}
-  - [Coworker help](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- Coworker {#coworker}
+  - [About Coworker](./coworker/overview.md)
+  - Campaigns {#campaigns}
+    - [Overview](./coworker/campaigns/overview.md)
+    - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
+    - [Use cases](./coworker/campaigns/use-cases.md)
+    - [Prompting best practices](./coworker/campaigns/prompting-best-practices.md)
+    - {hide-from-toc} [C2PA metadata](./coworker/campaigns/generative-c2pa-metadata.md)
+    - Connectors {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
+    - [Release notes](./coworker/campaigns/release-notes.md)
+  - Chat {#chat}
+    - [Overview](./coworker/chat/overview.md)
+    - [UI guide](./coworker/chat/ui-guide.md)
+    - Use cases {#use-cases}
+      - [Coworker Chat use cases](./coworker/chat/use-cases/overview.md)
+      - Data Insights {#data-insights}
+        - [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
+        - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Audiences {#audiences}
+        - [Assess platform health and build audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - Journeys {#journeys}
+        - [Create journeys using natural language](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+        - [Create a loyalty challenge and surface insights](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
+      - Sandbox tooling {#sandbox-tooling}
+        - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
   - {hide-from-toc} [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md)
   - [Analyze CJA data](./coworker/analytics-chat.md)

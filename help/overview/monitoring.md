@@ -23,9 +23,9 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
 ---
-# Agentic AI Monitoring dashboards
+# Agentic AI Monitoring dashboard
 
-The Agentic AI monitoring dashboard gives Center of Excellence (COE) members and other governance stakeholders visibility into agentic AI usage and adoption. View 7-day or 30-day trends to see who uses [!DNL AI Assistant] or other surfaces (such as [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) to interact with [!DNL Experience Platform Agents] and the value they receive. Together, these views help you guide agent adoption with data instead of assumptions. 
+The Agentic AI [!UICONTROL Monitoring] dashboard gives Center of Excellence (COE) members and other governance stakeholders visibility into agentic AI usage and adoption. View 7-day or 30-day trends to see who uses [!DNL AI Assistant] or other surfaces (such as [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) to interact with [!DNL Experience Platform Agents] and the value they receive. Together, these views help you guide agent adoption with data instead of assumptions. 
 
 **Availability**
 
@@ -41,7 +41,7 @@ The [!UICONTROL Monitoring] dashboard includes the following views:
 | **Feedback** | Signals on response quality and user satisfaction |
 | **AI Credits** | Credit consumption trends and remaining balance |
 
-The [Agentic AI in Adobe CX Enterprise](agentic-ai.md) documentation lists the agents in scope for usage monitoring in [AI agents in existing CX Enterprise apps](agentic-ai.md#existing-apps-table).
+The [Agentic AI in Adobe CX Enterprise](agentic-ai.md) documentation lists the agents in scope for usage monitoring in the [AI agents in existing CX Enterprise apps](agentic-ai.md#existing-apps-table) table.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
@@ -89,7 +89,7 @@ Grant dashboard access in [!DNL Adobe Experience Platform] by updating the produ
 
 ## Overview dashboard
 
-The Overview dashboard is the central place for adoption and engagement metrics across your organization. It connects high-level trends to deeper analysis. To see what drives the numbers, drill into individual conversations from any metric.
+The Overview dashboard is the central place for adoption and engagement metrics across your organization. It connects high-level trends to deeper analysis. To see the factors influencing the metrics, review individual conversations from any metric.
 
 ### Metrics on the Overview dashboard
 
