@@ -1,6 +1,11 @@
 ---
 title: Generative AI content transparency
 description: Learn how Adobe automatically attaches C2PA metadata to GenAI-generated and GenAI-edited content across Adobe CX Enterprise applications.
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+    internal-label: Generative AI
 ---
 
 # Generative AI content transparency
