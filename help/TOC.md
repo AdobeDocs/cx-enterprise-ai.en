@@ -81,6 +81,5 @@ dummy: true
       - Journeys {#journeys}
         - [Create journeys using natural language](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [Create a loyalty challenge and surface insights](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-  - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
+      - Sandbox tooling {#sandbox-tooling}
         - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
-        - [Customer alert skills](./agents/customer-alert-skills.md)
