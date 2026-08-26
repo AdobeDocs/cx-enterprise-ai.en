@@ -38,6 +38,7 @@ Start here for a primer on where and how AI is used across CX Enterprise:
 - [About agentic AI](./overview/agentic-ai.md) explains how Experience Platform Agents work in both existing CX Enterprise applications and AI-first applications, and lists the agents available in each.
 - [AI monitoring](./overview/monitoring.md) covers the dashboards that track agent adoption, usage, feedback, and AI Credit consumption.
 - [AI credits consumption](./overview/ai-credit-consumption.md) explains how agent jobs consume AI Credits, with estimated consumption rates by agent and job type.
+- [Generative AI content transparency](./content-transparency.md) explains how Adobe automatically attaches C2PA metadata to GenAI-generated and GenAI-edited content across CX Enterprise applications.
 - [CX Enterprise agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview) cover additional agentic skills and tooling that extend CX Enterprise agents (video tutorials).
 
 ## AI Assistant
@@ -80,9 +81,16 @@ For full product documentation on Coworker Chat, Campaigns, and Projects, see [C
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use. These tools include [!DNL Real-Time CDP], [!DNL Experience Platform], [!DNL Journey Optimizer], [!DNL Customer Journey Analytics], [!DNL Adobe Analytics], and [!DNL Workfront].
+[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use:
 
-New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected.
+- [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+- [Experience Platform tools](./mcp/aep-mcp.md)
+- [Journey Optimizer tools](./mcp/ajo-mcp.md)
+- [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+- [Adobe Analytics tools](./mcp/analytics-mcp.md)
+- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+
+New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 
 ## Get started
 
@@ -107,4 +115,6 @@ To get the most value from your AI Assistant or Coworker experience, follow thes
 ## Legal considerations
 
 AI Assistant currently supports responses in English only, and language models occasionally make mistakes. Always verify the information provided, and use the reasoning steps included in each response to understand how it was generated. For full details, read the [legal disclaimer](./ai-assistant/legal-disclaimer.md).
+
+Adobe also automatically attaches C2PA metadata to GenAI-generated and GenAI-edited content across CX Enterprise applications, to meet generative AI transparency regulations. For details, read [Generative AI content transparency](./content-transparency.md).
 
