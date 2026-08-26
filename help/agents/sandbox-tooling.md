@@ -36,25 +36,25 @@ Interact with Sandbox Tooling Agentic Skills through CX Coworker using natural l
 To use Sandbox Tooling Agentic Skills:
 
 1. Navigate to **[!UICONTROL CX Coworker]**.
-2. Enter a clear description of what you want to accomplish. For example:
+1. Enter a clear description of what you want to accomplish. For example:
 
    *"Move schema Loyalty Member Platinum from the current sandbox to the Acme demo sandbox."*
 
-3. Review the results table, which shows the source and target sandboxes. When you are ready to continue, select **[!UICONTROL Proceed]**, then select **[!UICONTROL Submit]** to confirm.
+1. Review the results table, which shows the source and target sandboxes. When you are ready to continue, select **[!UICONTROL Proceed]**, then select **[!UICONTROL Submit]** to confirm.
 
-![The request results with Proceed selected, highlighting Submit.](./assets/sandbox-tooling/results-proceed.png)
+   ![The request results with Proceed selected, highlighting Submit.](./assets/sandbox-tooling/results-proceed.png)
 
-4. Select one or more objects you want to migrate, then select **[!UICONTROL Submit]**.
+1. Select one or more objects you want to migrate, then select **[!UICONTROL Submit]**.
 
-![Object selection page highlighting Submit.](./assets/sandbox-tooling/object-selection.png)
+   ![Object selection page highlighting Submit.](./assets/sandbox-tooling/object-selection.png)
 
-5. Review the objects and dependencies that the agent identifies and confirm the operation actions - *Create New* or *Use Existing*. When you are ready to begin the migration, select **[!UICONTROL Proceed]**, then select **[!UICONTROL Submit]** to confirm. The migration may take several minutes to complete.
+1. Review the objects and dependencies that the agent identifies and confirm the operation actions - *Create New* or *Use Existing*. When you are ready to begin the migration, select **[!UICONTROL Proceed]**, then select **[!UICONTROL Submit]** to confirm. The migration may take several minutes to complete.
 
-![Confirm action plan page highlighting Submit.](./assets/sandbox-tooling/action-plan.png)
+   ![Confirm action plan page highlighting Submit.](./assets/sandbox-tooling/action-plan.png)
 
-6. When the migration completes, the selected objects are available in the target sandbox.
+1. When the migration completes, the selected objects are available in the target sandbox.
 
-![Transfer complete page showing the request status.](./assets/sandbox-tooling/transfer-complete.png)
+   ![Transfer complete page showing the request status.](./assets/sandbox-tooling/transfer-complete.png)
 
 For more information about using CX Coworker, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
@@ -70,7 +70,7 @@ Using CX Coworker, you can migrate object metadata—including schemas, audience
 
 For example:
 
-> "Move schema Luma Loyalty Members Platinum from the current sandbox to the production sandbox."
+- "Move schema Luma Loyalty Members Platinum from the current sandbox to the production sandbox."
 
 ### Promote audiences between sandboxes
 
@@ -78,7 +78,7 @@ As a sandbox administrator, you can promote audiences between environments witho
 
 For example:
 
-> "Promote the 'Audience name' audience to the staging sandbox."
+- "Promote the 'Audience name' audience to the staging sandbox."
 
 Sandbox Tooling Agentic Skills identify the specified audience, validate its dependencies, and migrate all required objects to the target sandbox.
 
