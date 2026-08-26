@@ -58,11 +58,15 @@ dummy: true
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
     - [Use cases](./coworker/campaigns/use-cases.md)
     - [Prompting best practices](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc} [C2PA metadata](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [C2PA metadata](./coworker/campaigns/c2pa-metadata.md)
     - Connectors {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Release notes](./coworker/campaigns/release-notes.md)
+  - Customizations {#customizations}
+    - Skills {#skills}
+      - [What are skills?](./coworker/customizations/skills/what-are-skills.md)
+      - [Create your first skill](./coworker/customizations/skills/create-your-first-skill.md) 
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
     - [UI guide](./coworker/chat/ui-guide.md)
@@ -77,8 +81,6 @@ dummy: true
       - Journeys {#journeys}
         - [Create journeys using natural language](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [Create a loyalty challenge and surface insights](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-      - Sandbox tooling {#sandbox-tooling}
-        - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
-      - Customer Alerts Skills {#customer-alerts}
-        - [Customer alert skills](./agents/customer-alert-skills.md)
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
+        - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
+        - [Customer alert skills](./agents/customer-alert-skills.md)
