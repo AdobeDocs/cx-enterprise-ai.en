@@ -64,6 +64,10 @@ dummy: true
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Release notes](./coworker/campaigns/release-notes.md)
+  - Customizations {#customizations}
+    - [Skills] {#skills}
+      - [What are skills?](./coworker/customizations/skills/what-are-skills.md)
+      - [Create your first skill](./coworker/customizations/skills/create-your-first-skill.md) 
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
     - [UI guide](./coworker/chat/ui-guide.md)
