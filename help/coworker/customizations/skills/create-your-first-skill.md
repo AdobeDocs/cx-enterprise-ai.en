@@ -9,7 +9,7 @@ last-substantial-update: 2026-08-26
 jira: KT-22377
 ---
 
-# Create your first skill in Coworker?
+# Create your first skill in Coworker
 
 In this video, you'll see how a retail analyst uses Coworker and Customer Journey Analytics (CJA) to prepare an executive business performance briefing under a tight deadline.
  
