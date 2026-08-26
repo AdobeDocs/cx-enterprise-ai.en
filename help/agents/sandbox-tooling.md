@@ -56,7 +56,7 @@ To use Sandbox Tooling Agentic Skills:
 
 1. When the migration completes, the selected objects are available in the target sandbox.
 
-![Transfer complete page showing the request status.](./assets/sandbox-tooling/transfer-complete.png)
+   ![Transfer complete page showing the request status.](./assets/sandbox-tooling/transfer-complete.png)
 
 For more information about using CX Coworker, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
@@ -72,7 +72,7 @@ Using CX Coworker, you can migrate object metadata—including schemas, audience
 
 For example:
 
-> "Move schema Luma Loyalty Members Platinum from the current sandbox to the production sandbox."
+- "Move schema Luma Loyalty Members Platinum from the current sandbox to the production sandbox."
 
 ### Promote audiences between sandboxes
 
@@ -80,7 +80,7 @@ As a sandbox administrator, you can promote audiences between environments witho
 
 For example:
 
-> "Promote the 'Audience name' audience to the staging sandbox."
+- "Promote the 'Audience name' audience to the staging sandbox."
 
 Sandbox Tooling Agentic Skills identify the specified audience, validate its dependencies, and migrate all required objects to the target sandbox.
 
