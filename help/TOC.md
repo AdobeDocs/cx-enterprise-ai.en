@@ -79,4 +79,6 @@ dummy: true
         - [Create a loyalty challenge and surface insights](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Sandbox tooling {#sandbox-tooling}
         - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
+      - Customer Alerts Skills {#customer-alerts}
+        - [Customer alert skills](./agents/customer-alert-skills.md)
   - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)

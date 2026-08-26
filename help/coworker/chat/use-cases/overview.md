@@ -168,3 +168,16 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Use Case | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Move objects across sandboxes](/help/agents/sandbox-tooling.md) | Seamlessly migrate schemas, audiences, and other object configurations across sandboxes, with dependencies auto-resolved | `sandbox-tooling-workflow` | Adobe Experience Platform | "Move schema Luma Loyalty Members Platinum from current sandbox to prod sandbox" · "Promote the US Gold Loyalty Members audience to stage" |
+
+## Customer alerts
+
+| Use Case | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Review alert activity | Review current alert status and historical alert activity for a specified time period. | `customer-alerts-history` | Adobe Experience Platform | "What happened in the last 24 hours?" · "What alerts were triggered in the last 24 hours?" · "Show active alerts from the last seven days." |
+| Identify recurring alert patterns | Analyze alert history to identify frequently triggered alert types and operational trends. | `customer-alerts-analysis` | Adobe Experience Platform | "Show me the top 3 triggered alert types." · "Which alert types occurred most frequently this month?" · "What alert patterns do you see in the last seven days?" |
+| Focus on high-priority issues | Filter alert activity by severity to prioritize investigation efforts. | `customer-alerts-analysis` | Adobe Experience Platform | "Only show high-severity alerts." · "What critical alerts were triggered this week?" · "Show critical alerts from the last 30 days." |
+| Understand the impact radius of alerts | Identify the objects most affected by alerts and determine where investigation should begin. | `customer-alerts-impact-analysis` | Adobe Experience Platform | "What are the top 5 impacted objects?" · "Which objects are associated with the most high-severity alerts?" |
+| Connect alert types to impacted objects | Analyze relationships between alert types and affected resources. | `customer-alerts-impact-analysis` | Adobe Experience Platform | "Which alert types impacted this dataset most often?" · "Show the relationship between alert types and impacted objects." · "Which alert type affected the top impacted object most frequently?" |
+| Focus on My Alerts | Analyze alerts that you subscribe to and are responsible for monitoring. | `customer-alerts-my-alerts` | Adobe Experience Platform | "Show me the high-severity alerts I subscribe to." · "What alerts from My Alerts were triggered this week?" · "Do any of my subscribed alerts require attention?" |
+| Manage alert subscriptions | View and manage alert subscriptions through natural-language conversations. | `customer-alerts-subscriptions` | Adobe Experience Platform | "What alerts am I subscribed to?" · "Subscribe me to this alert." · "Remove my subscription to this alert." |
+| Refine alert analysis | Use follow-up questions to narrow results and move from alert activity to focused investigation. | `customer-alerts-analysis` | Adobe Experience Platform | "What happened in the last 24 hours?" · "Only show high-severity alerts." · "What are the top 5 impacted objects?" · "Which alert type affected the top object most often?" |

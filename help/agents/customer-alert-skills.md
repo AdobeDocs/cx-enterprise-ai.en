@@ -47,11 +47,13 @@ To use Customer Alert Skills:
 
 1. Refine the results with follow-up questions. For example:
 
-    *"Only list the top three with high-severity."*
+    *"Show me the top 3 types of alerts triggered in the last 24 hours."*
 
     ![Refined results showing top three alert types.](./assets/alerts/alert-types.png)
 
-1. Continue narrowing the scope until you identify the alerts, patterns, or impacted objects that require attention.
+1. Continue narrowing the scope until you identify the alerts, patterns, or impacted objects that require attention. For example:
+
+    *"List the top 5 objects that are impacted by high severity alerts"*
 
     ![Refined results showing top five objects impacted.](./assets/alerts/objects-impacted.png)
 
