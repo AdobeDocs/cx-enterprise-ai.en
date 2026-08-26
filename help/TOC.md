@@ -31,7 +31,6 @@ dummy: true
   - [Field Discovery Agent](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [Product Support Agent](./agents/product-support.md)
-  - [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Notifications Agent](./agents/notifications.md)
   - [Coworker Trial](./agents/trial.md)
@@ -65,7 +64,7 @@ dummy: true
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Release notes](./coworker/campaigns/release-notes.md)
   - Customizations {#customizations}
-    - [Skills] {#skills}
+    - Skills {#skills}
       - [What are skills?](./coworker/customizations/skills/what-are-skills.md)
       - [Create your first skill](./coworker/customizations/skills/create-your-first-skill.md) 
   - Chat {#chat}
@@ -84,6 +83,3 @@ dummy: true
         - [Create a loyalty challenge and surface insights](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Sandbox tooling {#sandbox-tooling}
         - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
-  - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc} [Validate AA to CJA migration data](./coworker/data-validation-aa-cja.md)
-  - [Analyze CJA data](./coworker/analytics-chat.md)
