@@ -59,7 +59,7 @@ dummy: true
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
     - [Use cases](./coworker/campaigns/use-cases.md)
     - [Prompting best practices](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc} [C2PA metadata](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [C2PA metadata](./coworker/campaigns/c2pa-metadata.md)
     - Connectors {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
