@@ -70,6 +70,7 @@ dummy: true
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
     - [UI guide](./coworker/chat/ui-guide.md)
+    - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
     - Use cases {#use-cases}
       - [Coworker Chat use cases](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
