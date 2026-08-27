@@ -10,7 +10,7 @@ dummy: true
 
 # AI in CX Enterprise {#experience-cloud-ai}
 
-- [AI in CX Enterprise applications](home.md)
+- [AI in CX Enterprise](home.md)
 - About AI in CX Enterprise {#overview}
   - [About AI in CX Enterprise](./overview/overview-ai-cxe.md)
   - [About generative AI](./overview/generative-ai.md)
