@@ -32,6 +32,7 @@ dummy: true
         - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validate dataset quality for CJA reporting](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [Validate your Experience Platform data](./coworker/chat/use-cases/data-insights/data-validation.md)
       - Data Management {#data-management}
         - [Manage data lake retention](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Audiences {#audiences}
@@ -107,4 +108,3 @@ dummy: true
     - {hide-from-toc} [Adobe Analytics tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
-

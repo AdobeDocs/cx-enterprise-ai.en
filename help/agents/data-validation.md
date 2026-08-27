@@ -18,6 +18,10 @@ Read this documentation to learn how you can validate your data in AI Assistant.
 >
 >AI Assistant is the conversational interface for this workflow. Agent Orchestrator performs the reasoning and coordinates the validation steps behind the scenes.
 
+>[!NOTE]
+>
+>Data validation is also available as a Coworker skill. See [Validate your Experience Platform data with Coworker](/help/coworker/chat/use-cases/data-insights/data-validation.md).
+
 ## Use cases
 
 | Use case | Description |
