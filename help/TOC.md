@@ -71,6 +71,7 @@ dummy: true
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
     - [UI guide](./coworker/chat/ui-guide.md)
+    - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
     - Use cases {#use-cases}
       - [Coworker Chat use cases](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
@@ -84,3 +85,6 @@ dummy: true
         - [Create a loyalty challenge and surface insights](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Sandbox tooling {#sandbox-tooling}
         - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
+      - Alerts {#alerts}
+        - [Customer alert skills](./agents/customer-alerts.md)
+        
