@@ -12,6 +12,7 @@ dummy: true
 
 - [AI in CX Enterprise applications](home.md)
 - About AI in CX Enterprise {#overview}
+  - [About AI in CX Enterprise](./overview/overview-ai-cxe.md)
   - [About generative AI](./overview/generative-ai.md)
   - [About agentic AI](./overview/agentic-ai.md)
   - [About AI credits consumption](./overview/ai-credit-consumption.md)
