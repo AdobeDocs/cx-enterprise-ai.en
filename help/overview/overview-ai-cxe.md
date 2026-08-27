@@ -17,11 +17,7 @@ role_v2:
 ---
 # About AI in CX Enterprise
 
-Adobe CX Enterprise applications use AI in two complementary ways: **generative AI**, which you prompt directly to create content or get an answer, and **agentic AI**, which plans and carries out multi-step work on your behalf, with your oversight. This group of pages gives business and IT leaders a map of where each kind of AI shows up, how it's governed and measured, and how AI-generated content is disclosed, so you can brief stakeholders and plan enablement before rolling AI out to your teams.
-
->[!NOTE]
->
->These pages are conceptual, not task-based. For step-by-step guidance on using AI Assistant, Agent Orchestrator, or CX Enterprise Coworker, start at [AI in CX Enterprise applications](../home.md).
+Adobe CX Enterprise applications use AI in two complementary ways: **generative AI**, which you prompt directly to create content or get an answer, and **agentic AI**, which plans and carries out multi-step work on your behalf, with your oversight. The following topics broadly describe where each kind of AI is available in CX Enterprise.
 
 ## What's covered in this section
 
@@ -35,7 +31,7 @@ Adobe CX Enterprise applications use AI in two complementary ways: **generative 
 ## Where to start
 
 1. Read **About generative AI** and **About agentic AI** to understand the two forms of AI available and where each one is already live in your licensed applications.
-2. Read **AI credits consumption** to understand how usage translates to cost, so you can set expectations with finance and procurement.
-3. Set up **Agentic AI monitoring** dashboard permissions for your governance team, so adoption and usage are visible from day one.
-4. Read **Generative AI content transparency** to understand what disclosures are automatically applied to AI-generated content your teams publish.
-5. Once your organization is ready to onboard users, point them to [AI in CX Enterprise applications](../home.md) for hands-on guidance on AI Assistant, Agent Orchestrator, and CX Enterprise Coworker.
+1. Read **AI credits consumption** to understand how usage translates to cost, so you can set expectations with finance and procurement.
+1. Set up **Agentic AI monitoring** dashboard permissions for your governance team, so adoption and usage are visible from day one.
+1. Read **Generative AI content transparency** to understand what disclosures are automatically applied to AI-generated content your teams publish.
+1. Once your organization is ready to onboard users, point them to [AI in CX Enterprise applications](../home.md) for hands-on guidance on AI Assistant, Agent Orchestrator, and CX Enterprise Coworker.
