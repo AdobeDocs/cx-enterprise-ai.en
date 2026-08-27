@@ -14,6 +14,25 @@ Get oriented with the Coworker Chat interface. This guide covers everything from
 
 ## Access Coworker Chat
 
+When your organization gains access to Coworker, you can use its capabilities through either the immersive experience or an in-product experience.
+
+>[!NOTE]
+>
+>The in-product experience is accessible via the Coworker icon (![Coworker icon](./assets/icon-coworker.png)) at the top-right. The immersive experience details are [outlined below](#immersive).
+
+The following table captures when these experiences will be available for each CX Enterprise application.
+
+| CX Enterprise Application | Immersive Experience | In-Product Experience |
+|---|---|---|
+| RTCDP | Available Now | Coming Soon |
+| AJO | Available Now | Coming Soon |
+| CJA | Available Now | Coming Soon |
+| AEM | Coming in September 2026 | Coming Soon |
+| Workfront | Coming in September 2026 | Coming Soon:<br><br>* Early September 2026 in Preview Mode for select Workfront System Admins<br><br>* Mid September 2026 in Production Mode for eligible fast release Workfront customers<br><br>* Mid October 2026 in Production Mode for eligible quarterly release Workfront customers |
+| Target | Coming in September 2026 | Coming Soon |
+
+### Immersive Experience {#immersive}
+
 Access Coworker Chat by navigating to [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker) and signing in with your Adobe credentials.
 
 You can also access it by selecting **Coworker** from the application selector on the top header in CX Enterprise.
