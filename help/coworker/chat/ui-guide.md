@@ -18,7 +18,7 @@ When your organization gains access to Coworker, you can use its capabilities th
 
 >[!NOTE]
 >
->The in-product experience is accessible via the Coworker icon (![Coworker icon](./assets/icon-coworker.png)) at the top-right. The immersive experience details are [outlined below](#immersive).
+>The in-product experience is accessible via the Coworker icon ![Coworker icon](./assets/icon-coworker.png) at the top-right. The immersive experience details are [outlined below](#immersive).
 
 The following table captures when these experiences will be available for each CX Enterprise application.
 
