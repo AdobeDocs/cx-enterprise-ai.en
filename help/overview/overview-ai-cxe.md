@@ -3,7 +3,10 @@ title: About AI in CX Enterprise
 description: A business-level overview of where generative and agentic AI show up across Adobe CX Enterprise applications, how usage is governed and measured, and how your teams can get started.
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
@@ -11,13 +14,6 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-    internal-label: Artificial intelligence
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-    internal-label: Governance
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
 ---
 # About AI in CX Enterprise
 
