@@ -21,7 +21,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ## Brand Experience
 
-### Experience Production - Sites
+### Experience Production - AEM Sites
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -33,7 +33,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 * [Agentic Capabilities in AEM: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-### Experience Production - Forms
+### Experience Production - AEM Forms
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
