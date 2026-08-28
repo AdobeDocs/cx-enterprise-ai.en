@@ -21,7 +21,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ## Brand Experience
 
-### Experience Production - Sites Use Cases
+### Experience Production - Sites
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -33,7 +33,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 * [Agentic Capabilities in AEM: Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-### Experience Production - Forms Use Cases
+### Experience Production - Forms
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -50,8 +50,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-| Diagnose and fix failing Cloud Manager pipelines | Investigate a failed pipeline execution, identify the root cause, and generate a fix (with a diff)  for review | `cloud-manager-pipeline-troubleshooting` | Adobe Experience Manager (AEM)  | "Why did my build pipeline fail?"<br><br>"Suggest a fix for my broken prod pipeline" |
-| Manage Cloud Manager pipelines| Create, run, and monitor AEM Cloud Manager pipelines, including logs, artifacts, variables, and settings | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM)  | "List pipelines for program 12345"<br><br>"Why did my Dev Pipeline execution fail?" |
+| Manage Cloud Manager pipelines| Create, run, and monitor AEM Cloud Manager pipelines, including logs, artifacts, variables, and settings | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM)  | "List pipelines for program 12345"<br><br>"What is the status of my most recent pipeline?" |
 | Manage Cloud Manager environments | Create, configure, and maintain AEM Cloud Manager environments, including RDEs, environment variables, logs, and backups | `cloud-manager-environment-management` | Adobe Experience Manager (AEM)  | "List my environments for program 12345"<br><br>"Reset my RDE" |
 | Manage Cloud Manager programs | List, inspect, and delete AEM Cloud Manager programs, including their pipelines and environments | `cloud-manager-program-management` | Adobe Experience Manager (AEM)  | "List my Cloud Manager programs"<br><br>"Get details for program 12345" |
 | Manage AEM release update schedules | Configure daily Quiet Hours and Update-Free Periods for automated maintenance, and view Adobe's global Code-Freeze windows | `cloud-manager-release-management` | Adobe Experience Manager (AEM)  | "What's my current Quiet Hours window?"<br><br>"Schedule an update-free period from Dec 20 to Jan 2" |
@@ -60,7 +59,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 * [Agentic Capabilities in AEM: Brand Experience - Development](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
-### Onboarding - AEM Assets Use Cases
+### Onboarding - AEM Assets
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
@@ -73,7 +72,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 * [Agentic Capabilities in AEM: Brand Experience - Onboarding](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
-## Content Advisor - AEM Assets Use Cases
+## Content Advisor - AEM Assets
 
 ### Content Discovery
 
