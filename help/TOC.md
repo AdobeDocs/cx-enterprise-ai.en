@@ -87,4 +87,6 @@ dummy: true
         - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
       - Alerts {#alerts}
         - [Customer alert skills](./agents/customer-alerts.md)
-        
+      - Content Advisor {#content-advisor}
+        - [Generate marketing assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
+        - [Brand compliance check](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
