@@ -145,6 +145,43 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Analyze custom action errors | Identify when custom actions are failing or error rates spike within a journey, and diagnose root causes before failures cascade into broader disruption | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | "Why are custom actions failing in my Loyalty Signup journey?" <br> "Show me the error rate for custom action ExternalPush in my Welcome journey." |
 | [Create, edit, and manage loyalty challenges](journeys/create-loyalty-challenge.md) | Simplify and accelerate loyalty program management | `loyalty` | Adobe Journey Optimizer (AJO) | "Create a challenge encouraging members to try a new seasonal beverage" <br> "Show me loyalty challenges with the highest member drop-off rates." |
 
+## Experimentation
+
+Use Coworker Chat to browse, analyze, and plan experiments, and to create, run, and troubleshoot Adobe Target activities, audiences, and Recommendations.
+
+### Experiment analysis and strategy
+
+| Use Case | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Browse and explore experiments | Look up experiment overviews, lists, counts, raw results, insights, and opportunities | `experiment-explorer` | Adobe Target | "Show me my experiments" · "List active tests" · "How many experiments are running?" |
+| Analyze experiment performance | Get portfolio rundowns, single-experiment health checks, executive briefs, and cross-experiment reports with metrics, optionally enriched with CJA data | `experiment-analysis` | Adobe Target | "How are my A/B tests performing?" · "Generate a report for my activities with CJA metrics" · "Is this test healthy?" |
+| Plan and design experiments | Get the highest-impact next test to run, a design for a named topic, goal-to-metric translation, recovery guidance for a failed test, or a sequenced multi-experiment roadmap | `experiment-strategist` | Adobe Target | "What should I test next?" · "Help me design an experiment to improve checkout conversions" · "Build a testing roadmap for Q3" |
+| Search experiment history | Retrieve hypotheses, learnings, outcomes, and treatments from past experiments, find prior experiments by topic, or ingest an external CSV to enrich results | `experiment-knowledge-base` | Adobe Target | "What do we know about experiment X?" · "Have we tested this hypothesis before?" · "Ingest this CSV" |
+
+### Target activities and audiences
+
+| Use Case | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Browse Target entities | Discover, inspect, and count activities, offers, audiences, mboxes, properties, workspaces, AT.js configuration, response tokens, and revision history. Can also capture a screenshot of an activity's forced experiences | `target-browse` | Adobe Target | "List my A/B tests" · "How many activities launched this month?" · "Show details of activity 12345" |
+| Analyze activity performance | Get conversion rates, lift, confidence intervals, revenue, and exposure counts for a single activity. States facts only and never declares a winner | `target-analyze` | Adobe Target | "How is activity X performing?" · "Show me the conversion lift" · "What's the AOV for the checkout test?" |
+| Get a ship or stop verdict | Get a SHIP, WAIT, STOP, or FIX recommendation for an activity, computed from two-proportion significance on raw counts plus configuration-defect checks | `target-activity-verdict` | Adobe Target | "Should I ship this test?" · "Which variant won?" · "Is this significant yet?" |
+| Create and configure activities | Create, update, and configure activities, offers, and response tokens, generate QA preview URLs, and author or optimize offer content | `target-design` | Adobe Target | "Create an A/B test for the homepage" · "Update the traffic split" · "Optimize this offer's JS" |
+| Create Visual Experience Composer activities | Create and edit Visual Experience Composer (VEC) activities, authoring variants as DOM modifications against a live page URL, along with the page-delivery audience that scopes them | `target-vec` | Adobe Target | "Create a VEC A/B test for the homepage" · "Change the hero headline in the visual editor" |
+| Set up a complete test from scratch | Get guided, end-to-end activity creation for A/B, XT, and VEC tests, covering requirements gathering, prerequisites, creation, scheduling and priority, QA links, and optional activation | `target-setup` | Adobe Target | "Walk me through setting up a complete A/B test" · "I'm new to Target, help me create my first test" |
+| Audit program health | Get a program-wide health audit covering risk and collision detection, misconfiguration findings, audience and offer hygiene, and quick-win recommendations | `target-intelligence` | Adobe Target | "Audit my Target activities" · "Find risky or misconfigured tests" · "What should I clean up?" |
+| Find winning patterns | Mine Target history for winning patterns, effective strategies, and high-performing audiences or content, then get recommendations for what to test next, grounded in your own data | `target-strategist` | Adobe Target | "What's working for us?" · "Show me my winning patterns" · "What should I test next based on past results?" |
+| Calculate sample size and duration | Plan A/B/n sample size, test duration, and detectable lift for conversion-rate and revenue-per-visitor metrics, with Bonferroni correction | `target-test-calculator` | Adobe Target | "How long should my A/B test run?" · "What sample size do I need?" · "Is my test powered yet?" |
+| Get a program-level performance rollup | Get an overview panel, a recent-launch table, and an aggregate win/loss/lift census across all activities, plus single-activity trend and momentum reads | `target-portfolio-report` | Adobe Target | "Give me a health check of my Target programme" · "Which are my top and worst tests?" · "Is activity X trending toward a win?" |
+| Create audiences from natural language | Create or edit Target-native audiences from a natural-language description, an explicit rule condition, or an inline or uploaded value list. Maps the request to the rule grammar and validates the rule tree before writing | `target-audience-composer` | Adobe Target | "Create an audience of returning visitors from California" · "Build an audience from these ZIP codes" · "Narrow audience X to returning visitors" |
+
+### Recommendations
+
+| Use Case | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Browse Recommendations entities | Browse and inspect Recommendations criteria, collections, designs, promotions, exclusions, catalog, and feeds, plus get cleanup advice and catalog-attribute guidance | `target-recs` | Adobe Target | "List my Recommendations criteria" · "What designs do I have?" · "Which recs can we clean up?" |
+| Diagnose Recommendations issues | Trace the activity, criteria, feed, collection, and design chain to explain why Recommendations are empty, stale, or not showing | `target-recs-diagnose` | Adobe Target | "Why are my recommendations empty?" · "Why has my recs activity been 'results not ready' for 48 hours?" |
+| Author Recommendations | Create and update Recommendations criteria, collections, designs, exclusions, promotions, feeds, and recs activities, including gated bulk operations across many activities at once | `target-recs-design` | Adobe Target | "Create a 'most viewed' criteria" · "Build a collection of in-stock products under $50" · "Apply Black Friday dates across all sale activities" |
+
 ## Foundational elements
 
 | Use Case | Description | Skills | Application | Sample Prompts |
