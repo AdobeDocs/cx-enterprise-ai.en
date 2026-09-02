@@ -1,9 +1,12 @@
 ---
 description: Connect your HubSpot account to Coworker Campaigns using a service key to sync contact lists, then manage or disconnect the integration anytime.
 title: Connect to HubSpot
-feature_v2:
+product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: ''
 ---
 # Connect to HubSpot {#hubspot}
 

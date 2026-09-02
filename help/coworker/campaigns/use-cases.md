@@ -1,9 +1,12 @@
 ---
 description: Browse real prompt patterns for Adobe CX Enterprise Coworker Campaigns, organized by use case across acquisition, engagement, events, conversion, and retention campaigns.
 title: Coworker Campaigns Use Cases
-feature_v2:
+product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: ''
 ---
 # Use cases {#use-cases}
 
