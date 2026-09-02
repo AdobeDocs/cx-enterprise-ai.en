@@ -1,9 +1,12 @@
 ---
 description: Learn Coworker Campaigns prompting best practices - the CO-STAR framework, do's and don'ts, unsupported content, and a quality checklist for prompts.
 title: Prompting Best Practices
-feature_v2:
+product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: ''
 ---
 # Prompting best practices {#best-practices}
 

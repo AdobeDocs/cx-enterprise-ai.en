@@ -6,11 +6,14 @@ role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 76
-last-substantial-update: 2026-09-01
+last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22501
-feature_v2:
+product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: ''
 ---
 
 # Check content for brand compliance with Coworker Chat

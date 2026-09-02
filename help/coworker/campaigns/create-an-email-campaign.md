@@ -1,9 +1,12 @@
 ---
 description: A step-by-step guide to generating an email campaign in Adobe CX Enterprise Coworker Campaigns, from writing prompts to reviewing and exporting your campaign.
 title: Create an Email Campaign
-feature_v2:
+product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: ''
 ---
 # Create an email campaign {#create-an-email-campaign}
 

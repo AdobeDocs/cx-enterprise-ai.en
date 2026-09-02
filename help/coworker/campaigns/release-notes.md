@@ -1,9 +1,12 @@
 ---
 description: Learn about feature enhancements and fixes in the Adobe CX Enterprise Coworker Campaigns release notes.
 title: CX Enterprise Coworker Campaigns Release Notes
-feature_v2:
+product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: ''
 ---
 # Adobe CX Enterprise Coworker Campaigns release notes {#release-notes}
 

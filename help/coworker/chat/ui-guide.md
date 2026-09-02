@@ -1,10 +1,13 @@
 ---
 description: A reference guide to the Coworker Chat interface, covering navigation, the input box, responses, chat history, and configuring Skills, MCP servers, and Memory.
 title: Coworker Chat UI Guide
-feature_v2:
+jira: KT-22106
+product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-jira: KT-22106
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: ''
 ---
 # UI guide {#ui-guide}
 

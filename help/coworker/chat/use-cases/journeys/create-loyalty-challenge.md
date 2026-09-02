@@ -7,9 +7,12 @@ doc-type: Feature Video
 duration: 499
 last-substantial-update: 2026-08-12T00:00:00.000Z
 jira: KT-22312
-feature_v2:
+product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: ''
 ---
 
 # Adobe Journey Optimizer & Coworker - create a loyalty challenge and surface insights
