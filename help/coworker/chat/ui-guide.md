@@ -30,9 +30,9 @@ The following table captures when these experiences will be available for each C
 | RTCDP | Available Now | Coming Soon |
 | AJO | Available Now | Coming Soon |
 | CJA | Available Now | Coming Soon |
+| Workfront | Available Now | Coming Soon:<br><br>* Early September 2026 in Preview Instance for select eligible Workfront System Admins<br><br>* Mid September 2026 in Production Instance for eligible fast release Workfront customers<br><br>* Mid October 2026 in Production Instance for eligible quarterly release Workfront customers |
+| Target | Available Now | Available Now |
 | AEM | September 2026 | Coming Soon |
-| Workfront | September 2026 | Coming Soon:<br><br>* Early September 2026 in Preview Instance for select eligible Workfront System Admins<br><br>* Mid September 2026 in Production Instance for eligible fast release Workfront customers<br><br>* Mid October 2026 in Production Instance for eligible quarterly release Workfront customers |
-| Target | September 2026 | Coming Soon |
 
 ### Immersive Experience {#immersive}
 
