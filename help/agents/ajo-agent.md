@@ -54,7 +54,7 @@ topic_v2:
 
 >[!AVAILABILITY]
 >
->Journey Agent create skills and content generation skills are available to customers that are a part of the Agent Orchestrator Explorer program. For more information, contact Adobe Customer Care.
+>Journey Agent create AI capabilities and content generation AI capabilities are available to customers that are a part of the Agent Orchestrator Explorer program. For more information, contact Adobe Customer Care.
 
 ## Introduction to Journey Agent in Adobe Journey Optimizer
 
@@ -66,13 +66,13 @@ Journey Agent consists of four main jobs to be done:
 - **Channel Content Create**: Generate, edit, and manage channel-specific content (email, push, SMS) for journeys using AI-powered content generation
 - **Journey Analyze**: Analyze journeys, detect issues, uncover insights, and optimize customer engagement
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product, non-conversational AI capability with three sub-capabilities: 
 
 - Generating simulated users
 - Generating event values
 - Quick simulation
 
-## Journey Create: Use cases, Agentic skills and User guide
+## Journey Create: Use cases, AI capabilities and User guide
 
 ## Overview
 
@@ -124,7 +124,7 @@ Journey Create offers capabilities that can be leveraged to accelerate marketing
 
 For each of these use cases, the agent translates natural language requirements into structured journey configurations.
 
-## In scope and out of scope skills
+## In scope and out of scope AI capabilities
 
 ### **In scope**
 
@@ -208,7 +208,7 @@ To maximize the effectiveness of Journey Create, follow these best practices:
 - **Plan Message Content**: Have your messaging strategy defined before journey creation.
 - **Consider Customer Experience**: Design journey flows that respect customer preferences and avoid over-communication.
 
-## Channel Content Create: Use Cases, Agentic Skills and User Guide
+## Channel Content Create: Use Cases, AI Capabilities and User Guide
 
 >[!AVAILABILITY]
 >
@@ -234,7 +234,7 @@ Channel Content Create enables Journey Optimizer users to generate, edit, and ma
 
 1. **Journey canvas integration**: Select journeys from inventory and view associated channels.
 
-## In scope and out of scope skills
+## In scope and out of scope AI capabilities
 
 ### **In scope**
 
@@ -290,7 +290,7 @@ The following functionalities are currently not supported:
 1. **Define Tone**: Specify the desired tone (friendly, formal, casual, urgent).
 1. **Iterate and Refine**: Use the regenerate action to refine content until it meets your requirements.
 
-## Journey Analyze: Use Cases, Agentic Skills and User Guide
+## Journey Analyze: Use Cases, AI Capabilities and User Guide
 
 ## Overview
 
@@ -342,7 +342,7 @@ Journey Analyze offers a range of functionalities that can be leveraged to optim
 
 For each of these analyses, the agent not only detects issues but also provides **actionable recommendations to resolve them**.
 
-## In Scope and Out of Scope Skills
+## In Scope and Out of Scope AI Capabilities
 
 ### **In Scope**
 
@@ -438,13 +438,13 @@ To maximize the effectiveness of Journey Analyze, follow these best practices:
 - **Monitor Regularly**: Schedule regular reviews of journey performance to identify trends and anomalies.
 - **Optimize Segmentation**: Ensure audience segmentation is balanced to avoid fatigue and maximize engagement.
 
-## Journey Simulate: Use Cases, Agentic Skills and User Guide
+## Journey Simulate: Use Cases, AI Capabilities and User Guide
 
 ## Overview
 
 >[!BEGINSHADEBOX]
 
-Journey Simulation is available to all Journey Optimizer customers. Journey Simulate, the in-product agentic skill within Journey Simulation, is available to customers that are a part of the Agent Orchestrator Explorer program and requires at least one of the following permissions:
+Journey Simulation is available to all Journey Optimizer customers. Journey Simulate, the in-product agentic AI capability within Journey Simulation, is available to customers that are a part of the Agent Orchestrator Explorer program and requires at least one of the following permissions:
 
 - **Simulate journeys**: Run simulation workflows from the journey canvas.
 
@@ -458,7 +458,7 @@ To use AI in **[!UICONTROL Simulation]** (**[!UICONTROL Quick simulation]**, gen
 
 >[!ENDSHADEBOX]
 
-Journey Simulation is a Journey Optimizer feature that enables Journey Optimizer users to safely test and validate marketing journeys before activation. Within Journey Simulation, Journey Simulate is an in-product agentic skill, not a conversational one, that automates and assists the testing process directly from the journey canvas.
+Journey Simulation is a Journey Optimizer feature that enables Journey Optimizer users to safely test and validate marketing journeys before activation. Within Journey Simulation, Journey Simulate is an in-product agentic AI capability, not a conversational one, that automates and assists the testing process directly from the journey canvas.
 
 Journey Simulate includes three capabilities:
 
@@ -493,7 +493,7 @@ Journey Simulate offers three capabilities that can be leveraged to reduce testi
 - Identify which simulated user flows through which path, and why, with detailed node-by-node traversal.
 - Review simulation reporting at the end of a run in the Journey Optimizer UI to validate outcomes before activation.
 
-## In scope skills and limitations
+## In scope AI capabilities and limitations
 
 ### **In scope**
 
@@ -506,11 +506,11 @@ The following capabilities are supported by the Journey Simulation feature:
 - **Simulation reporting**: View reporting at the end of a simulation run in the Journey Optimizer UI.
 - **Multi-user testing**: Run and visualize tests for multiple simulated users simultaneously, covering all journey branches.
 
-In addition to this, the following capabilities are supported by the Journey Simulate skill:
+In addition to this, the following capabilities are supported by the Journey Simulate AI capability:
 
 - **Simulated user generation**: Create simulated users based on journey paths, existing test profiles, or specified attributes.
 - **Event value generation**: Generate and assign event attribute values to drive test execution through specific journey paths.
-- **Quick simulation**: Run a full end-to-end simulation with minimal intervention. The skill automatically generates simulated users, event values, and pre-filled test settings, then executes the journey and surfaces results for review.
+- **Quick simulation**: Run a full end-to-end simulation with minimal intervention. This AI capability automatically generates simulated users, event values, and pre-filled test settings, then executes the journey and surfaces results for review.
 
 ### **Limitations**
 
