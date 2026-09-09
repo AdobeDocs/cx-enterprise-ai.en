@@ -19,40 +19,7 @@ dummy: true
   - [Agentic AI Monitoring dashboard](./overview/monitoring.md)
   - [Agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
   - [Generative AI content transparency](content-transparency.md)
-- AI Assistant {#ai-assistant}
-  - [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md)
-  - [Prompt Library](./ai-assistant/prompt-library.md)
-  - [Privacy](./ai-assistant/privacy.md)
-  - [Legal Disclaimer](./ai-assistant/legal-disclaimer.md)
-- Agents {#agents}
-  - [Agent Orchestrator](./agents/agent-orchestrator.md)
-  - [Audience Agent](./agents/audience.md)
-  - [Data Insights Agent](./agents/cja-data-insights-agent.md)
-  - [Experiment Agent](./agents/agent-experiment.md)
-  - [Field Discovery Agent](./agents/field-discovery-agent.md)
-  - [Journey Agent](./agents/ajo-agent.md)
-  - [Product Support Agent](./agents/product-support.md)
-  - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
-  - [Notifications Agent](./agents/notifications.md)
-  - [Coworker Trial](./agents/trial.md)
-  - [Validate your data](./agents/data-validation.md)
-  - Data Engineering {#data-engineering}
-    - {hide-from-toc} [Data Engineering Agent](./agents/data-engineering/overview.md)
-- MCP {#mcp}
-  - [Adobe CX Coworker Gateway](./mcp/overview.md)
-  - {hide-from-toc} [Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
-  - Get started {#mcp-get-started}
-    - [Access CX Coworker Gateway tools](./mcp/access.md)
-    - [Install CX Coworker Gateway](./mcp/install.md)
-    - [Session context tools in CX Coworker Gateway](./mcp/context-tools.md)
-  - Product tools {#mcp-product-tools}
-    - [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
-    - [Experience Platform tools](./mcp/aep-mcp.md)
-    - [Journey Optimizer tools](./mcp/ajo-mcp.md)
-    - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
-    - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Coworker {#coworker}
+- CX Enterprise Coworker {#coworker}
   - [About Coworker](./coworker/overview.md)
   - Campaigns {#campaigns}
     - [Overview](./coworker/campaigns/overview.md)
@@ -91,3 +58,36 @@ dummy: true
       - Content Advisor {#content-advisor}
         - [Generate marketing assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Brand compliance check](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+- AI Assistant {#ai-assistant}
+  - [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md)
+  - [Prompt Library](./ai-assistant/prompt-library.md)
+  - [Privacy](./ai-assistant/privacy.md)
+  - [Legal Disclaimer](./ai-assistant/legal-disclaimer.md)
+- Agents {#agents}
+  - [Agent Orchestrator](./agents/agent-orchestrator.md)
+  - [Audience Agent](./agents/audience.md)
+  - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [Experiment Agent](./agents/agent-experiment.md)
+  - [Field Discovery Agent](./agents/field-discovery-agent.md)
+  - [Journey Agent](./agents/ajo-agent.md)
+  - [Product Support Agent](./agents/product-support.md)
+  - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
+  - [Notifications Agent](./agents/notifications.md)
+  - [Coworker Trial](./agents/trial.md)
+  - [Validate your data](./agents/data-validation.md)
+  - Data Engineering {#data-engineering}
+    - {hide-from-toc} [Data Engineering Agent](./agents/data-engineering/overview.md)
+- MCP {#mcp}
+  - [Adobe CX Coworker Gateway](./mcp/overview.md)
+  - {hide-from-toc} [Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
+  - Get started {#mcp-get-started}
+    - [Access CX Coworker Gateway tools](./mcp/access.md)
+    - [Install CX Coworker Gateway](./mcp/install.md)
+    - [Session context tools in CX Coworker Gateway](./mcp/context-tools.md)
+  - Product tools {#mcp-product-tools}
+    - [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+    - [Experience Platform tools](./mcp/aep-mcp.md)
+    - [Journey Optimizer tools](./mcp/ajo-mcp.md)
+    - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+    - [Adobe Analytics tools](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
