@@ -11,7 +11,7 @@ description: Learn how to use Data Management Agentic Skills in CX Coworker to f
 >
 >To use Data Management Agentic Skills, you must have access to the Adobe Experience Platform sandbox that contains the datasets you want to review. Changing a retention policy requires permission to modify dataset retention settings in that sandbox.
 
-<!-- TODO(author): Confirm the exact AEP permission/role name(s) required for each skill with the engineering owner before publishing. See execution-brief.md, U5. -->
+<!-- TODO(author): Confirm the exact AEP permission/role name(s) required for each skill with the engineering owner before publishing. See execution-brief.md, U5. Also confirm before publishing that all four skills described in this guide are generally available; as of the kickoff meeting, one skill depended on an MCP server pending an ARB review (see execution-brief.md, U4, and the related TODO under Limitations). -->
 
 As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them slow down, and staying on top of data retention requirements becomes harder. To manage data-lake retention without writing queries or reviewing dataset details manually, use Data Management Agentic Skills in CX Coworker. Describe what you want to accomplish in natural language, and the agent finds the relevant Customer Event datasets, analyzes how they're used, and helps you set, change, or remove a retention policy — always previewing the impact and asking for your confirmation before anything changes.
 
@@ -23,7 +23,7 @@ Data Management Agentic Skills cover four related capabilities.
 |---|---|
 | **List datasets** | Lists your Customer Event datasets with storage size, row count, existing retention settings, and profile enablement, so you can find retention candidates quickly. |
 | **Analyze dataset usage** | Classifies how actively a specific dataset is used, based on signals such as recent ingestion, query activity, and downstream application usage. |
-| **Analyze dataset retention** | Shows a dataset's storage metrics and the age of the data it contains, and models how much data a candidate retention period would keep or remove. |
+| **Analyze dataset retention** | Shows a dataset's storage metrics and the age of the data it contains, and models, as an approximation based on that age distribution, how much data a candidate retention period would keep or remove. |
 | **Manage dataset retention** | Sets, changes, or removes a data-lake retention (TTL) policy on a dataset, with an impact preview and confirmation before anything changes. |
 
 ## Scope: data-lake retention vs. other data management tools {#scope}
@@ -93,7 +93,7 @@ For example:
 
 ### Deep dive into a dataset's retention posture {#deep-dive-into-a-datasets-retention-posture}
 
-Use the Analyze dataset retention skill to review a dataset's storage metrics and the age distribution of the data it contains, and to model how much data a candidate retention period would keep or remove — by row count and storage size — before you commit to a change. This skill is read-only.
+Use the Analyze dataset retention skill to review a dataset's storage metrics and the age distribution of the data it contains, and to model, as an approximation based on that age distribution, how much data a candidate retention period would keep or remove — by row count and storage size — before you commit to a change. This skill is read-only.
 
 For example:
 
@@ -107,7 +107,7 @@ Use the Manage dataset retention skill to set, change, or remove a data-lake ret
 >
 >The minimum data-lake retention period is 30 days; shorter periods aren't supported.
 
-Once you confirm a retention policy, data older than the retention period is purged during the next scheduled run, which typically completes within 24 hours. Every retention change — setting, changing, or removing a policy — is recorded in an audit trail that includes who made the change and when, which you can review directly in the Adobe Experience Platform audit log.
+After you confirm a retention policy, the Adobe Experience Platform UI may take a short time to reflect the change. Removal of expired data is a separate process: data older than the retention period isn't purged instantly, but during a scheduled purge run that, in product demonstrations, typically completed within about 24 hours of confirmation. Every retention change — setting, changing, or removing a policy — is recorded in an audit trail that includes who made the change and when, which you can review directly in the Adobe Experience Platform audit log.
 
 For example:
 
@@ -116,7 +116,7 @@ For example:
 
 ## How Data Management Agentic Skills work {#how-data-management-agentic-skills-work}
 
-Data Management Agentic Skills calculate usage classifications and retention impact using deterministic calculations rather than AI-generated estimates, so the same inputs always produce the same result. The skills read data directly from Adobe Experience Platform services, including Catalog Service and Query Service, so the information you see reflects the current state of your sandbox.
+Data Management Agentic Skills calculate usage classifications using deterministic formulas rather than AI-generated estimates, so the same inputs always produce the same usage tier. Retention-impact modeling is also calculated programmatically rather than through AI-generated estimates, but it's an approximation based on the dataset's data-age distribution rather than an exact measurement. The skills read data directly from Adobe Experience Platform services, including Catalog Service and Query Service, so the information you see reflects the current state of your sandbox.
 
 ## Best practices {#best-practices}
 
