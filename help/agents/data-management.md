@@ -69,9 +69,11 @@ To use Data Management Agentic Skills:
 
 Data Management Agentic Skills support two kinds of work: exploring and analyzing your datasets, and managing retention policies on them.
 
-### Find your largest and highest-risk datasets {#find-your-largest-and-highest-risk-datasets}
+### Find your largest datasets {#find-your-largest-datasets}
 
-Use the List datasets skill to surface Customer Event datasets by storage size, row count, existing retention status, and profile enablement. Use this skill as your starting point for a retention review, then filter by criteria such as dataset size or row count to narrow the list. This skill is read-only.
+Use the List datasets skill to surface Customer Event datasets by storage size, row count, existing retention status, and profile enablement. Use this skill as your starting point for a retention review, then filter by criteria such as dataset size or row count to narrow the list. This skill is read-only. Coworker returns these datasets as a table you can scan and compare, along with visualizations that help you see which datasets stand out by size, row count, or data age.
+
+Not every unused or abandoned dataset that this skill surfaces is automatically a candidate for a data-lake retention (TTL) policy — some may be better suited to [Dataset expiration](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) instead. Confirm that a dataset is a Customer Event (time-series) dataset before setting a retention policy on it.
 
 For example:
 
@@ -83,7 +85,7 @@ For example:
 
 ### Check how actively a dataset is used {#check-how-actively-a-dataset-is-used}
 
-Use the Analyze dataset usage skill to understand how actively a specific dataset is used. The skill evaluates nine deterministic signals — for example, recent ingestion activity, query activity, schema stability, and whether the dataset feeds other Adobe Experience Platform applications — then classifies the dataset into a usage tier. This skill is read-only.
+Use the Analyze dataset usage skill to understand how actively a specific dataset is used. The skill evaluates nine deterministic signals — for example, recent ingestion activity, query activity, schema stability, and whether the dataset feeds other Adobe Experience Platform applications — then classifies the dataset into a usage tier. This skill is read-only. Coworker returns the resulting usage tier along with a breakdown of the underlying signals and a plain-language summary of what they indicate about the dataset.
 
 <!-- TODO(author): Confirm final usage-tier names and thresholds with engineering before publishing. Both the tier labels and the day-based thresholds behind them were still under discussion as of the kickoff meeting. See execution-brief.md, U2 and U3. -->
 
@@ -93,7 +95,7 @@ For example:
 
 ### Deep dive into a dataset's retention posture {#deep-dive-into-a-datasets-retention-posture}
 
-Use the Analyze dataset retention skill to review a dataset's storage metrics and the age distribution of the data it contains, and to model, as an approximation based on that age distribution, how much data a candidate retention period would keep or remove — by row count and storage size — before you commit to a change. This skill is read-only.
+Use the Analyze dataset retention skill to review a dataset's storage metrics and the age distribution of the data it contains, and to model, as an approximation based on that age distribution, how much data a candidate retention period would keep or remove — by row count and storage size — before you commit to a change. This skill is read-only. Coworker returns this data-age and impact analysis directly in the conversation, so you can compare it against the dataset's current retention status before deciding whether to change it.
 
 For example:
 
@@ -107,7 +109,7 @@ Use the Manage dataset retention skill to set, change, or remove a data-lake ret
 >
 >The minimum data-lake retention period is 30 days; shorter periods aren't supported.
 
-After you confirm a retention policy, the Adobe Experience Platform UI may take a short time to reflect the change. Removal of expired data is a separate process: data older than the retention period isn't purged instantly, but during a scheduled purge run that, in product demonstrations, typically completed within about 24 hours of confirmation. Every retention change — setting, changing, or removing a policy — is recorded in an audit trail that includes who made the change and when, which you can review directly in the Adobe Experience Platform audit log.
+After you confirm a retention policy, the Adobe Experience Platform UI may take a short time to reflect the change. Removal of expired data is a separate process: data older than the retention period isn't purged instantly, but during a scheduled purge run that, in product demonstrations, typically completed within about 24 hours of confirmation. Every retention change — setting, changing, or removing a policy — is recorded in an audit trail that includes who made the change and when, which you can review directly in the Adobe Experience Platform audit log, with a link back to the relevant Adobe Experience Platform screen where available.
 
 For example:
 
@@ -116,13 +118,13 @@ For example:
 
 ## How Data Management Agentic Skills work {#how-data-management-agentic-skills-work}
 
-Data Management Agentic Skills calculate usage classifications using deterministic formulas rather than AI-generated estimates, so the same inputs always produce the same usage tier. Retention-impact modeling is also calculated programmatically rather than through AI-generated estimates, but it's an approximation based on the dataset's data-age distribution rather than an exact measurement. The skills read data directly from Adobe Experience Platform services, including Catalog Service and Query Service, so the information you see reflects the current state of your sandbox.
+Data Management Agentic Skills calculate usage classifications using deterministic formulas rather than AI-generated estimates, so the same inputs always produce the same usage tier. Retention-impact modeling is also calculated programmatically rather than through AI-generated estimates, but it's an approximation based on the dataset's data-age distribution rather than an exact measurement. The skills read data directly from Adobe Experience Platform services rather than a delayed or cached copy, so the information you see reflects the current state of your sandbox.
 
 ## Best practices {#best-practices}
 
 Keep the following practices in mind when using Data Management Agentic Skills:
 
-- **Start with discovery.** Use the List datasets skill to review your largest and highest-risk datasets before you deep-dive into any single dataset.
+- **Start with discovery.** Use the List datasets skill to review your largest datasets, and any that appear unused or abandoned, before you deep-dive into any single dataset.
 - **Review the impact preview before you confirm.** Setting or changing a retention policy results in data being purged; review what would be kept and removed before you confirm the request.
 - **Allow time for the change to appear.** After you confirm a retention change in CX Coworker, allow a short time for the Adobe Experience Platform UI to reflect it.
 
