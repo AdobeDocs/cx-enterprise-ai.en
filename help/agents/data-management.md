@@ -8,8 +8,6 @@ description: Learn how to use Data Management Agentic Skills in CX Coworker to f
 >[!AVAILABILITY]
 >
 >Data Management Agentic Skills are available to all customers with access to Adobe CX Enterprise Coworker.
->
->To use Data Management Agentic Skills, you must have access to the Adobe Experience Platform sandbox that contains the datasets you want to review. Changing a retention policy requires permission to modify dataset retention settings in that sandbox.
 
 <!-- TODO(author): Confirm the exact AEP permission/role name(s) required for each skill with the engineering owner before publishing. See execution-brief.md, U5. Also confirm before publishing that all four skills described in this guide are generally available; as of the kickoff meeting, one skill depended on an MCP server pending an ARB review (see execution-brief.md, U4, and the related TODO under Limitations). -->
 
@@ -53,15 +51,15 @@ Interact with Data Management Agentic Skills through CX Coworker using natural l
 
 To use Data Management Agentic Skills:
 
-1. Navigate to **[!UICONTROL CX Coworker]**.
+1. Navigate to **[!UICONTROL CX Coworker]**. For access details, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide), and make sure you're working in the sandbox that contains the datasets you want to review.
 1. Enter a request. For example:
 
    *"Show me my largest event datasets."*
 
 1. Review the results.
-1. Ask a follow-up question to narrow your analysis. For example:
+1. After reviewing a dataset, ask a follow-up question about it. For example:
 
-   *"How actively is this dataset being used?"*
+   *"How actively is my Web Events dataset being used?"*
 
 1. To set, change, or remove a retention policy, review the impact preview that Data Management Agentic Skills return, then confirm the request before it's applied.
 
@@ -71,9 +69,9 @@ Use these skills together as a workflow: start broad by finding your largest dat
 
 ### Find your largest datasets {#find-your-largest-datasets}
 
-Use the List datasets skill to surface Customer Event datasets by storage size, row count, existing retention status, and profile enablement. Use this skill as your starting point for a retention review, then filter by criteria such as dataset size or row count to narrow the list. This skill is read-only. Coworker returns these datasets as a table you can scan and compare, along with visualizations that help you see which datasets stand out by size, row count, or data age.
+Use the List datasets skill to surface Customer Event datasets by storage size, row count, existing retention status, and profile enablement. Use this skill as your starting point for a retention review, then filter by broad criteria such as dataset size, row count, or recent access to narrow the list — for a deeper look at how actively one specific dataset is used, use the Analyze dataset usage skill instead. This skill is read-only. Coworker returns these datasets as a table you can scan and compare, along with visualizations that help you see which datasets stand out by size, row count, or data age.
 
-Not every unused or abandoned dataset that this skill surfaces is automatically a candidate for a data-lake retention (TTL) policy — some may be better suited to [Dataset expiration](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) instead. Confirm that a dataset is a Customer Event (time-series) dataset before setting a retention policy on it.
+Not every unused or abandoned dataset that this skill surfaces is an Experience Event TTL candidate — see [Scope](#scope) for related tools that may be a better fit. Confirm that a dataset is a Customer Event (time-series) dataset before setting a retention policy on it.
 
 For example:
 
@@ -103,13 +101,13 @@ For example:
 
 ### Set, change, or remove a retention policy {#set-change-or-remove-a-retention-policy}
 
-Use the Manage dataset retention skill to set, change, or remove a data-lake retention (TTL) policy on a dataset. Before anything changes, the skill shows you an impact preview and asks you to confirm the request.
+Use the Manage dataset retention skill to set, change, or remove a data-lake retention (TTL) policy on a dataset. Where Analyze dataset retention lets you explore potential impact without committing to anything, this skill's preview is the final check before a real change is made: describing the change you want doesn't apply it — the skill shows you the proposed impact first, and only changes the policy after you explicitly approve the request.
 
 >[!IMPORTANT]
 >
 >The minimum data-lake retention period is 30 days; shorter periods aren't supported.
 
-After you confirm a retention policy, the Adobe Experience Platform UI may take a short time to reflect the change. Removal of expired data is a separate process: data older than the retention period isn't purged instantly, but during a scheduled purge run that, in product demonstrations, typically completed within about 24 hours of confirmation. Every retention change — setting, changing, or removing a policy — is recorded in an audit trail that includes who made the change and when, which you can review directly in the Adobe Experience Platform audit log, with a link back to the relevant Adobe Experience Platform screen where available.
+After you confirm a retention policy, the Adobe Experience Platform UI may take a short time to reflect the change. Removal of expired data is a separate process: data older than the retention period isn't purged instantly, but during a scheduled purge run that, in product demonstrations, typically completed within about 24 hours of confirmation. Every retention change — setting, changing, or removing a policy — is recorded in an audit trail that includes who made the change, when, and what changed. You can review this directly in the Adobe Experience Platform audit log, with a link back to the relevant Adobe Experience Platform screen where available.
 
 For example:
 
@@ -125,16 +123,12 @@ Data Management Agentic Skills calculate usage classifications using determinist
 Keep the following practices in mind when using Data Management Agentic Skills:
 
 - **Start with discovery.** Use the List datasets skill to review your largest datasets, and any that appear unused or abandoned, before you deep-dive into any single dataset.
-- **Review the impact preview before you confirm.** Setting or changing a retention policy causes data older than the retention period to be purged during the next scheduled run; review what would be kept and removed before you confirm the request.
+- **Review the impact preview before you confirm.** Once you confirm a retention change, it's applied — review what would be kept and removed beforehand.
 - **Allow time for the change to appear.** After you confirm a retention change in CX Coworker, allow a short time for the Adobe Experience Platform UI to reflect it.
 
 ## Limitations {#limitations}
 
-Keep the following constraints in mind when using Data Management Agentic Skills:
-
-- Data Management Agentic Skills recommend retention candidates; they don't decide or apply a retention policy without your explicit confirmation.
-- The minimum supported data-lake retention period is 30 days.
-- A confirmed retention change is enforced during the next scheduled purge run, not instantly.
+Data Management Agentic Skills recommend retention candidates — they don't decide or apply a retention policy without your explicit confirmation.
 
 <!-- TODO(author): Confirm that all four skills are generally available at publication time. As of the kickoff meeting, migration to production was still in progress and one skill depended on an MCP server pending an ARB review. See execution-brief.md, U4. -->
 
