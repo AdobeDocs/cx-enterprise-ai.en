@@ -1,9 +1,8 @@
 ---
-title: Data Management Agentic Skills
-description: Learn how to use Data Management Agentic Skills in CX Coworker to find, analyze, and manage data-lake retention (TTL) on your Adobe Experience Platform datasets through natural-language conversations.
+title: Data Management Agent for Adobe Experience Platform
+description: Learn how to use the Data Management Agent in CX Coworker to find and analyze Adobe Experience Platform datasets and manage data-lake retention policies.
 ---
-
-# Data Management Agentic Skills
+# Data Management Agent
 
 >[!AVAILABILITY]
 >
@@ -11,7 +10,7 @@ description: Learn how to use Data Management Agentic Skills in CX Coworker to f
 
 <!-- TODO(author): Confirm with the PM/engineering owner whether the AEP "View Datasets" and "Manage Datasets" permissions (https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) are the permissions that actually gate the read-only and mutating Data Management skills, respectively, or whether different permissions apply. See execution-brief.md, U5. Also confirm before publishing that all four skills described in this guide are generally available; as of the kickoff meeting, one skill depended on an MCP server pending an ARB review (see execution-brief.md, U4, and the related TODO under Limitations). -->
 
-As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them slow down, and staying on top of data retention requirements becomes harder. To manage data-lake retention without writing queries or reviewing dataset details manually, use Data Management Agentic Skills in CX Coworker. Describe what you want to accomplish in natural language, and the agent finds the relevant Customer Event datasets, analyzes how actively they're used, models how much data a candidate retention period would affect, and helps you set, change, or remove a retention policy — always previewing the impact and asking for your confirmation before anything changes.
+As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them slow down, and staying on top of data retention requirements becomes harder. To manage data-lake retention without writing queries or reviewing dataset details manually, use Data Management Agentic Skills in CX Coworker. Describe what you want to accomplish in natural language, and Data Management Agentic Skills find the relevant Customer Event datasets, analyze how actively they're used, model how much data a candidate retention period would affect, and help you set, change, or remove a retention policy — always previewing the impact and asking for your confirmation before anything changes.
 
 ## What Data Management Agentic Skills can do {#what-data-management-agentic-skills-can-do}
 
@@ -31,7 +30,7 @@ Data Management Agentic Skills manage data-lake retention — also called Experi
 These skills don't manage the following related capabilities:
 
 - **Profile store retention.** To manage how long profile data is retained in Real-Time Customer Profile, apply profile event retention on Profile-enabled time-series datasets. See [Profile event retention](https://experienceleague.adobe.com/en/docs/experience-platform/profile/event-expirations).
-- **Sandbox-wide pseudonymous profile TTL.** See [Pseudonymous profiles](https://experienceleague.adobe.com/en/docs/experience-platform/profile/pseudonymous-profiles).
+- **Sandbox-wide pseudonymous profile TTL.** To automatically delete pseudonymous profile data across a sandbox once it meets the configured conditions, see [Pseudonymous profiles](https://experienceleague.adobe.com/en/docs/experience-platform/profile/pseudonymous-profiles).
 - **Dataset expiration.** To schedule an entire dataset for deletion on a future date, see [Dataset expiration](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration).
 - **Record Delete.** To remove individual profile records for privacy or hygiene reasons, see [Record Delete](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/record-delete).
 
@@ -40,7 +39,7 @@ These skills don't manage the following related capabilities:
 Before you begin, ensure that you have:
 
 - Access to Adobe Experience Platform and the sandbox that contains the datasets you want to review.
-- Permission to view the dataset catalog — likely the **View Datasets** permission — and, if you plan to set, change, or remove a retention policy, permission to modify dataset retention settings — likely the **Manage Datasets** permission. See the [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) for how Adobe Experience Platform permissions and roles work.
+- Permission to view the dataset catalog and, if you plan to set, change, or remove a retention policy, permission to modify dataset retention settings. See the [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) for how Adobe Experience Platform permissions and roles work.
 - The Adobe CXO plugin installed in CX Coworker.
 
 For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
@@ -49,9 +48,13 @@ For instructions on installing plugins, see the [Coworker UI guide](https://expe
 
 Interact with Data Management Agentic Skills through CX Coworker using natural language. Describe your goal as clearly as possible, then refine the results with follow-up questions.
 
+>[!NOTE]
+>
+>Make sure you're working in the sandbox that contains the datasets you want to review before you begin.
+
 To use Data Management Agentic Skills:
 
-1. Navigate to **[!UICONTROL CX Coworker]**. For access details, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide), and make sure you're working in the sandbox that contains the datasets you want to review.
+1. Navigate to **[!UICONTROL CX Coworker]**. For access details, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 1. Enter a request. For example:
 
    *"Show me my largest event datasets."*
@@ -101,7 +104,7 @@ For example:
 
 ### Set, change, or remove a retention policy {#set-change-or-remove-a-retention-policy}
 
-Use the Manage dataset retention skill to set, change, or remove a data-lake retention (TTL) policy on a dataset. Where Analyze dataset retention lets you explore potential impact without committing to anything, this skill's preview is the final check before a real change is made: describing the change you want doesn't apply it — the skill shows you the proposed impact first, and only changes the policy after you explicitly approve the request.
+Use the Manage dataset retention skill to set, change, or remove a data-lake retention (TTL) policy on a dataset. Analyze dataset retention lets you explore potential impact without committing to anything; this skill's preview is different — it's the final check before a real change is made. Describing the change you want doesn't apply it. The skill shows you the proposed impact first, and only changes the policy after you explicitly approve the request.
 
 >[!IMPORTANT]
 >
@@ -129,7 +132,7 @@ Data Management Agentic Skills calculate usage classifications using determinist
 Keep the following practices in mind when using Data Management Agentic Skills:
 
 - **Start with discovery.** Use the List datasets skill to review your largest datasets, and any that appear unused or abandoned, before you deep-dive into any single dataset.
-- **Review the impact preview before you confirm.** Once you confirm a retention change, it's applied — review what would be kept and removed beforehand.
+- **Review the impact preview before you confirm.** Review what would be kept and removed before you approve the request.
 - **Allow time for the change to appear.** After you confirm a retention change in CX Coworker, allow a short time for the Adobe Experience Platform UI to reflect it.
 
 ## Limitations {#limitations}

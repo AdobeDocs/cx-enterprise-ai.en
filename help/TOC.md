@@ -28,7 +28,7 @@ dummy: true
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
-  - [Data Managment Agent](./agents/data-management-agent.md)
+  - [Data Management Agent](./agents/data-management.md)
   - [Experiment Agent](./agents/agent-experiment.md)
   - [Field Discovery Agent](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
