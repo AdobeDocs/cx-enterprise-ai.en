@@ -13,7 +13,7 @@ description: Learn how to use Data Management Agentic Skills in CX Coworker to f
 
 <!-- TODO(author): Confirm the exact AEP permission/role name(s) required for each skill with the engineering owner before publishing. See execution-brief.md, U5. Also confirm before publishing that all four skills described in this guide are generally available; as of the kickoff meeting, one skill depended on an MCP server pending an ARB review (see execution-brief.md, U4, and the related TODO under Limitations). -->
 
-As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them slow down, and staying on top of data retention requirements becomes harder. To manage data-lake retention without writing queries or reviewing dataset details manually, use Data Management Agentic Skills in CX Coworker. Describe what you want to accomplish in natural language, and the agent finds the relevant Customer Event datasets, analyzes how they're used, and helps you set, change, or remove a retention policy — always previewing the impact and asking for your confirmation before anything changes.
+As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them slow down, and staying on top of data retention requirements becomes harder. To manage data-lake retention without writing queries or reviewing dataset details manually, use Data Management Agentic Skills in CX Coworker. Describe what you want to accomplish in natural language, and the agent finds the relevant Customer Event datasets, analyzes how actively they're used, models how much data a candidate retention period would affect, and helps you set, change, or remove a retention policy — always previewing the impact and asking for your confirmation before anything changes.
 
 ## What Data Management Agentic Skills can do {#what-data-management-agentic-skills-can-do}
 
@@ -67,7 +67,7 @@ To use Data Management Agentic Skills:
 
 ## Supported use cases {#supported-use-cases}
 
-Data Management Agentic Skills support two kinds of work: exploring and analyzing your datasets, and managing retention policies on them.
+Use these skills together as a workflow: start broad by finding your largest datasets, narrow down by checking how actively a dataset is used and modeling the impact of a candidate retention period, then set, change, or remove a retention policy once you're ready to act.
 
 ### Find your largest datasets {#find-your-largest-datasets}
 
@@ -85,7 +85,7 @@ For example:
 
 ### Check how actively a dataset is used {#check-how-actively-a-dataset-is-used}
 
-Use the Analyze dataset usage skill to understand how actively a specific dataset is used. The skill evaluates nine deterministic signals — for example, recent ingestion activity, query activity, schema stability, and whether the dataset feeds other Adobe Experience Platform applications — then classifies the dataset into a usage tier. This skill is read-only. Coworker returns the resulting usage tier along with a breakdown of the underlying signals and a plain-language summary of what they indicate about the dataset.
+Use the Analyze dataset usage skill to understand how actively a specific dataset is used before you decide whether it's a good candidate for a retention policy. The skill evaluates nine deterministic signals — for example, recent ingestion activity, query activity, schema stability, and whether the dataset feeds other Adobe Experience Platform applications — then classifies the dataset into a usage tier. This skill is read-only. Coworker returns the resulting usage tier along with a breakdown of the underlying signals and a plain-language summary of what they indicate about the dataset.
 
 <!-- TODO(author): Confirm final usage-tier names and thresholds with engineering before publishing. Both the tier labels and the day-based thresholds behind them were still under discussion as of the kickoff meeting. See execution-brief.md, U2 and U3. -->
 
