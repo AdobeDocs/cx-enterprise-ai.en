@@ -17,7 +17,7 @@ landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/cx-enteprise-ai.en
+git-repo: https://github.com/AdobeDocs/cx-enterprise-ai.en
 index: true
 ---
 
