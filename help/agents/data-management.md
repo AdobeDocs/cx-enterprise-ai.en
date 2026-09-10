@@ -6,15 +6,15 @@ description: Learn how to use the Data Management Agent in CX Coworker to find a
 
 >[!AVAILABILITY]
 >
->Data Management Agentic Skills are available to all customers with access to Adobe CX Enterprise Coworker.
+>The Data Management Agent is available to all customers with access to Adobe CX Enterprise Coworker.
 
 <!-- TODO(author): Confirm with the PM/engineering owner whether the AEP "View Datasets" and "Manage Datasets" permissions (https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) are the permissions that actually gate the read-only and mutating Data Management skills, respectively, or whether different permissions apply. See execution-brief.md, U5. Also confirm before publishing that all four skills described in this guide are generally available; as of the kickoff meeting, one skill depended on an MCP server pending an ARB review (see execution-brief.md, U4, and the related TODO under Limitations). -->
 
-As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them slow down, and staying on top of data retention requirements becomes harder. To manage data-lake retention without writing queries or reviewing dataset details manually, use Data Management Agentic Skills in CX Coworker. Describe what you want to accomplish in natural language, and Data Management Agentic Skills find the relevant Customer Event datasets, analyze how actively they're used, model how much data a candidate retention period would affect, and help you set, change, or remove a retention policy — always previewing the impact and asking for your confirmation before anything changes.
+As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them slow down, and staying on top of data retention requirements becomes harder. To manage data-lake retention without writing queries or reviewing dataset details manually, use the Data Management Agent in CX Coworker. Describe what you want to accomplish in natural language, and the Data Management Agent finds the relevant Customer Event datasets, analyzes how actively they're used, models how much data a candidate retention period would affect, and helps you set, change, or remove a retention policy — always previewing the impact and asking for your confirmation before anything changes.
 
-## What Data Management Agentic Skills can do {#what-data-management-agentic-skills-can-do}
+## What the Data Management Agent can do {#what-the-data-management-agent-can-do}
 
-Data Management Agentic Skills cover four related capabilities.
+The Data Management Agent provides four skills.
 
 | Skill | Description |
 |---|---|
@@ -25,7 +25,7 @@ Data Management Agentic Skills cover four related capabilities.
 
 ## Scope: data-lake retention vs. other data management tools {#scope}
 
-Data Management Agentic Skills manage data-lake retention — also called Experience Event TTL — on Customer Event (time-series) datasets. Use these skills to find, analyze, and set retention on the datasets that make up your data lake.
+The Data Management Agent manages data-lake retention — also called Experience Event TTL — on Customer Event (time-series) datasets. Use its skills to find, analyze, and set retention on the datasets that make up your data lake.
 
 These skills don't manage the following related capabilities:
 
@@ -44,15 +44,15 @@ Before you begin, ensure that you have:
 
 For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
-## Use Data Management Agentic Skills {#use-data-management-agentic-skills}
+## Use the Data Management Agent {#use-the-data-management-agent}
 
-Interact with Data Management Agentic Skills through CX Coworker using natural language. Describe your goal as clearly as possible, then refine the results with follow-up questions.
+Interact with the Data Management Agent through CX Coworker using natural language. Describe your goal as clearly as possible, then refine the results with follow-up questions.
 
 >[!NOTE]
 >
 >Make sure you're working in the sandbox that contains the datasets you want to review before you begin.
 
-To use Data Management Agentic Skills:
+To use the Data Management Agent:
 
 1. Navigate to **[!UICONTROL CX Coworker]**. For access details, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 1. Enter a request. For example:
@@ -64,7 +64,7 @@ To use Data Management Agentic Skills:
 
    *"How actively is my Web Events dataset being used?"*
 
-1. To set, change, or remove a retention policy, review the impact preview that Data Management Agentic Skills return, then confirm the request before it's applied.
+1. To set, change, or remove a retention policy, review the impact preview that the Data Management Agent returns, then confirm the request before it's applied.
 
 ## Supported use cases {#supported-use-cases}
 
@@ -123,13 +123,13 @@ For example:
 - "Set the retention on this dataset to 60 days."
 - "Remove the retention policy on this dataset."
 
-## How Data Management Agentic Skills work {#how-data-management-agentic-skills-work}
+## How the Data Management Agent works {#how-the-data-management-agent-works}
 
-Data Management Agentic Skills calculate usage classifications using deterministic formulas rather than AI-generated estimates, so the same inputs always produce the same usage tier. Retention-impact modeling is also calculated programmatically rather than through AI-generated estimates, though it remains an approximation rather than an exact measurement. The skills read data directly from Adobe Experience Platform services rather than a delayed or cached copy, so the information you see reflects the current state of your sandbox.
+The Analyze dataset usage skill calculates usage classifications using deterministic formulas rather than AI-generated estimates, so the same inputs always produce the same usage tier. Retention-impact modeling is also calculated programmatically rather than through AI-generated estimates, though it remains an approximation rather than an exact measurement. The skills read data directly from Adobe Experience Platform services rather than a delayed or cached copy, so the information you see reflects the current state of your sandbox.
 
 ## Best practices {#best-practices}
 
-Keep the following practices in mind when using Data Management Agentic Skills:
+Keep the following practices in mind when using the Data Management Agent:
 
 - **Start with discovery.** Use the List datasets skill to review your largest datasets, and any that appear unused or abandoned, before you deep-dive into any single dataset.
 - **Review the impact preview before you confirm.** Review what would be kept and removed before you approve the request.
@@ -137,12 +137,12 @@ Keep the following practices in mind when using Data Management Agentic Skills:
 
 ## Limitations {#limitations}
 
-Data Management Agentic Skills recommend retention candidates — they don't decide or apply a retention policy without your explicit confirmation.
+The Data Management Agent recommends retention candidates — it doesn't decide or apply a retention policy without your explicit confirmation.
 
 <!-- TODO(author): Confirm that all four skills are generally available at publication time. As of the kickoff meeting, migration to production was still in progress and one skill depended on an MCP server pending an ARB review. See execution-brief.md, U4. -->
 
 ## Next steps {#next-steps}
 
-After reading this guide, you should understand how to use Data Management Agentic Skills in CX Coworker to find, analyze, and manage data-lake retention on your Customer Event datasets.
+After reading this guide, you should understand how to use the Data Management Agent in CX Coworker to find, analyze, and manage data-lake retention on your Customer Event datasets.
 
 For more information, see the [Experience Event dataset retention (TTL) guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
