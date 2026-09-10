@@ -10,7 +10,7 @@ description: Learn how to use the Data Management Agent in CX Coworker to find a
 
 <!-- TODO(author): Confirm with the PM/engineering owner whether the AEP "View Datasets" and "Manage Datasets" permissions (https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) are the permissions that actually gate the read-only and mutating Data Management skills, respectively, or whether different permissions apply. See execution-brief.md, U5. Also confirm before publishing that all four skills described in this guide are generally available; as of the kickoff meeting, one skill depended on an MCP server pending an ARB review (see execution-brief.md, U4, and the related TODO under Limitations). -->
 
-As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them slow down, and staying on top of data retention requirements becomes harder. To manage data-lake retention without writing queries or reviewing dataset details manually, use the Data Management Agent in CX Coworker. Describe what you want to accomplish in natural language, and the Data Management Agent finds the relevant Customer Event datasets, analyzes how actively they're used, models how much data a candidate retention period would affect, and helps you set, change, or remove a retention policy — always previewing the impact and asking for your confirmation before anything changes.
+To understand and manage data-lake retention for your Experience Event datasets, use the Data Management Agent in CX Coworker. As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them can slow down, and managing data retention requirements becomes harder. Describe what you want to accomplish in natural language. The Data Management Agent finds the relevant Experience Event datasets, analyzes how actively they're used, and models how much data a candidate retention period would affect. When you're ready to act, it helps you set, change, or remove a retention policy and asks for your confirmation before anything changes.
 
 ## What the Data Management Agent can do {#what-the-data-management-agent-can-do}
 
@@ -18,14 +18,14 @@ The Data Management Agent provides four skills.
 
 | Skill | Description |
 |---|---|
-| **List datasets** | Lists your Customer Event datasets with storage size, row count, existing retention settings, and profile enablement, so you can find retention candidates quickly. |
-| **Analyze dataset usage** | Classifies how actively a specific dataset is used, based on signals such as recent ingestion, query activity, and downstream application usage. |
-| **Analyze dataset retention** | Shows a dataset's storage metrics and the age of the data it contains, and models, as an approximation based on that age distribution, how much data a candidate retention period would keep or remove. |
-| **Manage dataset retention** | Sets, changes, or removes a data-lake retention (TTL) policy on a dataset, with an impact preview and confirmation before anything changes. |
+| **List datasets** | Use when deciding where to start a retention review. Lists your Experience Event datasets with storage size, row count, existing retention settings, and profile enablement so you can quickly identify retention candidates. |
+| **Analyze dataset usage** | Use before deciding whether a dataset is a good retention candidate. Classifies how actively a specific dataset is used based on signals such as recent ingestion, query activity, and downstream application usage. |
+| **Analyze dataset retention** | Use before committing to a retention period. Shows a dataset's storage metrics and the age of its data, then models, as an approximation based on that age distribution, how much data a candidate retention period would keep or remove. |
+| **Manage dataset retention** | Use when you're ready to act. Sets, changes, or removes a data lake retention policy on a dataset, with an impact preview and confirmation before anything changes. |
 
 ## Scope: data-lake retention vs. other data management tools {#scope}
 
-The Data Management Agent manages data-lake retention — also called Experience Event TTL — on Customer Event (time-series) datasets. Use its skills to find, analyze, and set retention on the datasets that make up your data lake.
+Use the Data Management Agent when you need to find and analyze Experience Event datasets and set, change, or remove a data lake retention policy.
 
 These skills don't manage the following related capabilities:
 
@@ -72,9 +72,9 @@ Use these skills together as a workflow: start broad by finding your largest dat
 
 ### Find your largest datasets {#find-your-largest-datasets}
 
-To decide where to start a retention review, identify your largest Customer Event datasets and the ones most likely to need attention. Use the List datasets skill to surface these datasets by storage size, row count, existing retention status, and profile enablement, then filter by broad criteria such as dataset size, row count, or recent access to narrow the list. This skill is read-only. Coworker returns the results as a table you can scan and compare, along with visualizations that help you see which datasets stand out by size, row count, or data age. Once you've narrowed the list, use the Analyze dataset usage skill for a deeper look at how actively any one dataset is used.
+To decide where to start a retention review, identify your largest Experience Event datasets and the ones most likely to need attention. Use the List datasets skill to surface these datasets by storage size, row count, existing retention status, and profile enablement, then filter by broad criteria such as dataset size, row count, or recent access to narrow the list. This skill is read-only. Coworker returns the results as a table you can scan and compare, along with visualizations that help you see which datasets stand out by size, row count, or data age. Once you've narrowed the list, use the Analyze dataset usage skill for a deeper look at how actively any one dataset is used.
 
-Not every unused or abandoned dataset that this skill surfaces is an Experience Event TTL candidate — see [Scope](#scope) for related tools that may be a better fit. Confirm that a dataset is a Customer Event (time-series) dataset before setting a retention policy on it.
+Not every unused or abandoned dataset surfaced by this skill is a candidate for Experience Event TTL. See [Scope](#scope) for related tools that may be a better fit. Before setting a retention policy, confirm that the dataset is an Experience Event dataset.
 
 For example:
 
@@ -143,6 +143,6 @@ The Data Management Agent recommends retention candidates — it doesn't decide 
 
 ## Next steps {#next-steps}
 
-After reading this guide, you should understand how to use the Data Management Agent in CX Coworker to find, analyze, and manage data-lake retention on your Customer Event datasets.
+After reading this guide, you should understand how to use the Data Management Agent in CX Coworker to find, analyze, and manage data-lake retention on your Experience Event datasets.
 
 For more information, see the [Experience Event dataset retention (TTL) guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
