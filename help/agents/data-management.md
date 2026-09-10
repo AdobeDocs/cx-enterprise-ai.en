@@ -74,13 +74,13 @@ Use these skills together as a workflow: start broad by finding your largest dat
 
 To decide where to start a retention review, identify your largest Experience Event datasets and the ones most likely to need attention. Use the List datasets skill to review storage size, row count, existing retention status, and profile enablement. You can filter the results by criteria such as dataset size, row count, or recent access to narrow the list. The skill is read only. Coworker returns a table you can scan and compare, along with visualizations that highlight datasets by size, row count, and data age.
 
-![Coworker results showing Experience Event datasets in a table with storage, row count, retention information, and visualizations of dataset size and data age.](dataset-discovery-results.png)
+![Coworker results showing Experience Event datasets in a table with storage, row count, retention information, and visualizations of dataset size and data age.](./assets/data-management/dataset-discovery-results.png)
 
 Once you've narrowed the list, use the Analyze dataset usage skill to find out how actively a specific dataset is used.
 
 Not every unused or abandoned dataset surfaced by this skill is a candidate for Experience Event TTL. See [Scope](#scope) for related tools that may be a better fit. Before setting a retention policy, confirm that the dataset is an Experience Event dataset.
 
-For example:
+Example prompts:
 
 - "Show me my largest event datasets."
 - "Show me datasets larger than 100 GB that don't have data lake retention set."
@@ -90,21 +90,23 @@ For example:
 
 ### Check how actively a dataset is used {#check-how-actively-a-dataset-is-used}
 
-Before you decide whether a dataset is a good candidate for a retention policy, find out how actively it is being used. Use the Analyze dataset usage skill to evaluate a specific dataset across nine usage signals. These signals include recent ingestion activity, query activity, schema stability, and whether the dataset feeds other Adobe Experience Platform applications. The skill is read only. Coworker returns a usage tier, a breakdown of the signals, and a plain language summary of what they indicate about the dataset.
+Before you decide whether a dataset is a good candidate for a retention policy, find out how actively it is being used. Use the Analyze dataset usage skill to evaluate a specific dataset across nine usage signals. These signals include recent ingestion activity, query activity, schema stability, and whether the dataset feeds other Adobe Experience Platform applications. The skill is read only. Coworker returns an overall usage tier, a breakdown of the signals, and a plain language summary of what they indicate about the dataset.
 
-![Coworker dataset usage analysis showing the usage tier, individual usage signals, and a summary of dataset activity.](dataset-usage-analysis.png)
+![Coworker dataset usage analysis showing the usage tier, individual usage signals, and a summary of dataset activity.](./assets/data-management/dataset-usage-analysis.png)
 
-<!-- TODO(author): Confirm final usage-tier names and thresholds with engineering before publishing. Both the tier labels and the day-based thresholds behind them were still under discussion as of the kickoff meeting. See execution-brief.md, U2 and U3. -->
-
-For example:
+Example prompts:
 
 - "How actively is my Web Events dataset being used?"
 
 ### Deep dive into a dataset's retention posture {#deep-dive-into-a-datasets-retention-posture}
 
-Before you commit to a specific retention period, find out what it would actually keep or remove. Use the Analyze dataset retention skill to review a dataset's storage metrics and the age distribution of its data. It also models how much data a candidate retention period would keep or remove, based on that age distribution. The estimate is provided by row count and storage size. The skill is read only. Coworker returns the data age and impact analysis directly in the conversation, so you can compare the results with the dataset's current retention settings before deciding whether to change them.
+Before you commit to a specific retention period, find out what it would actually keep or remove. Use the Analyze dataset retention skill to review a dataset's storage metrics and the age distribution of its data. It also models how much data a candidate retention period would keep or remove, based on that age distribution. The estimate is provided by row count and storage size. 
 
-For example:
+![Coworker comparing the number of rows kept and removed for 30, 60, and 90-day retention periods.](./assets/data-management/retention-period-comparison.png)
+
+The skill is read only. Coworker returns the data age and impact analysis directly in the conversation, so you can compare the results with the dataset's current retention settings before deciding whether to change them.
+
+Example prompts:
 
 - "What would be the impact if I set a 60-day retention period on this dataset?"
 
@@ -112,7 +114,7 @@ For example:
 
 Once you've decided on a retention period, use the Manage dataset retention skill to set, change, or remove a data lake retention policy on a dataset. The skill shows you the proposed impact before making any change. It applies the policy only after you explicitly approve the request. Describing the change you want does not apply it.
 
-![Coworker showing the proposed data lake retention policy, its impact, and the confirmation required before the change is applied.](retention-impact-preview.png)
+![Coworker showing the proposed data lake retention policy, its impact, and the confirmation required before the change is applied.](./assets/data-management/retention-impact-preview.png)
 
 >[!IMPORTANT]
 >
@@ -124,9 +126,9 @@ After you confirm a retention policy, it may take a short time for the change to
 
 Every retention policy change is recorded in an audit trail, including when a policy is set, changed, or removed. The audit trail records who made the change, when it was made, and what changed. You can review these events in Adobe Experience Platform and, where available, follow the link provided by Coworker to the relevant Adobe Experience Platform screen.
 
-<!-- TODO(author): No authoritative Experience League page could be verified specifically for an Adobe Experience Platform "audit log" (candidate URLs returned 404, and the Catalog Service overview page doesn't reference one). Confirm with the PM/engineering owner exactly where customers should review retention audit events, and whether Coworker always surfaces a direct link to the relevant AEP screen or only in some cases. -->
+![Adobe Experience Platform audit log showing a data lake retention policy update, including the timestamp, user, dataset, action, and status.](./assets/data-management/retention-audit-log.png)
 
-For example:
+Example prompts:
 
 - "Set the retention on this dataset to 60 days."
 - "Remove the retention policy on this dataset."
@@ -146,8 +148,6 @@ Keep the following practices in mind when using the Data Management Agent:
 ## Limitations {#limitations}
 
 The Data Management Agent can identify potential retention candidates, but it does not decide which datasets require a retention policy. It does not apply, change, or remove a retention policy without your explicit confirmation.
-
-<!-- TODO(author): Confirm that all four skills are generally available at publication time. As of the kickoff meeting, migration to production was still in progress and one skill depended on an MCP server pending an ARB review. See execution-brief.md, U4. -->
 
 ## Next steps {#next-steps}
 
