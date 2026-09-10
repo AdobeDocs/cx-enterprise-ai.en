@@ -72,7 +72,7 @@ Use these skills together as a workflow: start broad by finding your largest dat
 
 ### Find your largest datasets {#find-your-largest-datasets}
 
-Use the List datasets skill to surface Customer Event datasets by storage size, row count, existing retention status, and profile enablement. Use this skill as your starting point for a retention review, then filter by broad criteria such as dataset size, row count, or recent access to narrow the list — for a deeper look at how actively one specific dataset is used, use the Analyze dataset usage skill instead. This skill is read-only. Coworker returns these datasets as a table you can scan and compare, along with visualizations that help you see which datasets stand out by size, row count, or data age.
+To decide where to start a retention review, identify your largest Customer Event datasets and the ones most likely to need attention. Use the List datasets skill to surface these datasets by storage size, row count, existing retention status, and profile enablement, then filter by broad criteria such as dataset size, row count, or recent access to narrow the list. This skill is read-only. Coworker returns the results as a table you can scan and compare, along with visualizations that help you see which datasets stand out by size, row count, or data age. Once you've narrowed the list, use the Analyze dataset usage skill for a deeper look at how actively any one dataset is used.
 
 Not every unused or abandoned dataset that this skill surfaces is an Experience Event TTL candidate — see [Scope](#scope) for related tools that may be a better fit. Confirm that a dataset is a Customer Event (time-series) dataset before setting a retention policy on it.
 
@@ -86,7 +86,7 @@ For example:
 
 ### Check how actively a dataset is used {#check-how-actively-a-dataset-is-used}
 
-Use the Analyze dataset usage skill to understand how actively a specific dataset is used before you decide whether it's a good candidate for a retention policy. The skill evaluates nine deterministic signals — for example, recent ingestion activity, query activity, schema stability, and whether the dataset feeds other Adobe Experience Platform applications — then classifies the dataset into a usage tier. This skill is read-only. Coworker returns the resulting usage tier along with a breakdown of the underlying signals and a plain-language summary of what they indicate about the dataset.
+Before you decide whether a dataset is a good candidate for a retention policy, find out how actively it's being used. Use the Analyze dataset usage skill to evaluate a specific dataset across nine deterministic signals — for example, recent ingestion activity, query activity, schema stability, and whether the dataset feeds other Adobe Experience Platform applications. This skill is read-only. Coworker returns the resulting usage tier along with a breakdown of the underlying signals and a plain-language summary of what they indicate about the dataset.
 
 <!-- TODO(author): Confirm final usage-tier names and thresholds with engineering before publishing. Both the tier labels and the day-based thresholds behind them were still under discussion as of the kickoff meeting. See execution-brief.md, U2 and U3. -->
 
@@ -96,7 +96,7 @@ For example:
 
 ### Deep dive into a dataset's retention posture {#deep-dive-into-a-datasets-retention-posture}
 
-Use the Analyze dataset retention skill to review a dataset's storage metrics and the age distribution of the data it contains, and to model, as an approximation based on that age distribution, how much data a candidate retention period would keep or remove — by row count and storage size — before you commit to a change. This skill is read-only. Coworker returns this data-age and impact analysis directly in the conversation, so you can compare it against the dataset's current retention status before deciding whether to change it.
+Before you commit to a specific retention period, find out what it would actually keep or remove. Use the Analyze dataset retention skill to review a dataset's storage metrics and the age distribution of the data it contains, and to model, as an approximation based on that age distribution, how much data a candidate retention period would keep or remove — by row count and storage size. This skill is read-only. Coworker returns this data-age and impact analysis directly in the conversation, so you can compare it against the dataset's current retention status before deciding whether to change it.
 
 For example:
 
@@ -104,7 +104,7 @@ For example:
 
 ### Set, change, or remove a retention policy {#set-change-or-remove-a-retention-policy}
 
-Use the Manage dataset retention skill to set, change, or remove a data-lake retention (TTL) policy on a dataset. Analyze dataset retention lets you explore potential impact without committing to anything; this skill's preview is different — it's the final check before a real change is made. Describing the change you want doesn't apply it. The skill shows you the proposed impact first, and only changes the policy after you explicitly approve the request.
+Once you've decided on a retention period, apply it with the Manage dataset retention skill, which sets, changes, or removes a data-lake retention (TTL) policy on a dataset. Unlike Analyze dataset retention, which lets you explore potential impact without committing to anything, this skill's preview is the final check before a real change is made: describing the change you want doesn't apply it. The skill shows you the proposed impact first, and only changes the policy after you explicitly approve the request.
 
 >[!IMPORTANT]
 >
@@ -125,7 +125,7 @@ For example:
 
 ## How the Data Management Agent works {#how-the-data-management-agent-works}
 
-The Analyze dataset usage skill calculates usage classifications using deterministic formulas rather than AI-generated estimates, so the same inputs always produce the same usage tier. Retention-impact modeling is also calculated programmatically rather than through AI-generated estimates, though it remains an approximation rather than an exact measurement. The skills read data directly from Adobe Experience Platform services rather than a delayed or cached copy, so the information you see reflects the current state of your sandbox.
+You can trust that the same inputs will always produce the same usage tier: the Analyze dataset usage skill calculates usage classifications using deterministic formulas rather than AI-generated estimates. Retention-impact modeling is also calculated programmatically rather than through AI-generated estimates, though it remains an approximation rather than an exact measurement. The information you see always reflects the current state of your sandbox, because the skills read data directly from Adobe Experience Platform services rather than a delayed or cached copy.
 
 ## Best practices {#best-practices}
 
