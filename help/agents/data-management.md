@@ -118,14 +118,14 @@ For example:
 
 ## How Data Management Agentic Skills work {#how-data-management-agentic-skills-work}
 
-Data Management Agentic Skills calculate usage classifications using deterministic formulas rather than AI-generated estimates, so the same inputs always produce the same usage tier. Retention-impact modeling is also calculated programmatically rather than through AI-generated estimates, but it's an approximation based on the dataset's data-age distribution rather than an exact measurement. The skills read data directly from Adobe Experience Platform services rather than a delayed or cached copy, so the information you see reflects the current state of your sandbox.
+Data Management Agentic Skills calculate usage classifications using deterministic formulas rather than AI-generated estimates, so the same inputs always produce the same usage tier. Retention-impact modeling is also calculated programmatically rather than through AI-generated estimates, though it remains an approximation rather than an exact measurement. The skills read data directly from Adobe Experience Platform services rather than a delayed or cached copy, so the information you see reflects the current state of your sandbox.
 
 ## Best practices {#best-practices}
 
 Keep the following practices in mind when using Data Management Agentic Skills:
 
 - **Start with discovery.** Use the List datasets skill to review your largest datasets, and any that appear unused or abandoned, before you deep-dive into any single dataset.
-- **Review the impact preview before you confirm.** Setting or changing a retention policy results in data being purged; review what would be kept and removed before you confirm the request.
+- **Review the impact preview before you confirm.** Setting or changing a retention policy causes data older than the retention period to be purged during the next scheduled run; review what would be kept and removed before you confirm the request.
 - **Allow time for the change to appear.** After you confirm a retention change in CX Coworker, allow a short time for the Adobe Experience Platform UI to reflect it.
 
 ## Limitations {#limitations}
