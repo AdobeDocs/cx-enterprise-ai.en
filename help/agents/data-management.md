@@ -1,6 +1,6 @@
 ---
 title: Data Management Agent for Adobe Experience Platform
-description: Learn how to use the Data Management Agent in CX Coworker to find and analyze Adobe Experience Platform datasets and manage data-lake retention policies.
+description: Learn how to use the Data Management Agent in CX Coworker to find and analyze Adobe Experience Platform datasets and manage data lake retention policies.
 ---
 # Data Management Agent
 
@@ -8,9 +8,9 @@ description: Learn how to use the Data Management Agent in CX Coworker to find a
 >
 >The Data Management Agent is available to all customers with access to Adobe CX Enterprise Coworker.
 
-<!-- TODO(author): Confirm with the PM/engineering owner whether the AEP "View Datasets" and "Manage Datasets" permissions (https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) are the permissions that actually gate the read-only and mutating Data Management skills, respectively, or whether different permissions apply. See execution-brief.md, U5. Also confirm before publishing that all four skills described in this guide are generally available; as of the kickoff meeting, one skill depended on an MCP server pending an ARB review (see execution-brief.md, U4, and the related TODO under Limitations). -->
+<!-- TODO: Confirm with the PM or engineering owner which Adobe Experience Platform permissions or roles are required to use the Data Management Agent. The kickoff meeting and KT wiki do not specify the required permissions. -->
 
-To understand and manage data-lake retention for your Experience Event datasets, use the Data Management Agent in CX Coworker. As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them can slow down, and managing data retention requirements becomes harder. Describe what you want to accomplish in natural language. The Data Management Agent finds the relevant Experience Event datasets, analyzes how actively they're used, and models how much data a candidate retention period would affect. When you're ready to act, it helps you set, change, or remove a retention policy and asks for your confirmation before anything changes.
+To understand and manage data lake retention for your Experience Event datasets, use the Data Management Agent in CX Coworker. As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them can slow down, and managing data retention requirements becomes harder. Describe what you want to accomplish in natural language. The Data Management Agent finds the relevant Experience Event datasets, analyzes how actively they're used, and models how much data a candidate retention period would affect. When you're ready to act, it helps you set, change, or remove a retention policy and asks for your confirmation before anything changes.
 
 ## What the Data Management Agent can do {#what-the-data-management-agent-can-do}
 
@@ -23,7 +23,7 @@ The Data Management Agent provides four skills.
 | **Analyze dataset retention** | Use before committing to a retention period. Shows a dataset's storage metrics and the age of its data, then models, as an approximation based on that age distribution, how much data a candidate retention period would keep or remove. |
 | **Manage dataset retention** | Use when you're ready to act. Sets, changes, or removes a data lake retention policy on a dataset, with an impact preview and confirmation before anything changes. |
 
-## Scope: data-lake retention vs. other data management tools {#scope}
+## Scope: data lake retention vs. other data management tools {#scope}
 
 Use the Data Management Agent when you need to find and analyze Experience Event datasets and set, change, or remove a data lake retention policy.
 
@@ -118,13 +118,13 @@ Once you've decided on a retention period, use the Manage dataset retention skil
 
 >[!IMPORTANT]
 >
->The minimum data-lake retention period is 30 days; shorter periods aren't supported.
+>The minimum data lake retention period is 30 days; shorter periods aren't supported.
 
 After you confirm a retention policy, it may take a short time for the change to appear in the Adobe Experience Platform UI. The retention policy does not remove expired data immediately. Data older than the retention period is removed during a scheduled purge run. See the [Experience Event dataset retention (TTL) guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide) for more information about retention and purging.
 
-<!-- TODO(author): The kickoff demo described the purge as completing within about 24 hours of confirmation, but the Experience Event dataset retention (TTL) guide linked above states TTLs are evaluated and processed every 30 days. These sources conflict on the production purge cadence — confirm the actual cadence with the PM/engineering owner before this document states a specific timeframe. -->
+<!-- TODO: The kickoff demo described the purge as completing within about 24 hours of confirmation, but the Experience Event dataset retention (TTL) guide linked above states TTLs are evaluated and processed every 30 days. These sources conflict on the production purge cadence — confirm the actual cadence with the PM/engineering owner before this document states a specific timeframe. -->
 
-Every retention policy change is recorded in an audit trail, including when a policy is set, changed, or removed. The audit trail records who made the change, when it was made, and what changed. You can review these events in Adobe Experience Platform and, where available, follow the link provided by Coworker to the relevant Adobe Experience Platform screen.
+Every retention policy change is recorded in an audit trail, including when a policy is set, changed, or removed. The audit trail records who made the change, when it was made, and what changed. You can follow the link provided by Coworker to review these events in the dataset's Audit log tab in Adobe Experience Platform. For more information, see the [Audit logs overview](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview).
 
 ![Adobe Experience Platform audit log showing a data lake retention policy update, including the timestamp, user, dataset, action, and status.](./assets/data-management/retention-audit-log.png)
 
@@ -151,6 +151,6 @@ The Data Management Agent can identify potential retention candidates, but it do
 
 ## Next steps {#next-steps}
 
-After reading this guide, you should understand how to use the Data Management Agent in CX Coworker to find, analyze, and manage data-lake retention on your Experience Event datasets.
+After reading this guide, you should understand how to use the Data Management Agent in CX Coworker to find, analyze, and manage data lake retention on your Experience Event datasets.
 
 For more information about how data lake retention policies work in Adobe Experience Platform, including retention behavior and configuration, see [Experience Event dataset retention (TTL) guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
