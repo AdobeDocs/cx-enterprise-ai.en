@@ -20,4 +20,4 @@ feature_v2:
 
 Learn the value CX Enterprise Coworker brings to your optimization program. Coworker understands the business goal and coordinates the work across your Adobe applications–analyze, diagnose, and launch–without switching tools. Save days of back-and-forth by using coworker to read results, diagnose losing variations, size test durations.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503343/?learn=on&enablevpops)
