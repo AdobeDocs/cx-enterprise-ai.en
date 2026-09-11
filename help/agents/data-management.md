@@ -8,8 +8,6 @@ description: Learn how to use the Data Management Agent in CX Coworker to find a
 >
 >The Data Management Agent is available to all customers with access to Adobe CX Enterprise Coworker.
 
-<!-- TODO: Confirm with the PM or engineering owner which Adobe Experience Platform permissions or roles are required to use the Data Management Agent. The kickoff meeting and KT wiki do not specify the required permissions. -->
-
 To understand and manage data lake retention for your Experience Event datasets, use the Data Management Agent in CX Coworker. As datasets in your Adobe Experience Platform data lake grow, queries and downstream applications that depend on them can slow down, and managing data retention requirements becomes harder. Describe what you want to accomplish in natural language. The Data Management Agent finds the relevant Experience Event datasets, analyzes how actively they're used, and models how much data a candidate retention period would affect. When you're ready to act, it helps you set, change, or remove a retention policy and asks for your confirmation before anything changes.
 
 ## What the Data Management Agent can do {#what-the-data-management-agent-can-do}
@@ -39,7 +37,7 @@ These skills don't manage the following related capabilities:
 Before you begin, ensure that you have:
 
 - Access to Adobe Experience Platform and the sandbox that contains the datasets you want to review.
-- Permission to view the dataset catalog and, if you plan to set, change, or remove a retention policy, permission to modify dataset retention settings. See the [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) for how Adobe Experience Platform permissions and roles work.
+- The Adobe Experience Platform permissions required for the datasets and retention actions you want to use. The Data Management Agent uses your existing Experience Platform permissions and does not grant additional access. See the [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) for how Adobe Experience Platform permissions and roles work.
 - The Adobe CXO plugin installed in CX Coworker.
 
 For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
@@ -92,6 +90,8 @@ Example prompts:
 
 Before you decide whether a dataset is a good candidate for a retention policy, find out how actively it is being used. Use the Analyze dataset usage skill to evaluate a specific dataset across nine usage signals. These signals include recent ingestion activity, query activity, schema stability, and whether the dataset feeds other Adobe Experience Platform applications. The skill is read only. Coworker returns an overall usage tier, a breakdown of the signals, and a plain language summary of what they indicate about the dataset.
 
+<!-- TODO: Confirm the final usage-tier thresholds with engineering after the planned update from a 7-day to a 30-day analysis window is complete. Update this section with the final definitions before publishing. -->
+
 ![Coworker dataset usage analysis showing the usage tier, individual usage signals, and a summary of dataset activity.](./assets/data-management/dataset-usage-analysis.png)
 
 Example prompts:
@@ -120,9 +120,7 @@ Once you've decided on a retention period, use the Manage dataset retention skil
 >
 >The minimum data lake retention period is 30 days; shorter periods aren't supported.
 
-After you confirm a retention policy, it may take a short time for the change to appear in the Adobe Experience Platform UI. The retention policy does not remove expired data immediately. Data older than the retention period is removed during a scheduled purge run. See the [Experience Event dataset retention (TTL) guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide) for more information about retention and purging.
-
-<!-- TODO: The kickoff demo described the purge as completing within about 24 hours of confirmation, but the Experience Event dataset retention (TTL) guide linked above states TTLs are evaluated and processed every 30 days. These sources conflict on the production purge cadence — confirm the actual cadence with the PM/engineering owner before this document states a specific timeframe. -->
+After you confirm a retention policy, it may take a short time for the change to appear in the Adobe Experience Platform UI. The retention policy does not delete expired data immediately. The initial retention job starts within 24 hours after the policy is applied. After the initial run, a scheduled job evaluates and deletes expired records every 30 days. See the [Experience Event dataset retention (TTL) guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide) for more information about retention and purging.
 
 Every retention policy change is recorded in an audit trail, including when a policy is set, changed, or removed. The audit trail records who made the change, when it was made, and what changed. You can follow the link provided by Coworker to review these events in the dataset's Audit log tab in Adobe Experience Platform. For more information, see the [Audit logs overview](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview).
 
