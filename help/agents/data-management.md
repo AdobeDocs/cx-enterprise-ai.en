@@ -27,8 +27,8 @@ Use the Data Management Agent when you need to find and analyze Experience Event
 
 These skills don't manage the following related capabilities:
 
-- **Profile store retention.** To manage how long profile data is retained in Real-Time Customer Profile, apply profile event retention on Profile-enabled time-series datasets. See [Profile event retention](https://experienceleague.adobe.com/en/docs/experience-platform/profile/event-expirations).
-- **Sandbox-wide pseudonymous profile TTL.** To automatically delete pseudonymous profile data across a sandbox once it meets the configured conditions, see [Pseudonymous profiles](https://experienceleague.adobe.com/en/docs/experience-platform/profile/pseudonymous-profiles).
+- **Profile store retention policy.** To manage how long Experience Events remain in the Profile store, configure an Experience Event expiration policy on Profile-enabled Experience Event datasets. See [Experience Event expiration](https://experienceleague.adobe.com/en/docs/experience-platform/profile/event-expirations).
+- **Sandbox-wide pseudonymous profile data expiration.** To automatically delete pseudonymous profile data across a sandbox once it meets the configured conditions, see [Pseudonymous profiles](https://experienceleague.adobe.com/en/docs/experience-platform/profile/pseudonymous-profiles).
 - **Dataset expiration.** To schedule an entire dataset for deletion on a future date, see [Dataset expiration](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration).
 - **Record Delete.** To remove individual profile records for privacy or hygiene reasons, see [Record Delete](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/record-delete).
 
@@ -76,7 +76,7 @@ To decide where to start a retention review, identify your largest Experience Ev
 
 Once you've narrowed the list, use the Analyze dataset usage skill to find out how actively a specific dataset is used.
 
-Not every unused or abandoned dataset surfaced by this skill is a candidate for Experience Event TTL. See [Scope](#scope) for related tools that may be a better fit. Before setting a retention policy, confirm that the dataset is an Experience Event dataset.
+Not every unused or abandoned dataset surfaced by this skill is eligible for a data lake retention policy. See [Scope](#scope) for related tools that may be a better fit. Before setting a data lake retention policy, confirm that the dataset is an Experience Event dataset.
 
 Example prompts:
 
@@ -100,7 +100,7 @@ Example prompts:
 
 ### Deep dive into a dataset's retention posture {#deep-dive-into-a-datasets-retention-posture}
 
-Before you commit to a specific retention period, find out what it would actually keep or remove. Use the Analyze dataset retention skill to review a dataset's storage metrics and the age distribution of its data. It also models how much data a candidate retention period would keep or remove, based on that age distribution. The estimate is provided by row count and storage size. 
+Before you commit to a specific retention period, find out what it would actually keep or remove. Use the Analyze dataset retention skill to review a dataset's storage metrics and the age distribution of its data. It also models how much data a candidate retention period would keep or remove, based on that age distribution. Coworker shows the estimated impact by row count and storage size.
 
 ![Coworker comparing the number of rows kept and removed for 30, 60, and 90-day retention periods.](./assets/data-management/retention-period-comparison.png)
 
