@@ -114,11 +114,11 @@ Example prompts:
 
 Once you've decided on a retention period, use the Manage dataset retention skill to set, change, or remove a data lake retention policy on a dataset. The skill shows you the proposed impact before making any change. It applies the policy only after you explicitly approve the request. Describing the change you want does not apply it.
 
-![Coworker showing the proposed data lake retention policy, its impact, and the confirmation required before the change is applied.](./assets/data-management/retention-impact-preview.png)
-
 >[!IMPORTANT]
 >
 >The minimum data lake retention period is 30 days; shorter periods aren't supported.
+
+![Coworker showing the proposed data lake retention policy, its impact, and the confirmation required before the change is applied.](./assets/data-management/retention-impact-preview.png)
 
 After you confirm a retention policy, it may take a short time for the change to appear in the Adobe Experience Platform UI. The retention policy does not delete expired data immediately. The initial retention job starts within 24 hours after the policy is applied. After the initial run, a scheduled job evaluates and deletes expired records every 30 days. See the [Experience Event dataset retention (TTL) guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide) for more information about retention and purging.
 
