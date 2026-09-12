@@ -21,6 +21,8 @@ Adobe CX Enterprise exposes product tools through a single MCP. Access is evalua
 | Customer Journey Analytics | Available | Active Customer Journey Analytics license and a product profile that includes the **MCP Access** permission item in Adobe Admin Console. Product permissions still govern which data views, components, reports, projects, and audiences you can access or modify. |
 | Adobe Analytics | Available | Active Adobe Analytics license and a product profile that includes the **MCP Access** permission item in Adobe Admin Console. Product permissions still govern which report suites, components, reports, segments, date ranges, and projects you can access or modify. |
 | Workfront | Preview | Active Workfront license and Workfront MCP enablement. See the [Workfront MCP documentation](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview). |
+| Target | Beta | Active Target license with an Adobe Experience Platform organization. See the [Target MCP documentation](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp-get-started). |
+
 
 
 >[!NOTE]
