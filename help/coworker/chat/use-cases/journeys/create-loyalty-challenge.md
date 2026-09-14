@@ -26,5 +26,5 @@ The video showcases the Loyalty plugin and its Challenge Management skill, an AI
 ## See also
 
 - [Journey Agent](../../../../agents/ajo-agent.md), for other AJO AI capabilities available through Coworker Chat, such as journey creation, analysis, and simulation.
-- [Loyalty Challenge Management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#loyalty-challenge-management){target="_blank"} in the Adobe Journey Optimizer documentation.
+- [Loyalty Challenge Management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"} in the Adobe Journey Optimizer documentation.
 - [More Coworker Chat use cases](../overview.md#journeys)

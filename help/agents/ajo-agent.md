@@ -62,7 +62,7 @@ Journey Agent consists of four main jobs to be done:
 - **Channel Content Create**: Generate, edit, and manage channel-specific content (email, push, SMS) for journeys using AI-powered content generation
 - **Journey Analyze**: Analyze journeys, detect issues, uncover insights, and optimize customer engagement
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs){target="_blank"}, an in-product, non-conversational AI capability with three sub-capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}, an in-product, non-conversational AI capability with three sub-capabilities: 
 
 - Generating simulated users
 - Generating event values
@@ -74,7 +74,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 Journey Create enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.
 
-For more information, see [Journey Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-create){target="_blank"} in the Adobe Journey Optimizer documentation.
+For more information, see [Journey Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"} in the Adobe Journey Optimizer documentation.
 
 >[!AVAILABILITY]
 >
@@ -226,7 +226,7 @@ To maximize the effectiveness of Journey Create, follow these best practices:
 
 Channel Content Create enables Journey Optimizer users to generate, edit, and manage channel-specific content for journeys using AI-powered content generation.
 
-For more information, see [Channel Content Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#channel-content-create){target="_blank"} in the Adobe Journey Optimizer documentation.
+For more information, see [Channel Content Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"} in the Adobe Journey Optimizer documentation.
 
 ## Use cases
 
@@ -308,7 +308,7 @@ Journey Analyze enables Journey Optimizer users to analyze and optimize journeys
 
 Learn more and discover the agent at a glance in this [overview](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
-For more information, see [Journey Analyze](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"} in the Adobe Journey Optimizer documentation.
+For more information, see [Journey Analyze](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} in the Adobe Journey Optimizer documentation.
 
 >[!AVAILABILITY]
 >
@@ -496,7 +496,7 @@ Journey Simulation is available to all Journey Optimizer customers. Journey Simu
 
 To use AI in **[!UICONTROL Simulation]** (**[!UICONTROL Quick simulation]**, generating simulated users with AI, **[!UICONTROL Generate event values]**), users require **[!UICONTROL Generate Content]** permission from the **[!UICONTROL AI Assistant]** capability. 
 
-[Learn more about permissions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions).
+[Learn more about permissions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions).
 
 >[!ENDSHADEBOX]
 
@@ -558,7 +558,7 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs#limitations){target="_blank"} in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"} in the Journey Optimizer documentation.
 
 ## See also
 
