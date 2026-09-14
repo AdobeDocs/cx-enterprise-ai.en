@@ -73,7 +73,9 @@ The following example prompts can be used with the Data Insights Agent to analyz
 
 ## Journey Agent
 
-The following example prompts can be used with the Journey Agent to help you analyze journey lifecycles, manage journey resources, gain insights into audience and journey relationships, and detect conflicts between journeys. Use these prompts to optimize your journey orchestration and resolve issues efficiently.
+The following example prompts can be used with the [Journey Agent](../agents/ajo-agent.md) to help you analyze journey lifecycles, manage journey resources, gain insights into audience and journey relationships, and detect conflicts between journeys. Use these prompts to optimize your journey orchestration and resolve issues efficiently.
+
+For sample prompts covering journey creation, channel content generation, and fallout analysis, see the [Journey Create](../agents/ajo-agent.md#journey-create), [Channel Content Create](../agents/ajo-agent.md#channel-content-create), and [Journey Analyze](../agents/ajo-agent.md#journey-analyze) sections of the Journey Agent guide.
 
 ### Journey Lifecycle Questions
 

@@ -23,3 +23,8 @@ Building customer journeys traditionally requires extensive configuration across
 By automating the initial setup process, teams can spend less time building journeys from scratch and more time refining customer experiences and business outcomes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+
+## See also
+
+- [Journey Agent](../../../../agents/ajo-agent.md#journey-create), the underlying AI capability that powers journey creation in Coworker Chat.
+- [More Coworker Chat use cases](../overview.md#journeys)

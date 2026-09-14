@@ -22,3 +22,9 @@ In this demonstration, you'll see how Adobe Journey Optimizer (AJO) Loyalty is u
 The video showcases the Loyalty plugin and its Challenge Management skill, an AI-powered capability that helps marketers create, edit, and manage loyalty challenges using natural language instead of manually configuring every setting in the user interface.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)
+
+## See also
+
+- [Journey Agent](../../../../agents/ajo-agent.md), for other AJO AI capabilities available through Coworker Chat, such as journey creation, analysis, and simulation.
+- [Loyalty Challenge Management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#loyalty-challenge-management){target="_blank"} in the Adobe Journey Optimizer documentation.
+- [More Coworker Chat use cases](../overview.md#journeys)
