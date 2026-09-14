@@ -46,6 +46,8 @@ dummy: true
         - [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Data Onboarding {#data-onboarding}
+        - [Onboard data with Coworker](./agents/data-onboarding-skill.md)
       - Audiences {#audiences}
         - [Assess platform health and build audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Journeys {#journeys}
