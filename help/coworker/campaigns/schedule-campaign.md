@@ -35,7 +35,7 @@ When a user launches a campaign, they choose one of three schedule modes, then c
 
 **To schedule a campaign at launch:**
 
-1. From the campaign, click **Ready to launch**.
+1. From the campaign, click **Review and launch**.
 2. In the launch dialog, choose a schedule option:
    - **Now** — the campaign starts sending immediately after launch.
    - **Schedule once** — pick a future **Start date** (date and time together).
@@ -62,17 +62,7 @@ When a user launches a campaign, they choose one of three schedule modes, then c
 | Day of month | Which day of the month the campaign repeats on | Yes, for Monthly frequency |
 | End campaign | Never, or on a specific end date | Yes, for Recurring |
 
-## UI callouts
 
-> **Tech writer note**: Screenshots needed for the following:
-
-- [ ] The launch dialog showing the Now / Schedule once / Recurring options
-- [ ] The Schedule once date and time picker
-- [ ] The Recurring options: frequency picker, weekly day toggles, monthly day-of-month grid
-- [ ] The "End campaign" Never / On a date choice
-- [ ] The "Scheduled" status badge on a campaign awaiting its start time
-- [ ] The "Live" status badge with a recurrence summary (e.g. "Weekly on Tue, Thu at 9:00 AM")
-- [ ] The schedule section in campaign settings, showing the edit entry point
 
 ## What this feature does not do
 
