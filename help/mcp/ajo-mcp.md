@@ -6,7 +6,7 @@ description: Learn which Adobe Journey Optimizer tools are available through the
 
 Use the Adobe Journey Optimizer product tools to inspect campaigns, journeys, and channel configurations from an MCP-compatible client. These tools are available through the [CX Coworker Gateway](overview.md) when your organization is enabled and your user account has the required Journey Optimizer permissions.
 
-For more information, see [Work with MCP clients](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/integrations/ajo-mcp){target="_blank"} in the Adobe Journey Optimizer documentation.
+For more information, see [Work with MCP clients](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"} in the Adobe Journey Optimizer documentation.
 
 For a conversational, agentic experience to create, analyze, and simulate journeys, see the [Journey Agent](../agents/ajo-agent.md) instead.
 
@@ -62,7 +62,7 @@ Journey Optimizer tools provide a read-only surface for campaign, journey, and c
 
 In addition to the read-only product tools above, Journey Optimizer users can discover and manage content assets — content templates, fragments, landing pages, and journey or campaign inline message content — directly from CX Coworker using natural language prompts. This capability is powered by a separate set of read- and write-capable MCP tools for Journey Optimizer content, and is available to all customers who have access to CX Coworker.
 
-For more information, see [Content Management tools](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#content-management){target="_blank"} in the Adobe Journey Optimizer documentation.
+For more information, see [Content Management tools](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"} in the Adobe Journey Optimizer documentation.
 
 Content management tools let you:
 
