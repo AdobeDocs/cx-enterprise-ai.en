@@ -50,6 +50,7 @@ dummy: true
         - [Assess platform health and build audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Journeys {#journeys}
         - [Create journeys using natural language](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - Loyalty {#loyalty}
         - [Create a loyalty challenge and surface insights](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Optimization {#optimization}
         - [Launch Target activities](./coworker/chat/use-cases/optimization/target.md)

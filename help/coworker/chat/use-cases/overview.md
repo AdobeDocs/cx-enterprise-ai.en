@@ -10,7 +10,7 @@ feature_v2:
 ---
 # Coworker Chat use cases{#use-cases}
 
-Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries manually. This page catalogs the use cases practitioners rely on most, organized by work area: data insights, audiences, journeys, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation.
+Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries manually. This page catalogs the use cases practitioners rely on most, organized by work area: data insights, audiences, journeys, loyalty, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation.
 
 >[!NOTE]
 >
@@ -139,13 +139,22 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 | Use Case | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-| [Create journeys from natural language](journeys/create-journey-from-natural-language.md) | Orchestrate journey creation in AJO from a text prompt or an uploaded image/flowchart | `journey-create` | Adobe Journey Optimizer (AJO) | "Create a welcome journey that sends an email after signup, waits 3 days, then sends a follow-up" <br> "Build a journey from this uploaded flowchart image" |
-| [Analyze journey conflicts](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Detect audience overlap, schedule collisions, and deduplication issues between active journeys | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | "Does my cart abandonment journey conflict with any other journeys?" <br> "Check for audience overlap between my active journeys" |
-| [Analyze journey fallout](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Identify where and why customers drop off during a journey, and detect patterns in behavior leading to disengagement | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | "Where are people dropping off in my Re-engagement journey?" <br> "Which nodes in journey X have the highest fallout?" |
-| [Analyze custom action errors](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Identify when custom actions are failing or error rates spike within a journey, and diagnose root causes before failures cascade into broader disruption | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | "Why are custom actions failing in my Loyalty Signup journey?" <br> "Show me the error rate for custom action ExternalPush in my Welcome journey." |
-| [Detect journey anomalies](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | Detect and confirm unexpected spikes, drops, or flatlines in a journey's entry, exit, or send counts against historical baselines, and surface a likely root cause | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | "Why did entries drop for my Welcome journey yesterday?" <br> "Did exits spike for the Cart Abandonment journey this week?" |
-| [Create, edit, and manage loyalty challenges](journeys/create-loyalty-challenge.md) | Simplify and accelerate loyalty program management | `loyalty` | Adobe Journey Optimizer (AJO) | "Create a challenge encouraging members to try a new seasonal beverage" <br> "Show me loyalty challenges with the highest member drop-off rates." |
-| [Analyze loyalty program performance](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-data-insight){target="_blank"} | Query and analyze loyalty points, member tiers, redemptions, and revenue metrics using natural language | `loyalty-insights` | Adobe Journey Optimizer (AJO) | "How many loyalty points were granted during August 2026?" <br> "Show the loyalty program's total revenue broken down by day during August 2026." |
+| Create journeys from natural language | Orchestrate journey creation in AJO from a text prompt or an uploaded image/flowchart | `journey-create` | Adobe Journey Optimizer (AJO) | "Create a welcome journey that sends an email after signup, waits 3 days, then sends a follow-up" <br> "Build a journey from this uploaded flowchart image" |
+| Analyze journey conflicts | Detect audience overlap, schedule collisions, and deduplication issues between active journeys | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | "Does my cart abandonment journey conflict with any other journeys?" <br> "Check for audience overlap between my active journeys" |
+| Analyze journey fallout | Identify where and why customers drop off during a journey, and detect patterns in behavior leading to disengagement | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | "Where are people dropping off in my Re-engagement journey?" <br> "Which nodes in journey X have the highest fallout?" |
+| Analyze custom action errors | Identify when custom actions are failing or error rates spike within a journey, and diagnose root causes before failures cascade into broader disruption | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | "Why are custom actions failing in my Loyalty Signup journey?" <br> "Show me the error rate for custom action ExternalPush in my Welcome journey." |
+| Detect journey anomalies | Detect and confirm unexpected spikes, drops, or flatlines in a journey's entry, exit, or send counts against historical baselines, and surface a likely root cause | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | "Why did entries drop for my Welcome journey yesterday?" <br> "Did exits spike for the Cart Abandonment journey this week?" |
+
+For more detailed information on CX Coworker skills for journeys, refer to the [Adobe Journey Optimizer journeys documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/journeys-coworker-skills){target="_blank"}.
+
+## Loyalty
+
+| Use Case | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Create, edit, and manage loyalty challenges | Simplify and accelerate loyalty program management | `loyalty` | Adobe Journey Optimizer (AJO) | "Create a challenge encouraging members to try a new seasonal beverage" <br> "Show me loyalty challenges with the highest member drop-off rates." |
+| Analyze loyalty program performance | Query and analyze loyalty points, member tiers, redemptions, and revenue metrics using natural language | `loyalty-insights` | Adobe Journey Optimizer (AJO) | "How many loyalty points were granted during August 2026?" <br> "Show the loyalty program's total revenue broken down by day during August 2026." |
+
+For more detailed information on CX Coworker skills for loyalty, refer to the [Adobe Journey Optimizer loyalty documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/loyalty-coworker-skills){target="_blank"}.
 
 ## Optimization
 
