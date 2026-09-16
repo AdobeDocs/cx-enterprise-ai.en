@@ -36,6 +36,7 @@ dummy: true
       - [What are skills?](./coworker/customizations/skills/what-are-skills.md)
       - [Create your first skill](./coworker/customizations/skills/create-your-first-skill.md) 
       - [Build and run a quality gate skill](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [Manage and iterate on skills](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
     - [UI guide](./coworker/chat/ui-guide.md)
@@ -46,6 +47,7 @@ dummy: true
         - [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Validate dataset quality for CJA reporting](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - Audiences {#audiences}
         - [Assess platform health and build audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Journeys {#journeys}
