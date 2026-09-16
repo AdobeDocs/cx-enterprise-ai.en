@@ -14,7 +14,7 @@ feature_v2:
 
 # Validate your Experience Platform data with Coworker
 
-Coworker includes a validation skill that checks the data quality of your Experience Platform datasets. Use it to run statistical and semantic validations on datasets, analyze dataset fields, and identify data quality issues, all through a single Coworker Chat conversation.
+Coworker includes the Data Validation skill, which checks the data quality of your Experience Platform datasets. Use it to run statistical and semantic validations on datasets, analyze dataset fields, and identify data quality issues, all through a single Coworker Chat conversation.
 
 Data engineers, data admins, and implementation engineers can use this skill to run rapid data quality assessments without writing SQL queries or navigating complex schema hierarchies.
 
@@ -24,7 +24,7 @@ Use this skill to:
 * Investigate a suspected mapping issue by inspecting a field's top values and invalid values.
 * Run ongoing data stewardship checks on critical datasets to catch regressions early.
 
-<!--TODO: confirm exact skill name(s)/ID(s) with engineering (Petru Adrian Snep) before publishing. Design doc uses "Field Validation" and "Dataset Validation" as two skills under the AOv1 Data Validation Agent; confirm whether Coworker registers these as one or two skills, and their public-facing skill IDs for the use-cases overview table.-->
+<!--TODO: skill display name "Data Validation skill" confirmed via the published KT-22622 video page (validate-dataset-quality-for-cja.md, merged 2026-09-16). Still need the technical skill ID from engineering (Petru Adrian Snep) for the use-cases overview table row. That page didn't add one either.-->
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ To validate your data with Coworker, you need:
 
 ## Start a validation session
 
-1. Log in to Coworker.
+1. Sign in to Coworker.
 
 1. Select [!UICONTROL **New Chat**].
 
@@ -53,7 +53,7 @@ To validate your data with Coworker, you need:
    >
    >Prepend your dataset name with the word "dataset" so the skill can identify it correctly. For example, use "Validate the dataset Electronics Sample 1000" instead of "Validate Electronics Sample 1000."
 
-   Your request is routed to the data validation skill, which analyzes a sample of your dataset and returns results in the same conversation.
+   Your request is routed to the Data Validation skill, which analyzes a sample of your dataset and returns results in the same conversation.
 
 1. (Conditional) If the skill can't uniquely identify the dataset or field you mean, answer the clarifying question it asks, then continue.
 
@@ -147,4 +147,5 @@ If your validation needs are more exhaustive or require complex business logic, 
 ## Related information
 
 * [Validate AA to CJA data when upgrading](./data-validation-aa-cja.md)
+* [Validate Customer Journey Analytics data with the Data Validation skill in Coworker](./validate-dataset-quality-for-cja.md)
 * [Validate your data (AI Assistant)](/help/agents/data-validation.md)
