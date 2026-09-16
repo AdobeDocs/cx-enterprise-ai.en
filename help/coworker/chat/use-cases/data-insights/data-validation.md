@@ -16,7 +16,7 @@ feature_v2:
 
 Coworker includes the Data Validation skill, which checks the data quality of your Experience Platform datasets. Use it to run statistical and semantic validations on datasets, analyze dataset fields, and identify data quality issues, all through a single Coworker Chat conversation.
 
-Data engineers, data admins, and implementation engineers can use this skill to run rapid data quality assessments without writing SQL queries or navigating complex schema hierarchies.
+Data engineers, data admins, and implementation engineers use it for rapid quality checks, without SQL queries or complex schema hierarchies.
 
 Use this skill to:
 
