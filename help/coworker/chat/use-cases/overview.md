@@ -145,7 +145,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Analyze custom action errors | Identify when custom actions are failing or error rates spike within a journey, and diagnose root causes before failures cascade into broader disruption | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | "Why are custom actions failing in my Loyalty Signup journey?" <br> "Show me the error rate for custom action ExternalPush in my Welcome journey." |
 | Detect journey anomalies | Detect and confirm unexpected spikes, drops, or flatlines in a journey's entry, exit, or send counts against historical baselines, and surface a likely root cause | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | "Why did entries drop for my Welcome journey yesterday?" <br> "Did exits spike for the Cart Abandonment journey this week?" |
 
-For more detailed information on CX Coworker skills for journeys, refer to the [Adobe Journey Optimizer journeys documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/journeys-coworker-skills){target="_blank"}.
+For more detailed information on CX Coworker skills for journeys, refer to the [Adobe Journey Optimizer journeys documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
 
 ## Loyalty
 
@@ -154,7 +154,7 @@ For more detailed information on CX Coworker skills for journeys, refer to the [
 | Create, edit, and manage loyalty challenges | Simplify and accelerate loyalty program management | `loyalty` | Adobe Journey Optimizer (AJO) | "Create a challenge encouraging members to try a new seasonal beverage" <br> "Show me loyalty challenges with the highest member drop-off rates." |
 | Analyze loyalty program performance | Query and analyze loyalty points, member tiers, redemptions, and revenue metrics using natural language | `loyalty-insights` | Adobe Journey Optimizer (AJO) | "How many loyalty points were granted during August 2026?" <br> "Show the loyalty program's total revenue broken down by day during August 2026." |
 
-For more detailed information on CX Coworker skills for loyalty, refer to the [Adobe Journey Optimizer loyalty documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/loyalty-coworker-skills){target="_blank"}.
+For more detailed information on CX Coworker skills for loyalty, refer to the [Adobe Journey Optimizer loyalty documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
 
 ## Optimization
 
