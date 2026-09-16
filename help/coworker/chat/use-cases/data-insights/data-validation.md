@@ -47,7 +47,9 @@ To validate your data with Coworker, you need:
 
    **Prompt**
 
-   > Validate the dataset Electronics Sample 1000.
+   > Validate dataset "Electronics Sample 1000"
+
+   ![Coworker chat home screen with the prompt Validate dataset Electronics Sample 1000 entered in the message field.](../../assets/data-validation-aep/start-session.png)
 
    >[!TIP]
    >
@@ -69,8 +71,8 @@ You can validate a single field or an entire dataset.
 
 Validate a specific field in a dataset. This option provides:
 
-* Null count and unique value count.
-* Top unique values and their frequencies.
+* Null count and distinct value count.
+* Top distinct values and their frequencies.
 * AI-assisted semantic validation that flags values which don't match the field's expected format, based on the field's metadata and its actual values.
 
 Example prompts:
@@ -93,38 +95,46 @@ Example prompts:
 
 ## Review the results
 
-<!--TODO: this section carries over the AOv1 output format from the previous AI Assistant experience (help/agents/data-validation.md), since AN-457440 states the Coworker skill maintains full feature parity with no UI/UX redesign. Replace with actual Coworker screenshots and confirm [!UICONTROL] labels once the Coworker rendering is available (design doc notes dataset validation rendering was still in development at the time of writing).-->
-
-For each validated field, the skill returns:
+For each validated field, Coworker returns:
 
 **Basic statistics**
 
-* Total row count used for the sample.
 * Null count (and percentage null).
-* Unique value count, where available.
-* Top unique values and their frequencies.
+* Distinct value count (and percentage).
+* Top distinct values and their frequencies.
 
 **Semantic validation**
 
-* A list of suspected invalid values.
+* A list of suspected invalid values, where found.
 * An explanation for each invalid value, for example "not a valid email format" or "timestamp outside expected range."
 
 **Natural language summary**
 
-* A short narrative summary of field quality.
-* Suggested next actions, such as "review mapping for field X," "consider dropping field Y due to high null rate," or "tighten validation for email format."
+* A short narrative summary of the field or dataset, including the sample size used.
+* A **Next Steps** list suggesting follow-up prompts, such as validating another field or re-running the dataset.
 
-| Aspect | Example output |
-| --- | --- |
-| Completeness | `nullCount = 9,532 (95.3%)` |
-| Uniqueness | `uniqueCount = 3` |
-| Top values | `"True" (255), "False" (243)` |
-| Invalid values | `"abc@", reason: "not a valid email address"` |
+When you validate a single field, Coworker returns a chart and a written summary:
+
+![Coworker chat showing a donut chart and written summary for the Brand field, reporting 79.5% valid values, 20.5% null values, and no invalid values detected.](../../assets/data-validation-aep/null-values.png)
+
+Select [!UICONTROL **Chart**] or [!UICONTROL **Table**] to switch between views of the same results.
+
+When you validate a dataset, results appear in a table with one row per field. Fields you name yourself appear as you specified them:
+
+![Coworker chat table titled Electronics Sample 1000 Field Validation, showing validation results for the Category, Brand, and Price fields that the user named in the prompt.](../../assets/data-validation-aep/field-validation.png)
+
+Fields the skill selects automatically appear the same way:
+
+![Coworker chat table showing validation results for five automatically selected fields in the Electronics Sample 1000 dataset: Category, Brand, Price, Inventory, and Condition.](../../assets/data-validation-aep/dataset-validation.png)
+
+Select [!UICONTROL **CSV**] to download the full results table.
+
+<!--TODO: the table's column headers are truncated in the UI (shown as "Field ...", "Valid va...", "Distinct val...", "Null va..."). Confirm the full label text with engineering before tagging them with [!UICONTROL].-->
 
 ## Checks performed by data validation
 
 * **Completeness checks**: null and missing counts and percentages.
-* **Distribution checks**: top unique values and their distributions, and high cardinality detection.
+* **Distribution checks**: top distinct values and their distributions, and high cardinality detection.
 * **Semantic checks against the schema**: uses the XDM field name, type, and description to infer what a valid value looks like, then flags anomalies.
 * **Datatype-aware checks**, where applicable:
   * Email: format and domain plausibility.
