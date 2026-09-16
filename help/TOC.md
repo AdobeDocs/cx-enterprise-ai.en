@@ -36,6 +36,7 @@ dummy: true
       - [What are skills?](./coworker/customizations/skills/what-are-skills.md)
       - [Create your first skill](./coworker/customizations/skills/create-your-first-skill.md) 
       - [Build and run a quality gate skill](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [Manage and iterate on skills](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
     - [UI guide](./coworker/chat/ui-guide.md)
