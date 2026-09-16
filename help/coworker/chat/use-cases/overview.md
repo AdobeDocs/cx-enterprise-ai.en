@@ -187,6 +187,8 @@ Use Coworker Chat to plan, generate, evaluate, and refine campaign message copy 
 | Review accessibility | Runs a WCAG 2.1 AA accessibility audit. | `review-accessibility` | Adobe Journey Optimizer (AJO) | TBD |
 | Hand off email | Exports and delivers approved HTML to Adobe Journey Optimizer or Adobe Campaign. | `handoff-email` | Adobe Journey Optimizer (AJO) | TBD |
 
+For more detailed information on CX Coworker content management tools, refer to the [Adobe Journey Optimizer content management documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"}.
+
 ## Optimization
 
 Use Coworker Chat to browse, analyze, and plan experiments, and to create, run, and troubleshoot Adobe Target activities, audiences, and Recommendations.
