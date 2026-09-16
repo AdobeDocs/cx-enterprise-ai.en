@@ -156,6 +156,37 @@ For more detailed information on CX Coworker skills for journeys, refer to the [
 
 For more detailed information on CX Coworker skills for loyalty, refer to the [Adobe Journey Optimizer loyalty documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/loyalty-coworker-skills){target="_blank"}.
 
+## Content creation in Journey Optimizer
+
+Use Coworker Chat to plan, generate, evaluate, and refine campaign message copy and email HTML, then save or hand off the approved content directly to Journey Optimizer.
+
+### Message copy
+
+| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Capture marketing brief | Captures campaign strategy and seeds the creative brief. | `capture-marketing-brief` | Adobe Journey Optimizer (AJO) | TBD |
+| Capture creative brief | Structures the copy execution spec and builds the content plan matrix. | `capture-creative-brief` | Adobe Journey Optimizer (AJO) | TBD |
+| Plan content strategy | Brainstorms message maps, narrative arcs, and channel roles ahead of copy generation. | `plan-content-strategy` | Adobe Journey Optimizer (AJO) | TBD |
+| Generate copy | Generates net-new, on-brand copy for email, SMS, push, WhatsApp, social, and banner. | `generate-copy` | Adobe Journey Optimizer (AJO) | TBD |
+| Generate images | Generates, crops, overlays, varies, and signs campaign images using Firefly. | `generate-image` | Adobe Journey Optimizer (AJO) | TBD |
+| Evaluate copy | Assesses and scores existing copy against brand and channel standards. | `evaluate-copy` | Adobe Journey Optimizer (AJO) | TBD |
+| Edit copy | Makes in-place edits to existing copy — evaluation fixes, rephrasing, translation, and directed revisions. | `edit-copy` | Adobe Journey Optimizer (AJO) | TBD |
+| Expand campaign content | Fans an approved content plan matrix out into per-unit copy across channels, locales, audiences, and variants. | `expand-campaign` | Adobe Journey Optimizer (AJO) | TBD |
+| Analyze visual HTML | Renders copy HTML to a screenshot for visual inspection. | `analyze-visual-html` | Adobe Journey Optimizer (AJO) | TBD |
+| Save content | Saves approved content back to Adobe Journey Optimizer, Adobe Campaign v8, or Marketo. | `save-content` | Adobe Journey Optimizer (AJO) | TBD |
+
+### Email design
+
+| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Compose email | Plans block structure and styling from a marketing objective and brand inputs. | `compose-email` | Adobe Journey Optimizer (AJO) | TBD |
+| Build email | Builds, adapts, edits, and refines email HTML from a layout plan, a screenshot, or a Figma design link. | `build-email` | Adobe Journey Optimizer (AJO) | TBD |
+| Maintain design system | Maintains a brand's reusable email design system — tokens, layout patterns, and brand language. | `maintain-design-system` | Adobe Journey Optimizer (AJO) | TBD |
+| Review compliance | Audits an assembled email against brand and channel guidelines and deliverability standards. | `review-compliance` | Adobe Journey Optimizer (AJO) | TBD |
+| Review design | Provides subjective design feedback on hierarchy, spacing, narrative flow, and brand fit. | `review-design` | Adobe Journey Optimizer (AJO) | TBD |
+| Review accessibility | Runs a WCAG 2.1 AA accessibility audit. | `review-accessibility` | Adobe Journey Optimizer (AJO) | TBD |
+| Hand off email | Exports and delivers approved HTML to Adobe Journey Optimizer or Adobe Campaign. | `handoff-email` | Adobe Journey Optimizer (AJO) | TBD |
+
 ## Optimization
 
 Use Coworker Chat to browse, analyze, and plan experiments, and to create, run, and troubleshoot Adobe Target activities, audiences, and Recommendations.
