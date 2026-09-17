@@ -1,6 +1,7 @@
 ---
 title: Install Adobe CX Coworker Gateway
 description: Learn how to connect MCP-compatible clients to the Adobe CX Coworker Gateway.
+hide: true
 ---
 # Install Adobe CX Coworker Gateway {#mcp-install}
 

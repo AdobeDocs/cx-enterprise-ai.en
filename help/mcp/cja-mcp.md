@@ -1,6 +1,7 @@
 ---
 title: Customer Journey Analytics Tools in CX Coworker Gateway
 description: Learn which Adobe Customer Journey Analytics tools are available through Adobe CX Coworker Gateway.
+hide: true
 ---
 
 # Customer Journey Analytics tools in Adobe CX Coworker Gateway {#cja-mcp}

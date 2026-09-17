@@ -83,18 +83,18 @@ dummy: true
   - Data Engineering {#data-engineering}
     - {hide-from-toc} [Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Adobe CX Coworker Gateway](./mcp/overview.md)
+  - {hide-from-toc} [Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc} [Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
   - Get started {#mcp-get-started}
-    - [Access CX Coworker Gateway tools](./mcp/access.md)
-    - [Install CX Coworker Gateway](./mcp/install.md)
-    - [Session context tools in CX Coworker Gateway](./mcp/context-tools.md)
+    - {hide-from-toc} [Access CX Coworker Gateway tools](./mcp/access.md)
+    - {hide-from-toc} [Install CX Coworker Gateway](./mcp/install.md)
+    - {hide-from-toc} [Session context tools in CX Coworker Gateway](./mcp/context-tools.md)
   - Product tools {#mcp-product-tools}
-    - [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
-    - [Experience Platform tools](./mcp/aep-mcp.md)
-    - [Journey Optimizer tools](./mcp/ajo-mcp.md)
-    - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
-    - [Adobe Analytics tools](./mcp/analytics-mcp.md)
+    - {hide-from-toc} [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc} [Experience Platform tools](./mcp/aep-mcp.md)
+    - {hide-from-toc} [Journey Optimizer tools](./mcp/ajo-mcp.md)
+    - {hide-from-toc} [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+    - {hide-from-toc} [Adobe Analytics tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
