@@ -1,6 +1,7 @@
 ---
 title: Journey Optimizer Tools in CX Coworker Gateway
 description: Learn which Adobe Journey Optimizer tools are available through the CX Coworker Gateway.
+hide: true
 ---
 # Adobe Journey Optimizer tools in CX Coworker Gateway {#ajo-mcp}
 
