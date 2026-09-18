@@ -42,6 +42,10 @@ Before you decide whether a dataset is a good candidate for a data lake retentio
 
 <!-- TODO: Confirm the final usage-tier thresholds with engineering after the planned update from a 7-day to a 30-day analysis window is complete. Update this section with the final definitions before publishing. -->
 
+>[!NOTE]
+>
+>The metrics shown are intended to provide helpful signals and may not represent all factors relevant to your decision. We recommend reviewing the available details and applying your business context before taking action.
+
 ![Coworker dataset usage analysis showing the usage tier, individual usage signals, and a summary of dataset activity.](../../assets/data-management/dataset-usage-analysis.png)
 
 Example prompts:
