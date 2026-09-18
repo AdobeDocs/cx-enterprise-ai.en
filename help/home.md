@@ -1,10 +1,7 @@
 ---
 title: AI in CX Enterprise Applications
 description: Learn how CX Enterprise applications use generative AI (GenAI), CX Enterprise Coworker, AI Assistant, agentic AI, and MCP tools.
-TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+TQID: 'https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds'
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -35,25 +32,27 @@ This guide covers AI capabilities in Adobe CX Enterprise: generative AI, CX Ente
 Start here for a primer on where and how AI is used across CX Enterprise:
 
 - [About generative AI](./overview/generative-ai.md) describes which CX Enterprise applications support generative AI and AI Assistant, and how they compare.
-- [About agentic AI](./overview/agentic-ai.md) explains how Experience Platform Agents work in both existing CX Enterprise applications and AI-first applications, and lists the agents available in each.
+- [About agentic AI](./overview/agentic-ai.md) explains how agentic AI works in both existing CX Enterprise applications and AI-first applications, and lists the agents available in each.
 - [AI monitoring](./overview/monitoring.md) covers the dashboards that track agent adoption, usage, feedback, and AI Credit consumption.
 - [AI credits consumption](./overview/ai-credit-consumption.md) explains how agent jobs consume AI Credits, with estimated consumption rates by agent and job type.
 - [Generative AI content transparency](./content-transparency.md) explains how Adobe automatically attaches C2PA metadata to GenAI-generated and GenAI-edited content across CX Enterprise applications.
 - [CX Enterprise agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview) cover additional agentic skills and tooling that extend CX Enterprise agents (video tutorials).
 
-## CX Enterprise Coworker
+## Coworker
 
-Coworker is an agent-first evolution of AI Assistant that automates customer experience and marketing workflows, so your team can focus on business goals instead of routine execution. Instead of asking one question at a time, you describe a goal. Coworker plans, executes, validates, and returns the finished work for your approval. Coworker includes:
+Coworker is an agent-first evolution of AI Assistant that automates customer experience and marketing workflows, so your team can focus on business goals instead of routine execution. Instead of asking one question at a time, you describe a goal. Coworker plans, executes, validates, and returns the finished work for your approval. Learn more on [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html). 
+
+Coworker includes:
 
 - **[Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: A conversational interface for exploring your data, validating audiences and journeys, and completing multi-step tasks across CX Enterprise applications.
-- **[Coworker Campaigns](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: An AI-native application that consolidates campaign briefing, audience building, content generation, journey design, and proofing into a single conversational experience. It uses built-in templates, best practices, and prompting guidance to help small, agile teams launch campaigns quickly.
+- **[Coworker for teams](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)** (formerly _Coworker Campaigns_): An AI-native application that consolidates campaign briefing, audience building, content generation, journey design, and proofing into a single conversational experience. It uses built-in templates, best practices, and prompting guidance to help small, agile teams launch campaigns quickly. Learn more on [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html).
 - **Coworker Projects** (coming soon): A unified workspace for automating end-to-end customer experience orchestration workflows, helping teams coordinate tasks, approvals, and execution to drive outcomes from strategy through delivery. Documentation for Projects is coming soon.
 
 Eligible customers are gradually being transitioned from AI Assistant and Experience Platform Agents to Coworker Chat. Read [Coworker Trial](./agents/trial.md) to learn about trial eligibility, AI Credit usage, and how to get access.
 
 To see Coworker Chat in action, walk through [Coworker Chat in Playground](./coworker/playground-coworker-chat.md), or read real-world use cases such as [Validate AA to CJA migration data](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md) and [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md).
 
-For full product documentation on Coworker Chat, Campaigns, and Projects, see [Coworker](./coworker/overview.md). For sandbox-to-sandbox object replication, see [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md).
+For full product documentation on Coworker Chat, Coworker for teams, and Projects, see [Coworker](./coworker/overview.md). For sandbox-to-sandbox object replication, see [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md).
 
 ## AI Assistant
 
