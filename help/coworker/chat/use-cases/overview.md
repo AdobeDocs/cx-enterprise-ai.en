@@ -151,7 +151,7 @@ For more detailed information on CX Coworker skills for journeys, refer to the [
 
 | Use Case | Description | Skills | Application | Sample Prompts |
 |---|---|---|---|---|
-| Build a program | Adapt an existing program template into a new program, generating Smart Campaigns, scheduling, and placeholder emails from a plain-language campaign description or uploaded campaign brief. | `build-programs` | Adobe Marketo Engage | "Create a webinar registration program for our August product demo"<br><br>"Build a program that triggers when a lead hits a score of 50"<br><br>"Create a 3-email re-engagement series for leads inactive 90 days" |
+| Build a program | Adapt an existing program template into a new program, generating Smart Campaigns, scheduling, and placeholder emails from a plain-language campaign description or uploaded campaign brief | `build-programs` | Adobe Marketo Engage | "Create a webinar registration program for our August product demo"<br><br>"Build a program that triggers when a lead hits a score of 50"<br><br>"Create a 3-email re-engagement series for leads inactive 90 days" |
 
 ## Loyalty
 
