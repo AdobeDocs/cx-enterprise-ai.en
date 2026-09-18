@@ -56,7 +56,7 @@ dummy: true
   - Campaigns {#campaigns}
     - [Overview](./coworker/campaigns/overview.md)
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
-    - {hide-from-toc} [Launch and manage a campaign](./coworker/campaigns/launch-manage-campaign.md)
+    - [Launch and manage a campaign](./coworker/campaigns/launch-manage-campaign.md)
     - [Use cases](./coworker/campaigns/use-cases.md)
     - [Prompting best practices](./coworker/campaigns/prompting-best-practices.md)
     - [C2PA metadata](./coworker/campaigns/c2pa-metadata.md)
