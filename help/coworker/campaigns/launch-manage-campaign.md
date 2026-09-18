@@ -1,5 +1,5 @@
 ---
-description: Learn how to launch a campaign, schedule when it sends now, once, or on a recurring basis, and permanently stop a live campaign that is actively sending.
+description: Learn how to launch a campaign, schedule when it goes out and how often, and permanently stop a live campaign that is actively sending.
 title: Launch and manage a campaign
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -20,23 +20,15 @@ After your campaign is created, learn how to launch it, schedule when it goes ou
 
 1. In your completed campaign, click **Review and launch**.
 
-   SCREENSHOT
-
    >[!NOTE]
    >
    >If anything is missing, a dialog appears, listing what you need to complete. Make the fixes and reselect **Review and launch**.
 
 1. After the campaign passes the readiness check, the launch dialog opens, showing a preview of the email and audience.
 
-   SCREENSHOT
-
 1. Review the schedule shown in the dialog. To change it, use the schedule options described in [Schedule when a campaign launches](#schedule-when-a-campaign-launches), then click **Save**.
 
-   SCREENSHOT
-
 1. Click **Launch campaign** when done.
-
-   SCREENSHOT
 
 >[!NOTE]
 >
@@ -56,18 +48,12 @@ The campaign must be ready to launch (all required setup complete).
 
 1. From the campaign, click **Review and launch**.
 
-   SCREENSHOT
-
 1. In the launch dialog, choose a schedule option:
-   - **Now** — the campaign starts sending immediately after launch.
-   - **Schedule once** — pick a future **Start date** (date and time together).
-   - **Recurring** — choose a **Frequency** (Daily, Weekly, or Monthly) and a start time, then set the recurrence pattern (see fields below).
-
-   SCREENSHOT
+   - **Now**: the campaign starts sending immediately after launch.
+   - **Schedule once**: pick a future **Start date** (date and time together).
+   - **Recurring**: choose a **Frequency** (Daily, Weekly, or Monthly) and a start time, then set the recurrence pattern (see fields below).
 
 1. If Recurring is selected, choose whether the campaign ends **Never** or **On a date**, and pick an end date if applicable.
-
-   SCREENSHOT
 
 1. Confirm to launch the campaign with the selected schedule.
 
@@ -75,15 +61,9 @@ The campaign must be ready to launch (all required setup complete).
 
 1. Open the campaign and go to its settings.
 
-   SCREENSHOT
-
 1. Find the schedule section and select the current schedule summary.
 
-   SCREENSHOT
-
 1. Update the schedule using the same options described above.
-
-   SCREENSHOT
 
 1. Save the change.
 
@@ -112,24 +92,18 @@ You can stop a campaign that is actively sending (a "live" campaign) directly fr
 >
 >Stopping a campaign is permanent. Recipients stop progressing through the campaign immediately, and the campaign cannot be resumed or restarted afterward. To send again, you must create a new campaign and launch that one.
 
+<!--
+
 ### Prerequisites
 
-- [NEEDS INPUT — to confirm with engineer: does stopping a campaign require a specific role or permission, or can any user with campaign access do this?]
+- [NEEDS INPUT - to confirm with engineer: does stopping a campaign require a specific role or permission, or can any user with campaign access do this?]
+
+-->
 
 ### How to stop a campaign
 
 1. Open a campaign that is currently live.
 
-   SCREENSHOT
-
 1. In the campaign detail header, click **Stop Campaign**.
 
-   SCREENSHOT
-
-1. In the confirmation dialog, click BLANK.
-
-   SCREENSHOT
-
 1. Click **Stop** to confirm.
-
-   SCREENSHOT

@@ -12,6 +12,10 @@ feature_v2:
 
 Getting the most out of Coworker Campaigns starts with how you prompt. Learn the practices that produce the best results: the CO-STAR framework for structuring your prompts, what to include and what to avoid, and scenario-based examples that give the AI the context it needs to generate relevant, on-target content.
 
+>[!NOTE]
+>
+>Currently, you can only connect to Coworker Campaign-supported integrations.  If you have any existing Adobe Enterprise applications, where you store audiences or build journeys, we encourage you to use [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md) instead.
+
 ## Use the CO-STAR framework {#costar-framework}
 
 For best results, organize your prompts using the CO-STAR framework. This structured approach ensures the AI understands exactly what you need.
@@ -52,9 +56,21 @@ For best results, organize your prompts using the CO-STAR framework. This struct
 </tbody>
 </table>
 
+### Content supported in prompts
+
+Use the **email editor** or **Adobe Express** for visual/image modifications. The following request types are supported.
+
+- **Specify the frequency and the cadence of your campaign**: "Create an email campaign that is sent weekly..."
+
+- **Target a specific audience from a larger list**: "Create a campaign only for attendees with dogs for the _Bark in the Park_ event from 'all-attendees.csv'"
+
+- **Upload an HTML file**: "Use my attached HTML file as a basis to create an email campaign."
+
+- **Make changes mid-conversation**: "Change the number of days before this campaign goes out from two to three."
+
 ### Content not supported in prompts
 
-Use the **email editor** or **Adobe Express** for visual/image modifications. These requests are not supported and should be handled through other tools:
+These requests are **not** supported and should be handled through other tools:
 
 <table style="table-layout: fixed; border: 0;">
 <thead style="border: 0; background-color: #FFFFFF">
@@ -110,6 +126,10 @@ Before generating content, ensure the following:
 
 Always provide context and the value proposition so the AI can generate relevant content.
 
+>[!NOTE]
+>
+>While you can currently only generate and launch email campaigns, you can always ask Coworker to generate copy for social media, WhatsApp, or SMS.
+
 <table style="table-layout: fixed; border-collapse: collapse; border: 0;">
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
@@ -120,19 +140,19 @@ Always provide context and the value proposition so the AI can generate relevant
 <tbody>
 <tr>
 <td><strong>B2B Technology</strong></td>
-<td>"Generate a campaign to demonstrate ROI and technical specifications while addressing security concerns for IT decision-makers evaluating our cloud infrastructure solution, emphasizing 99.9% uptime SLA, SOC 2 compliance, and 40% cost savings."</td>
+<td>"Generate a four-touch email campaign to demonstrate ROI and technical specifications while addressing security concerns for IT decision-makers evaluating our cloud infrastructure solution, emphasizing 99.9% uptime SLA, SOC 2 compliance, and 40% cost savings."</td>
 </tr>
 <tr>
 <td><strong>E-commerce Retail</strong></td>
-<td>"Generate a campaign to create urgency around limited-stock holiday items while highlighting free shipping and easy returns for last-minute shoppers, emphasizing limited quantities (less than 50 remaining), and 24-hour shipping cutoff."</td>
+<td>"Generate a single-touch campaign to create urgency around limited-stock holiday items while highlighting free shipping and easy returns for last-minute shoppers, emphasizing limited quantities (less than 50 remaining), and 24-hour shipping cutoff."</td>
 </tr>
 <tr>
 <td><strong>Education & Training</strong></td>
-<td>"Generate a campaign that emphasizes career advancement outcomes and industry certifications while showcasing instructor expertise, highlighting 92% job placement rate, and project-based curriculum."</td>
+<td>"Generate a two-touch campaign that emphasizes career advancement outcomes and industry certifications while showcasing instructor expertise, highlighting 92% job placement rate, and project-based curriculum."</td>
 </tr>
 <tr>
 <td><strong>Consulting</strong></td>
-<td>"Generate a campaign to nurture enterprise prospects by showcasing three customer success stories with detailed ROI metrics (IBM: 45% cost reduction, Accenture: 200% lead increase, Microsoft: 60% time savings), targeting IT directors at companies with 1000+ employees."</td>
+<td>"Generate a three-touch campaign to nurture enterprise prospects by showcasing three customer success stories with detailed ROI metrics (IBM: 45% cost reduction, Accenture: 200% lead increase, Microsoft: 60% time savings), targeting IT directors at companies with 1000+ employees."</td>
 </tr>
 </tbody>
 </table>
