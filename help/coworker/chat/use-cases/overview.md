@@ -147,6 +147,12 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 For more detailed information on CX Coworker skills for journeys, refer to the [Adobe Journey Optimizer journeys documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
 
+## Marketing programs
+
+| Use Case | Description | Skills | Application | Sample Prompts |
+|---|---|---|---|---|
+| Build a program | Adapt an existing program template into a new program, generating Smart Campaigns, scheduling, and placeholder emails from a plain-language campaign description or uploaded campaign brief. | `build-programs` | Adobe Marketo Engage | "Create a webinar registration program for our August product demo"<br><br>"Build a program that triggers when a lead hits a score of 50"<br><br>"Create a 3-email re-engagement series for leads inactive 90 days" |
+
 ## Loyalty
 
 | Use Case | Description | Skills | Application | Sample Prompts |
