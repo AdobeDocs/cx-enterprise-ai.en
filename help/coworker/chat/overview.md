@@ -6,7 +6,7 @@ product_v2:
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: ''
+    internal-label: CX Enterprise Coworker
 ---
 # Adobe CX Enterprise Coworker Chat overview {#overview}
 
@@ -46,8 +46,10 @@ The following CX Enterprise applications are compatible with Coworker Chat:
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
 * Customer Journey Analytics B2C edition
-* _AEM (coming soon)_
-* _Workfront (coming soon)_
+* Adobe Target
+* AEM
+* Workfront
+* Marketo Engage
 * _Real-Time CDP B2B Edition (coming soon)_
 * _Adobe Journey Optimizer B2B Edition (coming soon)_
 * _Customer Journey Analytics B2B edition (coming soon)_

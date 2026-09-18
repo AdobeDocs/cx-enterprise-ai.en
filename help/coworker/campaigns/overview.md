@@ -6,19 +6,19 @@ product_v2:
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: ''
+    internal-label: CX Enterprise Coworker
 ---
 # Adobe CX Enterprise Coworker Campaigns overview {#overview}
 
 Coworker Campaigns is an AI-native marketing application that takes you from a single prompt to a complete review-ready campaign.
 
-At this time, all interactions with the AI will direct you towards [campaign generation](./). More functionality is coming soon.
+At this time, all interactions with the AI will direct you towards [campaign generation](/help/coworker/campaigns/create-an-email-campaign.md). More functionality is coming soon.
 
 ## How to access
 
 >[!NOTE]
 >
->Coworker Campaigns is available via free trial through October 1, 2026. During the trial, all assets and activity is specific to the user.
+>Coworker Campaigns is available via free trial through December 31, 2026. During the trial, all assets and activity is specific to the user.
 
 1. Go to coworker-campaigns.experience.adobe.com.
 
@@ -100,7 +100,7 @@ A few things early users have found that make a real difference:
 
 Coworker Campaigns is a product in active development. Here is what to know going in:
 
-- **Trial window**: Now through October 1, 2026.
+- **Trial window**: Now through December 31, 2026.
 - **Acceptance required**: You will need to review and accept the trial terms before accessing the product.
 - **Region**: The free trial is only available to users in North America at this time.
 - **Audiences**: Audiences are uploaded via CSV. All audiences are specific to their respective campaigns (they are not stored anywhere else in your environment at this time).

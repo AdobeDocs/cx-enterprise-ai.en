@@ -4,7 +4,7 @@ description: Learn about Adobe Experience Platform Agent Orchestrator.
 TQID: https://experienceleague.adobe.com/xv7K7636d65K0V8R1EG97xnZpZAjnNhfF7JgqQz1aoY
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -63,7 +63,7 @@ Adobe Experience Platform Agents are purpose-built grouping of AI agents skilled
 | [Audience Agent](audience.md) | Audience Agent lets you view insights about audiences, including detecting significant audience size changes, detecting duplicate audiences, explore your audience inventory, and retrieve your audiences' size. | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> |
 | [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agent, accessible from the AI Assistant in Customer Journey Analytics, is a generative AI conversation agent that quickly and efficiently answers questions about your data. It builds relevant visualizations in Analysis Workspace using components from your data view and using your actual data. | Customer Journey Analytics |
 | [Experimentation Agent](./agent-experiment.md) | Experimentation Agent helps teams learn faster by analyzing experiment results, predicting impact, and proposing new experiments. It centralizes past and active experiments so you can build on what you've already learned, spot gaps, and prioritize what to test next. | Adobe Journey Optimizer Experimentation Accelerator |
-| [Journey Agent](./ajo-agent.md) | Journey Agent allows Adobe Journey Optimizer users to create, analyze, and optimize journeys using a natural language interface. With Journey Agent, you can quickly build journeys, detect and resolve schedule or audience conflicts, analyze performance and drop-off points, and identify top-performing journeys to replicate for future campaigns. It helps you make data-driven decisions, improve customer engagement, and streamline journey orchestration. | Adobe Journey Optimizer |
+| [Journey Agent](./ajo-agent.md) | Journey Agent lets Adobe Journey Optimizer users create, analyze, and optimize journeys using natural language, through four capabilities: [Journey Create](./ajo-agent.md#journey-create), [Channel Content Create](./ajo-agent.md#channel-content-create), [Journey Analyze](./ajo-agent.md#journey-analyze), and [Journey Simulate](./ajo-agent.md#journey-simulate). See the [Journey Agent guide](./ajo-agent.md) for details. | Adobe Journey Optimizer |
 | [Product Support Agent](product-support.md) | Product Support Agent is a self-serve debugging and troubleshooting capability that helps you troubleshoot Adobe Experience Platform features and applications without leaving your workflows. Support administrators can create customer support tickets with context from your AI Assistant interactions and you can check ticket updates through AI Assistant. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B Edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 For further information around availability of Agents in CX Enterprise applications, please review the [Agentic AI in CX Enterprise documentation](../overview/agentic-ai.md).

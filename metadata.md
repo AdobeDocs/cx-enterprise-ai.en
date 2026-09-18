@@ -2,12 +2,11 @@
 cloud: Experience Cloud
 solution: Experience Cloud,Experience Platform,Real-Time Customer Data Platform,CX Enterprise
 usetq: true
-product: experience cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/cx-enteprise-ai.en
+git-repo: https://github.com/AdobeDocs/cx-enterprise-ai.en
 index: true
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -20,6 +19,8 @@ product_v2:
     internal-label: Analytics
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 ---
 
 # Metadata for internal use

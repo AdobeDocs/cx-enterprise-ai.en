@@ -7,7 +7,7 @@ product_v2:
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: ''
+    internal-label: CX Enterprise Coworker
 ---
 # UI guide {#ui-guide}
 
@@ -30,9 +30,10 @@ The following table captures when these experiences will be available for each C
 | RTCDP | Available Now | Coming Soon |
 | AJO | Available Now | Coming Soon |
 | CJA | Available Now | Coming Soon |
-| AEM | September 2026 | Coming Soon |
-| Workfront | September 2026 | Coming Soon:<br><br>* Early September 2026 in Preview Instance for select eligible Workfront System Admins<br><br>* Mid September 2026 in Production Instance for eligible fast release Workfront customers<br><br>* Mid October 2026 in Production Instance for eligible quarterly release Workfront customers |
-| Target | September 2026 | Coming Soon |
+| Workfront | Available Now | Coming Soon:<br><br>* Early September 2026 in Preview Instance for select eligible Workfront System Admins<br><br>* Mid September 2026 in Production Instance for eligible fast release Workfront customers<br><br>* Mid October 2026 in Production Instance for eligible quarterly release Workfront customers |
+| Target | Available Now | Available Now |
+| AEM | Available Now | Coming Soon |
+| Marketo Engage | Available Now | Coming Soon |
 
 ### Immersive Experience {#immersive}
 

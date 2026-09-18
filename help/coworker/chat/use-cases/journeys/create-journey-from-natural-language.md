@@ -13,7 +13,7 @@ product_v2:
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: ''
+    internal-label: CX Enterprise Coworker
 ---
 
 # How to generate Adobe Journey Optimizer Journeys from natural language prompts
@@ -23,3 +23,8 @@ Building customer journeys traditionally requires extensive configuration across
 By automating the initial setup process, teams can spend less time building journeys from scratch and more time refining customer experiences and business outcomes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+
+## See also
+
+- [Journey Agent](../../../../agents/ajo-agent.md#journey-create), the underlying AI capability that powers journey creation in Coworker Chat.
+- [More Coworker Chat use cases](../overview.md#journeys)

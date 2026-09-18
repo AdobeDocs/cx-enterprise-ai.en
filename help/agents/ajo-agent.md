@@ -52,10 +52,6 @@ topic_v2:
 
 # Journey Agent: Overview and User Guide
 
->[!AVAILABILITY]
->
->Journey Agent create skills and content generation skills are available to customers that are a part of the Agent Orchestrator Explorer program. For more information, contact Adobe Customer Care.
-
 ## Introduction to Journey Agent in Adobe Journey Optimizer
 
 Journey Agent enables Journey Optimizer users to create, analyze, and optimize marketing journeys using a natural language interface. With Journey Agent, practitioners can quickly build journeys, detect and resolve schedule or audience conflicts, analyze performance and drop-off points, and identify top-performing journeys to replicate for future campaigns. It empowers practitioners to make data-driven decisions, improve customer engagement, and streamline journey orchestration.
@@ -66,21 +62,23 @@ Journey Agent consists of four main jobs to be done:
 - **Channel Content Create**: Generate, edit, and manage channel-specific content (email, push, SMS) for journeys using AI-powered content generation
 - **Journey Analyze**: Analyze journeys, detect issues, uncover insights, and optimize customer engagement
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}, an in-product, non-conversational AI capability with three sub-capabilities: 
 
 - Generating simulated users
 - Generating event values
 - Quick simulation
 
-## Journey Create: Use cases, Agentic skills and User guide
+## Journey Create: Use cases, AI capabilities and User guide {#journey-create}
 
 ## Overview
 
 Journey Create enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.
 
+For more information, see [Journey Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"} in the Adobe Journey Optimizer documentation.
+
 >[!AVAILABILITY]
 >
->Journey Create is available to customers that are a part of the Agent Orchestrator Explorer program. You will also need the following permissions in order to fully use Journey Create features:
+>You need the following permissions in order to fully use Journey Create features:
 >
 >**Manage Journeys**: This permission lets you create new journeys directly in AI Assistant.
 >
@@ -122,9 +120,14 @@ Journey Create offers capabilities that can be leveraged to accelerate marketing
    - Create decision branches based on customer attributes.
    - Design split paths that adapt to customer preferences.
 
+1. **Create journey from image**
+
+   - Upload a reference image and ask the agent to create a journey using the image as reference.
+   - The agent extracts an editable prompt from the reference image.
+
 For each of these use cases, the agent translates natural language requirements into structured journey configurations.
 
-## In scope and out of scope skills
+## In scope and out of scope AI capabilities
 
 ### **In scope**
 
@@ -141,9 +144,14 @@ The following capabilities are supported by Journey Create:
 The following functionalities are currently not supported:
 
 - **Advanced journey analytics**
-- **Real-time journey modifications**
 - **Cross-journey orchestration**
 - **A/B testing configuration**
+- **InAudience expression generation**
+- **Dataset lookup nodes**
+- **Wave sending settings**
+- **Schedule recurrence options**
+- **Namespace selection for audiences**
+- **Custom Action field mapping**
 - **Complex data transformations**
 
 ## Sample prompts
@@ -208,7 +216,7 @@ To maximize the effectiveness of Journey Create, follow these best practices:
 - **Plan Message Content**: Have your messaging strategy defined before journey creation.
 - **Consider Customer Experience**: Design journey flows that respect customer preferences and avoid over-communication.
 
-## Channel Content Create: Use Cases, Agentic Skills and User Guide
+## Channel Content Create: Use Cases, AI Capabilities and User Guide {#channel-content-create}
 
 >[!AVAILABILITY]
 >
@@ -217,6 +225,8 @@ To maximize the effectiveness of Journey Create, follow these best practices:
 ## Overview
 
 Channel Content Create enables Journey Optimizer users to generate, edit, and manage channel-specific content for journeys using AI-powered content generation.
+
+For more information, see [Channel Content Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"} in the Adobe Journey Optimizer documentation.
 
 ## Use cases
 
@@ -234,7 +244,7 @@ Channel Content Create enables Journey Optimizer users to generate, edit, and ma
 
 1. **Journey canvas integration**: Select journeys from inventory and view associated channels.
 
-## In scope and out of scope skills
+## In scope and out of scope AI capabilities
 
 ### **In scope**
 
@@ -290,13 +300,15 @@ The following functionalities are currently not supported:
 1. **Define Tone**: Specify the desired tone (friendly, formal, casual, urgent).
 1. **Iterate and Refine**: Use the regenerate action to refine content until it meets your requirements.
 
-## Journey Analyze: Use Cases, Agentic Skills and User Guide
+## Journey Analyze: Use Cases, AI Capabilities and User Guide {#journey-analyze}
 
 ## Overview
 
-Journey Agent will enable Journey Optimizer users to analyze, and optimize journeys using a natural language interface. With Journey Agent, practitioners can quickly identify and resolve schedule and/or audience conflicts, detect points of user abandonment in a journey and provide insights or recommendations. It empowers practitionners to make data-driven decisions, improve customer engagement, and streamline journey orchestration.
+Journey Analyze enables Journey Optimizer users to analyze and optimize journeys using a natural language interface. With Journey Analyze, practitioners can quickly identify and resolve schedule and audience conflicts, detect points of user abandonment in a journey, and surface insights or recommendations to improve performance.
 
 Learn more and discover the agent at a glance in this [overview](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+
+For more information, see [Journey Analyze](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} in the Adobe Journey Optimizer documentation.
 
 >[!AVAILABILITY]
 >
@@ -340,9 +352,22 @@ Journey Analyze offers a range of functionalities that can be leveraged to optim
 
    - Prompt-based Journey Insights – Surface operational insights about journeys , i.e. "show me all live journeys."
 
+1. **Journey Custom Action Error Analysis**
+
+   - Identify when custom actions are failing or error rates spike within a journey.
+   - Diagnose root causes before failures cascade into broader journey disruption.
+   - Use specific remediation steps to restore custom action reliability quickly.
+
+1. **Analyze Journey Anomalies**
+
+   - Detect unexpected spikes, drops, or flatlines in a journey's entry, exit, or message-send counts compared to historical baselines, including when the question is phrased around the number of profiles entering, exiting, or completing the journey.
+   - Confirm whether a flagged change is a genuine anomaly using a deterministic statistical check, rather than relying on the raw anomaly flag alone.
+   - Run bounded, read-only diagnostics against journey-execution data to identify a likely root cause, surfacing what each check looked for and found alongside the recommendation.
+   - Investigate anomaly alerts that reference a specific journey version and timestamp.
+
 For each of these analyses, the agent not only detects issues but also provides **actionable recommendations to resolve them**.
 
-## In Scope and Out of Scope Skills
+## In Scope and Out of Scope AI Capabilities
 
 ### **In Scope**
 
@@ -351,13 +376,14 @@ The following capabilities are supported by Journey Analyze:
 - **Reactive Queries**: Allows users to ask specific questions about journey performance, audience usage, and scheduling conflicts.
 - **Integration with Other Agents**: Collaborates with Audience Agent and Data Insights Agent for deeper analysis.
 - **Agent response structuration**: reasoning (explain the logic), analysis summary (highlight key points), issue details (describe the problem), and recommendation (propose next steps).
+- **Custom action error analysis**: Detect and diagnose custom action failures and error spikes within a journey.
+- **Anomaly detection**: Detect and confirm statistically significant spikes, drops, or flatlines in a journey's entry, exit, or send counts, and surface a likely root cause.
 
 ### **Out of Scope**
 
 The following functionalities are currently not supported:
 
 - **Automated Journey Creation**
-- **Real-Time Anomaly Detection**
 - **Channels overlap**
 - **Journey entry analysis**
 - **Technical issue analysis**
@@ -422,6 +448,22 @@ Use these prompts to analyze potential conflicts between journeys, including sch
 - "Analyze conflict risk for journey [Journey Name]."
 - "Provide conflict diagnostics for [Journey Name]."
 
+### Custom action error analysis
+
+- "Why are custom actions failing in journey [Journey Name]?"
+- "What is the error rate for custom action [Custom Action Name] in journey [Journey Name]?"
+- "Show me the root cause of custom action failures in journey [Journey Name]."
+- "Are there any custom action errors affecting journey [Journey Name] right now?"
+
+### Journey anomaly analysis
+
+- "Why did entries drop for my Welcome journey yesterday?"
+- "Did exits spike for the Cart Abandonment journey this week?"
+- "Sends look low for the Renewal Reminder journey today — what happened?"
+- "Why was there a sudden drop in the number of profiles entering my Member Anniversary Thank You journey in the last 30 days?"
+- "Fewer profiles than usual are completing my Renewal Reminder journey this month — why?"
+- "An anomaly alert was triggered for journey [Journey Version ID] at [timestamp] — investigate."
+
 ## Best Practices
 
 ### Prompting Best Practices
@@ -438,13 +480,13 @@ To maximize the effectiveness of Journey Analyze, follow these best practices:
 - **Monitor Regularly**: Schedule regular reviews of journey performance to identify trends and anomalies.
 - **Optimize Segmentation**: Ensure audience segmentation is balanced to avoid fatigue and maximize engagement.
 
-## Journey Simulate: Use Cases, Agentic Skills and User Guide
+## Journey Simulate: Use Cases, AI Capabilities and User Guide {#journey-simulate}
 
 ## Overview
 
 >[!BEGINSHADEBOX]
 
-Journey Simulation is available to all Journey Optimizer customers. Journey Simulate, the in-product agentic skill within Journey Simulation, is available to customers that are a part of the Agent Orchestrator Explorer program and requires at least one of the following permissions:
+Journey Simulation is available to all Journey Optimizer customers. Journey Simulate, the in-product agentic AI capability within Journey Simulation, is available to customers that are a part of the Agent Orchestrator Explorer program and requires at least one of the following permissions:
 
 - **Simulate journeys**: Run simulation workflows from the journey canvas.
 
@@ -454,11 +496,11 @@ Journey Simulation is available to all Journey Optimizer customers. Journey Simu
 
 To use AI in **[!UICONTROL Simulation]** (**[!UICONTROL Quick simulation]**, generating simulated users with AI, **[!UICONTROL Generate event values]**), users require **[!UICONTROL Generate Content]** permission from the **[!UICONTROL AI Assistant]** capability. 
 
-[Learn more about permissions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions).
+[Learn more about permissions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions).
 
 >[!ENDSHADEBOX]
 
-Journey Simulation is a Journey Optimizer feature that enables Journey Optimizer users to safely test and validate marketing journeys before activation. Within Journey Simulation, Journey Simulate is an in-product agentic skill, not a conversational one, that automates and assists the testing process directly from the journey canvas.
+Journey Simulation is a Journey Optimizer feature that enables Journey Optimizer users to safely test and validate marketing journeys before activation. Within Journey Simulation, Journey Simulate is an in-product agentic AI capability, not a conversational one, that automates and assists the testing process directly from the journey canvas.
 
 Journey Simulate includes three capabilities:
 
@@ -493,7 +535,7 @@ Journey Simulate offers three capabilities that can be leveraged to reduce testi
 - Identify which simulated user flows through which path, and why, with detailed node-by-node traversal.
 - Review simulation reporting at the end of a run in the Journey Optimizer UI to validate outcomes before activation.
 
-## In scope skills and limitations
+## In scope AI capabilities and limitations
 
 ### **In scope**
 
@@ -506,14 +548,21 @@ The following capabilities are supported by the Journey Simulation feature:
 - **Simulation reporting**: View reporting at the end of a simulation run in the Journey Optimizer UI.
 - **Multi-user testing**: Run and visualize tests for multiple simulated users simultaneously, covering all journey branches.
 
-In addition to this, the following capabilities are supported by the Journey Simulate skill:
+In addition to this, the following capabilities are supported by the Journey Simulate AI capability:
 
 - **Simulated user generation**: Create simulated users based on journey paths, existing test profiles, or specified attributes.
 - **Event value generation**: Generate and assign event attribute values to drive test execution through specific journey paths.
-- **Quick simulation**: Run a full end-to-end simulation with minimal intervention. The skill automatically generates simulated users, event values, and pre-filled test settings, then executes the journey and surfaces results for review.
+- **Quick simulation**: Run a full end-to-end simulation with minimal intervention. This AI capability automatically generates simulated users, event values, and pre-filled test settings, then executes the journey and surfaces results for review.
 
 ### **Limitations**
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"} in the Journey Optimizer documentation.
+
+## See also
+
+- [Agent Orchestrator](./agent-orchestrator.md), the agentic layer that powers Journey Agent and other Experience Platform Agents.
+- [Journey Optimizer tools in CX Coworker Gateway](../mcp/ajo-mcp.md), a read-only MCP surface for campaign and channel configuration review.
+- [Create journeys from natural language](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md) and [Create, edit, and manage loyalty challenges](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md), Coworker Chat use cases that build on Journey Create.
+- [Product Support Agent](./product-support.md), for troubleshooting Journey Optimizer issues surfaced through AI Assistant.

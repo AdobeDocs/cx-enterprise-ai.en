@@ -16,7 +16,7 @@ With the Adobe Marketing Agent for [!DNL Microsoft 365 Copilot], marketing manag
 
 >[!IMPORTANT]
 >
->The Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] currently supports Experience Platform Operational Insights, Customer Journey Analytics Data Insights, Audience Agent, and the Journey Agent.
+>The Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] currently supports Experience Platform Operational Insights, Customer Journey Analytics Data Insights, [Audience Agent](./audience.md), and the [Journey Agent](./ajo-agent.md).
 
 The Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] provides an integrated experience between Experience Platform and [!DNL Microsoft 365] applications:
 
