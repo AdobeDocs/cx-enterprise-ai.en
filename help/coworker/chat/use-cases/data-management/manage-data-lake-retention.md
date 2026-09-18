@@ -62,11 +62,11 @@ Example prompts:
 
 ### Set, change, or remove a retention policy {#set-change-or-remove-a-retention-policy}
 
-Once you've decided on a retention period, use the Manage dataset retention skill to set, change, or remove a data lake retention policy on a dataset. The skill shows you the proposed impact before any change is applied. The policy is applied only after you explicitly approve the request. Describing the change you want does not apply it.
-
 >[!IMPORTANT]
 >
->The minimum data lake retention period is 30 days; shorter periods aren't supported.
+>The minimum data lake retention period is 30 days. Shorter periods are not supported.
+
+Once you've decided on a retention period, use the Manage dataset retention skill to set, change, or remove a data lake retention policy on a dataset. The skill shows you the proposed impact before any change is applied. The policy is applied only after you explicitly approve the request. Describing the change you want does not apply it.
 
 ![Coworker showing the proposed data lake retention policy, its impact, and the confirmation required before the change is applied.](../../assets/data-management/retention-impact-preview.png)
 

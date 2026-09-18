@@ -16,7 +16,7 @@ The Data Management Agent provides four skills.
 
 >[!NOTE]
 >
->The List datasets, Analyze dataset usage, and Analyze dataset retention skills are read only. Only the Manage dataset retention skill can change a data lake retention policy, and it requires your explicit confirmation before applying any change.
+>The List datasets, Analyze dataset usage, and Analyze dataset retention skills are read-only. Only the Manage dataset retention skill can change a data lake retention policy, and it requires your explicit confirmation before applying any change.
 
 | Skill | Description |
 |---|---|
@@ -76,6 +76,6 @@ The Data Management Agent can identify datasets that may be good candidates for 
 
 ## Next steps {#next-steps}
 
-After reading this guide, you should understand how to use the Data Management Agent in CX Coworker to find, analyze, and manage data lake retention on your Experience Event datasets.
+For guidance on using each skill to find, analyze, and manage data lake retention on your Experience Event datasets, see [Manage data lake retention](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
 
 For more information about how data lake retention policies work in Adobe Experience Platform, including retention behavior and configuration, see [Experience Event dataset retention (TTL) guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
