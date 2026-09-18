@@ -1,6 +1,6 @@
 ---
 title: About AI in CX Enterprise
-description: A business-level overview of where generative and agentic AI show up across Adobe CX Enterprise applications, how usage is governed and measured, and how your teams can get started.
+description: Learn where generative and agentic AI are available in CX Enterprise applications, and review access, privacy, and security requirements before you begin.
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
@@ -30,10 +30,22 @@ Adobe CX Enterprise applications use AI in two complementary ways: **generative 
 - **[Generative AI content transparency](../content-transparency.md)** describes how Adobe automatically attaches C2PA metadata to GenAI-generated and GenAI-edited content, to help you understand your organization's disclosure obligations.
 - **[CX Enterprise agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)** are video tutorials covering additional agentic skills and tooling that extend CX Enterprise agents.
 
+## Before you begin {#before-you-begin}
+
+Before your teams start using Coworker, AI Assistant, or agentic AI, review the following access, privacy, and security requirements.
+
+### Access requirements
+
+Your Adobe Admin must grant the appropriate permissions before users can access AI Assistant and Experience Platform Agents. Requirements vary by application; see [Access](../agents/agent-orchestrator.md#access) in the Agent Orchestrator guide for details. CX Enterprise Coworker access is rolled out separately, through eligibility-based trials; see [Coworker Trial](../agents/trial.md) to learn how your organization can get access.
+
+### Privacy and security
+
+AI Assistant and Experience Platform Agents prioritize privacy, security, and governance, including sandbox-specific data isolation and your existing access control policies. For full details, read [Privacy, security, and governance in AI Assistant](../ai-assistant/privacy.md).
+
 ## Where to start
 
 1. Read **About generative AI** and **About agentic AI** to understand the two forms of AI available and where each one is already live in your licensed applications.
 1. Read **AI credits consumption** to understand how usage translates to cost, so you can set expectations with finance and procurement.
 1. Set up **Agentic AI monitoring** dashboard permissions for your governance team, so adoption and usage are visible from day one.
 1. Read **Generative AI content transparency** to understand what disclosures are automatically applied to AI-generated content your teams publish.
-1. Once your organization is ready to onboard users, point them to [AI in CX Enterprise applications](../home.md) for hands-on guidance on AI Assistant, Agent Orchestrator, and CX Enterprise Coworker.
+1. Work with your Adobe Admin to complete the **Before you begin** access requirements above, then point users to [AI in CX Enterprise applications](../home.md) for hands-on guidance on AI Assistant, Agent Orchestrator, and CX Enterprise Coworker.

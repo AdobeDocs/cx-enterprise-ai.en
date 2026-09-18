@@ -2,6 +2,9 @@
 title: AI in CX Enterprise Applications
 description: Learn how CX Enterprise applications use generative AI (GenAI), CX Enterprise Coworker, AI Assistant, agentic AI, and MCP tools.
 TQID: 'https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds'
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,9 +26,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# AI in CX Enterprise
+# AI in CX Enterprise applications
 
-This guide covers AI capabilities in Adobe CX Enterprise: generative AI, CX Enterprise Coworker, AI Assistant, Agent Orchestrator, Experience Platform Agents, and MCP.
+This guide covers AI capabilities in Adobe CX Enterprise: generative AI, CX Enterprise Coworker, AI Assistant, Agent Orchestrator, and MCP.
 
 ## AI capabilities overview
 
@@ -92,15 +95,7 @@ For the full list of agents, the applications each supports, and eligibility req
 
 New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 
-## Get started
-
-### Access requirements
-
-Your Adobe Admin must grant the appropriate permissions before you can use AI Assistant and Experience Platform Agents. Requirements vary by application; see [Access](./agents/agent-orchestrator.md#access) in the Agent Orchestrator guide for details.
-
-### Privacy and security
-
-AI Assistant and Experience Platform Agents prioritize privacy, security, and governance, including sandbox-specific data isolation and your existing access control policies. For full details, read [Privacy, security, and governance in AI Assistant](./ai-assistant/privacy.md).
+Before you use any of these tools, see [Before you begin](./overview/overview-ai-cxe.md#before-you-begin) for access requirements and privacy and security considerations.
 
 ## Best practices
 
