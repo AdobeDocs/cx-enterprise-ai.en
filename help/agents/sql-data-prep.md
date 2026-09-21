@@ -90,7 +90,7 @@ For example:
 
 If the supplied query is already optimized, Coworker can determine that no modification is required and explain its assessment.
 
-![Coworker response analyzing an existing SQL query for optimization and explaining that no changes are required, with query-plan findings and an equivalence assessment.](./assets/sql-data-prep/optimize-query-longform.png)
+![Coworker response analyzing an existing SQL query for optimization and explaining that no changes are required, with query-plan findings and an equivalence assessment.](./assets/sql-data-prep/optimize-query.png)
 
 SQL generated through the SQL authoring capability is already optimized. You do not need to submit newly generated SQL separately for optimization.
 
