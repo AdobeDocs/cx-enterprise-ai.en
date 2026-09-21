@@ -32,6 +32,8 @@ dummy: true
         - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validate dataset quality for CJA reporting](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+      - Data Management {#data-management}
+        - [Manage data lake retention](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Audiences {#audiences}
         - [Assess platform health and build audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Journeys {#journeys}
@@ -73,6 +75,7 @@ dummy: true
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [Data Management Agent](./agents/data-management.md)
   - [Experiment Agent](./agents/agent-experiment.md)
   - [Field Discovery Agent](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
