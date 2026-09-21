@@ -27,7 +27,7 @@ You can identify the datasets you want to use in your request. If additional inf
 
 After Coworker generates or updates the SQL, you can continue the conversation to preview the results, refine the query, save it, or schedule it for recurring execution.
 
-For guidance on using the Coworker interface, see the [Coworker UI guide](../ai-assistant/ai-assistant-ui.md).
+For guidance on using the Coworker interface, see the [Coworker UI guide](../coworker/chat/ui-guide.md).
 
 ## Supported capabilities {#supported-capabilities}
 
