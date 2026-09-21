@@ -4,7 +4,7 @@ description: Learn how to use SQL Data Preparation in Coworker to generate, opti
 ---
 # SQL Data Preparation in Coworker
 
-SQL Data Preparation in Coworker helps you perform common [Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview) tasks using natural language. Use SQL Data Preparation when you want to generate SQL from the result you are trying to achieve, troubleshoot or optimize an existing query, or move a query toward recurring execution without completing each step separately in Query Service.
+To perform common [Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview) tasks using natural language, use SQL Data Preparation in Coworker. You can generate SQL from the result you are trying to achieve, troubleshoot or optimize an existing query, or move a query toward recurring execution without completing each step separately in Query Service.
 
 You can continue working with the query in the same Coworker conversation to preview results, refine the SQL, save the query, or schedule it for recurring execution.
 
@@ -31,7 +31,7 @@ For guidance on using the Coworker interface, see the [Coworker UI guide](../ai-
 
 ## Supported capabilities {#supported-capabilities}
 
-SQL Data Preparation supports the following capabilities:
+You can use SQL Data Preparation for the following tasks:
 
 | Capability | Description |
 | --- | --- |
@@ -42,7 +42,7 @@ SQL Data Preparation supports the following capabilities:
 
 ## Work with SQL Data Preparation conversationally {#work-with-sql-data-preparation}
 
-SQL Data Preparation capabilities can be combined within the same Coworker conversation rather than treated as separate workflows.
+You can combine SQL Data Preparation capabilities within the same Coworker conversation rather than treat them as separate workflows.
 
 For example, you can:
 
@@ -62,7 +62,7 @@ A query preview returns up to five rows. To run and work with queries directly i
 
 Use SQL authoring when you know the result or transformation you want to achieve but want Coworker to generate the corresponding SQL.
 
-Coworker can identify and validate the datasets involved before generating the query. If your request does not provide enough information to identify the appropriate dataset, Coworker can ask follow-up questions before continuing.
+To generate SQL from the correct data, Coworker can identify and validate the datasets involved. If your request does not provide enough information to identify the appropriate dataset, Coworker can ask follow-up questions before continuing.
 
 For example:
 
