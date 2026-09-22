@@ -55,10 +55,12 @@ dummy: true
       - [Create your first skill](./coworker/customizations/skills/create-your-first-skill.md) 
       - [Build and run a quality gate skill](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [Manage and iterate on skills](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - Integrations {#integrations}
+      - [What are integrations?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - Plugins {#plugins}
-      - [What are plugins](./coworker/customizations/plugins/what-are-plugins.md)
+      - [What are plugins?](./coworker/customizations/plugins/what-are-plugins.md)
     - Memory {#memory}
-      - [What is memory](./coworker/customizations/memory/what-is-memory.md)
+      - [What is memory?](./coworker/customizations/memory/what-is-memory.md)
   - Campaigns {#campaigns}
     - [Overview](./coworker/campaigns/overview.md)
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
