@@ -149,9 +149,12 @@ For more detailed information on CX Coworker skills for journeys, refer to the [
 
 ## Marketing programs
 
-| Use Case | Description | Skills | Application | Sample Prompts |
-|---|---|---|---|---|
-| Build a program | Adapt an existing program template into a new program, generating Smart Campaigns, scheduling, and placeholder emails from a plain-language campaign description or uploaded campaign brief | `build-programs` | Adobe Marketo Engage | "Create a webinar registration program for our August product demo"<br><br>"Build a program that triggers when a lead hits a score of 50"<br><br>"Create a 3-email re-engagement series for leads inactive 90 days" |
+| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Build a program | Adapt an existing program template into a new program, with Smart Campaigns, scheduling, and placeholder emails generated from a plain-language description or uploaded brief | `build-programs` | Adobe Marketo Engage | "Create a webinar registration program for our August product demo"<br><br>"Build a program that triggers when a lead hits a score of 50"<br><br>"Create a 3-email re-engagement series for leads inactive 90 days" |
+| Stand up a program from a brief | Turn a plain-language brief or uploaded campaign document into a working program: clone the closest matching template, carry over Smart Campaigns and tokens, and update event details. New Smart Campaigns are left deactivated for your review | `build-programs` | Adobe Marketo Engage | "I'm hosting a webinar on Sept 10 in Chicago. Set up the program for me"<br><br>"Set up next month's roadshow program from this brief and update the event tokens" |
+| Clone and adapt an existing program | Copy a prior program for a new city, quarter, or region and update dates, tokens, and naming. Child Smart Campaigns are carried over and left deactivated until you activate them | `build-programs` | Adobe Marketo Engage | "Clone last quarter's event program for our New York stop on Oct 17 and update the dates and tokens"<br><br>"Duplicate the Chicago roadshow program for our UK audience" |
+| Build a Smart Campaign with qualification logic | Create a trigger or batch Smart Campaign, add Smart List rules such as Fills Out Form or Score Reaches, and configure flow steps such as Send Email | `build-programs` | Adobe Marketo Engage | "Create a trigger campaign that sends our welcome email when a lead fills out the Contact Us form"<br><br>"Build a batch campaign for leads who hit a score of 50 and add a Send Email step" |
 
 ## Loyalty
 
