@@ -95,25 +95,23 @@ Example prompts:
 
 ## Review the results
 
-For each validated field, Coworker returns:
+For each validated field, results appear as a row in a table with the following columns:
 
-**Basic statistics**
+| Column | Description |
+| --- | --- |
+| [!UICONTROL Field name] | The field's name. |
+| [!UICONTROL Field path] | The field's full path in the schema. |
+| [!UICONTROL Field type] | The field's data type. |
+| [!UICONTROL Valid values] | The percentage of sampled values that pass validation. |
+| [!UICONTROL Distinct values] | The percentage of sampled values that are distinct. |
+| [!UICONTROL Null values] | The percentage of sampled values that are null. |
+| [!UICONTROL Top 5 distinct values] | The five most common values and their frequencies. |
+| [!UICONTROL Top 5 invalid values] | The five most common invalid values, with an explanation for each, for example "not a valid email format." |
+| [!UICONTROL Additional insight] | A short natural language note on the field's quality. |
 
-* Null count (and percentage null).
-* Distinct value count (and percentage).
-* Top distinct values and their frequencies.
+Below the results, Coworker adds a **Next Steps** list suggesting follow-up prompts, such as validating another field or re-running the dataset.
 
-**Semantic validation**
-
-* A list of suspected invalid values, where found.
-* An explanation for each invalid value, for example "not a valid email format" or "timestamp outside expected range."
-
-**Natural language summary**
-
-* A short narrative summary of the field or dataset, including the sample size used.
-* A **Next Steps** list suggesting follow-up prompts, such as validating another field or re-running the dataset.
-
-When you validate a single field, Coworker returns a chart and a written summary:
+When you validate a single field, Coworker also returns a chart:
 
 ![Coworker chat showing a donut chart and written summary for the Brand field, reporting 79.5% valid values, 20.5% null values, and no invalid values detected.](../../assets/data-validation-aep/null-values.png)
 
@@ -128,8 +126,6 @@ Fields the skill selects automatically appear the same way:
 ![Coworker chat table showing validation results for five automatically selected fields in the Electronics Sample 1000 dataset: Category, Brand, Price, Inventory, and Condition.](../../assets/data-validation-aep/dataset-validation.png)
 
 Select [!UICONTROL **CSV**] to download the full results table.
-
-<!--TODO: the table's column headers are truncated in the UI (shown as "Field ...", "Valid va...", "Distinct val...", "Null va..."). Confirm the full label text with engineering before tagging them with [!UICONTROL].-->
 
 ## Checks performed by data validation
 
