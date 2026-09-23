@@ -155,3 +155,4 @@ If your validation needs are more exhaustive or require complex business logic, 
 * [Validate AA to CJA data when upgrading](./data-validation-aa-cja.md)
 * [Validate Customer Journey Analytics data with the Data Validation skill in Coworker](./validate-dataset-quality-for-cja.md)
 * [Validate your data (AI Assistant)](/help/agents/data-validation.md)
+* [Trust Your Customer Journey Analytics Reporting: Data Validation Skill in Adobe CX Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (video)
