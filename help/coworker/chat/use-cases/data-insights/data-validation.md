@@ -57,10 +57,6 @@ To validate your data with Coworker, you need:
 
    Your request is routed to the Data Validation skill, which analyzes a sample of your dataset and returns results in the same conversation.
 
-1. (Conditional) If the skill can't uniquely identify the dataset or field you mean, answer the clarifying question it asks, then continue.
-
-   <!--TODO: confirm with engineering whether/how this disambiguation flow surfaces to the user. AN-457440 calls out "Platform API lookup disambiguation" as the one functional change over the AOv1 version (fixing malformed-input lookup failures), but the design doc doesn't describe the resulting UX. Verify with a live demo before publishing, and replace this bullet with the actual behavior (or remove it if there's no user-visible prompt).-->
-
 ## Choose what to validate
 
 You can validate a single field or an entire dataset.
@@ -129,6 +125,8 @@ Select [!UICONTROL **CSV**] to download the full results table.
 
 ## Checks performed by data validation
 
+The skill performs the following types of checks on each field and dataset:
+
 * **Completeness checks**: null and missing counts and percentages.
 * **Distribution checks**: top distinct values and their distributions, and high cardinality detection.
 * **Semantic checks against the schema**: uses the XDM field name, type, and description to infer what a valid value looks like, then flags anomalies.
@@ -150,7 +148,7 @@ Before you validate your data, keep the following limitations in mind. These con
 
 If your validation needs are more exhaustive or require complex business logic, supplement these results with additional tools such as Query Service or Data Prep validations.
 
-## Related information
+**Related information**
 
 * [Validate Adobe Analytics to Customer Journey Analytics data when upgrading](./data-validation-aa-cja.md)
 * [Validate Customer Journey Analytics data with the Data Validation skill in Coworker](./validate-dataset-quality-for-cja.md)
