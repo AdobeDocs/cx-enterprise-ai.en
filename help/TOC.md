@@ -32,7 +32,7 @@ dummy: true
         - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validate dataset quality for CJA reporting](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
-        - [Validate your Experience Platform data](./coworker/chat/use-cases/data-insights/data-validation.md)
+        - [Validate your Experience Platform data](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
       - Data Management {#data-management}
         - [Manage data lake retention](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Audiences {#audiences}

@@ -20,7 +20,7 @@ Read this documentation to learn how you can validate your data in AI Assistant.
 
 >[!NOTE]
 >
->Data validation is also available as a Coworker skill. See [Validate your Experience Platform data with Coworker](/help/coworker/chat/use-cases/data-insights/data-validation.md).
+>Data validation is also available as a Coworker skill. See [Validate your Experience Platform data with Coworker](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md).
 
 ## Use cases
 
