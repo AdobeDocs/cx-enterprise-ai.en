@@ -14,23 +14,6 @@ Coworker is an AI-powered teammate that reimagines the nature of work for organi
 
 ## Coworker Chat
 
-CARDS
-
-<!--
-CARDS
-
-* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide
-  {title = UI guide}
-  {description = Learn about the Coworker Chat interface, including navigation, the input box, responses, chat history, and configuring Skills, MCP servers, and Memory.}
-  {cta = Watch}
-
-* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja
-  {title = Validate Customer Journey Analytics data}
-  {description = Learn how Analytics admins use the CX Enterprise Coworker data validation skill to compare Adobe Analytics and Customer Journey Analytics data during the upgrade.}
-  {cta = Watch}
--->
-
-
 Coworker Chat enables teams to automate Adobe product tasks using natural language, quickly turning ideas into actions with flexible planning, customizable skills, and intelligent execution.
 
 * [Overview](./chat/overview.md)
