@@ -1,6 +1,6 @@
 ---
 title: Validate Customer Journey Analytics Data with the Data Validation Skill in Coworker
-description: Learn how to validate Customer Journey Analytics data using the Data Validation skill in Coworker. Identify CJA datasets and uncover data issues before building dashboards, segments, and customer journeys.
+description: Learn how to validate Customer Journey Analytics data using the Data Validation skill in Coworker, and resolve issues before building dashboards.
 feature: AI Tools
 role: User
 level: Beginner, Intermediate

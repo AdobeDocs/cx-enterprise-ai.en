@@ -1,6 +1,6 @@
 ---
 title: Manage and Iterate on Skills in Coworker
-description: Learn how to manage reusable AI skills with a proven governance workflow. Discover how to establish a baseline, make controlled skill updates, compare results, validate improvements, and safely retire obsolete skills while maintaining consistent, reliable outputs.
+description: Learn how to manage reusable AI skills with a governance workflow: establish a baseline, make controlled updates, validate improvements, and retire obsolete skills.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
@@ -9,7 +9,7 @@ last-substantial-update: 2026-09-16
 jira: KT-22445
 ---
 
-# Manage and Iterate on Skills in [!DNL Coworker]
+# Manage and iterate on skills in [!DNL Coworker]
 
 Reusable AI skills help teams perform consistent, repeatable tasks. As business requirements evolve, however, those skills need to evolve too. This video demonstrates a practical approach to managing the complete lifecycle of governance-focused AI skills, from evaluation and improvement to validation and retirement.
 

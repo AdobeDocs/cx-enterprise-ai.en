@@ -1,6 +1,6 @@
 ---
 title: Coworker Plugins - What They Are, How They Work, and How to Install Them
-description: Learn how Adobe CX Coworker plugins extend functionality with skills and MCP servers. 
+description: Learn about Adobe CX Coworker plugins, installable packages that bundle skills and MCP servers to extend functionality for a specific business need.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
