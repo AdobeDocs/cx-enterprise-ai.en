@@ -19,7 +19,7 @@ dummy: true
   - [Agentic AI Monitoring dashboard](./overview/monitoring.md)
   - [Agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
   - [Generative AI content transparency](content-transparency.md)
-- CX Enterprise Coworker {#coworker}
+- CX Enterprise Coworker guide {#coworker}
   - [About Coworker](./coworker/overview.md)
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
@@ -73,12 +73,12 @@ dummy: true
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Release notes](./coworker/campaigns/release-notes.md)
-- AI Assistant {#ai-assistant}
+- AI Assistant guide {#ai-assistant}
   - [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md)
   - [Prompt Library](./ai-assistant/prompt-library.md)
   - [Privacy](./ai-assistant/privacy.md)
   - [Legal Disclaimer](./ai-assistant/legal-disclaimer.md)
-- Agents {#agents}
+- Agent AI {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
