@@ -12,7 +12,24 @@ feature_v2:
 
 Coworker is an AI-powered teammate that reimagines the nature of work for organizations, teams, and individuals. Coworker elegantly automates customer experience and marketing workflows so organizations can focus on realizing their business goals and transforming outcomes, not coordinating tasks. As an agentic engine, Coworker takes a new innovative approach to automating business process. It elevates AI model performance and accuracy by bringing together data, intelligence, collaboration and agentic skills execution with enterprise context, governance, and human oversight built in.
 
-## Chat
+## Coworker Chat
+
+CARDS
+
+<!--
+CARDS
+
+* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide
+  {title = UI guide}
+  {description = Learn about the Coworker Chat interface, including navigation, the input box, responses, chat history, and configuring Skills, MCP servers, and Memory.}
+  {cta = Watch}
+
+* https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja
+  {title = Validate Customer Journey Analytics data}
+  {description = Learn how Analytics admins use the CX Enterprise Coworker data validation skill to compare Adobe Analytics and Customer Journey Analytics data during the upgrade.}
+  {cta = Watch}
+-->
+
 
 Coworker Chat enables teams to automate Adobe product tasks using natural language, quickly turning ideas into actions with flexible planning, customizable skills, and intelligent execution.
 
