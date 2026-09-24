@@ -20,7 +20,7 @@ dummy: true
   - [Agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
   - [Generative AI content transparency](content-transparency.md)
 - CX Enterprise Coworker guide {#coworker}
-  - [About Coworker](./coworker/overview.md)
+  - [Coworker overview](./coworker/overview.md)
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
     - [UI guide](./coworker/chat/ui-guide.md)
