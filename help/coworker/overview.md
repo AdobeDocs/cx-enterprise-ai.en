@@ -80,15 +80,17 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-**In this guide**
+## Customizations
 
-* [Overview](./chat/overview.md)
-* [Use cases](./chat/use-cases/overview.md)
-* [UI guide](./chat/ui-guide.md)
+Customizations let you extend and personalize Coworker with Skills, Integrations, Plugins, and Memory.
 
-## Projects (coming soon)
-
-Coworker Projects is a unified workspace for automating end-to-end customer experience orchestration workflows, helping teams coordinate tasks, approvals, and execution to drive outcomes from strategy through delivery.
+* [What are skills?](./customizations/skills/what-are-skills.md)
+* [Create your first skill](./customizations/skills/create-your-first-skill.md)
+* [Build and run a quality gate skill](./customizations/skills/run-a-quality-gate-skill.md)
+* [Manage and iterate on skills](./customizations/skills/manage-and-iterate-on-skills.md)
+* [What are integrations?](./customizations/integrations/understanding-integrations-in-coworker.md)
+* [What are plugins?](./customizations/plugins/what-are-plugins.md)
+* [What is memory?](./customizations/memory/what-is-memory.md)
 
 ## Campaigns
 
@@ -100,3 +102,7 @@ Coworker Campaigns is a templatized feature for small agile teams to stand up an
 * [Prompting best practices](./campaigns/prompting-best-practices.md)
 * [Connect to Marketo Engage](./campaigns/connectors/marketo.md)
 * [Connect to Hubspot](./campaigns/connectors/hubspot.md)
+
+## Projects (coming soon)
+
+Coworker Projects is a unified workspace for automating end-to-end customer experience orchestration workflows, helping teams coordinate tasks, approvals, and execution to drive outcomes from strategy through delivery.
