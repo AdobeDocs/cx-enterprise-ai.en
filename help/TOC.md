@@ -32,6 +32,7 @@ dummy: true
         - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validate dataset quality for CJA reporting](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [Validate your Experience Platform data](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
       - Data Management {#data-management}
         - [Manage data lake retention](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Audiences {#audiences}
@@ -55,6 +56,12 @@ dummy: true
       - [Create your first skill](./coworker/customizations/skills/create-your-first-skill.md) 
       - [Build and run a quality gate skill](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [Manage and iterate on skills](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - Integrations {#integrations}
+      - [What are integrations?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
+    - Plugins {#plugins}
+      - [What are plugins?](./coworker/customizations/plugins/what-are-plugins.md)
+    - Memory {#memory}
+      - [What is memory?](./coworker/customizations/memory/what-is-memory.md)
   - Campaigns {#campaigns}
     - [Overview](./coworker/campaigns/overview.md)
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
@@ -101,4 +108,3 @@ dummy: true
     - {hide-from-toc} [Adobe Analytics tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
-

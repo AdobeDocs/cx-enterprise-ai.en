@@ -12,7 +12,7 @@ feature_v2:
 
 Coworker is an AI-powered teammate that reimagines the nature of work for organizations, teams, and individuals. Coworker elegantly automates customer experience and marketing workflows so organizations can focus on realizing their business goals and transforming outcomes, not coordinating tasks. As an agentic engine, Coworker takes a new innovative approach to automating business process. It elevates AI model performance and accuracy by bringing together data, intelligence, collaboration and agentic skills execution with enterprise context, governance, and human oversight built in.
 
-## Chat
+## Coworker Chat
 
 Coworker Chat enables teams to automate Adobe product tasks using natural language, quickly turning ideas into actions with flexible planning, customizable skills, and intelligent execution.
 
