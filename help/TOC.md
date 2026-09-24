@@ -51,6 +51,7 @@ dummy: true
         - [Generate marketing assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Brand compliance check](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
   - Customizations {#customizations}
+    - [Overview](./coworker/customizations/overview.md)
     - Skills {#skills}
       - [What are skills?](./coworker/customizations/skills/what-are-skills.md)
       - [Create your first skill](./coworker/customizations/skills/create-your-first-skill.md) 
