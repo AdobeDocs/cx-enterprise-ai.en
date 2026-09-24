@@ -1,6 +1,6 @@
 ---
 title: Manage and Iterate on Skills in Coworker
-description: Learn how to manage reusable AI skills with a governance workflow: establish a baseline, make controlled updates, validate improvements, and retire obsolete skills.
+description: Learn how to manage reusable AI skills with a governance workflow, establish a baseline, make controlled updates, validate improvements, and retire obsolete skills.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
