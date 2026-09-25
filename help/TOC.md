@@ -90,3 +90,4 @@ dummy: true
       - Content Advisor {#content-advisor}
         - [Generate marketing assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Brand compliance check](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+        - [Author AEM Sites pages](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
