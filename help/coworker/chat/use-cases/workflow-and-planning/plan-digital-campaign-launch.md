@@ -2,8 +2,7 @@
 title: Plan a Digital Campaign Launch with Coworker
 description: Learn how to plan and launch a B2C marketing campaign in Adobe Enterprise Coworker by building audiences, journeys, content, and landing pages in one chat.
 feature:
-  - Coworker
-  - AI Assistant
+  - AI Tools
 topic:
   - Artificial Intelligence
   - Personalization
