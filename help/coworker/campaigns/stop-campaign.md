@@ -1,6 +1,9 @@
 ---
 description: description goes here.
 title: Stop a campaign
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
@@ -26,13 +29,7 @@ A "Stop Campaign" action appears in the campaign detail header whenever a campai
 - After stopping, the campaign's status badge updates to "Stopped."
 - If the stop request fails, an error message is shown and the campaign remains live.
 
-## How to use it
 
-1. Open a campaign that is currently live (actively sending).
-2. In the campaign detail header, click **Stop Campaign**.
-3. In the confirmation dialog, review the warning: "Stopping the campaign is permanent. All recipients will stop progressing, and the campaign can't be resumed."
-4. Click **Stop** to confirm.
-5. A "Campaign stopped." confirmation message appears, and the campaign's status updates to "Stopped."
 
 ### Input fields / parameters
 

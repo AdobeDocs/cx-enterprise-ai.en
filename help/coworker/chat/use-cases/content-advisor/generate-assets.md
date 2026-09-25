@@ -1,12 +1,15 @@
 ---
 title: Coworker Marketing Asset Generation
-description: Discover how Coworker streamlines asset creation for social media channels, saving time and effort.
+description: Learn how to use Coworker Chat to generate on-brand marketing assets for social channels, saving time and effort.
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 147
-last-substantial-update: 2026-09-01
+last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22502
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker

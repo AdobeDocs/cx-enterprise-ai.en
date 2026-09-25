@@ -1,6 +1,9 @@
 ---
 description: Learn about feature enhancements and fixes in the Adobe CX Enterprise Coworker Campaigns release notes.
 title: CX Enterprise Coworker Campaigns Release Notes
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
@@ -9,7 +12,124 @@ feature_v2:
 
 Coworker Campaigns releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
 
+## September 2026 {#sep-2026}
+
+**Release date: September 3, 2026**
+
+* Copy any chat message and rate AI responses with a thumbs up or thumbs down, right from the message itself
+* The campaign plan task list now stays pinned above the chat input while your campaign is running, so you can track progress without scrolling away
+* Connect a Databricks SQL warehouse as a new data source for your campaigns
+* The older chat-based email editor has been retired in favor of the newer email asset editor
+* Trial User Admin now lets you exclude Adobe users, making it easier to see real trial signups
+* Fixed an issue where similar-campaign suggestions could fail to load
+* Chat messages now have tighter, more consistent spacing
+
+**Release date: September 1, 2026**
+
+* Large campaign emails now display fully in the editor instead of being cut off
+* The campaign board's launch button is now labeled "Review and launch" for clarity
+* Connecting a Salesforce account no longer shows an incorrect Marketo error message
+* Salesforce now has its own logo in the connectors list
+* Available connectors are now listed ahead of coming-soon ones
+* Onboarding now shows a progress indicator while your brand kit loads
+* Audience and knowledge-source previews now have a close button and can open full-screen
+* Campaign plan cards no longer get stuck showing "building" after your campaign starts running
+* Chat no longer keeps temporary progress messages (like "Exploring…") in your conversation history
+* Toolbar controls now lock appropriately while AI image or text suggestions are being applied
+* Fixed an issue where replacing an image in the asset editor didn't work correctly
+
+## August 2026 {#aug-2026}
+
+**Release date: August 26, 2026**
+
+* Clicking anywhere on a campaign template card now opens its preview, not just the title
+* The campaign prompt bar placeholder reappears correctly after you clear your input, with clearer screen-reader support
+* The "Help me prompt" suggestion now correctly replaces existing text in the campaign prompt bar
+* Downloading unsubscribes as a CSV now reflects only the campaign execution you're viewing
+* The trial plan comparison now shows Launch campaigns and Campaign insights as included features
+* Audiences created without a full workflow now show up correctly on the campaign board's Audience card
+* Empty-state feedback prompts read more naturally throughout the app
+
+**Release date: August 25, 2026**
+
+* Signing in on one browser tab now syncs the others automatically, fixing account mix-ups between tabs
+* Clicking Build now reliably moves your plan forward instead of occasionally re-generating it
+* Workflow diagrams in chat show more of the canvas so zoom controls no longer cover the steps
+* Campaign detail tabs have a refreshed, more consistent look
+* Saving or removing a sending domain in Domains & Senders is now faster and more reliable
+
+**Release date: August 24, 2026**
+
+* See your generated campaign strategy directly on the campaign board
+* Replace your audience right from the campaign validation dialog
+* Campaign PDF and Word exports now include your real workflow diagram
+* Insights tab stays visible with a helpful empty state right after launch
+* Add or remove touchpoints while reviewing your campaign fields
+* Campaign board toolbar is simpler with unnecessary buttons removed
+* Domains & Senders wizard scrubs subdomains and guides first-time setup with a coachmark
+* Domains & Senders wizard shows subdomain validation errors inline as you type
+* The post-proof campaign call-to-action was removed for a cleaner flow
+* Chinese language names now display correctly in the language picker
+* AI-generated variant thumbnails load reliably without duplicate labels
+* Newly created campaigns now show up immediately in your recent campaigns list on Home
+* All-campaigns insights now include an AI-generated summary of your org's campaign performance
+* Providing requested input in a workflow conversation no longer leaves it stuck
+* Trial onboarding no longer flashes an extra loading screen while checking for an existing brand kit
+* Stale sample audience sources now clear automatically from your workflow
+* Layout, theme, and fonts now render correctly inside the unified Experience Cloud shell
+* Similar campaign suggestions no longer show an unnecessary channel field
+
+**Release date: August 14, 2026**
+
+* Delete draft domains you no longer need in Domains & Senders
+* See DNS verification status for each record during domain setup
+* Domain details now show your configured email sender
+* DNS record values truncate neatly with a tooltip for the full text
+* Format multiple email text blocks at once with multi-select
+* Get similar campaign suggestions when creating a new campaign
+* Scope campaign insights to a single execution of a recurring campaign
+* Choose your preferred language from the profile menu
+* Get a nudge when campaign template descriptions need more detail
+* Release notes are easier to browse with better navigation and pagination
+* Collapse the sidebar's recent campaigns list to save space
+* Your campaign inventory view now stays the way you left it
+* Reorder execution filters and jump to a date range from a calendar picker
+* Preview audience details even on read-only audience cards
+* Fixed onboarding trial-flow screen flashes and a sign-in timing issue
+* Chat rail resize handle no longer blocks the message list scrollbar
+* Brand kit creation now shows the real reason a save failed
+
+**Release date: August 6, 2026**
+
+* Campaign Insights now shows unsubscribes with a downloadable CSV of who opted out
+* A per-email performance breakdown table is now on the Insights tab
+* See your campaign journey map directly on the Insights tab
+* Duration-based wait steps are now visible in the journey workflow view
+* Weighted journey branches are shown in the workflow edit view
+* Contact Lists are now connected to live data
+* Recurring campaigns show 0 sends immediately instead of "insights pending"
+* Edit remix prompt text directly around placeholder chips
+* Improved coachmark and cleaner placeholder chips in the remix editor
+* Campaign workflow cards now show a helpful empty state when nothing is running
+* The upgrade plan button no longer clutters the campaign detail header
+* Workflow cards have a simpler layout with journey name and description removed
+
 ## July 2026 {#july-2026}
+
+**Release date: July 30, 2026**
+
+* All-campaigns insights now match individual campaign insights' layout, plus a new daily performance chart
+* Stop a live campaign directly from the campaign page
+* Duplicating a campaign now only asks for a new name
+* Edit email templates directly from the templates list
+* Filter the recurring campaign journey view by execution
+* Add a brand image directly from the campaign board
+* Trial admin table now supports email search, pagination, and full CSV export
+* The "Surprise me" button now responds instantly, with no animation delay
+* Removed the campaign email unsubscribe settings while we rework this feature
+* Edit a campaign's schedule after it's already set, without starting over
+* Open the writing style editor from the overflow menu for quicker access
+* Pressing Enter now submits consistently across every prompt bar in the app
 
 **Release date: July 23, 2026**
 

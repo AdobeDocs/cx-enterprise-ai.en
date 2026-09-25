@@ -1,6 +1,6 @@
 ---
 title: Create Audiences from Natural Language
-description: Learn how to use Coworker to create audiences from natural language.
+description: Learn how to use Coworker to create audiences from natural language. Assess Experience Platform health and turn plain-language prompts into ready-to-use segments.
 feature: AI Tools
 role: User
 level: Beginner
@@ -8,6 +8,9 @@ doc-type: Feature Video
 duration: 221
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22080
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker

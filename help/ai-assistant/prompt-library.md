@@ -4,7 +4,7 @@ description: Learn about the different kinds of prompts and prompt patterns that
 TQID: https://experienceleague.adobe.com/QICjh9cNBT3XeKObkXqSDEGQT26zpv86V36L0tqvSgo
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -73,7 +73,9 @@ The following example prompts can be used with the Data Insights Agent to analyz
 
 ## Journey Agent
 
-The following example prompts can be used with the Journey Agent to help you analyze journey lifecycles, manage journey resources, gain insights into audience and journey relationships, and detect conflicts between journeys. Use these prompts to optimize your journey orchestration and resolve issues efficiently.
+The following example prompts can be used with the [Journey Agent](../agents/ajo-agent.md) to help you analyze journey lifecycles, manage journey resources, gain insights into audience and journey relationships, and detect conflicts between journeys. Use these prompts to optimize your journey orchestration and resolve issues efficiently.
+
+For sample prompts covering journey creation, channel content generation, and fallout analysis, see the [Journey Create](../agents/ajo-agent.md#journey-create), [Channel Content Create](../agents/ajo-agent.md#channel-content-create), and [Journey Analyze](../agents/ajo-agent.md#journey-analyze) sections of the Journey Agent guide.
 
 ### Journey Lifecycle Questions
 

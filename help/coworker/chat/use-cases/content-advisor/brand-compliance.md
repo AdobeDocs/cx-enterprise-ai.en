@@ -1,13 +1,16 @@
 ---
 title: Coworker Brand Check
-description: Discover how Coworker ensures your content stays on brand with automated checks in your marketing workflows.
+description: Learn how to check content for brand compliance with Coworker Chat, using automated checks built into your marketing workflows.
 version: Experience Manager as a Cloud Service
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 76
-last-substantial-update: 2026-09-01
+last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22501
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker

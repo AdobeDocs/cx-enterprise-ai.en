@@ -19,15 +19,72 @@ dummy: true
   - [Agentic AI Monitoring dashboard](./overview/monitoring.md)
   - [Agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
   - [Generative AI content transparency](content-transparency.md)
-- AI Assistant {#ai-assistant}
+- CX Enterprise Coworker guide {#coworker}
+  - [Coworker overview](./coworker/overview.md)
+  - Chat {#chat}
+    - [Overview](./coworker/chat/overview.md)
+    - [UI guide](./coworker/chat/ui-guide.md)
+    - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
+    - Use cases {#use-cases}
+      - [Coworker Chat use cases](./coworker/chat/use-cases/overview.md)
+      - Data Insights {#data-insights}
+        - [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
+        - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Validate dataset quality for CJA reporting](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [Validate your Experience Platform data](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
+      - Data Management {#data-management}
+        - [Manage data lake retention](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
+      - Audiences {#audiences}
+        - [Assess platform health and build audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - Journeys {#journeys}
+        - [Create journeys using natural language](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - Loyalty {#loyalty}
+        - [Create a loyalty challenge and surface insights](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
+      - Optimization {#optimization}
+        - [Launch Target activities](./coworker/chat/use-cases/optimization/target.md)
+      - Sandbox tooling {#sandbox-tooling}
+        - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
+      - Alerts {#alerts}
+        - [Customer alert skills](./agents/customer-alerts.md)
+      - Content Advisor {#content-advisor}
+        - [Generate marketing assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
+        - [Brand compliance check](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+        - [Author AEM Sites pages](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
+  - Customizations {#customizations}
+    - [Overview](./coworker/customizations/overview.md)
+    - Skills {#skills}
+      - [What are skills?](./coworker/customizations/skills/what-are-skills.md)
+      - [Create your first skill](./coworker/customizations/skills/create-your-first-skill.md) 
+      - [Build and run a quality gate skill](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [Manage and iterate on skills](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - Integrations {#integrations}
+      - [What are integrations?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
+    - Plugins {#plugins}
+      - [What are plugins?](./coworker/customizations/plugins/what-are-plugins.md)
+    - Memory {#memory}
+      - [What is memory?](./coworker/customizations/memory/what-is-memory.md)
+  - Campaigns {#campaigns}
+    - [Overview](./coworker/campaigns/overview.md)
+    - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
+    - [Launch and manage a campaign](./coworker/campaigns/launch-manage-campaign.md)
+    - [Use cases](./coworker/campaigns/use-cases.md)
+    - [Prompting best practices](./coworker/campaigns/prompting-best-practices.md)
+    - [C2PA metadata](./coworker/campaigns/c2pa-metadata.md)
+    - Connectors {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
+    - [Release notes](./coworker/campaigns/release-notes.md)
+- AI Assistant guide {#ai-assistant}
   - [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md)
   - [Prompt Library](./ai-assistant/prompt-library.md)
   - [Privacy](./ai-assistant/privacy.md)
   - [Legal Disclaimer](./ai-assistant/legal-disclaimer.md)
-- Agents {#agents}
+- Agent AI {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [Data Management Agent](./agents/data-management.md)
   - [Experiment Agent](./agents/agent-experiment.md)
   - [Field Discovery Agent](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
@@ -39,55 +96,17 @@ dummy: true
   - Data Engineering {#data-engineering}
     - {hide-from-toc} [Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Adobe CX Coworker Gateway](./mcp/overview.md)
+  - {hide-from-toc} [Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc} [Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
   - Get started {#mcp-get-started}
-    - [Access CX Coworker Gateway tools](./mcp/access.md)
-    - [Install CX Coworker Gateway](./mcp/install.md)
-    - [Session context tools in CX Coworker Gateway](./mcp/context-tools.md)
+    - {hide-from-toc} [Access CX Coworker Gateway tools](./mcp/access.md)
+    - {hide-from-toc} [Install CX Coworker Gateway](./mcp/install.md)
+    - {hide-from-toc} [Session context tools in CX Coworker Gateway](./mcp/context-tools.md)
   - Product tools {#mcp-product-tools}
-    - [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
-    - [Experience Platform tools](./mcp/aep-mcp.md)
-    - [Journey Optimizer tools](./mcp/ajo-mcp.md)
-    - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
-    - [Adobe Analytics tools](./mcp/analytics-mcp.md)
+    - {hide-from-toc} [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc} [Experience Platform tools](./mcp/aep-mcp.md)
+    - {hide-from-toc} [Journey Optimizer tools](./mcp/ajo-mcp.md)
+    - {hide-from-toc} [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+    - {hide-from-toc} [Adobe Analytics tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Coworker {#coworker}
-  - [About Coworker](./coworker/overview.md)
-  - Campaigns {#campaigns}
-    - [Overview](./coworker/campaigns/overview.md)
-    - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
-    - [Use cases](./coworker/campaigns/use-cases.md)
-    - [Prompting best practices](./coworker/campaigns/prompting-best-practices.md)
-    - [C2PA metadata](./coworker/campaigns/c2pa-metadata.md)
-    - Connectors {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
-    - [Release notes](./coworker/campaigns/release-notes.md)
-  - Customizations {#customizations}
-    - Skills {#skills}
-      - [What are skills?](./coworker/customizations/skills/what-are-skills.md)
-      - [Create your first skill](./coworker/customizations/skills/create-your-first-skill.md) 
-  - Chat {#chat}
-    - [Overview](./coworker/chat/overview.md)
-    - [UI guide](./coworker/chat/ui-guide.md)
-    - {hide-from-toc} [Coworker Chat in Playground](./coworker/playground-coworker-chat.md)
-    - Use cases {#use-cases}
-      - [Coworker Chat use cases](./coworker/chat/use-cases/overview.md)
-      - Data Insights {#data-insights}
-        - [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
-      - Audiences {#audiences}
-        - [Assess platform health and build audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
-      - Journeys {#journeys}
-        - [Create journeys using natural language](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
-        - [Create a loyalty challenge and surface insights](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-      - Sandbox tooling {#sandbox-tooling}
-        - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
-      - Alerts {#alerts}
-        - [Customer alert skills](./agents/customer-alerts.md)
-      - Content Advisor {#content-advisor}
-        - [Generate marketing assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [Brand compliance check](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
-        - [Author AEM Sites pages](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)

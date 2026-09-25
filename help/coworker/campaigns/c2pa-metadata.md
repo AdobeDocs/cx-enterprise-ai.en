@@ -1,6 +1,9 @@
 ---
 description: Learn how Coworker Campaigns automatically attaches and preserves C2PA metadata on images, from generation through email delivery.
 title: C2PA metadata in Coworker Campaigns
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 ---
 # C2PA metadata in Coworker Campaigns {#overview}
 
