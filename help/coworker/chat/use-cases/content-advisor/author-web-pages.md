@@ -16,9 +16,7 @@ topic_v2:
 ---
 # Author AEM Sites pages with Coworker
 
-Use [Coworker](./overview.md), Adobe's conversational AI, to author AEM Sites pages by describing what you want in plain language instead of clicking through the page editor.
-
-In this video, Coworker adds a new promotion to the WKND homepage, built from a Visual Content Fragment, using a chat prompt.
+Use Adobe CX Enterprise Coworker to author AEM Sites pages by describing what you want in plain language. In this video, Coworker adds a new promotion to the WKND homepage, built from a Visual Content Fragment, using a chat prompt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3503863/?learn=on)
 
@@ -26,4 +24,3 @@ In this video, Coworker adds a new promotion to the WKND homepage, built from a 
 >
 >This video shows Coworker authoring a page on a Page Editor-based site. Coworker works the same way on sites delivered with Edge Delivery Services.
 
-See [Coworker Chat overview](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview) to get started with Coworker Chat.
