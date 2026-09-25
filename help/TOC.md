@@ -52,6 +52,7 @@ dummy: true
         - [Brand compliance check](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
       - Workflow & Planning {#workflow-and-planning}
         - [Plan a digital campaign launch](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
+        - [Author AEM Sites pages](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - Customizations {#customizations}
     - [Overview](./coworker/customizations/overview.md)
     - Skills {#skills}
