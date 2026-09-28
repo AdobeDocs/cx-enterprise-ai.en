@@ -157,6 +157,22 @@ Always provide context and the value proposition so the AI can generate relevant
 </tbody>
 </table>
 
+## General marketing prompt ideas
+
+### Content marketing
+
+*  "Generate 20 blog topics that answer common questions from first-time homebuyers." 
+*  "Brainstorm LinkedIn post ideas for a B2B cybersecurity startup." 
+*  "Create a three-month content calendar focused on educating new customers." 
+*  "Suggest content themes that can be repurposed into blogs, videos, newsletters, and social posts." 
+
+### Email marketing
+
+*  "Generate a welcome email sequence for new subscribers interested in sustainable fashion." 
+*  "Brainstorm subject lines that create curiosity without sounding like clickbait." 
+*  "Suggest re-engagement campaign ideas for inactive customers." 
+*  "Create lifecycle email ideas for users who have completed onboarding."
+
 >[!MORELIKETHIS]
 >
 >Browse more [prompt patterns](use-cases.md) for Coworker Campaigns.
