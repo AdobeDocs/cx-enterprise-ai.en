@@ -47,10 +47,10 @@ dummy: true
         - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
       - Alerts {#alerts}
         - [Customer alert skills](./agents/customer-alerts.md)
-      - Content Advisor {#content-advisor}
-        - [Generate marketing assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [Brand compliance check](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
-        - [Author AEM Sites pages](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
+      - Brand Visibility {#brand-visibility}
+        - [Generate marketing assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [Brand compliance check](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [Author AEM Sites pages](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
       - Workflow & Planning {#workflow-and-planning}
         - [Plan a digital campaign launch](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Customizations {#customizations}
