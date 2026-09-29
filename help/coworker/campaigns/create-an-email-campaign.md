@@ -12,9 +12,9 @@ feature_v2:
 
 Learn how to generate and review complete email campaigns in minutes.
 
-   >[!IMPORTANT]
-   >
-   >At this time, you can only generate campaigns, you cannot send (launch) them yet. Launch functionality is coming soon.
+>[!IMPORTANT]
+>
+>At this time, you can only generate campaigns, you cannot send (launch) them yet. Launch functionality is coming soon.
 
 ## Before you start
 
@@ -46,7 +46,7 @@ _When to use: When you are not sure what you want._
 
 _When to use: When you may have an idea what you want, but would like a little help (or, use "Surprise Me" to be surprised)._ 
 
-   ![Home screen showing the three different options to get started](./assets/create-an-email-campaign-1.png){width="800" zoomable="yes"}
+![Home screen showing the three different options to get started](./assets/create-an-email-campaign-1.png){width="800" zoomable="yes"}
 
 ## Step 2: Create your prompt
 
@@ -61,15 +61,15 @@ Example:
 
 `"Create a single-touch win-back email campaign for customers who bought last year but haven't returned. Use the CSV I am uploading. Make sure the content feels seasonal."`
 
-   >[!TIP]
-   >
-   >For more examples, see the _Use cases_ article.
+>[!TIP]
+>
+>For more examples, see the _Use cases_ article.
 
-   >[!NOTE]
-   >
-   >If you already have a Campaign Brief, upload it along with your prompt as  additional context for the plan that it will generate for you.
+>[!NOTE]
+>
+>If you already have a Campaign Brief, upload it along with your prompt as  additional context for the plan that it will generate for you.
 
-   ![Typing in your own prompt](./assets/create-an-email-campaign-2.png)
+![Typing in your own prompt](./assets/create-an-email-campaign-2.png)
 
 When you have your prompt ready, click **Generate campaign**. Coworker Campaigns will then:
 
@@ -103,7 +103,7 @@ Audiences are uploaded via CSV. All audiences are specific to their respective c
 
 To make changes to your email, scroll to the right. Under _Campaign Assets_, click **Open editor**. 
 
-   ![](./assets/create-an-email-campaign-4.png)
+![](./assets/create-an-email-campaign-4.png)
 
 There are two ways to update your content.
 
@@ -119,7 +119,7 @@ There are two ways to update your content.
 
 You can also use the AI buttons to help refine your Subject or Preheader. 
 
-   ![](./assets/create-an-email-campaign-5.png)
+![](./assets/create-an-email-campaign-5.png)
 
 >[!TIP]
 >
@@ -129,11 +129,11 @@ You can also use the AI buttons to help refine your Subject or Preheader.
 
 Before launching, send the campaign to yourself so you can review it in a real inbox. Use this option to ensure the email is rendering the way you want, the links are working, any personalization is accurate, etc.
 
-   >[!NOTE]
-   >
-   >At this time, you can only send a test email to yourself, and only one at a time.
+>[!NOTE]
+>
+>At this time, you can only send a test email to yourself, and only one at a time.
 
-   ![](./assets/create-an-email-campaign-6.png)
+![](./assets/create-an-email-campaign-6.png)
 
 ## Step 6: Next steps
 
