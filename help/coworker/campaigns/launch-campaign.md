@@ -20,7 +20,7 @@ After your campaign is created and scheduled, learn how to launch it.
 
 1. In your completed campaign, click **Review and launch**.
 
-SCREENSHOT
+   SCREENSHOT
 
    >[!NOTE]
    >
@@ -38,9 +38,7 @@ SCREENSHOT
 
 SCREENSHOT
 
->
->
->It doesn't let a campaign launch with a sample (non-real) audience, email drafts that have not been proofed, or unconfigured sending settings 
+It doesn't let a campaign launch with a sample (non-real) audience, email drafts that have not been proofed, or unconfigured sending settings 
 
 ### Things to note
 
