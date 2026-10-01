@@ -44,9 +44,9 @@ dummy: true
       - Optimization {#optimization}
         - [Launch Target activities](./coworker/chat/use-cases/optimization/target.md)
       - Sandbox tooling {#sandbox-tooling}
-        - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
+        - [Sandbox tooling agentic skills](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - Alerts {#alerts}
-        - [Customer alert skills](./agents/customer-alerts.md)
+        - [Customer alert skills](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Brand Visibility {#brand-visibility}
         - [Generate marketing assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Brand compliance check](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)

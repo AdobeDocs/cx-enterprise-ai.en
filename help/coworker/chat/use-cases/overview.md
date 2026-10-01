@@ -289,7 +289,7 @@ Use Coworker Chat to browse, analyze, and plan experiments, and to create, run, 
 
 | Use Case | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-| [Move objects across sandboxes](/help/agents/sandbox-tooling.md) | Seamlessly migrate schemas, audiences, and other object configurations across sandboxes, with dependencies auto-resolved | `sandbox-tooling-workflow` | Adobe Experience Platform | "Move schema Luma Loyalty Members Platinum from current sandbox to prod sandbox" <br> "Promote the US Gold Loyalty Members audience to stage" |
+| [Move objects across sandboxes](/help/coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md) | Seamlessly migrate schemas, audiences, and other object configurations across sandboxes, with dependencies auto-resolved | `sandbox-tooling-workflow` | Adobe Experience Platform | "Move schema Luma Loyalty Members Platinum from current sandbox to prod sandbox" <br> "Promote the US Gold Loyalty Members audience to stage" |
 
 ## Customer alerts
 
