@@ -114,7 +114,7 @@ Coworker Chat enables teams to automate Adobe product tasks using natural langua
 
 ## Coworker Teams (formerly Campaigns)
 
-Coworker Campaigns is a templatized feature for small agile teams to stand up and execute campaigns.
+Coworker Teams is a templatized feature for small agile teams to stand up and execute campaigns.
 
 * [Overview](./campaigns/overview.md)
 * [Create an email campaign](./campaigns/create-an-email-campaign.md)
