@@ -1,6 +1,7 @@
 ---
 title: Experience Platform Tools in CX Coworker Gateway
 description: Learn which Adobe Experience Platform tools are available through CX Coworker Gateway.
+hide: true
 ---
 
 # Adobe Experience Platform tools in Adobe CX Coworker Gateway {#aep-mcp}

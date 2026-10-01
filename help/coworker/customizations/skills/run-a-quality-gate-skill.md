@@ -75,8 +75,6 @@ The three gates are:
 
 ```
 
----
- 
 ## Gate 1: Suppression / Consent
  
 > Edit this section to match your organization's suppression and consent requirements.
@@ -104,8 +102,6 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
----
- 
 ## Gate 2: Frequency Cap
 
 > Edit this section to match your organization's delivery-frequency requirements.
@@ -130,8 +126,6 @@ Our standard:
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 
 ```
-
----
 
 ## Gate 3: Naming Convention
  
@@ -172,10 +166,6 @@ When blocked on naming, always propose a compliant replacement name.
 
 ```
 
- 
-
----
-
 ## Guidance 
 
 ### 1. Customize only the bracketed sections
@@ -190,8 +180,6 @@ Everything else should remain unchanged:
 - Gate evaluation
 - Scorecard rendering
 - Verdict logic
-
----
 
 
 ### 2. Verify Prerequisites
@@ -208,8 +196,6 @@ This skill depends on:
 - DataTable rendering
 
 If these capabilities are not available in the customer's environment, the skill cannot run as designed.
-
----
 
 ### 3. Keep the Skill Read-Only
 

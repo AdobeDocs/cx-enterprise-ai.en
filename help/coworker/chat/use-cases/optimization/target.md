@@ -1,9 +1,9 @@
 ---
 title: Target & Coworker - Analyze, diagnose, and launch Adobe Target activities
-description: Learn the value CX Enterprise Coworker brings to your optimization program.
+description: Learn how Coworker brings agentic AI to Adobe Target, helping you analyze performance, diagnose issues, and launch activities for your optimization program.
 feature: AI Tools
 role: User
-level: Beginner, Intermediate, Advanced
+level: Beginner, Intermediate, Experienced
 doc-type: Feature Video
 duration: 367
 last-substantial-update: 2026-09-10T00:00:00.000Z

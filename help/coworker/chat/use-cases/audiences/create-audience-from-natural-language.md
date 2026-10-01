@@ -1,6 +1,6 @@
 ---
 title: Create Audiences from Natural Language
-description: Learn how to use Coworker to create audiences from natural language.
+description: Learn how to use Coworker to create audiences from natural language. Assess Experience Platform health and turn plain-language prompts into ready-to-use segments.
 feature: AI Tools
 role: User
 level: Beginner
