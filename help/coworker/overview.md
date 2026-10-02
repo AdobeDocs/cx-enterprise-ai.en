@@ -26,7 +26,7 @@ Whether you're just getting started or looking to deepen your expertise, these p
         <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="Get started with CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Experience League LIVE: Audience and Journey B2C capabilities in Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Get started with Coworker Chat" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
@@ -47,8 +47,8 @@ Whether you're just getting started or looking to deepen your expertise, these p
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="ttps://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="Get started with CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502322?format=jpeg" alt="Experience League LIVE: Audience and Journey B2C capabilities in Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="Get started with CX Enterprise Coworker Chat" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502322?format=jpeg" alt="Customize CX Coworker Chat" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
@@ -75,7 +75,7 @@ Join the CX Enterprise Coworker Unlocked series to see how organizations are usi
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" title="Transforming CX Workflows with Adobe CX Enterprise Coworker" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/exl-live-20260924.png" alt="Experience League LIVE: Transforming CX Workflows with Adobe CX Enterprise Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="../assets/exl-live-20260924.png" alt="Transforming CX Workflows with Adobe CX Enterprise Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
@@ -97,7 +97,7 @@ Join the CX Enterprise Coworker Unlocked series to see how organizations are usi
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" title="Audience &amp; Journey B2C capabilities in Coworker" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/exl-live-20261008.png" alt="Experience League LIVE: Audience and Journey B2C capabilities in Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="../assets/exl-live-20261008.png" alt="Audience and Journey B2C capabilities in Coworker" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
