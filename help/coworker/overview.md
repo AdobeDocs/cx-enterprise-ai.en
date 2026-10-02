@@ -16,7 +16,9 @@ Coworker is an AI-powered teammate that reimagines the nature of work for organi
 
 Coworker Chat enables teams to automate Adobe product tasks using natural language, quickly turning ideas into actions with flexible planning, customizable skills, and intelligent execution.
 
-## Curated Coworker Chat Learning
+## Coworker Chat Essentials
+
+Whether you're just getting started or looking to deepen your expertise, these playlists provide a guided introduction to CX Enterprise Coworker Chat. Learn how to navigate key features, craft effective prompts, and see practical examples of how Coworker helps teams work more efficiently across Adobe Experience Cloud products.
 
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop" aria-label="Get started with CX Enterprise Coworker Chat">
@@ -64,6 +66,8 @@ Coworker Chat enables teams to automate Adobe product tasks using natural langua
 </div>
 
 ## Experience League LIVE: Coworker Unlocked Series
+
+Join the CX Enterprise Coworker Unlocked series to see how organizations are using AI-powered assistance to streamline customer experience work. Each session explores practical use cases, live demonstrations, and expert guidance that help teams accelerate workflows, uncover insights, and automate tasks across Adobe Experience Cloud applications. Browse previous episodes or register for upcoming events to learn new ways to increase productivity and drive customer experience outcomes.
 
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop" aria-label="Transforming CX Workflows with Adobe CX Enterprise Coworker">
