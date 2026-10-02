@@ -28,15 +28,15 @@ After your campaign is created and scheduled, learn how to launch it.
 
 1. After the campaign passes the readiness check, the launch dialog opens, showing a preview of the email and audience.
 
-SCREENSHOT
+   SCREENSHOT
 
 1. Review the schedule shown in the dialog. To change it, use the schedule options described in [Schedule when a campaign launches](/help/coworker/campaigns/schedule-campaign.md), then click **Save**.
 
-SCREENSHOT
+   SCREENSHOT
 
 1. Click **Launch campaign** when done.
 
-SCREENSHOT
+   SCREENSHOT
 
 It doesn't let a campaign launch with a sample (non-real) audience, email drafts that have not been proofed, or unconfigured sending settings 
 
