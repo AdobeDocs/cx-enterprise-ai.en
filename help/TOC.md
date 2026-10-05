@@ -91,6 +91,7 @@ dummy: true
   - [Field Discovery Agent](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [Product Support Agent](./agents/product-support.md)
+  - [SQL Data Preparation](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Notifications Agent](./agents/notifications.md)
   - [Coworker Trial](./agents/trial.md)
