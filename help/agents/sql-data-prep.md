@@ -4,9 +4,7 @@ description: Learn how to use SQL Data Preparation in Coworker to generate, opti
 ---
 # SQL Data Preparation in Coworker
 
-To perform common [Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview) tasks using natural language, use SQL Data Preparation in Coworker. You can generate SQL from the result you are trying to achieve, troubleshoot or optimize an existing query, or move a query toward recurring execution without completing each step separately in Query Service.
-
-You can continue working with the query in the same Coworker conversation to preview results, refine the SQL, save the query, or schedule it for recurring execution.
+Use SQL Data Preparation in Coworker to perform common [Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview) tasks with natural-language prompts. You can generate SQL, troubleshoot or optimize an existing query, preview results, and schedule queries for recurring execution.
 
 >[!AVAILABILITY]
 >
@@ -14,7 +12,7 @@ You can continue working with the query in the same Coworker conversation to pre
 
 ## Prerequisites {#prerequisites}
 
-Before using SQL Data Preparation in Coworker, ensure that you have:
+Before you use SQL Data Preparation in Coworker, ensure that you have:
 
 - A Data Distiller entitlement.
 - Access to Coworker.
@@ -40,9 +38,9 @@ You can use SQL Data Preparation for the following tasks:
 | **SQL error diagnosis and correction** | Diagnose errors in an existing SQL query, explain the root cause, and generate corrected SQL. |
 | **Query scheduling and alerts** | Save and schedule queries for recurring execution and configure supported query alerts. |
 
-## Work with SQL Data Preparation conversationally {#work-with-sql-data-preparation}
+## Use SQL Data Preparation in a conversation {#work-with-sql-data-preparation}
 
-You can combine SQL Data Preparation capabilities within the same Coworker conversation rather than treat them as separate workflows.
+You can combine SQL Data Preparation capabilities in the same Coworker conversation instead of treating them as separate workflows.
 
 For example, you can:
 
@@ -76,7 +74,7 @@ For information about creating and running queries directly in Experience Platfo
 
 ### Optimize existing SQL {#optimize-sql}
 
-Use SQL optimization when you already have a Data Distiller query and want to identify opportunities to improve its performance without changing its intended results.
+Use SQL optimization when you already have a Data Distiller query and want to improve its performance without changing its intended results.
 
 You can ask Coworker to explain the changes, compare the original and optimized SQL, and provide validation or query-plan information.
 
