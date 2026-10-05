@@ -1,6 +1,6 @@
 ---
 title: Journey Optimizer & Coworker - Generate Journeys
-description: Learn how Coworker helps marketers create Adobe Journey Optimizer journeys using simple natural language prompts.
+description: Learn how to create Adobe Journey Optimizer journeys from natural language prompts with Coworker.
 feature: AI Tools
 role: User
 level: Beginner
@@ -16,7 +16,7 @@ feature_v2:
     internal-label: CX Enterprise Coworker
 ---
 
-# How to generate Adobe Journey Optimizer Journeys from natural language prompts
+# Generate Adobe Journey Optimizer journeys from natural language prompts
 
 Building customer journeys traditionally requires extensive configuration across triggers, timing rules, channels, decision logic, and messaging steps. In this video, you'll see how Coworker simplifies the process by transforming a plain-language description into a fully drafted journey in Adobe Journey Optimizer.
  

@@ -19,8 +19,8 @@ dummy: true
   - [Agentic AI Monitoring dashboard](./overview/monitoring.md)
   - [Agentic tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
   - [Generative AI content transparency](content-transparency.md)
-- CX Enterprise Coworker {#coworker}
-  - [About Coworker](./coworker/overview.md)
+- CX Enterprise Coworker guide {#coworker}
+  - [Coworker overview](./coworker/overview.md)
   - Chat {#chat}
     - [Overview](./coworker/chat/overview.md)
     - [UI guide](./coworker/chat/ui-guide.md)
@@ -32,6 +32,9 @@ dummy: true
         - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validate dataset quality for CJA reporting](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [Validate your Experience Platform data](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
+      - Data Management {#data-management}
+        - [Manage data lake retention](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Audiences {#audiences}
         - [Assess platform health and build audiences](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Journeys {#journeys}
@@ -41,18 +44,28 @@ dummy: true
       - Optimization {#optimization}
         - [Launch Target activities](./coworker/chat/use-cases/optimization/target.md)
       - Sandbox tooling {#sandbox-tooling}
-        - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
+        - [Sandbox tooling agentic skills](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - Alerts {#alerts}
-        - [Customer alert skills](./agents/customer-alerts.md)
-      - Content Advisor {#content-advisor}
-        - [Generate marketing assets](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [Brand compliance check](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+        - [Customer alert skills](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
+      - Brand Visibility {#brand-visibility}
+        - [Generate marketing assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [Brand compliance check](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [Author AEM Sites pages](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+      - Workflow & Planning {#workflow-and-planning}
+        - [Plan a digital campaign launch](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Customizations {#customizations}
+    - [Overview](./coworker/customizations/overview.md)
     - Skills {#skills}
       - [What are skills?](./coworker/customizations/skills/what-are-skills.md)
       - [Create your first skill](./coworker/customizations/skills/create-your-first-skill.md) 
       - [Build and run a quality gate skill](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [Manage and iterate on skills](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - Integrations {#integrations}
+      - [What are integrations?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
+    - Plugins {#plugins}
+      - [What are plugins?](./coworker/customizations/plugins/what-are-plugins.md)
+    - Memory {#memory}
+      - [What is memory?](./coworker/customizations/memory/what-is-memory.md)
   - Campaigns {#campaigns}
     - [Overview](./coworker/campaigns/overview.md)
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
@@ -64,15 +77,16 @@ dummy: true
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Release notes](./coworker/campaigns/release-notes.md)
-- AI Assistant {#ai-assistant}
+- AI Assistant guide {#ai-assistant}
   - [AI Assistant UI guide](./ai-assistant/ai-assistant-ui.md)
   - [Prompt Library](./ai-assistant/prompt-library.md)
   - [Privacy](./ai-assistant/privacy.md)
   - [Legal Disclaimer](./ai-assistant/legal-disclaimer.md)
-- Agents {#agents}
+- Agent AI {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [Data Management Agent](./agents/data-management.md)
   - [Experiment Agent](./agents/agent-experiment.md)
   - [Field Discovery Agent](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
@@ -99,4 +113,3 @@ dummy: true
     - {hide-from-toc} [Adobe Analytics tools](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
-

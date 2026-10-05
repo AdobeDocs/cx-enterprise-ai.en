@@ -1,6 +1,6 @@
 ---
 title: Validate Customer Journey Analytics Data with the Data Validation Skill in Coworker
-description: Learn how to validate Customer Journey Analytics data using the Data Validation skill in Coworker. Identify CJA datasets and uncover data issues before building dashboards, segments, and customer journeys.
+description: Learn how to validate Customer Journey Analytics data using the Data Validation skill in Coworker, and resolve issues before building dashboards.
 feature: AI Tools
 role: User
 level: Beginner, Intermediate
@@ -9,7 +9,7 @@ duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
 ---
-# Validate Customer Journey Analytics data with the Data Validation Skill in [!DNL Coworker]
+# Validate Customer Journey Analytics data with the data validation skill in [!DNL Coworker]
 
 Data quality is the foundation of accurate reporting in Adobe Customer Journey Analytics (CJA). Before building metrics, dashboards, segments, or customer journeys, it is critical to understand whether the underlying Adobe Experience Platform (AEP) data can be trusted.
 
@@ -106,3 +106,4 @@ Validating datasets before building reports helps teams:
 - Troubleshoot unexpected metrics more efficiently
 
 With Coworker, these checks can be initiated using natural language prompts, making data validation more accessible to technical and non-technical users.
+ 

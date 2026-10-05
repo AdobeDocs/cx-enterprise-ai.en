@@ -1,6 +1,6 @@
 ---
 title: What are skills?
-description: Learn how Skills in Adobe CX Coworker help teams standardize customer experience orchestration, automate recurring workflows, and deliver consistent results using reusable AI-powered playbooks.
+description: Learn about skills in Adobe CX Coworker, reusable playbooks that standardize workflows and deliver consistent results across conversations and users.
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -12,7 +12,7 @@ product_v2:
     internal-label: CX Enterprise Coworker
 ---
 
-# What Are Skills in Coworker?
+# What are skills in Coworker?
 
 Skills are reusable playbooks that help Adobe CX Coworker perform customer experience orchestration tasks consistently and efficiently. Rather than repeatedly explaining the same process, teams can use Skills to standardize common workflows, reporting methods, and analysis approaches across conversations and users.
  
