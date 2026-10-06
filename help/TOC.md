@@ -48,9 +48,10 @@ dummy: true
       - Alerts {#alerts}
         - [Customer alert skills](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Brand Visibility {#brand-visibility}
-        - [Generate marketing assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Brand compliance check](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [Author AEM Sites pages](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [Onboard AEM Assets](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [Generate marketing assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - Workflow & Planning {#workflow-and-planning}
         - [Plan a digital campaign launch](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Customizations {#customizations}
