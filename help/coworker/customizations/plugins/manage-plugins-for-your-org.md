@@ -7,7 +7,7 @@ doc-type: Feature Video
 duration: 285
 last-substantial-update: 2026-10-06T00:00:00.000Z
 jira: KT-22450
-autotag-review: '2026-10-06T19:34:49.657Z'
+autotag-review: '2026-10-06T19:34:50.127Z'
 TQID: 'https://experienceleague.adobe.com/docSb6NXSCCw15BOSM8A2Zi8h-wGFuCyoNRzAvHvDYQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -46,7 +46,7 @@ topic_v2:
     internal-label: Administration
 ---
 
-# Manage Plugins and Marketplaces in [!DNL CX Enterprise Coworker Chat]
+# Manage Plugins and Marketplaces
 
 Learn how administrators can extend Adobe Coworker Chat with approved plugins, manage marketplaces, and govern access to skills and connected tools while maintaining alignment with existing Adobe permissions.
 
