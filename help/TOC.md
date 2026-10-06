@@ -65,6 +65,7 @@ dummy: true
       - [What are integrations?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - Plugins {#plugins}
       - [What are plugins?](./coworker/customizations/plugins/what-are-plugins.md)
+      - [Manage plugins for your org](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
     - Memory {#memory}
       - [What is memory?](./coworker/customizations/memory/what-is-memory.md)
   - Campaigns {#campaigns}
