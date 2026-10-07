@@ -30,7 +30,7 @@ dummy: true
       - Data Insights {#data-insights}
         - {hide-from-toc} [Overview](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
         - {hide-from-toc} [Overview](./coworker/chat/use-cases/data-insights/analytics-overview.md)
-        - [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Get started](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validate dataset quality for CJA reporting](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
