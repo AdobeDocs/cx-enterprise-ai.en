@@ -10,7 +10,7 @@ feature_v2:
 ---
 # Connect to Salesforce {#salesforce}
 
-Adobe Coworker Campaigns allows you to connect your Salesforce account to...
+Adobe Coworker Campaigns allows you to connect your Salesforce account to access your leads and contacts.
 
 >[!PREREQUISITES]
 >
@@ -48,7 +48,7 @@ Adobe Coworker Campaigns allows you to connect your Salesforce account to...
 
    ![](./assets/salesforce-4.png)
 
-After connection, Salesforce appears in the Connectors list AND WHAT AGAIN?
+After connection, Salesforce appears in the Connectors list and can be selected when linking a lead or contact list to sync from Salesforce.
 
 **To disconnect:**
 

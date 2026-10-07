@@ -1,0 +1,164 @@
+---
+title: SQL Data Preparation in Coworker
+description: Learn how to use SQL Data Preparation in Coworker to generate, optimize, troubleshoot, and schedule SQL queries.
+---
+# SQL Data Preparation in Coworker
+
+Use SQL Data Preparation in Coworker to perform common [Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview) tasks with natural-language prompts. You can generate SQL, troubleshoot or optimize an existing query, preview results, and schedule queries for recurring execution.
+
+>[!AVAILABILITY]
+>
+>SQL Data Preparation in Coworker is available in Limited Availability.
+
+## Prerequisites {#prerequisites}
+
+Before you use SQL Data Preparation in Coworker, ensure that you have:
+
+- A Data Distiller entitlement.
+- Access to Coworker.
+
+## Get started {#get-started}
+
+To begin, open Coworker and enter a natural-language request that describes the SQL task or result you want to achieve.
+
+You can identify the datasets you want to use in your request. If additional information is required to complete the task, Coworker can ask follow-up questions before continuing.
+
+After Coworker generates or updates the SQL, you can continue the conversation to preview the results, refine the query, save it, or schedule it for recurring execution.
+
+For guidance on using the Coworker interface, see the [Coworker UI guide](../coworker/chat/ui-guide.md).
+
+## Supported capabilities {#supported-capabilities}
+
+You can use SQL Data Preparation for the following tasks:
+
+| Capability | Description |
+| --- | --- |
+| **SQL authoring** | Generate SQL from a natural-language description of the data operation you want to perform. |
+| **SQL optimization** | Analyze an existing Data Distiller query and optimize it for performance while preserving its intended results. |
+| **SQL error diagnosis and correction** | Diagnose errors in an existing SQL query, explain the root cause, and generate corrected SQL. |
+| **Query scheduling and alerts** | Save and schedule queries for recurring execution and configure supported query alerts. |
+
+## Use SQL Data Preparation in a conversation {#work-with-sql-data-preparation}
+
+You can combine SQL Data Preparation capabilities in the same Coworker conversation instead of treating them as separate workflows.
+
+For example, you can:
+
+1. Describe the result you want and generate SQL.
+2. Preview up to five rows of query results.
+3. Refine the query or ask questions about the generated SQL.
+4. Save the query.
+5. Schedule the query for recurring execution and configure alerts.
+
+Coworker can ask follow-up questions when additional information is required, such as identifying the appropriate dataset or confirming the time zone for a schedule.
+
+A query preview returns up to five rows. To run and work with queries directly in Experience Platform, see the [Query Editor UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
+
+![Coworker response showing a five-row preview of SQL query results and options to save the query as a template or schedule it for recurring execution.](./assets/sql-data-prep/query-preview.png)
+
+### Generate SQL from natural language {#generate-sql}
+
+Use SQL authoring when you know the result or transformation you want to achieve but want Coworker to generate the corresponding SQL.
+
+To generate SQL from the correct data, Coworker can identify and validate the datasets involved. If your request does not provide enough information to identify the appropriate dataset, Coworker can ask follow-up questions before continuing.
+
+For example:
+
+> Hi there! Using test_luma_web_events_1000, summarize customer engagement by event type. Show the event type, total events, and unique customers. Return one row per event type and sort the results by unique customers from highest to lowest.
+
+Coworker returns the generated SQL and can execute the query to provide a preview of the results.
+
+![Coworker response showing generated SQL for summarizing customer engagement by event type, followed by a table preview of total events and unique customers and an analysis of the results.](./assets/sql-data-prep/authoring-result.png)
+
+For information about creating and running queries directly in Experience Platform, see the [Query Editor UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
+
+### Optimize existing SQL {#optimize-sql}
+
+Use SQL optimization when you already have a Data Distiller query and want to improve its performance without changing its intended results.
+
+You can ask Coworker to explain the changes, compare the original and optimized SQL, and provide validation or query-plan information.
+
+For example:
+
+> Optimize the following query for Data Distiller performance while preserving exactly the same results. Explain what you changed and why the optimized query is logically equivalent.
+>
+> ```sql
+> SELECT
+>     p.customer_id,
+>     p.first_name,
+>     p.last_name,
+>     p.loyalty_status,
+>     COUNT(o.order_id) AS total_orders,
+>     SUM(CAST(o.order_total AS DOUBLE)) AS total_revenue
+> FROM test_luma_profiles_1000 p
+> INNER JOIN test_luma_orders_1000 o
+>     ON p.customer_id = o.customer_id
+> GROUP BY
+>     p.customer_id,
+>     p.first_name,
+>     p.last_name,
+>     p.loyalty_status
+> ORDER BY total_revenue DESC;
+> ```
+>
+> Send me the full response, especially the original SQL, optimized SQL, explanation of equivalence, and any EXPLAIN/validation results.
+
+If the supplied query is already optimized, Coworker can determine that no modification is required and explain its assessment.
+
+![Coworker response analyzing an existing SQL query for optimization and explaining that no changes are required, with query-plan findings and an equivalence assessment.](./assets/sql-data-prep/optimize-query.png)
+
+SQL generated through the SQL authoring capability is already optimized. You do not need to submit newly generated SQL separately for optimization.
+
+For SQL syntax and supported commands, see the [Query Service SQL reference](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview).
+
+### Diagnose and fix SQL errors {#diagnose-sql-errors}
+
+Use SQL error diagnosis when an existing query fails and you need help identifying the cause and correcting the SQL.
+
+Coworker analyzes the query, identifies the cause of the error, explains the issue, and provides corrected SQL.
+
+For example:
+
+> Hi! The following query is failing. Diagnose the error, explain the root cause, and provide a corrected query:
+>
+> ```sql
+> SELECT
+>     o.order_id,
+>     o.product_id,
+>     p.product_name,
+>     o.order_total
+> FROM test_luma_orders_1000 o
+> JOIN test_luma_product_catalog_1000 p
+>     ON o.productid = p.productid;
+> ```
+>
+> The corrected query should use the appropriate product ID fields from both datasets.
+
+After correcting the query, you can ask Coworker to execute it and preview the results.
+
+![Coworker response diagnosing an SQL query error caused by incorrect product ID field names and providing corrected SQL that uses the product_id fields.](./assets/sql-data-prep/diagnose-error.png)
+
+### Schedule queries and configure alerts {#schedule-queries}
+
+After generating, correcting, or previewing a query, you can continue the conversation to save and schedule it for recurring execution.
+
+For example:
+
+> Schedule this query to run every day at 6:00 AM. Configure an alert if the query fails.
+
+If required information is missing or ambiguous, Coworker asks follow-up questions before creating the schedule. For example, it can ask you to confirm the time zone associated with a requested execution time.
+
+After you confirm the required scheduling details, Coworker returns a summary of the saved query template, schedule, time zone, status, and failure alert.
+
+![Coworker response confirming a scheduled SQL query, including the saved template, schedule, time zone, end date, schedule status, and failure alert.](./assets/sql-data-prep/schedule-query.png)
+
+For detailed information about query schedules, recurrence settings, output datasets, and alerts, see [Query schedules](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules).
+
+## Next steps {#next-steps}
+
+For more information about the Data Distiller and Query Service capabilities used by SQL Data Preparation, see the following documentation:
+
+- [Data Distiller overview](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
+- [Query Editor UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)
+- [Query schedules](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)
+- [Query Service SQL reference](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
