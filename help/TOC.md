@@ -71,6 +71,7 @@ dummy: true
     - Memory {#memory}
       - [What is memory?](./coworker/customizations/memory/what-is-memory.md)
   - Campaigns {#campaigns}
+    - {hide-from-toc} [New Teams experience](./coworker/campaigns/new-teams-experience.md)
     - [Overview](./coworker/campaigns/overview.md)
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
     - [Launch and manage a campaign](./coworker/campaigns/launch-manage-campaign.md)
