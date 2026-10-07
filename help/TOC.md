@@ -44,13 +44,14 @@ dummy: true
       - Optimization {#optimization}
         - [Launch Target activities](./coworker/chat/use-cases/optimization/target.md)
       - Sandbox tooling {#sandbox-tooling}
-        - [Sandbox tooling agentic skills](./agents/sandbox-tooling.md)
+        - [Sandbox tooling agentic skills](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - Alerts {#alerts}
-        - [Customer alert skills](./agents/customer-alerts.md)
+        - [Customer alert skills](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Brand Visibility {#brand-visibility}
-        - [Generate marketing assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Brand compliance check](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [Author AEM Sites pages](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [Onboard AEM Assets](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [Generate marketing assets](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - Workflow & Planning {#workflow-and-planning}
         - [Plan a digital campaign launch](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Customizations {#customizations}
@@ -64,6 +65,7 @@ dummy: true
       - [What are integrations?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - Plugins {#plugins}
       - [What are plugins?](./coworker/customizations/plugins/what-are-plugins.md)
+      - [Manage plugins for your org](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
     - Memory {#memory}
       - [What is memory?](./coworker/customizations/memory/what-is-memory.md)
   - Campaigns {#campaigns}
@@ -91,6 +93,7 @@ dummy: true
   - [Field Discovery Agent](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [Product Support Agent](./agents/product-support.md)
+  - [SQL Data Preparation](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Notifications Agent](./agents/notifications.md)
   - [Coworker Trial](./agents/trial.md)

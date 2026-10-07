@@ -55,7 +55,7 @@ Eligible customers are gradually being transitioned from AI Assistant and Experi
 
 To see Coworker Chat in action, walk through [Coworker Chat in Playground](./coworker/playground-coworker-chat.md), or read real-world use cases such as [Validate AA to CJA migration data](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md), [validate your Experience Platform data](./coworker/chat/use-cases/data-insights/data-validation-aep.md), and [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md).
 
-For full product documentation on Coworker Chat, Coworker for teams (Coworker Campaigns), and Projects, see [Coworker](./coworker/overview.md). For sandbox-to-sandbox object replication, see [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md).
+For full product documentation on Coworker Chat, Coworker for teams (Coworker Campaigns), and Projects, see [Coworker](./coworker/overview.md). For sandbox-to-sandbox object replication, see [Sandbox Tooling Agentic Skills](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md).
 
 ## AI Assistant
 
