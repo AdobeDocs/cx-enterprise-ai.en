@@ -28,6 +28,8 @@ dummy: true
     - Use cases {#use-cases}
       - [Coworker Chat use cases](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
+        - {hide-from-toc} [Overview](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
+        - {hide-from-toc} [Overview](./coworker/chat/use-cases/data-insights/analytics-overview.md)
         - [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
