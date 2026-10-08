@@ -1,6 +1,6 @@
 ---
 title: Accelerate Experimentation with Coworker
-description: Learn how Coworker streamlines cross-product workflows to accelerate experimentation on AEM hosted websites and AB tests in Adobe Target.
+description: Learn how Coworker streamlines cross-product workflows to accelerate experimentation on AEM hosted websites and A/B tests in Adobe Target.
 feature: AI Tools
 role: Leader, User, Developer
 level: Beginner, Intermediate, Experienced
