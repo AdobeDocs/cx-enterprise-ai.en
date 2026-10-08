@@ -125,12 +125,6 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Operational time-series & causal analysis | Query and analyze historical time-series data for audiences, datasets, and journeys with causal attribution | `operational-stats-causal-analysis` | All Eligible Applications | "Show me audience size trends over the last 90 days" <br> "Why did my dataset row count spike on March 3?" |
 | Create custom CJA skills | Turn analytical patterns into reusable, repeatable skills that persist across sessions | `cja-skill-creator` | Customer Journey Analytics (CJA) | "Turn this weekly revenue analysis into a reusable skill" <br> "Save this as a skill for monthly funnel reporting" |
 
-## Data onboarding
-
-| Use Case | Description | Skills | Application | Sample Prompts |
-| --- | --- | --- | --- | --- |
-| [Onboard data with Coworker](/help/agents/data-onboarding-skill.md) | Onboard new data sources into Adobe Experience Platform through a conversational workflow covering source selection, data quality, semantic enrichment, schema mapping, schema creation, and dataflow creation | `data-onboarding-skill` | Adobe Experience Platform | Started from the **Onboard data with AI** option in schema creation, with your intent pre-populated |
-
 ## Audiences
 
 | Use Case | Description | Skills | Application | Sample Prompts |

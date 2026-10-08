@@ -1,6 +1,7 @@
 ---
 title: Onboard Data with Coworker
 description: Learn how to use the Data Onboarding Skill in CX Coworker to onboard new data sources into Adobe Experience Platform through a conversational workflow.
+hide: true
 ---
 
 # Onboard data with Coworker
