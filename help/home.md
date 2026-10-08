@@ -34,6 +34,7 @@ This guide covers AI capabilities in Adobe CX Enterprise: generative AI, CX Ente
 
 Start here for a primer on where and how AI is used across CX Enterprise:
 
+- [Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/home) is an agent-first teammate that plans, executes, validates, and returns finished customer experience and marketing work for your approval.
 - [About generative AI](./overview/generative-ai.md) describes which CX Enterprise applications support generative AI and AI Assistant, and how they compare.
 - [About agentic AI](./overview/agentic-ai.md) explains how agentic AI works in both existing CX Enterprise applications and AI-first applications, and lists the agents available in each.
 - [AI monitoring](./overview/monitoring.md) covers the dashboards that track agent adoption, usage, feedback, and AI Credit consumption.
@@ -51,11 +52,13 @@ Coworker includes:
 - **[Coworker Campaigns](https://experienceleague.adobe.com/en/docs/coworker/content/campaigns/overview)**: An AI-native application that consolidates campaign briefing, audience building, content generation, journey design, and proofing into a single conversational experience. It uses built-in templates, best practices, and prompting guidance to help small, agile teams launch campaigns quickly. Learn more on [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html).
 - **Coworker Projects** (coming soon): A unified workspace for automating end-to-end customer experience orchestration workflows, helping teams coordinate tasks, approvals, and execution to drive outcomes from strategy through delivery. Documentation for Projects is coming soon.
 
-Eligible customers are gradually being transitioned from AI Assistant and Experience Platform Agents to Coworker Chat. Read [Coworker Trial](./agents/trial.md) to learn about trial eligibility, AI Credit usage, and how to get access.
+Eligible customers are gradually being transitioned from AI Assistant and Experience Platform Agents to Coworker Chat. 
 
-To see Coworker Chat in action, walk through [Coworker Chat in Playground](https://experienceleague.adobe.com/en/docs/coworker/content/playground-coworker-chat), or read real-world use cases such as [Validate AA to CJA migration data](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aa-cja), [validate your Experience Platform data](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep), and [Analyze CJA data](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat).
+### Coworker resources
 
-For full product documentation on Coworker Chat, Coworker for teams (Coworker Campaigns), and Projects, see [Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/home). For sandbox-to-sandbox object replication, see [Sandbox Tooling Agentic Skills](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
+- Read [Coworker trial](./agents/trial.md) to learn about trial eligibility, AI Credit usage, and how to get access.
+- See [Coworker help home](https://experienceleague.adobe.com/en/docs/coworker/content/home) for all Coworker content.
+- For sandbox-to-sandbox object replication, see [Sandbox Tooling Agentic Skills](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
 
 ## AI Assistant
 
