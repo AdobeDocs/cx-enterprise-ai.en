@@ -28,7 +28,9 @@ dummy: true
     - Use cases {#use-cases}
       - [Coworker Chat use cases](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
-        - [Analyze CJA data](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - {hide-from-toc} [Overview](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
+        - {hide-from-toc} [Overview](./coworker/chat/use-cases/data-insights/analytics-overview.md)
+        - [Get started](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [Explore trends and root causes](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validate dataset quality for CJA reporting](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
@@ -69,6 +71,7 @@ dummy: true
     - Memory {#memory}
       - [What is memory?](./coworker/customizations/memory/what-is-memory.md)
   - Campaigns {#campaigns}
+    - {hide-from-toc} [New Teams experience](./coworker/campaigns/new-teams-experience.md)
     - [Overview](./coworker/campaigns/overview.md)
     - [Create an email campaign](./coworker/campaigns/create-an-email-campaign.md)
     - [Launch and manage a campaign](./coworker/campaigns/launch-manage-campaign.md)
