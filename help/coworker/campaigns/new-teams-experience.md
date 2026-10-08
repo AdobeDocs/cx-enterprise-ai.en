@@ -32,6 +32,6 @@ To keep anything for your records, save it locally before October 14, 10 p.m. PD
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504225/?learn=on&enablevpops)
 
-### Have questions? 
+## Have questions? 
 
-Contact us at coworkerca@adobe.com.
+Contact us at <coworkerca@adobe.com>.
