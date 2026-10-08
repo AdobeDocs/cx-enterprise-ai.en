@@ -8,9 +8,9 @@ feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 ---
-# New Teams experience {#new-teams-experience}
+# Coming soon: Default workspaces with cross-team campaign visibility {#new-teams-experience}
 
-## Action may be required: A new Teams experience is coming October 15
+## Action may be required: A new Teams experience is coming October 15, 2026
 
 ### What's changing and what will it impact?
 
@@ -28,4 +28,10 @@ To keep anything for your records, save it locally before October 14, 10 p.m. PD
 * **Campaigns**: Export each campaign as a PDF or Word file using the download icon in the top-right corner of the campaign.
 * **Emails**: Download an email as HTML using the export icon in the email editor.
 
-Questions? Contact us at coworkerca@adobe.com.
+**Watch the video below for a walkthrough**
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504225/?learn=on&enablevpops)
+
+### Have questions? 
+
+Contact us at coworkerca@adobe.com.
