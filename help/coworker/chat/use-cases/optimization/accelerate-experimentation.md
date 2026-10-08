@@ -10,7 +10,7 @@ last-substantial-update: 2026-10-08
 jira: KT-22814
 ---
 
-# Accelerate experimentation with Adobe Coworker
+# AEM, Target & Coworker - Accelerate Experimentation 
 
 Learn how CX Enterprise Coworker helps streamline experimentation across Adobe Experience Manager (AEM) and Adobe Target. Starting with a business goal, see how Coworker helps develop an experimentation strategy, create an AB test in Adobe Target, and troubleshoot delivery issues to successfully run multiple experiences on an AEM Cloud Service hosted website.
 
