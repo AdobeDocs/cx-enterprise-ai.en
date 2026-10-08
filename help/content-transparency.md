@@ -107,7 +107,7 @@ However, where applicable, all Adobe CX Enterprise applications continue to pres
 | GenStudio for Performance Marketing | [Documentation](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [Documentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
 | Adobe Workfront | [Documentation](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
-| CX Enterprise Coworker Campaigns (formerly HALO) | [Documentation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| CX Enterprise Coworker Campaigns (formerly HALO) | [Documentation](https://experienceleague.adobe.com/en/docs/coworker/content/campaigns/c2pa-metadata) |
 
 ## Related links
 

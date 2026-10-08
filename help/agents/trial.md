@@ -20,7 +20,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 ---
-# CX Enterprise Coworker Trial
+# CX Enterprise Coworker trial
 
 >[!AVAILABILITY]
 >
@@ -79,7 +79,7 @@ If Customer wants to opt-out of access to these Agentic capabilities and disable
 
 Read the following guides for more information on Coworker, Agent Orchestrator, and AI Assistant:
 
-- [Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [Coworker guide](https://experienceleague.adobe.com/en/docs/coworker/content/home)
 - [Agent Orchestrator overview](agent-orchestrator.md)
 - [AI Assistant UI guide](../ai-assistant/ai-assistant-ui.md)
 - [AI Assistant prompt library](../ai-assistant/prompt-library.md)
