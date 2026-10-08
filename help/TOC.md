@@ -35,6 +35,8 @@ dummy: true
         - [Validate AA to CJA data when upgrading](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validate dataset quality for CJA reporting](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
         - [Validate your Experience Platform data](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
+      - Data Onboarding {#data-onboarding}
+        - {hide-from-toc} [Onboard data with Coworker](./agents/data-onboarding-skill.md)
       - Data Management {#data-management}
         - [Manage data lake retention](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Audiences {#audiences}
