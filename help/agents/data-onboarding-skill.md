@@ -24,7 +24,7 @@ Before you begin, ensure that you have:
 - Access to Adobe CX Enterprise Coworker, with the Data Onboarding Skill enabled for your organization.
 - Permission to create schemas in Adobe Experience Platform.
 
-For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide).
 
 ## Use the Data Onboarding Skill {#use-the-data-onboarding-skill}
 
@@ -44,7 +44,7 @@ To use the Data Onboarding Skill:
 
 1. Continue the conversation with Coworker through data quality review, semantic enrichment, schema mapping, and schema creation, confirming each step as you go.
 
-For more information about using CX Coworker, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+For more information about using CX Coworker, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide).
 
 ## Supported use cases {#supported-use-cases}
 

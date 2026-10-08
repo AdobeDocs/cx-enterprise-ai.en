@@ -564,5 +564,5 @@ Simulation may not support every activity, channel, or integration that Test mod
 
 - [Agent Orchestrator](./agent-orchestrator.md), the agentic layer that powers Journey Agent and other Experience Platform Agents.
 - [Journey Optimizer tools in CX Coworker Gateway](../mcp/ajo-mcp.md), a read-only MCP surface for campaign and channel configuration review.
-- [Create journeys from natural language](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md) and [Create, edit, and manage loyalty challenges](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md), Coworker Chat use cases that build on Journey Create.
+- [Create journeys from natural language](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language) and [Create, edit, and manage loyalty challenges](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge), Coworker Chat use cases that build on Journey Create.
 - [Product Support Agent](./product-support.md), for troubleshooting Journey Optimizer issues surfaced through AI Assistant.

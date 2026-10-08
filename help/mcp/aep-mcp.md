@@ -251,7 +251,7 @@ Retrieve the latest Run and Operate health check assessment results for the curr
 
 >[!NOTE]
 >
->This tool only retrieves assessment results. To remediate a flagged issue, use the health check detail panel in the [!DNL Experience Platform] UI. See [Health Checks](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Automatic remediation guidance for supported health checks is available as a skill in [CX Coworker Chat](../coworker/chat/overview.md).
+>This tool only retrieves assessment results. To remediate a flagged issue, use the health check detail panel in the [!DNL Experience Platform] UI. See [Health Checks](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). Automatic remediation guidance for supported health checks is available as a skill in [CX Coworker Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
 
 **Capabilities:** list all health check results for the current sandbox, get results for one named check
 

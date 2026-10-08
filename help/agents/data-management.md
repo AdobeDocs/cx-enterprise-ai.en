@@ -46,7 +46,7 @@ Before you begin, ensure that you have:
 - The Adobe Experience Platform permissions required for the datasets and retention actions you want to use. The Data Management Agent uses your existing Experience Platform permissions and does not grant additional access. See the [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) for how Adobe Experience Platform permissions and roles work.
 - The Adobe CXO plugin installed in CX Coworker.
 
-For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide).
 
 ## Use the Data Management Agent {#use-the-data-management-agent}
 
@@ -58,13 +58,13 @@ Interact with the Data Management Agent through CX Coworker using natural langua
 
 To use the Data Management Agent:
 
-1. Navigate to **[!UICONTROL CX Coworker]**. For access details, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+1. Navigate to **[!UICONTROL CX Coworker]**. For access details, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide).
 1. Enter a request that describes what you want to accomplish.
 1. Review the results and use follow-up questions to continue your investigation.
 
 If a request changes a data lake retention policy, the Data Management Agent shows the proposed impact and requires your confirmation before applying the change.
 
-For an end-to-end workflow for identifying datasets, analyzing usage and retention impact, and managing data lake retention policies, see [Manage data lake retention](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
+For an end-to-end workflow for identifying datasets, analyzing usage and retention impact, and managing data lake retention policies, see [Manage data lake retention](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention).
 
 ## How the Data Management Agent works {#how-the-data-management-agent-works}
 
@@ -76,6 +76,6 @@ The Data Management Agent can identify datasets that may be good candidates for 
 
 ## Next steps {#next-steps}
 
-For guidance on using each skill to find, analyze, and manage data lake retention on your Experience Event datasets, see [Manage data lake retention](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
+For guidance on using each skill to find, analyze, and manage data lake retention on your Experience Event datasets, see [Manage data lake retention](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention).
 
 For more information about how data lake retention policies work in Adobe Experience Platform, including retention behavior and configuration, see [Experience Event dataset retention (TTL) guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
