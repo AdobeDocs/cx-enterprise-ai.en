@@ -4,7 +4,7 @@ description: Comprehensive guide to Journey Agent, enabling users to create, ana
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
+TQID: 'https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig'
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
@@ -21,6 +21,8 @@ feature_v2:
     internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
     internal-label: Email
+  - id: d2971708-e780-44bb-9e2a-72f139796afd
+    internal-label: Customer
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
