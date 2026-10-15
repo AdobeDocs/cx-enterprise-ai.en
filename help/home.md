@@ -79,6 +79,7 @@ To see Coworker Chat in action, walk through [Coworker Chat in Playground](./cow
 
 For full product documentation on Coworker Chat, Campaigns, and Projects, see [Coworker](./coworker/overview.md). For sandbox-to-sandbox object replication, see [Sandbox Tooling Agentic Skills](./agents/sandbox-tooling.md).
 
+<!--
 ## MCP
 
 [Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use:
@@ -91,6 +92,7 @@ For full product documentation on Coworker Chat, Campaigns, and Projects, see [C
 - [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 
 New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
+-->
 
 ## Get started
 
