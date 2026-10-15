@@ -28,7 +28,7 @@ topic_v2:
 ---
 # AI in CX Enterprise applications
 
-This guide covers AI capabilities in Adobe CX Enterprise: generative AI, CX Enterprise Coworker, AI Assistant, Agent Orchestrator, and MCP.
+This guide covers AI capabilities in Adobe CX Enterprise: generative AI, CX Enterprise Coworker, AI Assistant, and Agent Orchestrator.
 
 ## AI capabilities overview
 
