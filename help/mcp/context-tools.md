@@ -1,6 +1,7 @@
 ---
 title: Session Context Tools in CX Coworker Gateway
 description: Learn about the core tools that set organization, sandbox, and data view context for all CX Coworker Gateway tool calls.
+hide: true
 ---
 # Session context tools in Adobe CX Coworker Gateway {#mcp-core}
 
