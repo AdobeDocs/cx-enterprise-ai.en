@@ -28,7 +28,7 @@ topic_v2:
 ---
 # AI in CX Enterprise applications
 
-This guide covers AI capabilities in Adobe CX Enterprise: generative AI, CX Enterprise Coworker, AI Assistant, Agent Orchestrator, and MCP.
+This guide covers AI capabilities in Adobe CX Enterprise: generative AI, CX Enterprise Coworker, AI Assistant, and Agent Orchestrator.
 
 ## AI capabilities overview
 
@@ -84,6 +84,7 @@ The following Experience Platform Agents are documented in this guide:
 
 For the full list of agents, the applications each supports, and eligibility requirements, see [Agentic AI in CX Enterprise](./overview/agentic-ai.md).
 
+<!--
 ## MCP
 
 [Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use:
@@ -99,6 +100,7 @@ For the full list of agents, the applications each supports, and eligibility req
 New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 
 Before you use any of these tools, see [Before you begin](./overview/overview-ai-cxe.md#before-you-begin) for access requirements and privacy and security considerations.
+-->
 
 ## Best practices
 
