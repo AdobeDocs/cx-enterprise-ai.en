@@ -72,7 +72,7 @@ Generative AI (genAI) in CX Enterprise helps you automate creative and cognitive
 
 >[!IMPORTANT]
 >
->Before using CX Enterprise generative AI features, you must understand and follow the [Adobe CX Enterprise Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Before using CX Enterprise generative AI features, you must understand and follow the [Adobe CX Enterprise Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
 **What is genAI?**
 
