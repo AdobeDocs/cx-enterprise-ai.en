@@ -27,10 +27,15 @@ topic_v2:
 
 The Agentic AI [!UICONTROL Monitoring] dashboard gives Center of Excellence (COE) members and other governance stakeholders visibility into agentic AI usage and adoption. View 7-day or 30-day trends to see who uses [!DNL AI Assistant] or other surfaces (such as [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) to interact with [!DNL Experience Platform Agents] and the value they receive. Together, these views help you guide agent adoption with data instead of assumptions. 
 
+>[!IMPORTANT]
+>
+>The metrics in this dashboard do not reflect [!DNL Coworker] usage. A [!DNL Coworker] monitoring dashboard is in development and will be documented when it is available.
+
 **Availability**
 
 * Currently, any account with a license to at least one Experience Platform native application (Customer Journey Analytics, Journey Optimizer, or Real-Time CDP) can access this dashboard
 * Usage and adoption metrics for [AI-first applications](agentic-ai.md#ai-first-cx-enterprise-applications) like Experimentation Accelerator, LLM Optimizer, and Sites Optimizer are not in scope for this dashboard.
+* A [!DNL Coworker] dashboard is coming soon.
 
 The [!UICONTROL Monitoring] dashboard includes the following views:
 
