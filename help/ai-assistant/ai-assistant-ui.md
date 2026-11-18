@@ -20,9 +20,11 @@ topic_v2:
 ---
 # AI Assistant
 
+This document applies to AI Assistant (Next-Gen). For information on AI Assistant (Legacy), read the [AI Assistant UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) in the Adobe Experience Platform documentation.
+
 >[!IMPORTANT]
 >
->This document applies to AI Assistant (Next-Gen). For information on AI Assistant (Legacy), read the [AI Assistant UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) in the Adobe Experience Platform documentation.
+>Adobe CX Enterprise Coworker is a more powerful and capable evolution of AI Assistant built to help your users do more, faster. Coworker takes everything your team is currently leveraging AI Assistant for and expands it, helping them automate routine tasks, boost productivity, and drive smarter, more insightful decisions. [Learn more](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
 Refer to the following table for a comparison of AI Assistant (Legacy) and AI Assistant (Next-Gen):
 
