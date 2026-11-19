@@ -7,6 +7,7 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
+last-substantial-update: 2026-19-2026
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
@@ -22,11 +23,19 @@ An _AI credit_ is a usage-based metric that quantifies the execution of actions 
 ## Eligible services consuming AI credits
 
 * [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [CX Enterprise AI capabilities](#cx-enterprise-ai-capabilities)
 * [AEP Agents](#aep-agents-credit-rate)
 
 ### CX Enterprise Coworker credit rate
 
 For a limited introductory period, Coworker inputs consume AI credits at a rate of 25 AI credits per Input. This rate is available for a limited time only and is subject to change.
+
+### CX Enterprise AI capabilities
+
+| Capability | Description | Supported applications | AI credit |
+| --- | --- | --- | --- |
+| [Brand-Aware Metadata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | On-brand custom metadata generation | Adobe Experience Manager [!DNL Assets] | 1 AI credit (per 10 metadata generations) |
+| Digital Rights Management | Usage rights extraction and management | Adobe Experience Manager [!DNL Assets] | 6 AI credits (per document processed) |
 
 ### AEP Agents credit rate
 
