@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-solution: Experience Cloud,Experience Platform,Real-Time Customer Data Platform,CX Enterprise
+solution: Experience Platform,Real-Time Customer Data Platform,CX Enterprise
 usetq: true
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
